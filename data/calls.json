@@ -1,10 +1,13 @@
 {
-  "last_checked": "2026-07-26T06:00:00Z",
+  "last_checked": "2026-07-26T08:55:35Z",
   "calls": [
     {
       "id": "tubitak-1831",
       "kategori": "ulusal",
-      "tema": ["Yeşil Dönüşüm", "Mentörlük & Danışmanlık"],
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Mentörlük & Danışmanlık"
+      ],
       "baslik": "1831 - Yeşil İnovasyon Teknoloji Mentörlük Çağrısı",
       "kurum": "TÜBİTAK (Dünya Bankası destekli Türkiye Yeşil Sanayi Projesi)",
       "ozet": "KOBİ'lerin yeşil dönüşüm mevzuatına uyumu için çözüm ortaklarından (mentör kuruluşlardan) alacakları danışmanlık/mentörlük hizmetinin desteklenmesi.",
@@ -12,10 +15,12 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "KDV hariç 280.000 TL'ye kadar (proje bütçe üst limiti)",
+      "destek_miktari": "KDV hariç 280.000 TL'ye kadar (TÜBİTAK'ın resmi çağrı sayfasındaki güncel rakam; farklı tarihli kaynaklarda 210.000-250.000 TL gibi daha eski rakamlar da görülüyor - program dönemsel olarak güncelleniyor, kesin tutar için TÜBİTAK'ın güncel çağrı sayfasından teyit edin)",
       "destek_orani": "%100 (belirlenen üst limite kadar)",
       "kimler_basvurabilir": "KOBİ ölçeğinde sermaye şirketleri; çözüm ortağı (mentör kuruluş) aracılığıyla",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "6 ay",
       "sektor_odagi": "Tüm imalat sektörleri - yeşil dönüşüm farkındalık ve yol haritası",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
@@ -24,7 +29,10 @@
     {
       "id": "tubitak-1832-2026-1",
       "kategori": "ulusal",
-      "tema": ["Yeşil Dönüşüm", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "1832 - Sanayide Yeşil Dönüşüm Çağrısı (2026-1)",
       "kurum": "TÜBİTAK (Dünya Bankası destekli Türkiye Yeşil Sanayi Projesi)",
       "ozet": "Sanayinin yeşil dönüşümüne katkı sağlayacak, THS 3-9 aralığındaki Ar-Ge ve yenilik projelerinin (prototip geliştirme, validasyon, ölçeklendirme, ticarileşme) desteklenmesi.",
@@ -32,10 +40,13 @@
       "basvuru_bitis": "2026-06-09",
       "surekli_acik": false,
       "destek_turu": "Geri ödemeli (faizsiz), başarılı projelerde kısmen hibeye dönüştürülebilir",
-      "destek_miktari": "32.000.000 TL'ye kadar",
-      "destek_orani": "Büyük ölçekli, KOBİ ve deprem bölgesi KOBİ'leri için kademeli farklı oranlar",
+      "destek_miktari": "2026-1 çağrı dokümanına göre: mikro/küçük ölçekli firmalar için proje bütçesi üst limiti 14.000.000 TL; TÜBİTAK'tan talep edilebilecek azami geri ödemeli destek tutarı mikro/küçük için 500.000 USD, orta ölçekli için 800.000 USD, büyük ölçekli için 1.500.000 USD (medyada sıkça '32.000.000 TL'ye kadar' olarak da anılıyor - güncel kur ve tam tier tablosu çağrı dokümanından teyit edilmeli)",
+      "destek_orani": "Büyük ölçekli, KOBİ ve deprem bölgesi KOBİ'leri için farklı oranlarda faizsiz geri ödemeli destek (kabul edilen bütçe üzerinden); kalan kısım öz kaynaklarla karşılanır",
       "kimler_basvurabilir": "Türkiye'de yerleşik, tescil tarihi 2 yıl ve üzeri sermaye şirketleri (KOBİ ve büyük ölçekli); ortaklı başvuru mümkün",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "En fazla 24 ay",
       "sektor_odagi": "İklim değişikliği, çevre ve biyoçeşitlilik başta olmak üzere yeşil dönüşüm Ar-Ge konuları",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-1-cagrisi-basvuruya-acildi",
@@ -44,7 +55,10 @@
     {
       "id": "tubitak-1832-2025-3",
       "kategori": "ulusal",
-      "tema": ["Yeşil Dönüşüm", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "1832 - Sanayide Yeşil Dönüşüm Çağrısı (2025-3, kapandı)",
       "kurum": "TÜBİTAK (Dünya Bankası destekli Türkiye Yeşil Sanayi Projesi)",
       "ozet": "Bir önceki dönem çağrısı; THS 5-9 aralığında ticarileşmeye yakın yeşil dönüşüm ürün/süreçlerinin desteklenmesi.",
@@ -55,7 +69,10 @@
       "destek_miktari": "Önceki dönem üst limitleri geçerli",
       "destek_orani": "Ölçeğe göre kademeli",
       "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "En fazla 24 ay",
       "sektor_odagi": "Yeşil dönüşüm Ar-Ge ve yenilik",
       "kaynak_url": "https://sd.com.tr/tubitak-1832-sanayide-yesil-donusum-cagrisi-2025-3-basvurulari-acildi/",
@@ -64,7 +81,11 @@
     {
       "id": "kosgeb-yesil-sanayi",
       "kategori": "ulusal",
-      "tema": ["Yeşil Dönüşüm", "Enerji", "Yatırım Desteği"],
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Enerji",
+        "Yatırım Desteği"
+      ],
       "baslik": "KOSGEB Yeşil Sanayi Destek Programı",
       "kurum": "KOSGEB (Türkiye Yeşil Sanayi Projesi - Bileşen 1)",
       "ozet": "Güneş enerjisi santrali (GES) kurulumu, verimli motorlara geçiş, su tasarrufu gibi hazır/olgun yeşil teknolojilerin satın alınıp uygulanmasının desteklenmesi.",
@@ -72,10 +93,12 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Geri ödemeli, proje bitiminden 12 ay sonra 6 eşit taksitte",
-      "destek_miktari": "GES için 14.000.000 TL'ye, verimli motor/su tasarrufu için 4.000.000 TL'ye kadar (kaynaklar arası tutarlarda farklılık bildirilmektedir, güncel kılavuzdan teyit edilmeli)",
-      "destek_orani": "Kaynaklara göre değişkenlik gösteriyor - başvuru öncesi güncel uygulama esasları kontrol edilmeli",
+      "destek_miktari": "Çatı tipi GES yatırımları için 14.000.000 TL'ye, temiz/döngüsel ekonomi projeleri için 4.000.000 TL'ye kadar (2026 kaynaklarıyla teyit edildi)",
+      "destek_orani": "Destek bedeli proje toplam maliyetinin belirli bir oranını geçemez; deprem bölgesi illerinde farklılaştırılmış oranlar uygulanır (güncel kılavuzdan teyit edilmeli)",
       "kimler_basvurabilir": "En az 2 yıl önce kurulmuş KOBİ'ler",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "En az 8, en fazla 12 ay (4'er aylık izleme dönemleri)",
       "sektor_odagi": "Yenilenebilir enerji, kaynak verimliliği, atık yönetimi, döngüsel ekonomi",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/6507/yesil-sanayi-destek-programi",
@@ -84,7 +107,10 @@
     {
       "id": "tubitak-1501-2026-2",
       "kategori": "ulusal",
-      "tema": ["Ar-Ge & İnovasyon", "Genel Sektör"],
+      "tema": [
+        "Ar-Ge & İnovasyon",
+        "Genel Sektör"
+      ],
       "baslik": "1501 - Sanayi Ar-Ge Destek Programı (2026 Yılı 2. Çağrı)",
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "Firmaların yeni ürün, süreç, yöntem ve sistem geliştirmeye yönelik Ar-Ge ve yenilik projelerinin desteklenmesi. Sektör ve konu sınırlaması yoktur - yeşil dönüşüm dahil her alandaki Ar-Ge projesi başvurabilir.",
@@ -95,7 +121,10 @@
       "destek_miktari": "Proje başına TÜBİTAK katkısı en fazla 20.000.000 TL",
       "destek_orani": "Firmanın daha önce desteklenmiş proje sayısına göre kademeli (ilk 5 proje daha yüksek, sonraki projelerde azalan oran)",
       "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri (KOBİ şartı yok, büyük ölçekli de başvurabilir)",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "Genellikle 12-36 ay (proje kapsamına göre)",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/1501-sanayi-ar-ge-destek-programi-ve-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrilari-acildi",
@@ -104,7 +133,11 @@
     {
       "id": "tubitak-1507-2026-1",
       "kategori": "ulusal",
-      "tema": ["Ar-Ge & İnovasyon", "Genel Sektör", "Girişimcilik"],
+      "tema": [
+        "Ar-Ge & İnovasyon",
+        "Genel Sektör",
+        "Girişimcilik"
+      ],
       "baslik": "1507 - KOBİ Ar-Ge Başlangıç Destek Programı (2026 Yılı 1. Çağrı, kapandı)",
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "KOBİ'lerin proje esaslı araştırma, teknoloji geliştirme ve yenilikçilik faaliyetlerine ilk kez veya sınırlı sayıda başvuran firmalar için giriş seviyesi Ar-Ge destek programı.",
@@ -115,7 +148,9 @@
       "destek_miktari": "Program üst limitleri dahilinde (güncel çağrı dokümanından teyit edilmeli)",
       "destek_orani": "Kademeli, geçmiş proje sayısına göre değişir",
       "kimler_basvurabilir": "Yalnızca KOBİ niteliğindeki Türkiye'de yerleşik sermaye şirketleri",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "Genellikle 12-18 ay",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://arvensisdanismanlik.com.tr/tubitak-teydeb-1501-sanayi-ar-ge-destek-programi-ve-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-1-cagrilari-acildi/",
@@ -124,7 +159,11 @@
     {
       "id": "hamle-ileri-malzeme",
       "kategori": "ulusal",
-      "tema": ["İleri Malzeme", "Sanayi Yatırımı", "Kritik Hammadde"],
+      "tema": [
+        "İleri Malzeme",
+        "Sanayi Yatırımı",
+        "Kritik Hammadde"
+      ],
       "baslik": "Teknoloji Hamlesi Programı - İleri Malzeme Teknolojileri ve Kritik Hammaddeler Çağrısı",
       "kurum": "Sanayi ve Teknoloji Bakanlığı (Teknoloji Odaklı Sanayi Hamlesi Programı)",
       "ozet": "İleri malzeme teknolojileri, kritik hammaddeler ve yüksek katma değerli üretime yönelik Ar-Ge odaklı sanayi yatırımlarının desteklenmesi; TÜBİTAK, KOSGEB ve yatırım teşviklerinin tek çatı altında birleştirilmesi.",
@@ -135,7 +174,10 @@
       "destek_miktari": "Proje bazlı; asgari yatırım tutarı 30.000.000 TL (yalnızca yazılım projelerinde 10.000.000 TL)",
       "destek_orani": "Proje ve bölgeye göre değişken",
       "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri (ölçek sınırlaması yok, öncelikli ürün listesine uygunluk aranır)",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "İleri malzeme, kritik hammadde, yüksek katma değerli üretim",
       "kaynak_url": "https://www.apsisdanismanlik.com/blog/teknoloji-hamlesi-programi-2026-cagrisi-ile-tubitak-kosgeb-ve-yatirim-tesvik-destekleri/",
@@ -144,7 +186,12 @@
     {
       "id": "hamle-biyoteknoloji",
       "kategori": "ulusal",
-      "tema": ["Biyoteknoloji", "Sağlık", "Sürdürülebilir Tarım", "Yeşil Dönüşüm"],
+      "tema": [
+        "Biyoteknoloji",
+        "Sağlık",
+        "Sürdürülebilir Tarım",
+        "Yeşil Dönüşüm"
+      ],
       "baslik": "Teknoloji Hamlesi Programı - Biyoteknoloji ve Sürdürülebilir Yaşam Teknolojileri Çağrısı",
       "kurum": "Sanayi ve Teknoloji Bakanlığı (Teknoloji Odaklı Sanayi Hamlesi Programı)",
       "ozet": "Biyoteknoloji, akıllı yaşam teknolojileri, sağlık teknolojileri, sürdürülebilir tarım, gıda teknolojileri ve döngüsel ekonomi alanlarında Ar-Ge odaklı sanayi yatırımlarının desteklenmesi.",
@@ -155,7 +202,10 @@
       "destek_miktari": "Proje bazlı; asgari yatırım tutarı 30.000.000 TL (yalnızca yazılım projelerinde 10.000.000 TL)",
       "destek_orani": "Proje ve bölgeye göre değişken",
       "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri (ölçek sınırlaması yok, öncelikli ürün listesine uygunluk aranır)",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "Biyoteknoloji, sağlık, sürdürülebilir tarım, gıda teknolojileri, döngüsel ekonomi, iklim teknolojileri",
       "kaynak_url": "https://www.plusglobal.com.tr/",
@@ -164,7 +214,11 @@
     {
       "id": "horizon-cl5-2026",
       "kategori": "uluslararasi",
-      "tema": ["Yeşil Dönüşüm", "Enerji", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Enerji",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "Horizon Europe - Cluster 5: İklim, Enerji ve Mobilite (2026-27 Çalışma Programı)",
       "kurum": "Avrupa Komisyonu (Horizon Europe)",
       "ozet": "İklim değişikliğiyle mücadele, temiz enerji, endüstriyel dekarbonizasyon, sürdürülebilir binalar ve mobilite alanlarında araştırma-inovasyon projeleri; 6 hedef alt tema (Destination) altında 47'den fazla çağrı konusu.",
@@ -175,7 +229,11 @@
       "destek_miktari": "Çağrıya göre değişken; çoğu proje 3-10 milyon Euro, bazı çağrılarda 100 milyon Euro'ya kadar",
       "destek_orani": "Genellikle maliyetlerin %100'üne kadar (aksiyon tipine göre değişir)",
       "kimler_basvurabilir": "İşletmeler (KOBİ dahil), üniversiteler, araştırma kuruluşları, kamu kurumları, STK'lar - genellikle konsorsiyum halinde (en az 3 farklı AB/ortak ülke)",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
       "proje_suresi": "Çağrıya göre değişken",
       "sektor_odagi": "Enerji dönüşümü, endüstriyel dekarbonizasyon, sürdürülebilir binalar, temiz mobilite",
       "kaynak_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
@@ -184,7 +242,10 @@
     {
       "id": "life-2026",
       "kategori": "uluslararasi",
-      "tema": ["Yeşil Dönüşüm", "Çevre & İklim"],
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Çevre & İklim"
+      ],
       "baslik": "LIFE Programme 2026 Çağrıları (Döngüsel Ekonomi, İklim Değişikliği, Temiz Enerji)",
       "kurum": "Avrupa Komisyonu / CINEA (LIFE Programme)",
       "ozet": "Doğa koruma, çevre koruma, iklim eylemi ve temiz enerji geçişi alanlarında proje çağrıları; toplam 601,5 milyon Euro bütçe.",
@@ -195,7 +256,12 @@
       "destek_miktari": "Genellikle 2-10 milyon Euro (çağrı tipine göre değişir)",
       "destek_orani": "Çağrıya göre değişken",
       "kimler_basvurabilir": "Şirketler (KOBİ dahil), kamu kurumları, üniversiteler, araştırma kuruluşları, STK'lar, kamu-özel ortaklıkları",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma", "STK"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma",
+        "STK"
+      ],
       "proje_suresi": "Çağrıya göre değişken",
       "sektor_odagi": "Döngüsel ekonomi, sıfır kirlilik, doğa ve biyoçeşitlilik, iklim değişikliğine uyum/azaltım, temiz enerji geçişi",
       "kaynak_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
@@ -204,7 +270,10 @@
     {
       "id": "erasmus-cove-2026",
       "kategori": "uluslararasi",
-      "tema": ["Eğitim & Beceri Geliştirme", "Kurumsal Kapasite Geliştirme"],
+      "tema": [
+        "Eğitim & Beceri Geliştirme",
+        "Kurumsal Kapasite Geliştirme"
+      ],
       "baslik": "Erasmus+ Mesleki Mükemmeliyet Merkezleri (CoVE) 2026 Çağrısı (kapandı)",
       "kurum": "Avrupa Komisyonu (Erasmus+ Merkezi Projeler)",
       "ozet": "Mesleki eğitim ve öğretim kurumlarının, işletmelerin ve araştırma kuruluşlarının uluslararası iş birliğiyle 'mükemmeliyet merkezleri' oluşturmasını destekleyen program; beceri geliştirme ve yenilikçilik odaklıdır.",
@@ -215,7 +284,11 @@
       "destek_miktari": "Konsorsiyum bazlı, proje kapsamına göre değişir",
       "destek_orani": "Genellikle maliyetlerin büyük bölümünü karşılar (proje tipine göre değişir)",
       "kimler_basvurabilir": "Mesleki eğitim kurumları, üniversiteler, işletmeler (özellikle KOBİ'ler), kamu kurumları, sektör birlikleri - uluslararası konsorsiyum halinde",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
       "proje_suresi": "Genellikle 36-48 ay",
       "sektor_odagi": "Mesleki eğitim, beceri geliştirme, sektörel iş birlikleri (yeşil ve dijital beceriler dahil)",
       "kaynak_url": "https://argep.erdogan.edu.tr/tr/page/erasmus-merkezi-projeler/6843",
@@ -224,7 +297,11 @@
     {
       "id": "kosgeb-kapasite-savunma",
       "kategori": "ulusal",
-      "tema": ["Savunma & Havacılık", "Sanayi Yatırımı", "Kapasite Geliştirme"],
+      "tema": [
+        "Savunma & Havacılık",
+        "Sanayi Yatırımı",
+        "Kapasite Geliştirme"
+      ],
       "baslik": "KOSGEB Kapasite Geliştirme Destek Programı - Savunma, Uzay ve Havacılık Penceresi",
       "kurum": "KOSGEB (Sanayi ve Teknoloji Bakanlığı koordinasyonunda)",
       "ozet": "Savunma, uzay ve havacılık sanayiinde faaliyet gösteren KOBİ'lerin üretim kapasitesini artırması ve tedarik zincirini güçlendirmesi için özel bir destek penceresi; destek üst limiti 30 milyon TL'ye yükseltilmiştir.",
@@ -235,7 +312,9 @@
       "destek_miktari": "30.000.000 TL'ye kadar (2026 itibarıyla yükseltilen üst limit)",
       "destek_orani": "Programa özel oranlar; savunma sanayii penceresinde ilave puan/finansman desteği uygulanır",
       "kimler_basvurabilir": "Savunma, uzay ve havacılık sanayiinde faaliyet gösteren KOBİ'ler",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "Program dönemlerine göre değişir",
       "sektor_odagi": "Savunma sanayii, uzay ve havacılık tedarik zinciri",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9389/savunma-uzay-ve-havacilik-sanayii-kobilerine-kosgebden-30-milyon-liralik-destek",
@@ -244,7 +323,10 @@
     {
       "id": "kosgeb-girisimci-2026-2",
       "kategori": "ulusal",
-      "tema": ["Girişimcilik", "Genel Sektör"],
+      "tema": [
+        "Girişimcilik",
+        "Genel Sektör"
+      ],
       "baslik": "KOSGEB Girişimci Destek Programı - İş Geliştirme Çağrısı (2026 2. Dönem, kapandı)",
       "kurum": "KOSGEB",
       "ozet": "İşini kurmak ve geliştirmek isteyen girişimcilere iş kurma, iş geliştirme ve faiz desteği kalemlerinden oluşan destek; imalat ve bilişim gibi alanlara öncelik verilmektedir.",
@@ -255,7 +337,9 @@
       "destek_miktari": "İş Geliştirme Desteği 2.000.000 TL'ye, kadın/genç girişimciler için ek Kredi Finansman Desteği 1.000.000 TL'ye kadar",
       "destek_orani": "Jüri ve kurul değerlendirmesine göre sıralamalı seçim (ülke genelinde ilk 500, il bazında ilk 3 proje)",
       "kimler_basvurabilir": "Yeni girişimciler (işini yeni kurmuş veya kuracak olanlar); kadın ve genç girişimcilere ek avantaj",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "Program kılavuzuna göre değişir",
       "sektor_odagi": "Öncelik imalat ve bilişim olmak üzere tüm sektörler",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9374/girisimci-destek-programi-is-gelistirme-cagrisi-2026-yili-2-donem-basvurulari-basladi",
@@ -264,7 +348,11 @@
     {
       "id": "kosgeb-kobigel",
       "kategori": "ulusal",
-      "tema": ["Genel Sektör", "Dijitalleşme", "Rekabetçilik"],
+      "tema": [
+        "Genel Sektör",
+        "Dijitalleşme",
+        "Rekabetçilik"
+      ],
       "baslik": "KOBİGEL - KOBİ Gelişim Destek Programı",
       "kurum": "KOSGEB",
       "ozet": "KOBİ'lerin ekonomideki paylarının ve etkinliklerinin, rekabet güçlerinin ve sağladıkları katma değerin artırılması amacıyla dönemsel temalı proje teklif çağrıları (ör. imalat sanayinde dijitalleşme, rekabet gücü artırma) açan genel amaçlı destek programı.",
@@ -275,7 +363,9 @@
       "destek_miktari": "Proje teklif çağrısına göre değişir",
       "destek_orani": "Çağrıya göre değişir",
       "kimler_basvurabilir": "KOBİ'ler (çağrı temasına göre sektör/ölçek koşulları değişebilir)",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "Çağrıya göre değişir",
       "sektor_odagi": "Dönemsel temalara göre değişir (dijitalleşme, rekabet gücü, ihracat kapasitesi vb.)",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/3288/kobigel-kobi-gelisim-destek-programi",
@@ -284,7 +374,10 @@
     {
       "id": "ticaret-turquality",
       "kategori": "ulusal",
-      "tema": ["İhracat & Markalaşma", "Genel Sektör"],
+      "tema": [
+        "İhracat & Markalaşma",
+        "Genel Sektör"
+      ],
       "baslik": "TURQUALITY® Destek Programı",
       "kurum": "Ticaret Bakanlığı",
       "ozet": "Firmaların uluslararası pazarlarda kendi markalarıyla güçlü ve sürdürülebilir bir konuma ulaşmasını destekleyen, Türkiye'nin en kapsamlı markalaşma/kurumsallaşma destek programı; pazarlama, tasarım, danışmanlık gibi harcama kalemlerinde yıllık üst limit dahilinde destek sağlar.",
@@ -295,7 +388,10 @@
       "destek_miktari": "2026 yılı için TURQUALITY® Destek Programı yıllık üst limiti 493.271.347 TL; Marka Destek Programı 246.634.310 TL",
       "destek_orani": "Kalem bazlı değil, yıllık toplam limit esaslı",
       "kimler_basvurabilir": "İhracat performansı yüksek, kurumsallaşma vizyonu olan firmalar (üretici olmayan gastronomi, yazılım, lojistik, sağlık turizmi, e-ticaret sektörleri de dahil - E-Turquality)",
-      "olcek": ["Büyük Ölçekli", "KOBİ"],
+      "olcek": [
+        "Büyük Ölçekli",
+        "KOBİ"
+      ],
       "proje_suresi": "Çok yıllı (stratejik iş planına dayalı, yıllık izleme)",
       "sektor_odagi": "İhracat odaklı markalaşma - sektör sınırlaması yok",
       "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/turquality-tanitim-projesi-destegi",
@@ -304,7 +400,10 @@
     {
       "id": "ticaret-urge",
       "kategori": "ulusal",
-      "tema": ["İhracat & Markalaşma", "Kümelenme & İşbirliği"],
+      "tema": [
+        "İhracat & Markalaşma",
+        "Kümelenme & İşbirliği"
+      ],
       "baslik": "UR-GE (Uluslararası Rekabetçiliğin Geliştirilmesi) Proje Desteği",
       "kurum": "Ticaret Bakanlığı",
       "ozet": "İşbirliği kuruluşları (ihracatçı birlikleri, dernekler, sanayi/ticaret odaları vb.) aracılığıyla bir araya gelen firma gruplarının ihtiyaç analizi, eğitim/danışmanlık, yurt dışı pazarlama ve alım heyeti faaliyetlerinin desteklenmesi.",
@@ -315,7 +414,10 @@
       "destek_miktari": "Faaliyet bazlı üst limitler dahilinde (danışmanlık, eğitim, seyahat, organizasyon giderleri)",
       "destek_orani": "Faaliyete göre değişken, genellikle yüksek oranlı",
       "kimler_basvurabilir": "Bir işbirliği kuruluşu (birlik, dernek, oda) çatısı altında bir araya gelen en az 10 firmalık gruplar",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "Genellikle 3 yıl (uzatılabilir)",
       "sektor_odagi": "İhracata yönelik tüm sektörler - sektörel kümelenme esaslı",
       "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
@@ -324,7 +426,11 @@
     {
       "id": "ssb-sayp",
       "kategori": "ulusal",
-      "tema": ["Savunma & Havacılık", "İleri Malzeme", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "Savunma & Havacılık",
+        "İleri Malzeme",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "Savunma Sanayii Yatırım ve Geliştirme Faaliyetlerini Destekleme Programı (SAYP - Kredi Talebi)",
       "kurum": "Savunma Sanayii Başkanlığı (SSB)",
       "ozet": "İleri malzeme teknolojileri, robotik/otonom sistemler, elektronik harp, siber güvenlik, yapay zeka, roket/füze sistemleri, KBRN, yarı iletken üretimi gibi kritik savunma teknolojisi alanlarında yatırım ve geliştirme faaliyetlerine kredi desteği.",
@@ -335,7 +441,10 @@
       "destek_miktari": "Protokol bazlı, proje kapsamına göre belirlenir",
       "destek_orani": "Başvurular komisyon tarafından başvuru sırasına göre değerlendirilir",
       "kimler_basvurabilir": "Savunma sanayii alanında ileri teknoloji yatırımı/geliştirme faaliyeti yürüten firmalar",
-      "olcek": ["KOBİ", "Büyük Ölçekli"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
       "proje_suresi": "Proje bazlı",
       "sektor_odagi": "İleri malzeme, robotik/otonom sistemler, elektronik harp, algılama teknolojileri, siber güvenlik, yapay zeka, elektronik/aviyonik, silah ve mühimmat, roket ve füze sistemleri, KBRN, yarı iletken üretimi, kompozit teknolojileri",
       "kaynak_url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-2023-yili-kredi-talebi-cagr-Pbwy9E",
@@ -344,7 +453,11 @@
     {
       "id": "tubitak-1707",
       "kategori": "ulusal",
-      "tema": ["Ar-Ge & İnovasyon", "Tedarik Zinciri", "Savunma & Havacılık"],
+      "tema": [
+        "Ar-Ge & İnovasyon",
+        "Tedarik Zinciri",
+        "Savunma & Havacılık"
+      ],
       "baslik": "1707 - Siparişe Dayalı Ar-Ge Projeleri için KOBİ Destekleme Çağrısı",
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "Büyük ölçekli kuruluşların (alıcı kuruluş) tedarikçisi KOBİ'lerden talep ettiği Ar-Ge içerikli, siparişe dayalı ürün/süreç geliştirme projelerinin desteklenmesi; savunma sanayii tedarik zincirinde sıkça kullanılan bir mekanizmadır.",
@@ -355,7 +468,9 @@
       "destek_miktari": "Program üst limitleri dahilinde (güncel çağrı dokümanından teyit edilmeli)",
       "destek_orani": "KOBİ tedarikçi için yüksek oranlı destek",
       "kimler_basvurabilir": "Büyük ölçekli bir alıcı kuruluşun siparişiyle Ar-Ge yapan KOBİ tedarikçiler (ortaklı başvuru - alıcı + tedarikçi)",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "Sipariş kapsamına göre değişir",
       "sektor_odagi": "Tedarik zinciri Ar-Ge'si - savunma sanayii, otomotiv, beyaz eşya gibi ana sanayi-tedarikçi ilişkisi olan sektörlerde yaygın",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
@@ -364,7 +479,11 @@
     {
       "id": "eurostars-2026-2",
       "kategori": "uluslararasi",
-      "tema": ["Ar-Ge & İnovasyon", "Uluslararası İşbirliği", "Genel Sektör"],
+      "tema": [
+        "Ar-Ge & İnovasyon",
+        "Uluslararası İşbirliği",
+        "Genel Sektör"
+      ],
       "baslik": "Eurostars-3 Programı 2026/2. Dönem Uluslararası Çağrısı (1709-EUREKA-EUROSTARS)",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK (Eurostars-3 Programı, 37 üye ülke)",
       "ozet": "Yenilikçi KOBİ'lerin en az 2 farklı ülkeden ortakla birlikte yürüteceği, pazara yönelik ürün/süreç/hizmet geliştiren uluslararası Ar-Ge ve yenilik projelerinin desteklenmesi. Konu sınırlaması yoktur - tüm sektörlere açıktır.",
@@ -375,7 +494,9 @@
       "destek_miktari": "Proje bazlı; ülke katkı payı üst limitleri Eurostars kurallarına göre belirlenir",
       "destek_orani": "TÜBİTAK'ın standart Ar-Ge destek oranlarına paralel (KOBİ için genellikle daha yüksek)",
       "kimler_basvurabilir": "Türkiye'de yerleşik, yenilikçi (Ar-Ge yoğunluğu kriteri sağlayan) KOBİ ölçeğinde şirketler; en az 2 farklı Eurostars üyesi ülkeden ortakla konsorsiyum kurulması şartı",
-      "olcek": ["KOBİ"],
+      "olcek": [
+        "KOBİ"
+      ],
       "proje_suresi": "Genellikle 36 aya kadar",
       "sektor_odagi": "Konu sınırlaması yok - tüm teknoloji alanları (aşağıdan yukarıya / bottom-up çağrı)",
       "kaynak_url": "https://www.ogretmenler.net/1709-eureka-eurostars-2026-yili-2-cagrisi-acildi",
@@ -384,7 +505,12 @@
     {
       "id": "eureka-biyoteknoloji-2026",
       "kategori": "uluslararasi",
-      "tema": ["Biyoteknoloji", "Sağlık", "Uluslararası İşbirliği", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "Biyoteknoloji",
+        "Sağlık",
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "1719 - Eureka Network Biyoteknoloji 2026 Çağrısı",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK (16 ülke katılımıyla)",
       "ozet": "İleri biyo-üretim, yeni nesil tedavi yöntemleri, tarım ve veterinerlikte biyoteknolojik yaklaşımlar ile ileri tanı ve veri teknolojileri alanlarında uluslararası, pazara yönelik Ar-Ge ve inovasyon projelerinin desteklenmesi.",
@@ -395,7 +521,11 @@
       "destek_miktari": "Proje bazlı, Eureka Network kurallarına göre",
       "destek_orani": "TÜBİTAK'ın standart Ar-Ge destek oranlarına paralel",
       "kimler_basvurabilir": "Türkiye'den sermaye şirketleri (proje koordinatörü olmalı), yükseköğretim kurumları, kamu araştırma merkezleri, eğitim ve araştırma hastaneleri - en az bir sermaye şirketiyle ortaklık şartı",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "Biyoteknoloji, sağlık, tarım ve veterinerlik, ileri tanı teknolojileri",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/1719-eureka-network-biotechnology-2026-call-open-application",
@@ -404,7 +534,11 @@
     {
       "id": "eureka-hafifletme-2026",
       "kategori": "uluslararasi",
-      "tema": ["İleri Malzeme", "Uluslararası İşbirliği", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "İleri Malzeme",
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "1719 - Eureka Network Hafifletme Teknolojileri 2026 Çağrısı",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK (12 ülke katılımıyla)",
       "ozet": "Performansı artırırken çevresel etkiyi azaltan; malzeme, tasarım ve dijitalleşmenin kesişiminde yer alan 'hafifletme teknolojileri' alanında ticarileşme potansiyeli yüksek uluslararası Ar-Ge projelerinin desteklenmesi.",
@@ -415,7 +549,11 @@
       "destek_miktari": "Proje bazlı, Eureka Network kurallarına göre",
       "destek_orani": "TÜBİTAK'ın standart Ar-Ge destek oranlarına paralel",
       "kimler_basvurabilir": "Türkiye'den sermaye şirketleri (proje koordinatörü olmalı), yükseköğretim kurumları, kamu araştırma merkezleri - en az bir sermaye şirketiyle ortaklık şartı",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "İleri malzeme, hafif yapılar, otomotiv/havacılık gibi ağırlık-kritik sektörler, dijitalleşme",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-network-lightweighting-technologies-2026-call-open-applications",
@@ -424,7 +562,11 @@
     {
       "id": "eureka-afet-direnc-2026",
       "kategori": "uluslararasi",
-      "tema": ["Uluslararası İşbirliği", "Ar-Ge & İnovasyon", "Çevre & İklim"],
+      "tema": [
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon",
+        "Çevre & İklim"
+      ],
       "baslik": "1719 - Eureka Network Afetlerde Dirençlilik, Müdahale ve İyileştirme 2026 Çağrısı",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK",
       "ozet": "Afet öncesi dirençlilik, afet anında müdahale ve afet sonrası iyileştirme süreçlerine yönelik yenilikçi teknoloji ve çözümler geliştiren uluslararası Ar-Ge projelerinin desteklenmesi.",
@@ -435,7 +577,11 @@
       "destek_miktari": "Proje bazlı, Eureka Network kurallarına göre",
       "destek_orani": "TÜBİTAK'ın standart Ar-Ge destek oranlarına paralel",
       "kimler_basvurabilir": "Türkiye'den sermaye şirketleri (proje koordinatörü olmalı), yükseköğretim kurumları, kamu araştırma merkezleri, eğitim ve araştırma hastaneleri - en az bir sermaye şirketiyle ortaklık şartı",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "Afet yönetimi, dirençlilik teknolojileri, erken uyarı ve müdahale sistemleri",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-network-disaster-resilience-2026-call-open-applications",
@@ -444,7 +590,11 @@
     {
       "id": "eureka-xecs-kuantum-2026",
       "kategori": "uluslararasi",
-      "tema": ["Dijitalleşme", "Uluslararası İşbirliği", "Ar-Ge & İnovasyon"],
+      "tema": [
+        "Dijitalleşme",
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon"
+      ],
       "baslik": "Eureka Xecs 2026 - Uygulamalı Kuantum Teknolojileri Çağrısı",
       "kurum": "EUREKA Xecs Kümesi + TÜBİTAK",
       "ozet": "Kuantum teknolojileri alanında uluslararası iş birliklerini güçlendirmek, bilgi ve teknoloji transferini artırmak, özgün teknolojilerin geliştirilmesini desteklemek ve Türk kuruluşlarının uluslararası pazarlardaki rekabet gücünü artırmak amacıyla açılan çağrı.",
@@ -455,7 +605,11 @@
       "destek_miktari": "Türk ortaklar için toplam proje bütçesi 600.000 Euro ile sınırlı",
       "destek_orani": "TÜBİTAK'ın standart Ar-Ge destek oranlarına paralel",
       "kimler_basvurabilir": "Türkiye'den sermaye şirketleri (proje lideri olmalı); üniversiteler, kamu araştırma merkezleri, araştırma altyapıları ve eğitim-araştırma hastaneleri en az bir sermaye şirketiyle birlikte ortak olabilir",
-      "olcek": ["KOBİ", "Büyük Ölçekli", "Üniversite/Araştırma"],
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
       "proje_suresi": "En fazla 36 ay",
       "sektor_odagi": "Kuantum teknolojileri, elektronik bileşenler ve sistemler",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
