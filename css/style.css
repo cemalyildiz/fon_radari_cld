@@ -167,6 +167,7 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
   display:flex; align-items:flex-start; justify-content:center; z-index:100;
   padding:6vh 20px; overflow-y:auto;
 }
+.overlay[hidden]{ display:none !important; }
 .overlay-panel{
   background:var(--panel); border:1px solid var(--line); border-radius:14px;
   max-width:680px; width:100%; padding:32px; position:relative;
