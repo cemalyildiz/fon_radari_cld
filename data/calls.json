@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-26T09:05:46Z",
+  "last_checked": "2026-07-26T10:18:49Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -93,16 +93,16 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Geri ödemeli, proje bitiminden 12 ay sonra 6 eşit taksitte",
-      "destek_miktari": "Çatı tipi GES yatırımları için 14.000.000 TL'ye, temiz/döngüsel ekonomi projeleri için 4.000.000 TL'ye kadar (2026 kaynaklarıyla teyit edildi)",
-      "destek_orani": "Destek bedeli proje toplam maliyetinin belirli bir oranını geçemez; deprem bölgesi illerinde farklılaştırılmış oranlar uygulanır (güncel kılavuzdan teyit edilmeli)",
+      "destek_miktari": "GES yatırımları için 14.000.000 TL'ye, Temiz ve Döngüsel Ekonomi projeleri için 4.000.000 TL'ye kadar (KOSGEB'in resmi sayfasından 26.07.2026 tarihinde doğrudan teyit edildi)",
+      "destek_orani": "GES: normal illerde %60, bazı deprem illerinde %80, ağır hasarlı deprem illerinde %90. Döngüsel Ekonomi: normal illerde %70, aynı deprem bölgesi kademeleriyle artırılır.",
       "kimler_basvurabilir": "En az 2 yıl önce kurulmuş KOBİ'ler",
       "olcek": [
         "KOBİ"
       ],
       "proje_suresi": "En az 8, en fazla 12 ay (4'er aylık izleme dönemleri)",
       "sektor_odagi": "Yenilenebilir enerji, kaynak verimliliği, atık yönetimi, döngüsel ekonomi",
-      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/6507/yesil-sanayi-destek-programi",
-      "notlar": "MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama destekli bir programdır - 1831'den farklıdır. Deprem bölgesindeki illerde farklılaştırılmış destek oranı uygulanır. Destek tutarları kaynaklar arasında farklılık gösterdiğinden KOSGEB'in güncel uygulama esasları mutlaka teyit edilmelidir."
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi",
+      "notlar": "MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama destekli bir programdır - 1831'den farklıdır. Yürürlükteki çağrı kodları: 2023-01 (GES) ve 2023-02 (Temiz/Döngüsel Ekonomi) - 2023'te açılmış ve hâlâ sürekli başvuruya açık durumdadır."
     },
     {
       "id": "tubitak-1501-2026-2",
@@ -321,30 +321,31 @@
       "notlar": "Bu çağrı dönemi kapanmıştır; sonraki yıl çağrıları için Avrupa Eğitim ve Kültür Yürütme Ajansı (EACEA) duyurularını takip edin. Arşiv/referans kaydı olarak tutulmaktadır."
     },
     {
-      "id": "kosgeb-kapasite-savunma",
+      "id": "kosgeb-kapasite-gelistirme",
       "kategori": "ulusal",
       "tema": [
-        "Savunma & Havacılık",
+        "Genel Sektör",
         "Sanayi Yatırımı",
-        "Kapasite Geliştirme"
+        "Kapasite Geliştirme",
+        "Savunma & Havacılık"
       ],
-      "baslik": "KOSGEB Kapasite Geliştirme Destek Programı - Savunma, Uzay ve Havacılık Penceresi",
-      "kurum": "KOSGEB (Sanayi ve Teknoloji Bakanlığı koordinasyonunda)",
-      "ozet": "Savunma, uzay ve havacılık sanayiinde faaliyet gösteren KOBİ'lerin üretim kapasitesini artırması ve tedarik zincirini güçlendirmesi için özel bir destek penceresi; destek üst limiti 30 milyon TL'ye yükseltilmiştir.",
+      "baslik": "KOSGEB Kapasite Geliştirme Destek Programı",
+      "kurum": "KOSGEB",
+      "ozet": "DÜZELTME: Bu program sadece savunma sanayii için değil, genel bir kapasite/ölçek büyütme kredi destek programıdır (C-İmalat, Telekomünikasyon, Yazılım, Bilişim Altyapısı, Bilimsel Ar-Ge NACE kodlarındaki 'hızlı büyüyen' KOBİ'ler için). Savunma/uzay/havacılık tedarikçisi olan ve EYDEP sertifikalı firmalar için ayrıca yükseltilmiş kredi limitleri uygulanır.",
       "basvuru_baslangic": "2026-02-23",
       "basvuru_bitis": null,
       "surekli_acik": false,
-      "destek_turu": "Hibe + finansman desteği (kapasite geliştirme projeleri için)",
-      "destek_miktari": "30.000.000 TL'ye kadar (2026 itibarıyla yükseltilen üst limit)",
-      "destek_orani": "Programa özel oranlar; savunma sanayii penceresinde ilave puan/finansman desteği uygulanır",
-      "kimler_basvurabilir": "Savunma, uzay ve havacılık sanayiinde faaliyet gösteren KOBİ'ler",
+      "destek_turu": "Kredi (faiz/kar payı desteği ile, geri ödemeli) + belirli hizmet giderleri için geri ödemesiz destek",
+      "destek_miktari": "İşletme başına kredi üst limiti normalde 20.000.000-30.000.000 TL (alt limit 1.000.000 TL); savunma/uzay/havacılık tedarikçisi EYDEP sertifikalı firmalarda sertifika seviyesine göre 25.000.000 TL (EYDEP-C) / 27.500.000 TL (EYDEP-B) / 30.000.000 TL (EYDEP-A). Kaynak: KOSGEB resmi sayfası, 26.07.2026 tarihinde teyit edildi.",
+      "destek_orani": "Kredi faiz/kar payı desteği; destek puanı işletme büyüklüğüne göre değişir",
+      "kimler_basvurabilir": "NACE C-İmalat, 61-Telekomünikasyon, 62-Bilgisayar programlama, 63-Bilişim altyapısı, 72-Bilimsel Ar-Ge sektörlerinde faaliyet gösteren, 'hızlı büyüyen işletme' niteliğindeki küçük/orta ölçekli KOBİ'ler (Teknogirişim rozeti sahipleri veya belirli tedarikçi iş birliği sözleşmesi olanlar için hızlı büyüme şartı aranmaz)",
       "olcek": [
         "KOBİ"
       ],
-      "proje_suresi": "Program dönemlerine göre değişir",
-      "sektor_odagi": "Savunma sanayii, uzay ve havacılık tedarik zinciri",
-      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9389/savunma-uzay-ve-havacilik-sanayii-kobilerine-kosgebden-30-milyon-liralik-destek",
-      "notlar": "Kapasite Geliştirme Destek Programı dönemsel olarak (yılda birkaç kez) yeni başvuru dönemleri açmaktadır; kesin başvuru takvimi için KOSGEB güncel duyurularını kontrol edin."
+      "proje_suresi": "24 ay, azami kredi vadesi 36 ay",
+      "sektor_odagi": "İmalat, telekomünikasyon, yazılım/bilişim, bilimsel Ar-Ge sektörleri; ayrıca SSB, Türkiye Uzay Ajansı, THY Teknik gibi paydaşlarla protokollü savunma/uzay/havacılık tedarik zinciri",
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9200/kapasite-gelistirme-destek-programi",
+      "notlar": "Kapasite Geliştirme Destek Programı dönemsel olarak (yılda birkaç kez) yeni başvuru dönemleri açmaktadır; kesin başvuru takvimi için KOSGEB güncel duyurularını kontrol edin. Ziraat Bankası, Halkbank, VakıfBank, Ziraat Katılım üzerinden kredi kullandırılır."
     },
     {
       "id": "kosgeb-girisimci-2026-2",
@@ -457,24 +458,24 @@
         "İleri Malzeme",
         "Ar-Ge & İnovasyon"
       ],
-      "baslik": "Savunma Sanayii Yatırım ve Geliştirme Faaliyetlerini Destekleme Programı (SAYP - Kredi Talebi)",
+      "baslik": "Savunma Sanayii Yatırım ve Geliştirme Faaliyetlerini Destekleme Programı - Kredi Talebi Çağrısı (2026)",
       "kurum": "Savunma Sanayii Başkanlığı (SSB)",
-      "ozet": "İleri malzeme teknolojileri, robotik/otonom sistemler, elektronik harp, siber güvenlik, yapay zeka, roket/füze sistemleri, KBRN, yarı iletken üretimi gibi kritik savunma teknolojisi alanlarında yatırım ve geliştirme faaliyetlerine kredi desteği.",
-      "basvuru_baslangic": null,
-      "basvuru_bitis": null,
-      "surekli_acik": true,
-      "destek_turu": "Kredi (faaliyet giderlerine yönelik)",
-      "destek_miktari": "Protokol bazlı, proje kapsamına göre belirlenir",
-      "destek_orani": "Başvurular komisyon tarafından başvuru sırasına göre değerlendirilir",
-      "kimler_basvurabilir": "Savunma sanayii alanında ileri teknoloji yatırımı/geliştirme faaliyeti yürüten firmalar",
+      "ozet": "Savunma, anayurt güvenliği, havacılık ve uzay sanayii alanlarında faaliyet gösteren yerli sanayi kuruluşlarının yatırım faaliyetleri, nitelikli personel istihdamı ve HAB Ankara Uzay-Havacılık İhtisas OSB / Kırıkkale Silah Sanayi İhtisas OSB'de yapılacak tesis inşaatı faaliyetlerinin düşük faizli kredi ile desteklenmesi.",
+      "basvuru_baslangic": "2026-07-14",
+      "basvuru_bitis": "2026-08-14",
+      "surekli_acik": false,
+      "destek_turu": "Kredi (geri ödemeli, TL cinsinden)",
+      "destek_miktari": "Azami kredi tutarı 2.500.000 ABD Doları (protokol imza tarihindeki TCMB efektif alış kuruyla TL'ye çevrilerek kullandırılır)",
+      "destek_orani": "Faiz oranı: TCMB'nin en son yayımladığı İhale Yöntemiyle Satılan Hazine Bonoları ve Devlet Tahvilleri TL Yıllık Ortalama Bileşik Faiz Oranı'nın yarısı; azami 10 yıl vade, 6 ayda bir veya yıllık taksitli geri ödeme",
+      "kimler_basvurabilir": "Savunma, anayurt güvenliği, havacılık ve uzay sanayii alanında faaliyet gösteren yerli sanayi kuruluşları. Daha önce bu programdan 3 kez kredi kullanmış olan, 2025'te kredi tahsis edilip protokol imzalamayan veya 2024'te tahsis edilip kullanmayan firmalar başvuramaz.",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
-      "proje_suresi": "Proje bazlı",
-      "sektor_odagi": "İleri malzeme, robotik/otonom sistemler, elektronik harp, algılama teknolojileri, siber güvenlik, yapay zeka, elektronik/aviyonik, silah ve mühimmat, roket ve füze sistemleri, KBRN, yarı iletken üretimi, kompozit teknolojileri",
-      "kaynak_url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-2023-yili-kredi-talebi-cagr-Pbwy9E",
-      "notlar": "Program yıllık kredi talebi çağrıları şeklinde işler; başvurular sırayla değerlendirilir. Güncel yıla ait çağrı dokümanı ve başvuru penceresi için SSB'nin resmi duyurular sayfası (ssb.gov.tr) kontrol edilmelidir - bu kayıt programın genel çerçevesini tanıtmak içindir."
+      "proje_suresi": "Kredi vadesi azami 10 yıl",
+      "sektor_odagi": "İleri malzeme teknolojileri (eklemeli imalat, alaşım geliştirme, görünmezlik teknolojileri, zırh malzemeleri vb.), yatırım ve nitelikli personel istihdamı",
+      "kaynak_url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-kredi-talebi-cagrisi-PmRCAy",
+      "notlar": "Başvurular http://yeten.ssb.gov.tr üzerinden 'Kredi İşlemleri' modülü ile 14 Ağustos 2026 saat 17:00'a kadar yapılmalıdır. Başvuru için SSB YETEN platformuna üyelik gerekir. Kaynak: SSB resmi duyurusu ve Alomaliye haberi, 26.07.2026 tarihinde teyit edildi. Bu program yıllık olarak tekrar açılmaktadır."
     },
     {
       "id": "tubitak-1707",
