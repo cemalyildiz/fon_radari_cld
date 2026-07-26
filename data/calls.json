@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-26T08:55:35Z",
+  "last_checked": "2026-07-26T09:05:46Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -15,13 +15,13 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "KDV hariç 280.000 TL'ye kadar (TÜBİTAK'ın resmi çağrı sayfasındaki güncel rakam; farklı tarihli kaynaklarda 210.000-250.000 TL gibi daha eski rakamlar da görülüyor - program dönemsel olarak güncelleniyor, kesin tutar için TÜBİTAK'ın güncel çağrı sayfasından teyit edin)",
-      "destek_orani": "%100 (belirlenen üst limite kadar)",
+      "destek_miktari": "KDV hariç 310.000 TL'ye kadar (TÜBİTAK'ın resmi çağrı sayfasından 26.07.2026 tarihinde doğrudan teyit edildi - rakam dönem dönem güncellenmektedir)",
+      "destek_orani": "%90 hibe destek",
+      "proje_suresi": "En az 3, en fazla 6 ay",
       "kimler_basvurabilir": "KOBİ ölçeğinde sermaye şirketleri; çözüm ortağı (mentör kuruluş) aracılığıyla",
       "olcek": [
         "KOBİ"
       ],
-      "proje_suresi": "6 ay",
       "sektor_odagi": "Tüm imalat sektörleri - yeşil dönüşüm farkındalık ve yol haritası",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
       "notlar": "Program bütçesi (20 milyon USD) tükenene kadar çağrı açık kalacak şekilde tasarlanmıştır; TÜBİTAK yeni bir duyuru yapana kadar sürekli açık kabul edilmektedir."
@@ -40,8 +40,8 @@
       "basvuru_bitis": "2026-06-09",
       "surekli_acik": false,
       "destek_turu": "Geri ödemeli (faizsiz), başarılı projelerde kısmen hibeye dönüştürülebilir",
-      "destek_miktari": "2026-1 çağrı dokümanına göre: mikro/küçük ölçekli firmalar için proje bütçesi üst limiti 14.000.000 TL; TÜBİTAK'tan talep edilebilecek azami geri ödemeli destek tutarı mikro/küçük için 500.000 USD, orta ölçekli için 800.000 USD, büyük ölçekli için 1.500.000 USD (medyada sıkça '32.000.000 TL'ye kadar' olarak da anılıyor - güncel kur ve tam tier tablosu çağrı dokümanından teyit edilmeli)",
-      "destek_orani": "Büyük ölçekli, KOBİ ve deprem bölgesi KOBİ'leri için farklı oranlarda faizsiz geri ödemeli destek (kabul edilen bütçe üzerinden); kalan kısım öz kaynaklarla karşılanır",
+      "destek_miktari": "Proje bütçesi üst limiti: mikro/küçük ölçekli 14.000.000 TL, orta ölçekli 22.500.000 TL, büyük ölçekli 48.000.000 TL (TÜBİTAK'ın resmi 1832 sayfasından 26.07.2026 tarihinde doğrudan teyit edildi)",
+      "destek_orani": "Faizsiz geri ödemeli destek oranı: büyük ölçekli %70, KOBİ %80, deprem bölgesindeki KOBİ %90 (kabul edilen bütçe üzerinden; TÜBİTAK'tan talep edilen desteğin tamamı için Banka Referans Mektubu/Teminat Mektubu gerekir)",
       "kimler_basvurabilir": "Türkiye'de yerleşik, tescil tarihi 2 yıl ve üzeri sermaye şirketleri (KOBİ ve büyük ölçekli); ortaklı başvuru mümkün",
       "olcek": [
         "KOBİ",
@@ -115,11 +115,11 @@
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "Firmaların yeni ürün, süreç, yöntem ve sistem geliştirmeye yönelik Ar-Ge ve yenilik projelerinin desteklenmesi. Sektör ve konu sınırlaması yoktur - yeşil dönüşüm dahil her alandaki Ar-Ge projesi başvurabilir.",
       "basvuru_baslangic": "2026-07-20",
-      "basvuru_bitis": null,
+      "basvuru_bitis": "2026-10-26",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz)",
       "destek_miktari": "Proje başına TÜBİTAK katkısı en fazla 20.000.000 TL",
-      "destek_orani": "Firmanın daha önce desteklenmiş proje sayısına göre kademeli (ilk 5 proje daha yüksek, sonraki projelerde azalan oran)",
+      "destek_orani": "Firmanın desteklenen ilk 5 projesi için %75, 6. ve sonraki projeleri için %60 (TÜBİTAK'ın resmi duyurusundan 26.07.2026 tarihinde doğrudan teyit edildi)",
       "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri (KOBİ şartı yok, büyük ölçekli de başvurabilir)",
       "olcek": [
         "KOBİ",
@@ -127,8 +127,34 @@
       ],
       "proje_suresi": "Genellikle 12-36 ay (proje kapsamına göre)",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
-      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/1501-sanayi-ar-ge-destek-programi-ve-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrilari-acildi",
-      "notlar": "Kesin kapanış tarihi bu kayıt hazırlandığı sırada netleşmemişti; başvuru öncesi TÜBİTAK'ın güncel çağrı takvimini mutlaka kontrol edin. Kuruluş bazlı ön kayıt şartı bulunmaktadır."
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1501-sanayi-ar-ge-destek-programi-2026-yili-2-cagrisi-acildi",
+      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 22 Ekim 2026, çağrı kapanış tarihi 26 Ekim 2026. Kaynak: TÜBİTAK resmi duyurusu."
+    },
+    {
+      "id": "tubitak-1507-2026-2",
+      "kategori": "ulusal",
+      "tema": [
+        "Ar-Ge & İnovasyon",
+        "Genel Sektör",
+        "Girişimcilik"
+      ],
+      "baslik": "1507 - KOBİ Ar-Ge Başlangıç Destek Programı (2026 Yılı 2. Çağrı)",
+      "kurum": "TÜBİTAK TEYDEB",
+      "ozet": "KOBİ'lerin proje esaslı araştırma, teknoloji geliştirme ve yenilikçilik faaliyetlerine ilk kez veya sınırlı sayıda başvuran firmalar için giriş seviyesi Ar-Ge destek programı.",
+      "basvuru_baslangic": "2026-07-20",
+      "basvuru_bitis": "2026-11-11",
+      "surekli_acik": false,
+      "destek_turu": "Hibe (geri ödemesiz)",
+      "destek_miktari": "Program üst limitleri dahilinde (çağrı dokümanından teyit edilmeli)",
+      "destek_orani": "Kademeli, geçmiş proje sayısına göre değişir",
+      "kimler_basvurabilir": "Yalnızca KOBİ niteliğindeki Türkiye'de yerleşik sermaye şirketleri",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "Genellikle 12-18 ay",
+      "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi",
+      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 9 Kasım 2026, çağrı kapanış tarihi 11 Kasım 2026. Kaynak: TÜBİTAK resmi duyurusu."
     },
     {
       "id": "tubitak-1507-2026-1",
@@ -154,7 +180,7 @@
       "proje_suresi": "Genellikle 12-18 ay",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://arvensisdanismanlik.com.tr/tubitak-teydeb-1501-sanayi-ar-ge-destek-programi-ve-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-1-cagrilari-acildi/",
-      "notlar": "Bu 2026 1. çağrı kapanmıştır; 2026 2. çağrısı 20 Temmuz 2026'da açılmıştır. Arşiv/referans kaydı olarak tutulmaktadır."
+      "notlar": "Bu 2026 1. çağrı kapanmıştır; yerine 2026-2 çağrısı (20 Temmuz - 11 Kasım 2026) açılmıştır. Arşiv/referans kaydı olarak tutulmaktadır."
     },
     {
       "id": "hamle-ileri-malzeme",
@@ -458,12 +484,12 @@
         "Tedarik Zinciri",
         "Savunma & Havacılık"
       ],
-      "baslik": "1707 - Siparişe Dayalı Ar-Ge Projeleri için KOBİ Destekleme Çağrısı",
+      "baslik": "1707 - Siparişe Dayalı Ar-Ge Projeleri için KOBİ Destekleme Çağrısı (2026 Yılı 3. Dönem)",
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "Büyük ölçekli kuruluşların (alıcı kuruluş) tedarikçisi KOBİ'lerden talep ettiği Ar-Ge içerikli, siparişe dayalı ürün/süreç geliştirme projelerinin desteklenmesi; savunma sanayii tedarik zincirinde sıkça kullanılan bir mekanizmadır.",
-      "basvuru_baslangic": null,
-      "basvuru_bitis": null,
-      "surekli_acik": true,
+      "basvuru_baslangic": "2026-09-01",
+      "basvuru_bitis": "2026-11-13",
+      "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz)",
       "destek_miktari": "Program üst limitleri dahilinde (güncel çağrı dokümanından teyit edilmeli)",
       "destek_orani": "KOBİ tedarikçi için yüksek oranlı destek",
@@ -474,7 +500,35 @@
       "proje_suresi": "Sipariş kapsamına göre değişir",
       "sektor_odagi": "Tedarik zinciri Ar-Ge'si - savunma sanayii, otomotiv, beyaz eşya gibi ana sanayi-tedarikçi ilişkisi olan sektörlerde yaygın",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-      "notlar": "TÜBİTAK'ın sürekli açık çağrılarından biridir; PRODİS üzerinden dönem sınırlaması olmadan başvuru alınır. Kesin güncel şartlar için TÜBİTAK'ın çağrı sayfası kontrol edilmelidir."
+      "notlar": "DÜZELTME: Bu program sürekli açık DEĞİLDİR, yılda 3 dönem halinde açılır. 2026 takvimi: 1. dönem 2 Ocak-13 Mart (tamamlandı), 2. dönem 4 Mayıs-17 Temmuz (tamamlandı), 3. dönem 1 Eylül-13 Kasım 2026. Kaynak: TÜBİTAK resmi duyurusu, 26.07.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "tubitak-1833-sayem",
+      "kategori": "ulusal",
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Ar-Ge & İnovasyon",
+        "Kümelenme & İşbirliği"
+      ],
+      "baslik": "1833 - SAYEM Yeşil Dönüşüm Çağrısı (2026, kapandı)",
+      "kurum": "TÜBİTAK TEYDEB (Sanayiye Yönelik Ar-Ge ve Yenilik Ağları - SAYEM)",
+      "ozet": "Özel sektör öncülüğünde üniversite ve kamu iş birliğiyle ihtisaslaşmış bir Ar-Ge ve Yenilik Platformu kurularak, Ürünleştirme Yol Haritaları çerçevesinde yeşil dönüşüme yönelik katma değeri yüksek ürün/ürün grubu geliştirilmesinin desteklenmesi. Konsorsiyum (platform) esaslı bir programdır, TÜBİTAK'ın az bilinen ama önemli platform programlarından biridir.",
+      "basvuru_baslangic": "2026-04-08",
+      "basvuru_bitis": "2026-06-04",
+      "surekli_acik": false,
+      "destek_turu": "Hibe (geri ödemesiz)",
+      "destek_miktari": "Platformdaki kuruluşlar için bütçe üst limiti: KOBİ'ler 28.000.000 TL, büyük ölçekli kuruluşlar 70.000.000 TL. Üniversite/araştırma kurumlarının bütçesi platform toplam bütçesinin en fazla %25'i olabilir.",
+      "destek_orani": "Çağrı dokümanından teyit edilmeli",
+      "kimler_basvurabilir": "Platform yürütücüsü orta veya büyük ölçekli kuruluş olmalı (Ar-Ge Merkezi belgesi, teknopark şirketi olma veya belirli Ar-Ge harcaması eşiklerini karşılama şartı var); platform en az 3 en fazla 9 ortaktan oluşmalı",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
+      "proje_suresi": "Çok yıllı (platform + ürünleştirme programları şeklinde ilerler)",
+      "sektor_odagi": "İklim Değişikliği/Çevre/Biyoçeşitlilik, Temiz ve Döngüsel Ekonomi, Temiz Enerji Arzı, Yeşil ve Sürdürülebilir Tarım, Sürdürülebilir Akıllı Ulaşım",
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1833-sayem-yesil-donusum-cagrisi",
+      "notlar": "2026 çağrısının 2. aşama (asıl) başvuruları 8 Nisan - 4 Haziran 2026 arasında alınmış ve kapanmıştır. Bu program sanayici için özellikle değerlidir ama az bilinir - platform kurmak isteyen büyük/orta ölçekli firmalar ve üniversite/TTO'lar için TÜBİTAK'ın en yüksek bütçeli yeşil dönüşüm çağrılarından biridir. Yeni dönem için TÜBİTAK duyurularını takip edin."
     },
     {
       "id": "eurostars-2026-2",
