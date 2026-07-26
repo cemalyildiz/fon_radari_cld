@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fon Radarı — Yeşil Dönüşüm Çağrıları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="scanline" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="var(--signal)" stroke-width="1.4" opacity="0.5"/>
+          <circle cx="20" cy="20" r="11" fill="none" stroke="var(--signal)" stroke-width="1.4" opacity="0.75"/>
+          <circle cx="20" cy="20" r="3.2" fill="var(--signal)"/>
+          <line x1="20" y1="20" x2="20" y2="3" stroke="var(--signal)" stroke-width="1.4">
+            <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="4s" repeatCount="indefinite"/>
+          </line>
+        </svg>
+      </span>
+      <div class="brand-text">
+        <span class="brand-title">Fon Radarı</span>
+        <span class="brand-sub">yeşil dönüşüm çağrı takip sistemi</span>
+      </div>
+    </div>
+    <div class="status-strip">
+      <span class="status-dot" id="live-dot"></span>
+      <span id="last-checked-label">yükleniyor…</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <h1>Ulusal ve uluslararası yeşil dönüşüm fonlarını tek ekrandan izleyin</h1>
+    <p>TÜBİTAK, KOSGEB, Horizon Europe ve LIFE gibi kaynaklardan derlenen güncel çağrılar; başvuru pencereleri her sayfa yüklendiğinde bulunduğunuz ana göre otomatik hesaplanır.</p>
+  </section>
+
+  <nav class="tabs" role="tablist" aria-label="Çağrı kategorisi">
+    <button class="tab active" data-tab="ulusal" role="tab" aria-selected="true">
+      <span class="tab-index">01</span> Ulusal
+    </button>
+    <button class="tab" data-tab="uluslararasi" role="tab" aria-selected="false">
+      <span class="tab-index">02</span> Uluslararası
+    </button>
+  </nav>
+
+  <section class="filters">
+    <div class="filter-group">
+      <label for="search-input">Ara</label>
+      <input type="text" id="search-input" placeholder="çağrı adı, kurum, anahtar kelime…">
+    </div>
+    <div class="filter-group">
+      <label for="status-filter">Durum</label>
+      <select id="status-filter">
+        <option value="hepsi">Hepsi</option>
+        <option value="acik">Açık</option>
+        <option value="yakinda-kapaniyor">Yakında kapanıyor</option>
+        <option value="kapali">Kapalı / Arşiv</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="scale-filter">Firma Ölçeği</label>
+      <select id="scale-filter">
+        <option value="hepsi">Hepsi</option>
+        <option value="KOBİ">KOBİ</option>
+        <option value="Büyük Ölçekli">Büyük Ölçekli</option>
+        <option value="Üniversite/Araştırma">Üniversite / Araştırma</option>
+        <option value="STK">STK</option>
+      </select>
+    </div>
+  </section>
+
+  <section id="card-grid" class="card-grid" aria-live="polite"></section>
+
+  <p id="empty-state" class="empty-state" hidden>Filtrelerinize uyan bir çağrı bulunamadı.</p>
+</main>
+
+<div id="detail-overlay" class="overlay" hidden>
+  <div class="overlay-panel" role="dialog" aria-modal="true">
+    <button class="overlay-close" id="overlay-close" aria-label="Kapat">×</button>
+    <div id="overlay-content"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Bu radar; TÜBİTAK, KOSGEB, Avrupa Komisyonu (Horizon Europe, LIFE) gibi kaynaklardan derlenmiştir. Başvuru öncesi kaynak kurumun güncel kılavuzunu mutlaka teyit edin. Veri kontrolü: saatlik otomasyon ile durum hesaplanır; yeni çağrı ekleme periyodik olarak elle/AI destekli güncellenir.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
