@@ -60,10 +60,11 @@
     <div class="filter-group">
       <label for="status-filter">Durum</label>
       <select id="status-filter">
-        <option value="hepsi">Hepsi</option>
-        <option value="acik">Açık</option>
-        <option value="yakinda-kapaniyor">Yakında kapanıyor</option>
-        <option value="kapali">Kapalı / Arşiv</option>
+        <option value="acik" selected>Açık (varsayılan)</option>
+        <option value="yakinda-kapaniyor">Yakında Kapanıyor</option>
+        <option value="acik-veya-yakinda">Açık + Yakında Kapanıyor</option>
+        <option value="kapali">Arşiv (Kapalı Çağrılar)</option>
+        <option value="hepsi">Tümü</option>
       </select>
     </div>
     <div class="filter-group">
@@ -83,6 +84,8 @@
       </select>
     </div>
   </section>
+
+  <p id="result-summary" class="result-summary"></p>
 
   <section id="card-grid" class="card-grid" aria-live="polite"></section>
 

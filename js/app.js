@@ -2,7 +2,7 @@ const state = {
   data: null,
   activeTab: 'ulusal',
   search: '',
-  statusFilter: 'hepsi',
+  statusFilter: 'acik',
   scaleFilter: 'hepsi',
   temaFilter: 'hepsi',
 };
@@ -52,7 +52,11 @@ function progressPct(call){
 function matchesFilters(call){
   if (call.kategori !== state.activeTab) return false;
   const status = computeStatus(call);
-  if (state.statusFilter !== 'hepsi' && state.statusFilter !== status) return false;
+  if (state.statusFilter === 'acik-veya-yakinda'){
+    if (status !== 'acik' && status !== 'yakinda-kapaniyor') return false;
+  } else if (state.statusFilter !== 'hepsi' && state.statusFilter !== status) {
+    return false;
+  }
   if (state.scaleFilter !== 'hepsi' && !(call.olcek || []).includes(state.scaleFilter)) return false;
   if (state.temaFilter !== 'hepsi' && !(call.tema || []).includes(state.temaFilter)) return false;
   if (state.search){
@@ -67,6 +71,18 @@ function renderCards(){
   const calls = state.data.calls.filter(matchesFilters);
   grid.innerHTML = '';
   emptyState.hidden = calls.length !== 0;
+
+  const summary = document.getElementById('result-summary');
+  if (state.data){
+    const allInTab = state.data.calls.filter(c => c.kategori === state.activeTab);
+    const openCount = allInTab.filter(c => computeStatus(c) === 'acik' || computeStatus(c) === 'yakinda-kapaniyor').length;
+    const archivedCount = allInTab.filter(c => computeStatus(c) === 'kapali').length;
+    if (state.statusFilter === 'kapali'){
+      summary.textContent = `Arşivde ${archivedCount} kapalı çağrı gösteriliyor.`;
+    } else {
+      summary.textContent = `${calls.length} çağrı gösteriliyor (${openCount} açık) — ${archivedCount} kapalı çağrı arşivde. Görmek için Durum filtresinden "Arşiv"i seçin.`;
+    }
+  }
 
   calls.forEach(call => {
     const status = computeStatus(call);
