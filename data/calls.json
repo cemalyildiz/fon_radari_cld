@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-26T10:18:49Z",
+  "last_checked": "2026-07-26T10:32:30Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -438,17 +438,44 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "Faaliyet bazlı üst limitler dahilinde (danışmanlık, eğitim, seyahat, organizasyon giderleri)",
-      "destek_orani": "Faaliyete göre değişken, genellikle yüksek oranlı",
-      "kimler_basvurabilir": "Bir işbirliği kuruluşu (birlik, dernek, oda) çatısı altında bir araya gelen en az 10 firmalık gruplar",
+      "destek_miktari": "İşbirliği kuruluşunun ihtiyaç analizi/eğitim/danışmanlık/tanıtım giderleri proje bazında 6.000.000 TL'ye, faaliyet bazlı yıllık giderler 4.000.000 TL'ye kadar; ayrıca istihdam edilecek en fazla 2 uzman personelin giderleri ayrıca desteklenir (yatirimadestek.gov.tr - Sanayi ve Teknoloji Bakanlığı resmi platformundan 26.07.2026 tarihinde teyit edildi)",
+      "destek_orani": "Faaliyete göre değişken oranlarda (çağrı dokümanından teyit edilmeli)",
+      "kimler_basvurabilir": "Bir işbirliği kuruluşu (ihracatçı birliği, dernek, oda, sektörel dış ticaret şirketi vb.) çatısı altında bir araya gelen; destek kapsamındaki ilçelerde en az 5, diğer illerde en az 10 firmalık gruplar",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
       "proje_suresi": "Genellikle 3 yıl (uzatılabilir)",
       "sektor_odagi": "İhracata yönelik tüm sektörler - sektörel kümelenme esaslı",
-      "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
-      "notlar": "Bireysel firma başvurusu kabul edilmez; bir işbirliği kuruluşu aracılığıyla grup halinde başvurulur. Sürekli başvuruya açık bir çerçeve programdır, dönemsel 'çağrı' şeklinde değildir."
+      "kaynak_url": "https://www.yatirimadestek.gov.tr/gelismis-arama",
+      "notlar": "Bireysel firma başvurusu kabul edilmez; bir işbirliği kuruluşu aracılığıyla grup halinde başvurulur. Resmi 'Sürekli Aktif' statüsü Sanayi ve Teknoloji Bakanlığı'nın yatirimadestek.gov.tr platformunda 19.01.2026 tarihli güncelleme ile teyit edildi. Bir şirket aynı anda yalnızca bir UR-GE projesinde katılımcı olabilir."
+    },
+    {
+      "id": "ticaret-yesil-mutabakat-responsible",
+      "kategori": "ulusal",
+      "tema": [
+        "Yeşil Dönüşüm",
+        "İhracat & Markalaşma",
+        "Uyum & Sertifikasyon"
+      ],
+      "baslik": "Yeşil Mutabakata Uyum Projesi Desteği - Responsible® Programı",
+      "kurum": "Ticaret Bakanlığı",
+      "ozet": "Firmaların AB Yeşil Mutabakatı (Green Deal) ve uluslararası sürdürülebilirlik normlarına uyum sağlaması için sürdürülebilirlik yol haritası hazırlama, danışmanlık ve 'Responsible®' markası kullanım hakkı elde etme sürecinin desteklenmesi. Program üç aşamalıdır (Faz-1: mevcut durum analizi ve yol haritası, Faz-2 ve Faz-3: uygulama ve markalaşma).",
+      "basvuru_baslangic": null,
+      "basvuru_bitis": null,
+      "surekli_acik": true,
+      "destek_turu": "Hibe (geri ödemesiz)",
+      "destek_miktari": "Çağrı dokümanından teyit edilmeli (Bakan açıklamasına göre bugüne kadar program genelinde 39,5 milyon TL destek dağıtılmış)",
+      "destek_orani": "Çağrı dokümanından teyit edilmeli",
+      "kimler_basvurabilir": "İhracatçı firmalar (Faz-1'i tamamlayan firmalar Faz-2/Faz-3'e geçerek 'Responsible' marka kullanım hakkı kazanabilir)",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "3 aşamalı (Faz-1/2/3), süre çağrı dokümanına göre değişir",
+      "sektor_odagi": "İhracata yönelik tüm sektörler - sürdürülebilirlik ve yeşil dönüşüm uyumu",
+      "kaynak_url": "https://www.yatirimadestek.gov.tr/gelismis-arama",
+      "notlar": "Sanayi ve Teknoloji Bakanlığı'nın yatirimadestek.gov.tr platformunda 'Sürekli Aktif' statüsüyle listelenmektedir (güncelleme: 19.01.2026). Ticaret Bakanı'nın Mayıs 2026 açıklamasına göre program çapında 166 firma kapsama alınmış, 97'si Faz-1'i tamamlamış, 44 firma 'Responsible' marka kullanım hakkı kazanmıştır. Bu kayıt GTÜ-TTO'nun yeşil dönüşüm danışmanlığı hizmetleriyle doğrudan örtüşen, TÜBİTAK dışı önemli bir fırsat olarak eklenmiştir - detaylı başvuru şartları için ticaret.gov.tr'den 'Responsible® Programı' aratılmalıdır."
     },
     {
       "id": "ssb-sayp",
@@ -542,20 +569,20 @@
       "baslik": "Eurostars-3 Programı 2026/2. Dönem Uluslararası Çağrısı (1709-EUREKA-EUROSTARS)",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK (Eurostars-3 Programı, 37 üye ülke)",
       "ozet": "Yenilikçi KOBİ'lerin en az 2 farklı ülkeden ortakla birlikte yürüteceği, pazara yönelik ürün/süreç/hizmet geliştiren uluslararası Ar-Ge ve yenilik projelerinin desteklenmesi. Konu sınırlaması yoktur - tüm sektörlere açıktır.",
-      "basvuru_baslangic": "2026-07-09",
+      "basvuru_baslangic": "2026-07-17",
       "basvuru_bitis": "2026-09-10",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz, TÜBİTAK tarafında)",
       "destek_miktari": "Proje bazlı; ülke katkı payı üst limitleri Eurostars kurallarına göre belirlenir",
-      "destek_orani": "TÜBİTAK'ın standart Ar-Ge destek oranlarına paralel (KOBİ için genellikle daha yüksek)",
+      "destek_orani": "TÜBİTAK'ın resmi sayfasından teyit edildi: büyük ölçekli firmalar için %60, KOBİ'ler için %75, genel bütçe kapsamındaki kamu idareleri/özel bütçeli idareler/vakıf üniversiteleri/eğitim-araştırma hastaneleri/kamu araştırma merkezleri için %100",
       "kimler_basvurabilir": "Türkiye'de yerleşik, yenilikçi (Ar-Ge yoğunluğu kriteri sağlayan) KOBİ ölçeğinde şirketler; en az 2 farklı Eurostars üyesi ülkeden ortakla konsorsiyum kurulması şartı",
       "olcek": [
         "KOBİ"
       ],
       "proje_suresi": "Genellikle 36 aya kadar",
       "sektor_odagi": "Konu sınırlaması yok - tüm teknoloji alanları (aşağıdan yukarıya / bottom-up çağrı)",
-      "kaynak_url": "https://www.ogretmenler.net/1709-eureka-eurostars-2026-yili-2-cagrisi-acildi",
-      "notlar": "İki aşamalı başvuru: önce uluslararası Eurostars platformu üzerinden ortak başvuru, ardından TÜBİTAK PRODİS üzerinden ulusal ön kayıt/başvuru. Ayrıca proje fikri geliştirme ve konsorsiyum kurma sürecini desteklemek için ayrı bir 'Eurostars Koordinatörlük Desteği Programı' da mevcuttur (KOBİ'lere proje yazım eğitimi/danışmanlığı sağlar)."
+      "kaynak_url": "https://tubitak.gov.tr/en/announcement/1709-eureka-eurostars-20262-call-open-application",
+      "notlar": "Kesin takvim (TÜBİTAK resmi sayfasından 26.07.2026 tarihinde teyit edildi): uluslararası çağrı son tarihi 10 Eylül 2026 (14:00 CEST); kuruluş bazlı ön kayıt son tarihi 21 Eylül 2026; ulusal ön proje başvurusu son tarihi 24 Eylül 2026. İki aşamalı başvuru: önce uluslararası Eurostars platformu üzerinden ortak başvuru, ardından TÜBİTAK PRODİS üzerinden ulusal ön kayıt/başvuru. Ayrıca proje fikri geliştirme ve konsorsiyum kurma sürecini desteklemek için ayrı bir 'Eurostars Koordinatörlük Desteği Programı' da mevcuttur (KOBİ'lere proje yazım eğitimi/danışmanlığı sağlar)."
     },
     {
       "id": "eureka-biyoteknoloji-2026",
