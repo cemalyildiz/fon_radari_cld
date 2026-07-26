@@ -4,6 +4,7 @@ const state = {
   search: '',
   statusFilter: 'hepsi',
   scaleFilter: 'hepsi',
+  temaFilter: 'hepsi',
 };
 
 const grid = document.getElementById('card-grid');
@@ -53,9 +54,10 @@ function matchesFilters(call){
   const status = computeStatus(call);
   if (state.statusFilter !== 'hepsi' && state.statusFilter !== status) return false;
   if (state.scaleFilter !== 'hepsi' && !(call.olcek || []).includes(state.scaleFilter)) return false;
+  if (state.temaFilter !== 'hepsi' && !(call.tema || []).includes(state.temaFilter)) return false;
   if (state.search){
     const q = state.search.toLowerCase();
-    const haystack = [call.baslik, call.kurum, call.ozet, call.sektor_odagi].join(' ').toLowerCase();
+    const haystack = [call.baslik, call.kurum, call.ozet, call.sektor_odagi, (call.tema||[]).join(' ')].join(' ').toLowerCase();
     if (!haystack.includes(q)) return false;
   }
   return true;
@@ -83,6 +85,9 @@ function renderCards(){
         <span class="badge ${badge.cls}">${badge.text}</span>
       </div>
       <p class="card-desc">${escapeHtml(call.ozet)}</p>
+      <div class="tema-chips">
+        ${(call.tema||[]).map(t => `<span class="tema-chip">${escapeHtml(t)}</span>`).join('')}
+      </div>
       ${pct !== null ? `<div class="deadline-bar"><div class="deadline-bar-fill" style="width:${pct}%"></div></div>` : ''}
       <div class="card-meta">
         <span><strong>${escapeHtml((call.olcek||[]).join(', '))}</strong></span>
@@ -102,6 +107,9 @@ function openDetail(call){
     <div class="detail-org">${escapeHtml(call.kurum)}</div>
     <h2 class="detail-title">${escapeHtml(call.baslik)}</h2>
     <span class="badge ${badge.cls}">${badge.text}</span>
+    <div class="tema-chips" style="margin-top:10px">
+      ${(call.tema||[]).map(t => `<span class="tema-chip">${escapeHtml(t)}</span>`).join('')}
+    </div>
     <p class="detail-desc">${escapeHtml(call.ozet)}</p>
     <dl class="detail-grid">
       <div class="detail-field"><dt>Başvuru Başlangıç</dt><dd>${fmtDate(call.basvuru_baslangic)}</dd></div>
@@ -160,6 +168,21 @@ document.getElementById('scale-filter').addEventListener('change', (e) => {
   state.scaleFilter = e.target.value;
   renderCards();
 });
+document.getElementById('tema-filter').addEventListener('change', (e) => {
+  state.temaFilter = e.target.value;
+  renderCards();
+});
+
+function populateTemaFilter(calls){
+  const select = document.getElementById('tema-filter');
+  const uniqueTemas = [...new Set(calls.flatMap(c => c.tema || []))].sort((a,b) => a.localeCompare(b, 'tr'));
+  uniqueTemas.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t;
+    opt.textContent = t;
+    select.appendChild(opt);
+  });
+}
 
 function relativeTime(iso){
   const diffMs = Date.now() - new Date(iso).getTime();
@@ -176,6 +199,7 @@ fetch('data/calls.json?_=' + Date.now())
   .then(res => res.json())
   .then(data => {
     state.data = data;
+    populateTemaFilter(data.calls);
     renderCards();
     const label = document.getElementById('last-checked-label');
     label.textContent = `veri kontrolü: ${relativeTime(data.last_checked)}`;

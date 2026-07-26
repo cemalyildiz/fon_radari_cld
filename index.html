@@ -39,8 +39,8 @@
 
 <main>
   <section class="intro">
-    <h1>Ulusal ve uluslararası yeşil dönüşüm fonlarını tek ekrandan izleyin</h1>
-    <p>TÜBİTAK, KOSGEB, Horizon Europe ve LIFE gibi kaynaklardan derlenen güncel çağrılar; başvuru pencereleri her sayfa yüklendiğinde bulunduğunuz ana göre otomatik hesaplanır.</p>
+    <h1>Ulusal ve uluslararası proje çağrılarını tek ekrandan izleyin</h1>
+    <p>TÜBİTAK, KOSGEB, Horizon Europe ve LIFE gibi kaynaklardan derlenen güncel çağrılar; yeşil dönüşümden Ar-Ge'ye, eğitimden ileri malzemeye kadar farklı temalarda filtrelenebilir. Başvuru pencereleri her sayfa yüklendiğinde bulunduğunuz ana göre otomatik hesaplanır.</p>
   </section>
 
   <nav class="tabs" role="tablist" aria-label="Çağrı kategorisi">
@@ -76,6 +76,12 @@
         <option value="STK">STK</option>
       </select>
     </div>
+    <div class="filter-group">
+      <label for="tema-filter">Tema / Konsept</label>
+      <select id="tema-filter">
+        <option value="hepsi">Hepsi</option>
+      </select>
+    </div>
   </section>
 
   <section id="card-grid" class="card-grid" aria-live="polite"></section>
@@ -91,7 +97,7 @@
 </div>
 
 <footer class="site-footer">
-  <p>Bu radar; TÜBİTAK, KOSGEB, Avrupa Komisyonu (Horizon Europe, LIFE) gibi kaynaklardan derlenmiştir. Başvuru öncesi kaynak kurumun güncel kılavuzunu mutlaka teyit edin. Veri kontrolü: saatlik otomasyon ile durum hesaplanır; yeni çağrı ekleme periyodik olarak elle/AI destekli güncellenir.</p>
+  <p>Bu radar; TÜBİTAK, KOSGEB, Sanayi ve Teknoloji Bakanlığı, Avrupa Komisyonu (Horizon Europe, LIFE, Erasmus+) gibi kaynaklardan derlenen, yeşil dönüşümle sınırlı olmayan genel bir çağrı listesidir — tema filtresiyle daraltabilirsiniz. Başvuru öncesi kaynak kurumun güncel kılavuzunu mutlaka teyit edin. Veri kontrolü: saatlik otomasyon ile durum hesaplanır; yeni çağrı ekleme periyodik olarak elle/AI destekli güncellenir.</p>
 </footer>
 
 <script src="js/app.js"></script>
