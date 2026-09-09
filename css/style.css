@@ -149,6 +149,7 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
 .badge-kapali{ background:rgba(242,107,94,0.1); color:var(--red); border-color:rgba(242,107,94,0.25); }
 .badge-surekli{ background:rgba(94,242,166,0.12); color:var(--signal); border-color:rgba(94,242,166,0.3); }
 .badge-cerceve{ background:rgba(147,163,154,0.12); color:var(--text-dim); border-color:rgba(147,163,154,0.3); }
+.badge-kaldirildi{ background:rgba(242,107,94,0.14); color:var(--red); border-color:rgba(242,107,94,0.4); }
 
 .tema-chips{ display:flex; flex-wrap:wrap; gap:6px; }
 .tema-chip{

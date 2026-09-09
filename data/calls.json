@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-09T12:51:55Z",
+  "last_checked": "2026-09-09T12:58:28Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -382,24 +382,24 @@
         "Dijitalleşme",
         "Rekabetçilik"
       ],
-      "baslik": "KOBİGEL - KOBİ Gelişim Destek Programı",
+      "baslik": "KOBİGEL - KOBİ Gelişim Destek Programı (YÜRÜRLÜKTEN KALDIRILDI)",
       "kurum": "KOSGEB",
-      "ozet": "KOBİ'lerin ekonomideki paylarının ve etkinliklerinin, rekabet güçlerinin ve sağladıkları katma değerin artırılması amacıyla dönemsel temalı proje teklif çağrıları (ör. imalat sanayinde dijitalleşme, rekabet gücü artırma) açan genel amaçlı destek programı.",
+      "ozet": "DÜZELTME: Bu program artık yürürlükte DEĞİLDİR. KOSGEB'in resmi sitesinde 'Yürürlükten Kaldırılan Destekler' başlığı altında listelenmektedir; bilinen son proje teklif çağrıları 2022.01 ve 2022.02'dir. Yalnızca tarihsel referans amacıyla listede tutulmaktadır - yeni başvuru alınmamaktadır.",
       "basvuru_baslangic": null,
       "basvuru_bitis": null,
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "Proje teklif çağrısına göre değişir",
-      "destek_orani": "Çağrıya göre değişir",
-      "kimler_basvurabilir": "KOBİ'ler (çağrı temasına göre sektör/ölçek koşulları değişebilir)",
+      "destek_miktari": "Uygulanmıyor - program yürürlükten kaldırılmıştır",
+      "destek_orani": "Uygulanmıyor",
+      "kimler_basvurabilir": "Uygulanmıyor - yeni başvuru alınmamaktadır",
       "olcek": [
         "KOBİ"
       ],
       "proje_suresi": "Çağrıya göre değişir",
       "sektor_odagi": "Dönemsel temalara göre değişir (dijitalleşme, rekabet gücü, ihracat kapasitesi vb.)",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/3288/kobigel-kobi-gelisim-destek-programi",
-      "notlar": "KOBİGEL sürekli açık bir program değildir; KOSGEB dönem dönem belirli bir temayla 'Proje Teklif Çağrısı' ilan eder. Bu kayıt genel programı tanıtmak içindir - güncel açık çağrı olup olmadığını KOSGEB web sitesinden kontrol edin.",
-      "cerceve_program": true
+      "notlar": "09.09.2026 tarihinde KOSGEB'in resmi sayfasından teyit edildi: program 'Yürürlükten Kaldırılan Destekler' kategorisindedir. KOBİGEL'in yerini alan güncel KOSGEB programları için Kapasite Geliştirme, Küresel Rekabetçilik ve KOBİ Dijital Dönüşüm Destek Programlarına bakınız.",
+      "yururlukten_kaldirildi": true
     },
     {
       "id": "ticaret-turquality",
@@ -752,6 +752,33 @@
       "sektor_odagi": "Üretim, ihracat, Ar-Ge ve yüksek teknoloji alanlarında faaliyet gösteren KOBİ'ler",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9206/kuresel-rekabetcilik-destek-programi",
       "notlar": "Program 7 Eylül 2026'da Sanayi ve Teknoloji Bakanı tarafından duyurulmuştur; son başvuru 30 Eylül 2026. Kapasite Geliştirme Destek Programı'ndan daha yüksek limitli, ihracat/küresel rekabet odaklı ayrı bir programdır. Kaynak: KOSGEB duyurusu ve basın, 09.09.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "kosgeb-istihdami-koruma-2026",
+      "kategori": "ulusal",
+      "tema": [
+        "Genel Sektör",
+        "Sanayi Yatırımı",
+        "İstihdam"
+      ],
+      "baslik": "KOSGEB İstihdamı Koruma Destek Programı (Genişletilmiş Finansman Dönemi)",
+      "kurum": "KOSGEB",
+      "ozet": "İmalat sanayiinde üretim ve istihdamın sürekliliğini desteklemek, işletmelerin finansmana erişimini kolaylaştırmak amacıyla kullanılan banka kredilerine destek puanı sağlayan program. 2026'da kapsamı ve finansman koşulları genişletilmiştir.",
+      "basvuru_baslangic": "2026-09-01",
+      "basvuru_bitis": "2026-10-31",
+      "surekli_acik": false,
+      "destek_turu": "Kredi faiz/kar payı desteği (destek puanı esaslı), KOBİ'ler için KGF kefaleti imkanı",
+      "destek_miktari": "Başvuru tarihinden sonra kullanılan kredi için 12 destek puanına karşılık gelen tutar (işletme başına kredi tutarı üst limiti için güncel kılavuza bakınız)",
+      "destek_orani": "12 destek puanı",
+      "kimler_basvurabilir": "İmalat sanayiinde faaliyet gösteren işletmeler; KGF kefaleti KOBİ'ler için belirtilmiştir (büyük işletmeler için ayrı bir kefalet açıklaması yapılmamıştır)",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "Kredi vadesine göre değişir",
+      "sektor_odagi": "İmalat sanayii - üretim ve istihdam sürekliliği",
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
+      "notlar": "Genişletilmiş finansman desteği için başvurular 1 Eylül - 31 Ekim 2026 arasında alınmaktadır. KOSGEB verilerine göre Ağustos 2026 itibarıyla 17.843 işletmeye 11,2 milyar TL destek sağlanmış, 685.953 istihdamın korunmasına katkıda bulunulmuştur. Kaynak: KOSGEB duyurusu, 09.09.2026 tarihinde teyit edildi."
     }
   ]
 }

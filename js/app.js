@@ -14,6 +14,7 @@ const overlayContent = document.getElementById('overlay-content');
 
 function computeStatus(call){
   const now = new Date();
+  if (call.yururlukten_kaldirildi) return 'kaldirildi';
   if (call.cerceve_program) return 'cerceve';
   if (call.surekli_acik) return 'acik';
   if (!call.basvuru_bitis) return 'acik';
@@ -32,6 +33,7 @@ function daysUntil(dateStr){
 }
 
 function statusLabel(status, call){
+  if (call.yururlukten_kaldirildi) return { text: 'Yürürlükten Kaldırıldı', cls: 'badge-kaldirildi' };
   if (call.cerceve_program) return { text: 'Çerçeve Program · Dönemsel', cls: 'badge-cerceve' };
   if (call.surekli_acik) return { text: 'Sürekli Açık', cls: 'badge-surekli' };
   const days = daysUntil(call.basvuru_bitis);
@@ -60,7 +62,7 @@ function progressPct(call){
 }
 
 function sortCalls(calls){
-  const priority = { 'yakinda-kapaniyor': 0, 'acik': 1, 'cerceve': 2, 'kapali': 3 };
+  const priority = { 'yakinda-kapaniyor': 0, 'acik': 1, 'cerceve': 2, 'kapali': 3, 'kaldirildi': 4 };
   return [...calls].sort((a, b) => {
     const sa = computeStatus(a), sb = computeStatus(b);
     const aSurekli = !!a.surekli_acik, bSurekli = !!b.surekli_acik;
@@ -83,6 +85,9 @@ function matchesFilters(call){
   } else if (state.statusFilter === 'acik'){
     // "Açık" görünümünde çerçeve programlar da gösterilir (dönemsel olarak yeniden açılırlar)
     if (status !== 'acik' && status !== 'cerceve') return false;
+  } else if (state.statusFilter === 'kapali'){
+    // Arşiv: kapanmış çağrılar + yürürlükten kaldırılmış programlar
+    if (status !== 'kapali' && status !== 'kaldirildi') return false;
   } else if (state.statusFilter !== 'hepsi' && state.statusFilter !== status) {
     return false;
   }
@@ -106,7 +111,7 @@ function renderCards(){
     const allInTab = state.data.calls.filter(c => c.kategori === state.activeTab);
     const openCount = allInTab.filter(c => ['acik','yakinda-kapaniyor'].includes(computeStatus(c))).length;
     const urgentCount = allInTab.filter(c => computeStatus(c) === 'yakinda-kapaniyor').length;
-    const archivedCount = allInTab.filter(c => computeStatus(c) === 'kapali').length;
+    const archivedCount = allInTab.filter(c => ['kapali','kaldirildi'].includes(computeStatus(c))).length;
     if (state.statusFilter === 'kapali'){
       summary.textContent = `Arşivde ${archivedCount} kapalı çağrı gösteriliyor.`;
     } else {
