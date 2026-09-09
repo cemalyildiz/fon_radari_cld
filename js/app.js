@@ -14,6 +14,7 @@ const overlayContent = document.getElementById('overlay-content');
 
 function computeStatus(call){
   const now = new Date();
+  if (call.cerceve_program) return 'cerceve';
   if (call.surekli_acik) return 'acik';
   if (!call.basvuru_bitis) return 'acik';
   const end = new Date(call.basvuru_bitis);
@@ -31,6 +32,7 @@ function daysUntil(dateStr){
 }
 
 function statusLabel(status, call){
+  if (call.cerceve_program) return { text: 'Çerçeve Program · Dönemsel', cls: 'badge-cerceve' };
   if (call.surekli_acik) return { text: 'Sürekli Açık', cls: 'badge-surekli' };
   const days = daysUntil(call.basvuru_bitis);
   switch(status){
@@ -58,19 +60,17 @@ function progressPct(call){
 }
 
 function sortCalls(calls){
-  const priority = { 'yakinda-kapaniyor': 0, 'acik': 1, 'kapali': 2 };
+  const priority = { 'yakinda-kapaniyor': 0, 'acik': 1, 'cerceve': 2, 'kapali': 3 };
   return [...calls].sort((a, b) => {
     const sa = computeStatus(a), sb = computeStatus(b);
-    // Sürekli açık kayıtları kendi durum grubu içinde en sona at (tarihi olanlar önce gelsin)
     const aSurekli = !!a.surekli_acik, bSurekli = !!b.surekli_acik;
     if (priority[sa] !== priority[sb]) return priority[sa] - priority[sb];
     if (sa === 'kapali'){
-      // Arşivde en son kapanan en üstte
       return new Date(b.basvuru_bitis || 0) - new Date(a.basvuru_bitis || 0);
     }
+    if (sa === 'cerceve') return a.baslik.localeCompare(b.baslik, 'tr');
     if (aSurekli !== bSurekli) return aSurekli ? 1 : -1;
     if (aSurekli && bSurekli) return a.baslik.localeCompare(b.baslik, 'tr');
-    // Açık/yakında kapanıyor: en yakın kapanış tarihi önce
     return new Date(a.basvuru_bitis || 0) - new Date(b.basvuru_bitis || 0);
   });
 }
@@ -80,6 +80,9 @@ function matchesFilters(call){
   const status = computeStatus(call);
   if (state.statusFilter === 'acik-veya-yakinda'){
     if (status !== 'acik' && status !== 'yakinda-kapaniyor') return false;
+  } else if (state.statusFilter === 'acik'){
+    // "Açık" görünümünde çerçeve programlar da gösterilir (dönemsel olarak yeniden açılırlar)
+    if (status !== 'acik' && status !== 'cerceve') return false;
   } else if (state.statusFilter !== 'hepsi' && state.statusFilter !== status) {
     return false;
   }
@@ -101,12 +104,14 @@ function renderCards(){
   const summary = document.getElementById('result-summary');
   if (state.data){
     const allInTab = state.data.calls.filter(c => c.kategori === state.activeTab);
-    const openCount = allInTab.filter(c => computeStatus(c) === 'acik' || computeStatus(c) === 'yakinda-kapaniyor').length;
+    const openCount = allInTab.filter(c => ['acik','yakinda-kapaniyor'].includes(computeStatus(c))).length;
+    const urgentCount = allInTab.filter(c => computeStatus(c) === 'yakinda-kapaniyor').length;
     const archivedCount = allInTab.filter(c => computeStatus(c) === 'kapali').length;
     if (state.statusFilter === 'kapali'){
       summary.textContent = `Arşivde ${archivedCount} kapalı çağrı gösteriliyor.`;
     } else {
-      summary.textContent = `${calls.length} çağrı gösteriliyor (${openCount} açık) — ${archivedCount} kapalı çağrı arşivde. Görmek için Durum filtresinden "Arşiv"i seçin.`;
+      const urgentTxt = urgentCount > 0 ? ` ${urgentCount} çağrı 14 gün içinde kapanıyor.` : '';
+      summary.textContent = `${calls.length} çağrı gösteriliyor (${openCount} açık).${urgentTxt} ${archivedCount} kapalı çağrı arşivde — Durum filtresinden "Arşiv"i seçin.`;
     }
   }
 

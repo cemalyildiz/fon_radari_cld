@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-26T10:32:30Z",
+  "last_checked": "2026-09-09T12:51:55Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -33,7 +33,7 @@
         "Yeşil Dönüşüm",
         "Ar-Ge & İnovasyon"
       ],
-      "baslik": "1832 - Sanayide Yeşil Dönüşüm Çağrısı (2026-1)",
+      "baslik": "1832 - Sanayide Yeşil Dönüşüm Çağrısı (2026-1, kapandı)",
       "kurum": "TÜBİTAK (Dünya Bankası destekli Türkiye Yeşil Sanayi Projesi)",
       "ozet": "Sanayinin yeşil dönüşümüne katkı sağlayacak, THS 3-9 aralığındaki Ar-Ge ve yenilik projelerinin (prototip geliştirme, validasyon, ölçeklendirme, ticarileşme) desteklenmesi.",
       "basvuru_baslangic": "2026-04-01",
@@ -50,7 +50,7 @@
       "proje_suresi": "En fazla 24 ay",
       "sektor_odagi": "İklim değişikliği, çevre ve biyoçeşitlilik başta olmak üzere yeşil dönüşüm Ar-Ge konuları",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-1-cagrisi-basvuruya-acildi",
-      "notlar": "Kuruluş bazlı ön kayıt son tarihi 04.06.2026. Banka referans mektubu / teminat mektubu şartı bulunmaktadır."
+      "notlar": "Bu çağrı 9 Haziran 2026'da kapanmıştır; yerine 2026-2 çağrısı (3 Ağustos - 28 Eylül 2026) açılmıştır. Arşiv/referans kaydı."
     },
     {
       "id": "tubitak-1832-2025-3",
@@ -207,7 +207,8 @@
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "İleri malzeme, kritik hammadde, yüksek katma değerli üretim",
       "kaynak_url": "https://www.apsisdanismanlik.com/blog/teknoloji-hamlesi-programi-2026-cagrisi-ile-tubitak-kosgeb-ve-yatirim-tesvik-destekleri/",
-      "notlar": "Başvuru için projenin çağrının 'Öncelikli Ürün Listesi'nde yer alan koşulları sağlaması gerekir. Ön başvuru / kesin başvuru olmak üzere iki aşamalıdır; www.hamle.gov.tr üzerinden yürütülür."
+      "notlar": "Başvuru için projenin çağrının 'Öncelikli Ürün Listesi'nde yer alan koşulları sağlaması gerekir. Ön başvuru / kesin başvuru olmak üzere iki aşamalıdır; www.hamle.gov.tr üzerinden yürütülür.",
+      "cerceve_program": true
     },
     {
       "id": "hamle-biyoteknoloji",
@@ -235,7 +236,8 @@
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "Biyoteknoloji, sağlık, sürdürülebilir tarım, gıda teknolojileri, döngüsel ekonomi, iklim teknolojileri",
       "kaynak_url": "https://www.plusglobal.com.tr/",
-      "notlar": "Başvuru için projenin çağrının 'Öncelikli Ürün Listesi'nde yer alan koşulları sağlaması gerekir. Ön başvuru / kesin başvuru olmak üzere iki aşamalıdır; www.hamle.gov.tr üzerinden yürütülür."
+      "notlar": "Başvuru için projenin çağrının 'Öncelikli Ürün Listesi'nde yer alan koşulları sağlaması gerekir. Ön başvuru / kesin başvuru olmak üzere iki aşamalıdır; www.hamle.gov.tr üzerinden yürütülür.",
+      "cerceve_program": true
     },
     {
       "id": "horizon-cl5-2026",
@@ -329,11 +331,11 @@
         "Kapasite Geliştirme",
         "Savunma & Havacılık"
       ],
-      "baslik": "KOSGEB Kapasite Geliştirme Destek Programı",
+      "baslik": "KOSGEB Kapasite Geliştirme Destek Programı (2026 Yılı 3. Dönem)",
       "kurum": "KOSGEB",
       "ozet": "DÜZELTME: Bu program sadece savunma sanayii için değil, genel bir kapasite/ölçek büyütme kredi destek programıdır (C-İmalat, Telekomünikasyon, Yazılım, Bilişim Altyapısı, Bilimsel Ar-Ge NACE kodlarındaki 'hızlı büyüyen' KOBİ'ler için). Savunma/uzay/havacılık tedarikçisi olan ve EYDEP sertifikalı firmalar için ayrıca yükseltilmiş kredi limitleri uygulanır.",
-      "basvuru_baslangic": "2026-02-23",
-      "basvuru_bitis": null,
+      "basvuru_baslangic": "2026-08-22",
+      "basvuru_bitis": "2026-09-15",
       "surekli_acik": false,
       "destek_turu": "Kredi (faiz/kar payı desteği ile, geri ödemeli) + belirli hizmet giderleri için geri ödemesiz destek",
       "destek_miktari": "İşletme başına kredi üst limiti normalde 20.000.000-30.000.000 TL (alt limit 1.000.000 TL); savunma/uzay/havacılık tedarikçisi EYDEP sertifikalı firmalarda sertifika seviyesine göre 25.000.000 TL (EYDEP-C) / 27.500.000 TL (EYDEP-B) / 30.000.000 TL (EYDEP-A). Kaynak: KOSGEB resmi sayfası, 26.07.2026 tarihinde teyit edildi.",
@@ -345,7 +347,7 @@
       "proje_suresi": "24 ay, azami kredi vadesi 36 ay",
       "sektor_odagi": "İmalat, telekomünikasyon, yazılım/bilişim, bilimsel Ar-Ge sektörleri; ayrıca SSB, Türkiye Uzay Ajansı, THY Teknik gibi paydaşlarla protokollü savunma/uzay/havacılık tedarik zinciri",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9200/kapasite-gelistirme-destek-programi",
-      "notlar": "Kapasite Geliştirme Destek Programı dönemsel olarak (yılda birkaç kez) yeni başvuru dönemleri açmaktadır; kesin başvuru takvimi için KOSGEB güncel duyurularını kontrol edin. Ziraat Bankası, Halkbank, VakıfBank, Ziraat Katılım üzerinden kredi kullandırılır."
+      "notlar": "2026 yılı 3. dönem başvuruları 22 Ağustos 2026'da başladı, son başvuru 15 Eylül 2026. Program yılda birkaç dönem açılır (2026'da 1. dönem Şubat, 2. dönem 6-30 Haziran, 3. dönem 22 Ağustos-15 Eylül). Ziraat Bankası, Halkbank, VakıfBank, Ziraat Katılım üzerinden kredi kullandırılır. Kaynak: KOSGEB resmi duyurusu, 09.09.2026 tarihinde teyit edildi."
     },
     {
       "id": "kosgeb-girisimci-2026-2",
@@ -396,7 +398,8 @@
       "proje_suresi": "Çağrıya göre değişir",
       "sektor_odagi": "Dönemsel temalara göre değişir (dijitalleşme, rekabet gücü, ihracat kapasitesi vb.)",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/3288/kobigel-kobi-gelisim-destek-programi",
-      "notlar": "KOBİGEL sürekli açık bir program değildir; KOSGEB dönem dönem belirli bir temayla 'Proje Teklif Çağrısı' ilan eder. Bu kayıt genel programı tanıtmak içindir - güncel açık çağrı olup olmadığını KOSGEB web sitesinden kontrol edin."
+      "notlar": "KOBİGEL sürekli açık bir program değildir; KOSGEB dönem dönem belirli bir temayla 'Proje Teklif Çağrısı' ilan eder. Bu kayıt genel programı tanıtmak içindir - güncel açık çağrı olup olmadığını KOSGEB web sitesinden kontrol edin.",
+      "cerceve_program": true
     },
     {
       "id": "ticaret-turquality",
@@ -485,7 +488,7 @@
         "İleri Malzeme",
         "Ar-Ge & İnovasyon"
       ],
-      "baslik": "Savunma Sanayii Yatırım ve Geliştirme Faaliyetlerini Destekleme Programı - Kredi Talebi Çağrısı (2026)",
+      "baslik": "Savunma Sanayii Yatırım ve Geliştirme Faaliyetlerini Destekleme Programı - Kredi Talebi Çağrısı (2026, kapandı)",
       "kurum": "Savunma Sanayii Başkanlığı (SSB)",
       "ozet": "Savunma, anayurt güvenliği, havacılık ve uzay sanayii alanlarında faaliyet gösteren yerli sanayi kuruluşlarının yatırım faaliyetleri, nitelikli personel istihdamı ve HAB Ankara Uzay-Havacılık İhtisas OSB / Kırıkkale Silah Sanayi İhtisas OSB'de yapılacak tesis inşaatı faaliyetlerinin düşük faizli kredi ile desteklenmesi.",
       "basvuru_baslangic": "2026-07-14",
@@ -502,7 +505,7 @@
       "proje_suresi": "Kredi vadesi azami 10 yıl",
       "sektor_odagi": "İleri malzeme teknolojileri (eklemeli imalat, alaşım geliştirme, görünmezlik teknolojileri, zırh malzemeleri vb.), yatırım ve nitelikli personel istihdamı",
       "kaynak_url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-kredi-talebi-cagrisi-PmRCAy",
-      "notlar": "Başvurular http://yeten.ssb.gov.tr üzerinden 'Kredi İşlemleri' modülü ile 14 Ağustos 2026 saat 17:00'a kadar yapılmalıdır. Başvuru için SSB YETEN platformuna üyelik gerekir. Kaynak: SSB resmi duyurusu ve Alomaliye haberi, 26.07.2026 tarihinde teyit edildi. Bu program yıllık olarak tekrar açılmaktadır."
+      "notlar": "Bu çağrı 14 Ağustos 2026 saat 17:00'da kapanmıştır. Program yıllık olarak tekrar açılmaktadır; yeni dönem için SSB YETEN platformu (yeten.ssb.gov.tr) ve ssb.gov.tr duyurularını takip edin. Arşiv/referans kaydı."
     },
     {
       "id": "tubitak-1707",
@@ -528,7 +531,7 @@
       "proje_suresi": "Sipariş kapsamına göre değişir",
       "sektor_odagi": "Tedarik zinciri Ar-Ge'si - savunma sanayii, otomotiv, beyaz eşya gibi ana sanayi-tedarikçi ilişkisi olan sektörlerde yaygın",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-      "notlar": "DÜZELTME: Bu program sürekli açık DEĞİLDİR, yılda 3 dönem halinde açılır. 2026 takvimi: 1. dönem 2 Ocak-13 Mart (tamamlandı), 2. dönem 4 Mayıs-17 Temmuz (tamamlandı), 3. dönem 1 Eylül-13 Kasım 2026. Kaynak: TÜBİTAK resmi duyurusu, 26.07.2026 tarihinde teyit edildi."
+      "notlar": "2026 yılı 3. çağrı dönemi: başvurular PRODİS üzerinden 1 Eylül - 13 Kasım 2026 (23:59 TSİ) arasında alınmaktadır; kuruluş bazlı ön kayıt son tarihi 11 Kasım 2026. Bu çağrı döneminde TÜBİTAK 2026-2028 Öncelikli Ar-Ge ve Yenilik Konu Başlıklarından 'Endüstride Teknolojik Sıçrama' ve 'Dijital Liderlik' konularındaki projelere değerlendirmede öncelik verilecektir. Program sürekli açık DEĞİLDİR, yılda 3 dönem açılır. Kaynak: TÜBİTAK resmi duyurusu, 09.09.2026 tarihinde teyit edildi."
     },
     {
       "id": "tubitak-1833-sayem",
@@ -696,6 +699,59 @@
       "sektor_odagi": "Kuantum teknolojileri, elektronik bileşenler ve sistemler",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
       "notlar": "Ulusal başvuru için PRODİS üzerinden 16 Aralık 2026'ya kadar başvuru yapılmalıdır. Proje bütçesindeki 600.000 Euro sınırı yalnızca Türk ortaklar içindir."
+    },
+    {
+      "id": "tubitak-1832-2026-2",
+      "kategori": "ulusal",
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Ar-Ge & İnovasyon"
+      ],
+      "baslik": "1832 - Sanayide Yeşil Dönüşüm Çağrısı (2026-2)",
+      "kurum": "TÜBİTAK TEYDEB (Dünya Bankası destekli Türkiye Yeşil Sanayi Projesi)",
+      "ozet": "Yeşil dönüşüme katkı sağlayacak, THS 3-9 aralığındaki Ar-Ge ve yenilik projelerinin desteklenmesi. Bir önceki döneme göre proje bütçesi üst limitleri yükseltilmiştir. Projelerde en az bir 'Yeşil Dönüşüm Göstergesi' (birim üretim başına elektrik/su tüketiminde azalma, geri dönüştürülemeyen atıkta azalma veya yenilikçi yeşil teknoloji geliştirilmesi) hedeflenmesi zorunludur.",
+      "basvuru_baslangic": "2026-08-03",
+      "basvuru_bitis": "2026-09-28",
+      "surekli_acik": false,
+      "destek_turu": "Faizsiz geri ödemeli destek; bir kısmı proje sonunda hibeye dönüştürülebilir",
+      "destek_miktari": "Proje bütçesi üst limitleri (2026-2 ile yükseltildi): Mikro/Küçük KOBİ 15.000.000 TL, Orta Ölçekli KOBİ 24.000.000 TL, Büyük İşletme 51.500.000 TL",
+      "destek_orani": "Büyük ölçekli %70, KOBİ %80, deprem bölgesindeki KOBİ %90 (geri ödeme proje bitiminden 1 yıl sonra başlar)",
+      "kimler_basvurabilir": "Tescil tarihi kural olarak 2 yıl ve üzeri, en az belirli oranda özel sektör ortaklığına sahip sermaye şirketleri (KOBİ ve büyük ölçekli); tek başına veya ortaklı başvuru mümkün. Başvuruda Banka Referans Mektubu ve finansal uygunluk şartı vardır.",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "En fazla 24 ay",
+      "sektor_odagi": "İklim değişikliği/çevre/biyoçeşitlilik, temiz ve döngüsel ekonomi, temiz ve güvenli enerji arzı, yeşil ve sürdürülebilir tarım, sürdürülebilir akıllı ulaşım",
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-2-cagrisi-acildi",
+      "notlar": "Kuruluş bazlı ön kayıt son tarihi 24 Eylül 2026; proje başvurusu son tarihi 28 Eylül 2026 (23:59). Hedeflenen ürünün başvuruda THS'si en az 3, proje sonunda en az 7 olmalıdır; THS 8-9'dan başlayan projeler kapsam dışıdır. Dünya Bankası kısıtlı faaliyet alanları ve savunma sanayine yönelik faaliyetler kapsam dışıdır. Kaynak: TÜBİTAK ve PwC/Prozon bültenleri, 09.09.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "kosgeb-kuresel-rekabetcilik-2026-1",
+      "kategori": "ulusal",
+      "tema": [
+        "Genel Sektör",
+        "Sanayi Yatırımı",
+        "İhracat & Markalaşma",
+        "Rekabetçilik"
+      ],
+      "baslik": "KOSGEB Küresel Rekabetçilik Destek Programı (2026 Yılı 1. Dönem)",
+      "kurum": "KOSGEB",
+      "ozet": "KOBİ'lerin yenilikçi ürün geliştirme ve ticarileştirme kapasitesini artırmak, üretim verimliliğini yükseltmek, tedarik zincirini güçlendirmek ve uluslararası pazarlarda rekabet gücü kazandırmak amacıyla yüksek limitli kredi finansmanı sağlayan program.",
+      "basvuru_baslangic": "2026-09-07",
+      "basvuru_bitis": "2026-09-30",
+      "surekli_acik": false,
+      "destek_turu": "Kredi finansmanı (KGF kefaletiyle) + 20 puan geri ödemesiz finansman desteği",
+      "destek_miktari": "İşletme başına kredi üst limiti 75.000.000 TL, alt limiti 30.000.000 TL",
+      "destek_orani": "20 puanlık geri ödemesiz finansman (faiz/kar payı) desteği; azami kredi vadesi 36 ay",
+      "kimler_basvurabilir": "KOSGEB Veri Tabanında kayıtlı, aktif ve İşletme Beyanı güncel olan KOBİ'ler; programda belirlenen büyüme, teknoloji, ihracat ve Ar-Ge kriterlerinden en az birini karşılaması gerekir",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "24 ay (azami kredi vadesi 36 ay)",
+      "sektor_odagi": "Üretim, ihracat, Ar-Ge ve yüksek teknoloji alanlarında faaliyet gösteren KOBİ'ler",
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9206/kuresel-rekabetcilik-destek-programi",
+      "notlar": "Program 7 Eylül 2026'da Sanayi ve Teknoloji Bakanı tarafından duyurulmuştur; son başvuru 30 Eylül 2026. Kapasite Geliştirme Destek Programı'ndan daha yüksek limitli, ihracat/küresel rekabet odaklı ayrı bir programdır. Kaynak: KOSGEB duyurusu ve basın, 09.09.2026 tarihinde teyit edildi."
     }
   ]
 }
