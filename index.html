@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fon Radarı — Yeşil Dönüşüm Çağrıları</title>
+<meta name="description" content="TÜBİTAK, KOSGEB, Ticaret Bakanlığı, Savunma Sanayii Başkanlığı, Horizon Europe, LIFE ve Eureka/Eurostars gibi kaynaklardan derlenen güncel ulusal ve uluslararası proje çağrıları radarı.">
+<meta property="og:title" content="Fon Radarı — Ulusal ve Uluslararası Proje Çağrıları">
+<meta property="og:description" content="Güncel TÜBİTAK, KOSGEB, AB ve savunma sanayii çağrılarını tek ekrandan takip edin.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%230b0f0e'/%3E%3Ccircle cx='20' cy='20' r='15' fill='none' stroke='%235EF2A6' stroke-width='2' opacity='0.5'/%3E%3Ccircle cx='20' cy='20' r='8' fill='none' stroke='%235EF2A6' stroke-width='2' opacity='0.75'/%3E%3Ccircle cx='20' cy='20' r='2.5' fill='%235EF2A6'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -87,9 +92,14 @@
 
   <p id="result-summary" class="result-summary"></p>
 
-  <section id="card-grid" class="card-grid" aria-live="polite"></section>
+  <section id="card-grid" class="card-grid" aria-live="polite">
+    <p class="loading-state">Çağrılar yükleniyor…</p>
+  </section>
 
-  <p id="empty-state" class="empty-state" hidden>Filtrelerinize uyan bir çağrı bulunamadı.</p>
+  <p id="empty-state" class="empty-state" hidden>
+    Filtrelerinize uyan bir çağrı bulunamadı.<br>
+    <button id="reset-filters-btn" class="reset-filters-btn" type="button">Filtreleri sıfırla</button>
+  </p>
 </main>
 
 <div id="detail-overlay" class="overlay" hidden>

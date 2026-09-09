@@ -23,11 +23,19 @@ function computeStatus(call){
   return 'acik';
 }
 
+function daysUntil(dateStr){
+  if (!dateStr) return null;
+  const end = new Date(dateStr);
+  const now = new Date();
+  return Math.ceil((end - now) / (1000*60*60*24));
+}
+
 function statusLabel(status, call){
   if (call.surekli_acik) return { text: 'Sürekli Açık', cls: 'badge-surekli' };
+  const days = daysUntil(call.basvuru_bitis);
   switch(status){
-    case 'acik': return { text: 'Açık', cls: 'badge-acik' };
-    case 'yakinda-kapaniyor': return { text: 'Yakında Kapanıyor', cls: 'badge-yakinda' };
+    case 'acik': return { text: days !== null ? `Açık · ${days} gün kaldı` : 'Açık', cls: 'badge-acik' };
+    case 'yakinda-kapaniyor': return { text: days !== null ? `Yakında Kapanıyor · ${days} gün` : 'Yakında Kapanıyor', cls: 'badge-yakinda' };
     case 'kapali': return { text: 'Kapalı / Arşiv', cls: 'badge-kapali' };
     default: return { text: 'Bilinmiyor', cls: '' };
   }
@@ -49,6 +57,24 @@ function progressPct(call){
   return Math.round(((now - start) / (end - start)) * 100);
 }
 
+function sortCalls(calls){
+  const priority = { 'yakinda-kapaniyor': 0, 'acik': 1, 'kapali': 2 };
+  return [...calls].sort((a, b) => {
+    const sa = computeStatus(a), sb = computeStatus(b);
+    // Sürekli açık kayıtları kendi durum grubu içinde en sona at (tarihi olanlar önce gelsin)
+    const aSurekli = !!a.surekli_acik, bSurekli = !!b.surekli_acik;
+    if (priority[sa] !== priority[sb]) return priority[sa] - priority[sb];
+    if (sa === 'kapali'){
+      // Arşivde en son kapanan en üstte
+      return new Date(b.basvuru_bitis || 0) - new Date(a.basvuru_bitis || 0);
+    }
+    if (aSurekli !== bSurekli) return aSurekli ? 1 : -1;
+    if (aSurekli && bSurekli) return a.baslik.localeCompare(b.baslik, 'tr');
+    // Açık/yakında kapanıyor: en yakın kapanış tarihi önce
+    return new Date(a.basvuru_bitis || 0) - new Date(b.basvuru_bitis || 0);
+  });
+}
+
 function matchesFilters(call){
   if (call.kategori !== state.activeTab) return false;
   const status = computeStatus(call);
@@ -68,7 +94,7 @@ function matchesFilters(call){
 }
 
 function renderCards(){
-  const calls = state.data.calls.filter(matchesFilters);
+  const calls = sortCalls(state.data.calls.filter(matchesFilters));
   grid.innerHTML = '';
   emptyState.hidden = calls.length !== 0;
 
@@ -161,6 +187,18 @@ function escapeHtml(str){
 document.getElementById('overlay-close').addEventListener('click', closeDetail);
 overlay.addEventListener('click', (e) => { if (e.target === overlay) closeDetail(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetail(); });
+
+document.getElementById('reset-filters-btn').addEventListener('click', () => {
+  state.search = '';
+  state.statusFilter = 'acik';
+  state.scaleFilter = 'hepsi';
+  state.temaFilter = 'hepsi';
+  document.getElementById('search-input').value = '';
+  document.getElementById('status-filter').value = 'acik';
+  document.getElementById('scale-filter').value = 'hepsi';
+  document.getElementById('tema-filter').value = 'hepsi';
+  renderCards();
+});
 
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
