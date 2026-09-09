@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-09T13:02:01Z",
+  "last_checked": "2026-09-09T13:04:54Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -778,6 +778,118 @@
       "sektor_odagi": "İmalat sanayii - üretim ve istihdam sürekliliği",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
       "notlar": "Genişletilmiş finansman desteği için başvurular 1 Eylül - 31 Ekim 2026 arasında alınmaktadır. KOSGEB verilerine göre Ağustos 2026 itibarıyla 17.843 işletmeye 11,2 milyar TL destek sağlanmış, 685.953 istihdamın korunmasına katkıda bulunulmuştur. Kaynak: KOSGEB duyurusu, 09.09.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "sogreen-kalkinma-ajanslari",
+      "kategori": "ulusal",
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Bölgesel Kalkınma",
+        "Yatırım Desteği"
+      ],
+      "baslik": "SoGreen - Sosyal Kapsayıcı Yeşil Geçiş Geri Ödemeli Finansman Desteği (Kalkınma Ajansları)",
+      "kurum": "Sanayi ve Teknoloji Bakanlığı Kalkınma Ajansları Genel Müdürlüğü + Dünya Bankası",
+      "ozet": "KOBİ'lerin üretim süreçleri ve iş modellerinin yeşil geçişe yönelik yatırımlarına FAİZSİZ geri ödemeli finansman desteği. Dünya Bankası ile 22.10.2024'te imzalanan 400 milyon ABD Doları'lık ikraz anlaşmasıyla, 81 ilde Kalkınma Ajansları aracılığıyla 7 yıl süreyle uygulanacaktır. Ayrıca hızlandırma/kuluçka desteği (hibe) ve yeşil altyapı yatırımları bileşenleri de bulunmaktadır.",
+      "basvuru_baslangic": null,
+      "basvuru_bitis": null,
+      "surekli_acik": false,
+      "cerceve_program": true,
+      "destek_turu": "Faizsiz geri ödemeli finansman (30 ay: ilk 6 ay geri ödemesiz, kalan azami 24 ay eşit taksit)",
+      "destek_miktari": "Ajansa göre değişir; örneğin ÇKA (TR62) programında proje başına azami 6.000.000 TL, program bütçesi 400.000.000 TL",
+      "destek_orani": "Faiz veya kâr payı alınmaz",
+      "kimler_basvurabilir": "Bölgede faaliyet gösteren KOBİ'ler (bazı ajans programlarında mikro işletmeler hariç tutulmaktadır)",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "Toplam 30 ay (destek geri ödeme takvimi dahil)",
+      "sektor_odagi": "Yeşil geçiş yatırımları; desteklenen sektörler bölgeye göre değişir (ör. TR41/BEBKA: otomotiv, makine, tekstil, seramik, gıda)",
+      "kaynak_url": "https://www.sanayi.gov.tr/assets/pdf/kalkinma-faaliyetleri/SoGreenORANGOFRehber.pdf",
+      "notlar": "ÖNEMLİ: Bu 7 yıllık bir çerçeve programdır; her Kalkınma Ajansı kendi bölgesi için ayrı dönemlerde çağrı açar, dolayısıyla tek bir ulusal başvuru tarihi yoktur. 2026 dönemi çağrılarında KAYS son başvuru tarihi 08.05.2026 idi ve bu dönem kapanmıştır. 2026 döneminde çağrı açan bölgeler: TR33 (Zafer), TR41 (BEBKA), TR52 (MEVKA), TR61 (BAKA), TR62 (ÇKA), TR63 (DOĞAKA), TR72 (ORAN), TR81 (BAKKA), TR83 (OKA), TRB1 (FKA). DİKKAT: TR42 (Doğu Marmara/MARKA - Kocaeli, Sakarya, Düzce, Bolu, Yalova) bu listede YER ALMAMAKTADIR. Kendi bölgeniz için yeni dönem açılıp açılmadığını ilgili ajansın sitesinden takip edin. 09.09.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "marka-anadoludakiler-2026",
+      "kategori": "ulusal",
+      "tema": [
+        "Bölgesel Kalkınma",
+        "Tarım & Gıda",
+        "Turizm"
+      ],
+      "baslik": "MARKA - 2026 Anadoludakiler Kırsal Kalkınma Mali Destek Programı (TR42: Kocaeli, Sakarya, Düzce, Bolu, Yalova)",
+      "kurum": "Doğu Marmara Kalkınma Ajansı (MARKA)",
+      "ozet": "TR42 Bölgesi'nde kırsal kesimin ekonomik ve sosyal refahını artırmaya yönelik; tarımsal ürünlerin katma değerinin artırılması, yenilikçi tarım uygulamaları ve kırsal turizmin geliştirilmesi odaklı projelere doğrudan mali destek.",
+      "basvuru_baslangic": "2026-08-31",
+      "basvuru_bitis": "2026-10-19",
+      "surekli_acik": false,
+      "destek_turu": "Hibe (doğrudan mali destek), eş finansman şartlı",
+      "destek_miktari": "Program toplam kaynağı 150.000.000 TL; proje başına asgari 1.000.000 TL - azami 5.000.000 TL",
+      "destek_orani": "Başvuru rehberinde belirlenen oranlar; kırsalda kadın istihdamına katkı sağlayan projelere ve SEGE'de alt kademedeki TR42 ilçelerinde uygulanacak projelere ek puan verilir",
+      "kimler_basvurabilir": "TR42 Düzey 2 Bölgesi'nde (Kocaeli, Sakarya, Düzce, Bolu, Yalova) yasal olarak kayıtlı; kâr amacı güden işletmeler (KOBİ dahil), yerel idareler, üniversiteler, kamu kurumları, meslek kuruluşları, STK'lar, kooperatifler ve birlikler",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma",
+        "STK"
+      ],
+      "proje_suresi": "Başvuru rehberine göre değişir",
+      "sektor_odagi": "Kırsal kalkınma, tarımsal katma değer, 81 İl 81 Ürün kapsamındaki ürünler (Kandıra Hindisi/Kocaeli, Yabanmersini/Sakarya, Konuralp Pirinci/Düzce, Mengen Peyniri/Bolu, Aronya/Yalova), kırsal turizm",
+      "kaynak_url": "https://marka.org.tr/2026-yili-anadoludakiler-kirsal-kalkinma-mali-destek-programi/",
+      "notlar": "İlan tarihi 31 Ağustos 2026; KAYS üzerinden son başvuru 19 Ekim 2026 saat 23:59. Başvurular kaysuygulama.sanayi.gov.tr üzerinden yapılır. Bir başvuru sahibi en fazla 2 projeyle başvurabilir, 1 proje için destek alabilir. Ana yatırım konusu güneş enerjisi sistemi kurulumu veya bungalov yapımı olan projeler desteklenmemektedir. Gebze İrtibat Bürosu: Gebze Ticaret Odası 6. kat. 09.09.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "marka-teknik-destek-2026",
+      "kategori": "ulusal",
+      "tema": [
+        "Bölgesel Kalkınma",
+        "Mentörlük & Danışmanlık",
+        "Kurumsal Kapasite Geliştirme"
+      ],
+      "baslik": "MARKA - 2026 Teknik Destek Programı (TR42: Kocaeli, Sakarya, Düzce, Bolu, Yalova)",
+      "kurum": "Doğu Marmara Kalkınma Ajansı (MARKA)",
+      "ozet": "Bölgedeki kurum ve kuruluşların kurumsal kapasitesini geliştirmeye yönelik eğitim ve danışmanlık hizmetlerinin desteklenmesi. Yararlanıcıya doğrudan nakit ödeme yapılmaz; hizmet Ajans uzmanlarınca veya Ajansın hizmet alımı yoluyla sağlanır.",
+      "basvuru_baslangic": "2026-01-01",
+      "basvuru_bitis": "2026-12-31",
+      "surekli_acik": false,
+      "destek_turu": "Ayni destek (hizmet alımı yoluyla eğitim/danışmanlık); doğrudan nakit ödeme yapılmaz",
+      "destek_miktari": "Program toplam kaynağı 20.000.000 TL; proje başına üst limit önceliğe göre değişir",
+      "destek_orani": "Uygulanmaz (ayni destek)",
+      "kimler_basvurabilir": "TR42 Bölgesi'ndeki kamu kurum ve kuruluşları, yerel yönetimler, üniversiteler, kamu kurumu niteliğindeki meslek kuruluşları, STK'lar, birlikler ve kooperatifler (öncelik bazında uygunluk değişir)",
+      "olcek": [
+        "Üniversite/Araştırma",
+        "STK"
+      ],
+      "proje_suresi": "Azami 6 ay (sözleşme imzasından itibaren)",
+      "sektor_odagi": "Kurumsal kapasite geliştirme, eğitim ve danışmanlık",
+      "kaynak_url": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
+      "notlar": "Başvurular yıl boyunca ikişer aylık dönemler halinde değerlendirilir (Ocak-Şubat, Mart-Nisan, Mayıs-Haziran, Temmuz-Ağustos, Eylül-Ekim, Kasım-Aralık). Şu an Eylül-Ekim dönemi başvurularına açıktır. Başvurular KAYS üzerinden yapılır. NOT: Bu program ağırlıklı olarak kamu/STK/üniversite odaklıdır, doğrudan firma yatırımı finanse etmez. 09.09.2026 tarihinde teyit edildi."
+    },
+    {
+      "id": "kalkinma-ajanslari-genel",
+      "kategori": "ulusal",
+      "tema": [
+        "Bölgesel Kalkınma",
+        "Genel Sektör"
+      ],
+      "baslik": "Kalkınma Ajansları Destek Programları (26 Bölgesel Ajans - Genel Bilgi)",
+      "kurum": "Sanayi ve Teknoloji Bakanlığı Kalkınma Ajansları Genel Müdürlüğü",
+      "ozet": "Türkiye'de 26 bölgesel Kalkınma Ajansı bulunmakta ve her biri kendi bölgesi (Düzey 2) için bağımsız takvimlerle Mali Destek, Teknik Destek, Fizibilite Desteği ve Güdümlü Proje çağrıları açmaktadır. Tüm başvurular KAYS (Kalkınma Ajansları Yönetim Sistemi) üzerinden yapılır.",
+      "basvuru_baslangic": null,
+      "basvuru_bitis": null,
+      "surekli_acik": false,
+      "cerceve_program": true,
+      "destek_turu": "Ajans ve programa göre: hibe (mali destek), ayni destek (teknik destek), faizsiz geri ödemeli finansman (SoGreen)",
+      "destek_miktari": "Programa göre değişir; mali destek programlarında tipik olarak proje başına 1-5 milyon TL aralığı",
+      "destek_orani": "Programa göre değişir; mali desteklerde genellikle eş finansman şartı vardır",
+      "kimler_basvurabilir": "Genel olarak: kâr amacı güden işletmeler (KOBİ dahil), yerel idareler, üniversiteler, kamu kurumları, meslek kuruluşları, STK'lar, kooperatifler ve birlikler. Başvuru sahibinin ilgili ajansın bölgesinde kayıtlı olması şarttır.",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma",
+        "STK"
+      ],
+      "proje_suresi": "Programa göre değişir",
+      "sektor_odagi": "Her ajansın bölge planı ve Sonuç Odaklı Programlarına göre değişir",
+      "kaynak_url": "https://kaysuygulama.sanayi.gov.tr",
+      "notlar": "BU KAYIT BİR ÇAĞRI DEĞİL, YÖNLENDİRME AMAÇLIDIR. 26 ajansın tüm çağrılarını bu radarda eksiksiz takip etmek mümkün değildir; kendi bölgenizin ajansının sitesini düzenli takip etmeniz önerilir. Kocaeli/Gebze için ilgili ajans: Doğu Marmara Kalkınma Ajansı (MARKA), marka.org.tr, TR42 Bölgesi. Eylül 2026 itibarıyla diğer ajanslarda da açık çağrılar bulunmaktadır (ör. İSTKA Yaratıcı Ekonomi, KUZKA Sosyal Girişimcilik son başvuru 2 Ekim 2026, AHİKA Sanayide Verimlilik 31 Aralık 2026, Ankara KA Kırsal Kalkınma 19 Ekim 2026)."
     }
   ]
 }
