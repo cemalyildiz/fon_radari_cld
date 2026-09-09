@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-09T12:58:28Z",
+  "last_checked": "2026-09-09T13:02:01Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -24,7 +24,7 @@
       ],
       "sektor_odagi": "Tüm imalat sektörleri - yeşil dönüşüm farkındalık ve yol haritası",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
-      "notlar": "Program bütçesi (20 milyon USD) tükenene kadar çağrı açık kalacak şekilde tasarlanmıştır; TÜBİTAK yeni bir duyuru yapana kadar sürekli açık kabul edilmektedir."
+      "notlar": "Program bütçesi tükenene kadar açık kalacak şekilde tasarlanmıştır; yürürlükteki çağrı '1831 2024-1' olup çağrı duyurusu 15.05.2025 tarihinde güncellenmiştir. TÜBİTAK'ın resmi sayfasından 09.09.2026 tarihinde teyit edildi: destek üst limiti 310.000 TL, destek oranı %90, süre 3-6 ay. Başvuru, TÜBİTAK'ın onayladığı Çözüm Ortağı kuruluşlar aracılığıyla yapılır (Gebze Teknik Üniversitesi TTO ve 3PMETRICS dahil)."
     },
     {
       "id": "tubitak-1832-2026-1",
@@ -190,25 +190,24 @@
         "Sanayi Yatırımı",
         "Kritik Hammadde"
       ],
-      "baslik": "Teknoloji Hamlesi Programı - İleri Malzeme Teknolojileri ve Kritik Hammaddeler Çağrısı",
+      "baslik": "Teknoloji Hamlesi Programı - İleri Malzeme Teknolojileri ve Kritik Hammaddeler Çağrısı (2026, ön başvuru kapandı)",
       "kurum": "Sanayi ve Teknoloji Bakanlığı (Teknoloji Odaklı Sanayi Hamlesi Programı)",
       "ozet": "İleri malzeme teknolojileri, kritik hammaddeler ve yüksek katma değerli üretime yönelik Ar-Ge odaklı sanayi yatırımlarının desteklenmesi; TÜBİTAK, KOSGEB ve yatırım teşviklerinin tek çatı altında birleştirilmesi.",
       "basvuru_baslangic": "2026-05-20",
-      "basvuru_bitis": null,
+      "basvuru_bitis": "2026-07-31",
       "surekli_acik": false,
       "destek_turu": "Yatırım teşviki + Ar-Ge desteği kombinasyonu (Tek Pencere Sistemi)",
       "destek_miktari": "Proje bazlı; asgari yatırım tutarı 30.000.000 TL (yalnızca yazılım projelerinde 10.000.000 TL)",
       "destek_orani": "Proje ve bölgeye göre değişken",
-      "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri (ölçek sınırlaması yok, öncelikli ürün listesine uygunluk aranır)",
+      "kimler_basvurabilir": "Yalnızca Türkiye'de yerleşik sermaye şirketleri. Yatırımcının (veya ortaklarının) son mali yıl bilançosundaki ödenmiş sermaye/özkaynak tutarının proje büyüklüğünün belirli bir oranı düzeyinde olması şartı aranmaktadır.",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "İleri malzeme, kritik hammadde, yüksek katma değerli üretim",
-      "kaynak_url": "https://www.apsisdanismanlik.com/blog/teknoloji-hamlesi-programi-2026-cagrisi-ile-tubitak-kosgeb-ve-yatirim-tesvik-destekleri/",
-      "notlar": "Başvuru için projenin çağrının 'Öncelikli Ürün Listesi'nde yer alan koşulları sağlaması gerekir. Ön başvuru / kesin başvuru olmak üzere iki aşamalıdır; www.hamle.gov.tr üzerinden yürütülür.",
-      "cerceve_program": true
+      "kaynak_url": "https://www.hamle.gov.tr/Home/CagriPlani",
+      "notlar": "DÜZELTME: Bu çağrı daha önce hatalı olarak 'çerçeve program' işaretlenmişti. Çağrı 20 Mayıs 2026'da açılmış, ÖN BAŞVURU süreci 31 Temmuz 2026'da (23:59) sona ermiştir. Ön başvurusu olumlu tamamlanan projeler için detaylı fizibilite istenen KESİN BAŞVURU aşaması devam etmektedir; yeni ön başvuru alınmamaktadır. Çağrı kapsamında 73 ürün, 86 yenilikçi teknoloji alanı ve 34 kritik hammadde tanımlanmıştır. Yeni dönem çağrıları için hamle.gov.tr/Home/CagriPlani takip edilmelidir. 09.09.2026 tarihinde teyit edildi."
     },
     {
       "id": "hamle-biyoteknoloji",
@@ -219,25 +218,24 @@
         "Sürdürülebilir Tarım",
         "Yeşil Dönüşüm"
       ],
-      "baslik": "Teknoloji Hamlesi Programı - Biyoteknoloji ve Sürdürülebilir Yaşam Teknolojileri Çağrısı",
+      "baslik": "Teknoloji Hamlesi Programı - Biyoteknoloji ve Sürdürülebilir Yaşam Teknolojileri Çağrısı (2026, ön başvuru kapandı)",
       "kurum": "Sanayi ve Teknoloji Bakanlığı (Teknoloji Odaklı Sanayi Hamlesi Programı)",
       "ozet": "Biyoteknoloji, akıllı yaşam teknolojileri, sağlık teknolojileri, sürdürülebilir tarım, gıda teknolojileri ve döngüsel ekonomi alanlarında Ar-Ge odaklı sanayi yatırımlarının desteklenmesi.",
       "basvuru_baslangic": "2026-05-20",
-      "basvuru_bitis": null,
+      "basvuru_bitis": "2026-07-31",
       "surekli_acik": false,
       "destek_turu": "Yatırım teşviki + Ar-Ge desteği kombinasyonu (Tek Pencere Sistemi)",
       "destek_miktari": "Proje bazlı; asgari yatırım tutarı 30.000.000 TL (yalnızca yazılım projelerinde 10.000.000 TL)",
       "destek_orani": "Proje ve bölgeye göre değişken",
-      "kimler_basvurabilir": "Türkiye'de yerleşik sermaye şirketleri (ölçek sınırlaması yok, öncelikli ürün listesine uygunluk aranır)",
+      "kimler_basvurabilir": "Yalnızca Türkiye'de yerleşik sermaye şirketleri. Yatırımcının (veya ortaklarının) son mali yıl bilançosundaki ödenmiş sermaye/özkaynak tutarının proje büyüklüğünün belirli bir oranı düzeyinde olması şartı aranmaktadır.",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "Biyoteknoloji, sağlık, sürdürülebilir tarım, gıda teknolojileri, döngüsel ekonomi, iklim teknolojileri",
-      "kaynak_url": "https://www.plusglobal.com.tr/",
-      "notlar": "Başvuru için projenin çağrının 'Öncelikli Ürün Listesi'nde yer alan koşulları sağlaması gerekir. Ön başvuru / kesin başvuru olmak üzere iki aşamalıdır; www.hamle.gov.tr üzerinden yürütülür.",
-      "cerceve_program": true
+      "kaynak_url": "https://www.hamle.gov.tr/Home/CagriPlani",
+      "notlar": "DÜZELTME: Bu çağrı daha önce hatalı olarak 'çerçeve program' işaretlenmişti. Çağrı 20 Mayıs 2026'da açılmış, ÖN BAŞVURU süreci 31 Temmuz 2026'da (23:59) sona ermiştir. Ön başvurusu olumlu tamamlanan projeler için detaylı fizibilite istenen KESİN BAŞVURU aşaması devam etmektedir; yeni ön başvuru alınmamaktadır. Çağrı kapsamında 73 ürün, 86 yenilikçi teknoloji alanı ve 34 kritik hammadde tanımlanmıştır. Yeni dönem çağrıları için hamle.gov.tr/Home/CagriPlani takip edilmelidir. 09.09.2026 tarihinde teyit edildi."
     },
     {
       "id": "horizon-cl5-2026",
@@ -249,9 +247,9 @@
       ],
       "baslik": "Horizon Europe - Cluster 5: İklim, Enerji ve Mobilite (2026-27 Çalışma Programı)",
       "kurum": "Avrupa Komisyonu (Horizon Europe)",
-      "ozet": "İklim değişikliğiyle mücadele, temiz enerji, endüstriyel dekarbonizasyon, sürdürülebilir binalar ve mobilite alanlarında araştırma-inovasyon projeleri; 6 hedef alt tema (Destination) altında 47'den fazla çağrı konusu.",
-      "basvuru_baslangic": "2025-12-01",
-      "basvuru_bitis": "2027-12-31",
+      "ozet": "DİKKAT: Bu tek bir çağrı DEĞİL, altında 47'den fazla ayrı çağrı konusu bulunan bir ÇALIŞMA PROGRAMIDIR. Her alt çağrının kendi açılış ve kapanış tarihi vardır (Aralık 2025 - Ağustos 2027 arası açılış, Mart 2026 - Aralık 2027 arası kapanış). İklim değişikliğiyle mücadele, temiz enerji, endüstriyel dekarbonizasyon, sürdürülebilir binalar ve mobilite alanlarını kapsar.",
+      "basvuru_baslangic": null,
+      "basvuru_bitis": null,
       "surekli_acik": false,
       "destek_turu": "Hibe (AB fonu)",
       "destek_miktari": "Çağrıya göre değişken; çoğu proje 3-10 milyon Euro, bazı çağrılarda 100 milyon Euro'ya kadar",
@@ -265,7 +263,8 @@
       "proje_suresi": "Çağrıya göre değişken",
       "sektor_odagi": "Enerji dönüşümü, endüstriyel dekarbonizasyon, sürdürülebilir binalar, temiz mobilite",
       "kaynak_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
-      "notlar": "Çağrılar tek tek farklı açılış/kapanış tarihlerine sahiptir (Aralık 2025 - Ağustos 2027 arası açılış, Mart 2026 - Aralık 2027 arası kapanış). Her alt çağrı için EU Funding & Tenders Portal'dan güncel tarih teyit edilmelidir."
+      "notlar": "DÜZELTME: Bu kayıt daha önce tek bir çağrı gibi 31.12.2027 kapanış tarihiyle gösteriliyordu; bu yanıltıcıydı. İlgilendiğiniz spesifik alt çağrının güncel açılış/kapanış tarihini AB Funding & Tenders Portal üzerinden ('Horizon Europe Cluster 5' filtresiyle) kontrol etmeniz gerekir. 09.09.2026 tarihinde teyit edildi.",
+      "cerceve_program": true
     },
     {
       "id": "life-2026",
@@ -293,7 +292,7 @@
       "proje_suresi": "Çağrıya göre değişken",
       "sektor_odagi": "Döngüsel ekonomi, sıfır kirlilik, doğa ve biyoçeşitlilik, iklim değişikliğine uyum/azaltım, temiz enerji geçişi",
       "kaynak_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
-      "notlar": "Çoğu çağrının son tarihi 16 veya 22 Eylül 2026. Stratejik doğa projeleri (SNaP/SIP) için konsept notu son tarihi 3 Eylül 2026, tam başvuru için 4 Mart 2027."
+      "notlar": "09.09.2026 tarihinde CINEA resmi sayfasından teyit edildi. Standart Aksiyon Projeleri (SAP) için son tarih 22 Eylül 2026. Diğer tipler: Temiz Enerji Geçişi Diğer Aksiyon Hibeleri (OAG) 16 Eylül 2026; Stratejik Doğa/Entegre Projeler (SNaP/SIP) konsept notu 3 Eylül 2026 (geçti), tam başvuru 4 Mart 2027; Çerçeve Ortaklık Anlaşmaları (FPA OG) 8 Eylül 2026."
     },
     {
       "id": "erasmus-cove-2026",
@@ -614,7 +613,7 @@
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "Biyoteknoloji, sağlık, tarım ve veterinerlik, ileri tanı teknolojileri",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/1719-eureka-network-biotechnology-2026-call-open-application",
-      "notlar": "İki aşamalı: önce uluslararası Eureka başvuru formu, ardından TÜBİTAK 1719 ulusal çağrısına 18 Kasım 2026'ya kadar ulusal başvuru yapılmalıdır."
+      "notlar": "İki aşamalı: önce uluslararası Eureka başvuru formu, ardından TÜBİTAK 1719 ulusal çağrısına 18 Kasım 2026'ya kadar ulusal başvuru yapılmalıdır. 09.09.2026 tarihinde tekrar teyit edildi: ulusal başvuru son tarihi 18 Kasım 2026."
     },
     {
       "id": "eureka-hafifletme-2026",
@@ -642,7 +641,7 @@
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "İleri malzeme, hafif yapılar, otomotiv/havacılık gibi ağırlık-kritik sektörler, dijitalleşme",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-network-lightweighting-technologies-2026-call-open-applications",
-      "notlar": "İki aşamalı: önce uluslararası Eureka başvuru formu, ardından TÜBİTAK 1719 ulusal çağrısına 2 Aralık 2026'ya kadar ulusal başvuru yapılmalıdır."
+      "notlar": "İki aşamalı: önce uluslararası Eureka başvuru formu, ardından TÜBİTAK 1719 ulusal çağrısına 2 Aralık 2026'ya kadar ulusal başvuru yapılmalıdır. 09.09.2026 tarihinde tekrar teyit edildi: ulusal başvuru son tarihi 2 Aralık 2026."
     },
     {
       "id": "eureka-afet-direnc-2026",
