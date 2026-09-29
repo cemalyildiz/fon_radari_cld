@@ -72,6 +72,19 @@ body{
 
 main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
 
+.alert-banner{
+  margin-top:20px; padding:14px 18px; border-radius:10px;
+  background:rgba(242,193,94,0.08); border:1px solid rgba(242,193,94,0.32);
+  font-size:0.88rem; line-height:1.55; color:var(--text);
+}
+.alert-banner[hidden]{ display:none !important; }
+.alert-banner strong{ color:var(--amber); font-family:var(--mono); font-size:0.7rem;
+  text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:8px; }
+.alert-banner ul{ margin:0; padding-left:18px; }
+.alert-banner li{ margin:3px 0; }
+.alert-banner a{ color:var(--signal); text-decoration:none; }
+.alert-banner a:hover{ text-decoration:underline; }
+
 .intro{padding:56px 0 32px; max-width:720px;}
 .intro h1{
   font-size:clamp(1.7rem, 3vw, 2.4rem);

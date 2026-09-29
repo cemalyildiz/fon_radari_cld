@@ -259,11 +259,32 @@ function relativeTime(iso){
   return `${days} gün önce`;
 }
 
+function renderAlertBanner(){
+  const banner = document.getElementById('alert-banner');
+  if (!banner || !state.data) return;
+  // Uyarılar client-side hesaplanır: otomasyon çalışmasa bile her zaman doğru kalır
+  const yaklasan = state.data.calls
+    .map(c => ({ c, status: computeStatus(c), gun: daysUntil(c.basvuru_bitis) }))
+    .filter(x => x.status === 'yakinda-kapaniyor')
+    .sort((a, b) => a.gun - b.gun);
+
+  if (!yaklasan.length){ banner.hidden = true; return; }
+
+  const items = yaklasan.map(({c, gun}) => {
+    const sure = gun <= 0 ? 'bugün son gün' : `${gun} gün kaldı`;
+    return `<li><a href="${c.kaynak_url}" target="_blank" rel="noopener">${escapeHtml(c.baslik)}</a> — <strong style="display:inline;font-size:0.8rem;text-transform:none;letter-spacing:0">${sure}</strong></li>`;
+  }).join('');
+
+  banner.innerHTML = `<strong>Son tarih yaklaşıyor (${yaklasan.length} çağrı)</strong><ul>${items}</ul>`;
+  banner.hidden = false;
+}
+
 fetch('data/calls.json?_=' + Date.now())
   .then(res => res.json())
   .then(data => {
     state.data = data;
     populateTemaFilter(data.calls);
+    renderAlertBanner();
     renderCards();
     const label = document.getElementById('last-checked-label');
     label.textContent = `veri kontrolü: ${relativeTime(data.last_checked)}`;
