@@ -237,3 +237,23 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
   .detail-grid{ grid-template-columns:1fr; }
   .topbar-inner{ flex-direction:column; align-items:flex-start; gap:8px; }
 }
+
+/* ---------- Otomatik tarama adaylari (dogrulanmamis) ---------- */
+.kesif{ margin:2.5rem 0 1rem; border:1px dashed var(--line); border-radius:12px; background:var(--panel); }
+.kesif summary{ cursor:pointer; padding:1rem 1.2rem; display:flex; flex-wrap:wrap; align-items:center; gap:.6rem; list-style:none; }
+.kesif summary::-webkit-details-marker{ display:none; }
+.kesif summary::before{ content:'▸'; color:var(--text-dim); transition:transform .15s; }
+.kesif details[open] summary::before{ transform:rotate(90deg); }
+.kesif-baslik{ font-weight:600; }
+.kesif-etiket{ font-family:var(--mono); font-size:.7rem; text-transform:uppercase; letter-spacing:.06em; color:var(--amber); border:1px solid var(--amber); border-radius:4px; padding:.1rem .4rem; }
+.kesif-sayi{ color:var(--text-dim); font-size:.85rem; margin-left:auto; }
+.kesif-uyari{ margin:0 1.2rem 1rem; padding:.8rem 1rem; border-left:3px solid var(--amber); background:rgba(242,193,94,.06); color:var(--text-dim); font-size:.88rem; line-height:1.5; }
+.kesif-uyari strong{ color:var(--text); }
+.kesif-liste{ list-style:none; margin:0; padding:0 1.2rem 1.2rem; display:grid; gap:.5rem; }
+.kesif-oge{ padding:.7rem .9rem; border:1px solid var(--line); border-radius:8px; background:var(--panel-2); display:flex; flex-direction:column; gap:.25rem; min-width:0; }
+.kesif-oge a{ color:var(--text); text-decoration:none; font-weight:500; overflow-wrap:anywhere; }
+.kesif-oge a:hover{ color:var(--signal); text-decoration:underline; }
+.kesif-meta{ font-family:var(--mono); font-size:.72rem; color:var(--text-dim); }
+.kesif-iliski{ font-size:.78rem; color:var(--signal-dim); }
+.kesif-oge-iliskili{ opacity:.7; }
+@media (max-width:600px){ .kesif-sayi{ margin-left:0; width:100%; } }

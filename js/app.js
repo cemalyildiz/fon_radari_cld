@@ -279,6 +279,87 @@ function renderAlertBanner(){
   banner.hidden = false;
 }
 
+/* ---------- Otomatik tarama adaylari (dogrulanmamis) ---------- */
+
+function kesifAnahtar(s){
+  return (s || '').toLocaleLowerCase('tr-TR')
+    .replace(/ı/g,'i').replace(/ş/g,'s').replace(/ğ/g,'g')
+    .replace(/ü/g,'u').replace(/ö/g,'o').replace(/ç/g,'c')
+    .replace(/[^a-z0-9]+/g,' ').trim();
+}
+const KESIF_GENEL = new Set(['destek','programi','program','kosgeb','tubitak','cagrisi','cagri','ve','yili']);
+
+// Adayla iliskili olabilecek dogrulanmis kaydi bulur. Kesin eslesme iddia etmez;
+// sadece kullaniciyi "bu zaten listede olabilir" diye uyarmak icindir.
+function kesifIliskili(aday, calls){
+  const kod = (aday.baslik.match(/^\s*(\d{4})\b/) || [])[1];
+  // Birden fazla eslesme varsa acik/surekli kaydi, kapanmis kayda tercih et
+  // Hepsi kapaliysa basvuru bitis tarihi en yeni olani sec
+  const enIyi = list => {
+    if (!list.length) return null;
+    const acik = list.find(c => !['kapali','kaldirildi'].includes(computeStatus(c)));
+    if (acik) return acik;
+    return [...list].sort((x, y) => String(y.basvuru_bitis || '').localeCompare(String(x.basvuru_bitis || '')))[0];
+  };
+  if (kod){
+    const r = enIyi(calls.filter(c => new RegExp('\\b' + kod + '\\b').test(c.baslik + ' ' + c.id)));
+    if (r) return r;
+  }
+  const a = kesifAnahtar(aday.baslik).split(' ').filter(w => w.length > 2 && !KESIF_GENEL.has(w));
+  if (!a.length) return null;
+  return enIyi(calls.filter(c => {
+    const ck = ' ' + kesifAnahtar(c.baslik) + ' ';
+    return a.every(w => ck.includes(' ' + w + ' '));
+  }));
+}
+
+function kesifTur(aday){
+  const b = kesifAnahtar(aday.baslik);
+  if (/duyuru/i.test(aday.kaynak || '') || /\bacildi\b|\bbasladi\b/.test(b)) return 'Duyuru';
+  return 'Program sayfası';
+}
+
+function guvenliUrl(u){
+  if (!/^https?:\/\//i.test(u || '')) return '#';
+  return u.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function loadKesif(calls){
+  fetch('data/discovered.json?_=' + Date.now())
+    .then(r => r.ok ? r.json() : null)
+    .then(d => {
+      if (!d || !Array.isArray(d.adaylar)) return;
+      const dogrulanmisUrl = new Set(calls.map(c => (c.kaynak_url || '').split(/[?#]/)[0].replace(/\/$/, '')));
+      const adaylar = d.adaylar
+        .filter(a => a.durum === 'yeni' && a.url && !dogrulanmisUrl.has(a.url.split(/[?#]/)[0].replace(/\/$/, '')))
+        .map(a => ({ ...a, iliskili: kesifIliskili(a, calls), tur: kesifTur(a) }))
+        // once listede karsiligi olmayanlar, sonra duyurular, sonra en yeni gorulen
+        .sort((x, y) =>
+          (!!x.iliskili - !!y.iliskili) ||
+          ((x.tur === 'Program sayfası') - (y.tur === 'Program sayfası')) ||
+          String(y.ilk_gorulme).localeCompare(String(x.ilk_gorulme)));
+      if (!adaylar.length) return;
+
+      const eslesmeyen = adaylar.filter(a => !a.iliskili).length;
+      document.getElementById('kesif-sayi').textContent =
+        `${adaylar.length} sayfa · ${eslesmeyen} tanesinin listede karşılığı yok`;
+
+      document.getElementById('kesif-liste').innerHTML = adaylar.map(a => {
+        const gun = (a.ilk_gorulme || '').slice(0, 10);
+        const iliski = a.iliskili
+          ? `<span class="kesif-iliski">Sitede ilgili kayıt var: ${escapeHtml(a.iliskili.baslik)}</span>`
+          : '';
+        return `<li class="kesif-oge${a.iliskili ? ' kesif-oge-iliskili' : ''}">
+          <a href="${guvenliUrl(a.url)}" target="_blank" rel="noopener">${escapeHtml(a.baslik)}</a>
+          <span class="kesif-meta">${escapeHtml(a.tur)} · ${escapeHtml(a.kaynak || '')}${gun ? ' · ilk görülme: ' + escapeHtml(gun) : ''}</span>
+          ${iliski}
+        </li>`;
+      }).join('');
+      document.getElementById('kesif').hidden = false;
+    })
+    .catch(err => console.warn('Tarama verisi yüklenemedi:', err));
+}
+
 fetch('data/calls.json?_=' + Date.now())
   .then(res => res.json())
   .then(data => {
@@ -288,6 +369,7 @@ fetch('data/calls.json?_=' + Date.now())
     renderCards();
     const label = document.getElementById('last-checked-label');
     label.textContent = `veri kontrolü: ${relativeTime(data.last_checked)}`;
+    loadKesif(data.calls);
   })
   .catch(err => {
     grid.innerHTML = '<p class="empty-state">Veri yüklenemedi. Lütfen sayfayı yenileyin.</p>';
