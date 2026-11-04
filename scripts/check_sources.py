@@ -99,9 +99,16 @@ def tarih_bicimleri(iso):
     ]
 
 
+def tr_katla(s):
+    """Turkce harf/buyuk-kucuk farkini yok sayan karsilastirma bicimi.
+    str.lower() Turkce bilmez ('ARALIK' -> 'aralik'), bu yuzden once eslenir."""
+    s = s.replace("İ", "i").replace("I", "ı").lower()
+    return s.translate(str.maketrans("ıişğüöç", "iisguoc"))
+
+
 def tarih_sayfada_mi(iso, metin):
-    m = metin.lower()
-    return any(b.lower() in m for b in tarih_bicimleri(iso))
+    m = tr_katla(metin)
+    return any(tr_katla(b) in m for b in tarih_bicimleri(iso))
 
 
 def getir(url):

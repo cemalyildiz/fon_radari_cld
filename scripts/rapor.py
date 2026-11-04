@@ -44,7 +44,8 @@ def main():
         satirlar.append("- [ ] **%s** — [kaynak](%s)" % (b, s["url"]))
         for x in s.get("bulgular", []):
             satirlar.append("  - %s" % x)
-        anahtarlar.append("izleme:%s:%s" % (cid, s.get("ozet", "")))
+        # Anahtar bulgunun kendisidir (sayfa ozeti degil): ayni bulgu her gun yeniden bildirilmez
+        anahtarlar.append("izleme:%s:%s" % (cid, "|".join(b.split("“")[0] for b in s.get("bulgular", []))))
     if not yeniden:
         satirlar.append("_Yok._")
 

@@ -86,7 +86,7 @@ jobs:
               {
                 echo "Rapora **$(wc -l < /tmp/yeni.txt)** yeni madde eklendi ($(date -u +%Y-%m-%d)):"
                 echo
-                sed -e 's/^izleme:\([^:]*\):.*/- Kaynak sayfası değişti: `\1`/' \
+                sed -e 's/^izleme:\([^:]*\):\(.*\)/- Yeniden teyit gerekli: `\1` — \2/' \
                     -e 's/^dogrulama:\([^:]*\):.*/- Teyit uyarısı: `\1`/' \
                     -e 's/^kesif:\(.*\)/- Yeni sayfa: \1/' /tmp/yeni.txt | head -40
               } > /tmp/yorum.md
