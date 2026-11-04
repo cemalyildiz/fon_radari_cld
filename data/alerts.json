@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:50:05Z",
+  "generated_at": "2026-11-04T20:20:34Z",
   "esik_gun": 14,
   "yaklasan_son_tarihler": [
     {
@@ -17,14 +17,6 @@
       "basvuru_bitis": "2026-11-13",
       "kalan_gun": 9,
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi"
-    },
-    {
-      "id": "eureka-biyoteknoloji-2026",
-      "baslik": "1719 - Eureka Network Biyoteknoloji 2026 Çağrısı",
-      "kurum": "EUREKA Sekretaryası + TÜBİTAK (16 ülke katılımıyla)",
-      "basvuru_bitis": "2026-11-18",
-      "kalan_gun": 14,
-      "kaynak_url": "https://tubitak.gov.tr/en/announcement/1719-eureka-network-biotechnology-2026-call-open-application"
     }
   ]
 }

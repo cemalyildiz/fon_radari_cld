@@ -1,0 +1,32 @@
+izleme:tubitak-1707:8bd6d41d515d402d
+dogrulama:tubitak-1507-2026-2:kismi teyit: Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli.
+dogrulama:ticaret-urge:kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı.
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1501-tubitak-sanayi-ar-ge-projeleri-destekleme-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1503-proje-pazarlari-destekleme-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1505-universite-sanayi-isbirligi-destek-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1507-tubitak-kobi-ar-ge-baslangic-destek-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1511-tubitak-oncelikli-alanlar-arastirma-teknoloji-gelistirme-ve-yenilik-p-d-pteknoloji-odakli-sanayi-hamlesi-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1513-teknoloji-transfer-ofisleri-destekleme-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1514-girisim-sermayesi-destekleme-programi-tech-investr
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1515-oncul-ar-ge-laboratuvarlari-destekleme-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1601-yenilik-girisimcilik-alanlarinda-kapasite-artirilmasina-yonelik-dp
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1602-tubitak-patent-destek-programi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1612-bigg-1asama-uygulayici-kurulus-cagrisi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1613-teknoloji-transferi-profesyoneli-cagrisi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1701-ar-ge-proje-degerlendirme-ve-izleme-cagrisi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1702-patent-tabanli-teknoloji-transferi-destekleme-cagrisi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1711-yapay-zeka-ekosistem-cagrisi
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1812-yatirim-tabanli-girisimcilik-destek-programi-bigg-yatirim
+kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1832-sanayide-yesil-donusum-cagrisi
+kesif:https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1707-siparis-ar-ge-2026-yili-3-cagrisi-acildi
+kesif:https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi
+kesif:https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi
+kesif:https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi
+kesif:https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi
+kesif:https://tubitak.gov.tr/tr/duyuru/biodiversa-2026-yili-yeni-ekosistemler-biyocesitlilik-sosyo-ekolojik-sonuclar-ve-gelecekteki-seyirler-biodivfuture-baslikli-cagrisi-acildi
+kesif:https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi
+kesif:https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi
+kesif:https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9144/kobi-dijital-donusum-destek-programi
+kesif:https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9165/yonde-yonderlik-ve-degerlendirme-destek-programi
+kesif:https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9297/teknoloji-merkezi-destek-programi
+kesif:https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9327/sektorel-gelisim-merkezi-segem-destek-programi
