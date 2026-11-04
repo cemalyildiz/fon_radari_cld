@@ -12,24 +12,37 @@ const emptyState = document.getElementById('empty-state');
 const overlay = document.getElementById('detail-overlay');
 const overlayContent = document.getElementById('overlay-content');
 
+/* Tarihler kurum duyurularindaki gibi saatsiz (YYYY-MM-DD) tutulur ve
+   Turkiye saatine gore yorumlanir. Saatsiz bir bitis tarihi o gunun SONU
+   (23:59:59 TSI) kabul edilir; aksi halde tarayici UTC gece yarisi (03:00 TSI)
+   sayar ve cagri son basvuru gunu kapanmis gorunur. */
+const TR_OFFSET = '+03:00';
+function saatsizMi(d){ return /^\d{4}-\d{2}-\d{2}$/.test(d || ''); }
+function bitisZamani(d){ return new Date(saatsizMi(d) ? d + 'T23:59:59' + TR_OFFSET : d); }
+function baslangicZamani(d){ return new Date(saatsizMi(d) ? d + 'T00:00:00' + TR_OFFSET : d); }
+function trBugun(){
+  // Turkiye'deki bugunun tarihi (YYYY-MM-DD), kullanicinin saat diliminden bagimsiz
+  return new Intl.DateTimeFormat('en-CA', { timeZone:'Europe/Istanbul', year:'numeric', month:'2-digit', day:'2-digit' }).format(new Date());
+}
+
 function computeStatus(call){
-  const now = new Date();
   if (call.yururlukten_kaldirildi) return 'kaldirildi';
   if (call.cerceve_program) return 'cerceve';
   if (call.surekli_acik) return 'acik';
   if (!call.basvuru_bitis) return 'acik';
-  const end = new Date(call.basvuru_bitis);
-  if (now > end) return 'kapali';
-  const daysLeft = (end - now) / (1000*60*60*24);
-  if (daysLeft <= 14) return 'yakinda-kapaniyor';
+  if (new Date() > bitisZamani(call.basvuru_bitis)) return 'kapali';
+  if (daysUntil(call.basvuru_bitis) <= 14) return 'yakinda-kapaniyor';
   return 'acik';
 }
 
+// Bitis gunune kalan TAKVIM gunu (0 = bugun son gun)
 function daysUntil(dateStr){
   if (!dateStr) return null;
-  const end = new Date(dateStr);
-  const now = new Date();
-  return Math.ceil((end - now) / (1000*60*60*24));
+  const bitisGun = dateStr.slice(0, 10);
+  return Math.round((Date.parse(bitisGun + 'T00:00:00Z') - Date.parse(trBugun() + 'T00:00:00Z')) / 86400000);
+}
+function kalanMetni(days){
+  return days === 0 ? 'bugün son gün' : `${days} gün kaldı`;
 }
 
 function statusLabel(status, call){
@@ -38,8 +51,8 @@ function statusLabel(status, call){
   if (call.surekli_acik) return { text: 'Sürekli Açık', cls: 'badge-surekli' };
   const days = daysUntil(call.basvuru_bitis);
   switch(status){
-    case 'acik': return { text: days !== null ? `Açık · ${days} gün kaldı` : 'Açık', cls: 'badge-acik' };
-    case 'yakinda-kapaniyor': return { text: days !== null ? `Yakında Kapanıyor · ${days} gün` : 'Yakında Kapanıyor', cls: 'badge-yakinda' };
+    case 'acik': return { text: days !== null ? `Açık · ${kalanMetni(days)}` : 'Açık', cls: 'badge-acik' };
+    case 'yakinda-kapaniyor': return { text: days !== null ? `Yakında Kapanıyor · ${kalanMetni(days)}` : 'Yakında Kapanıyor', cls: 'badge-yakinda' };
     case 'kapali': return { text: 'Kapalı / Arşiv', cls: 'badge-kapali' };
     default: return { text: 'Bilinmiyor', cls: '' };
   }
@@ -47,14 +60,14 @@ function statusLabel(status, call){
 
 function fmtDate(d){
   if (!d) return '—';
-  const date = new Date(d);
-  return date.toLocaleDateString('tr-TR', { day:'2-digit', month:'short', year:'numeric' });
+  const date = saatsizMi(d) ? new Date(d + 'T12:00:00' + TR_OFFSET) : new Date(d);
+  return date.toLocaleDateString('tr-TR', { day:'2-digit', month:'short', year:'numeric', timeZone:'Europe/Istanbul' });
 }
 
 function progressPct(call){
   if (call.surekli_acik || !call.basvuru_baslangic || !call.basvuru_bitis) return null;
-  const start = new Date(call.basvuru_baslangic).getTime();
-  const end = new Date(call.basvuru_bitis).getTime();
+  const start = baslangicZamani(call.basvuru_baslangic).getTime();
+  const end = bitisZamani(call.basvuru_bitis).getTime();
   const now = Date.now();
   if (now <= start) return 0;
   if (now >= end) return 100;
@@ -83,8 +96,8 @@ function matchesFilters(call){
   if (state.statusFilter === 'acik-veya-yakinda'){
     if (status !== 'acik' && status !== 'yakinda-kapaniyor') return false;
   } else if (state.statusFilter === 'acik'){
-    // "Açık" görünümünde çerçeve programlar da gösterilir (dönemsel olarak yeniden açılırlar)
-    if (status !== 'acik' && status !== 'cerceve') return false;
+    // "Açık" görünümü: açık + yakında kapanacak + çerçeve programlar (dönemsel olarak yeniden açılır)
+    if (status !== 'acik' && status !== 'yakinda-kapaniyor' && status !== 'cerceve') return false;
   } else if (state.statusFilter === 'kapali'){
     // Arşiv: kapanmış çağrılar + yürürlükten kaldırılmış programlar
     if (status !== 'kapali' && status !== 'kaldirildi') return false;

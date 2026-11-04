@@ -22,7 +22,9 @@ Bu dosya, ileride kaynak bazli tarayicilar eklenmek uzere tasarlanmistir.
 """
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+
+TSI = timezone(timedelta(hours=3))  # Turkiye saati (yaz saati uygulamasi yok)
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -44,10 +46,16 @@ def durum_hesapla(call, now):
     bitis = call.get("basvuru_bitis")
     if not bitis:
         return "acik", None
-    end = datetime.fromisoformat(bitis).replace(tzinfo=timezone.utc)
-    kalan = (end - now).days
-    if kalan < 0:
-        return "kapali", kalan
+    # Saatsiz bitis tarihi o gunun sonu (23:59:59 TSI) kabul edilir; js/app.js ile ayni kural.
+    end = datetime.fromisoformat(bitis)
+    if len(bitis) == 10:
+        end = end.replace(hour=23, minute=59, second=59)
+    if end.tzinfo is None:
+        end = end.replace(tzinfo=TSI)
+    if now > end:
+        return "kapali", None
+    # Kalan TAKVIM gunu, Turkiye tarihine gore (0 = bugun son gun)
+    kalan = (end.astimezone(TSI).date() - now.astimezone(TSI).date()).days
     if kalan <= UYARI_ESIGI_GUN:
         return "yakinda-kapaniyor", kalan
     return "acik", kalan
