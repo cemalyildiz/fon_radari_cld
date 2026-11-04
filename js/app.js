@@ -96,8 +96,9 @@ function matchesFilters(call){
   if (state.statusFilter === 'acik-veya-yakinda'){
     if (status !== 'acik' && status !== 'yakinda-kapaniyor') return false;
   } else if (state.statusFilter === 'acik'){
-    // "Açık" görünümü: açık + yakında kapanacak + çerçeve programlar (dönemsel olarak yeniden açılır)
-    if (status !== 'acik' && status !== 'yakinda-kapaniyor' && status !== 'cerceve') return false;
+    // "Açık" görünümü: yalnızca şu an başvuru yapılabilen çağrılar.
+    // Çerçeve programlar (tek bir başvuru tarihi olmayan, dönemsel açılan) ayrı filtrede.
+    if (status !== 'acik' && status !== 'yakinda-kapaniyor') return false;
   } else if (state.statusFilter === 'kapali'){
     // Arşiv: kapanmış çağrılar + yürürlükten kaldırılmış programlar
     if (status !== 'kapali' && status !== 'kaldirildi') return false;
@@ -123,6 +124,7 @@ function renderCards(){
   if (state.data){
     const allInTab = state.data.calls.filter(c => c.kategori === state.activeTab);
     const archivedCount = allInTab.filter(c => ['kapali','kaldirildi'].includes(computeStatus(c))).length;
+    const cerceveCount = allInTab.filter(c => computeStatus(c) === 'cerceve').length;
     if (state.statusFilter === 'kapali'){
       summary.textContent = `Arşivde ${archivedCount} kapalı çağrı gösteriliyor.`;
     } else {
@@ -134,7 +136,8 @@ function renderCards(){
       if (gAcik) parcalar.push(`${gAcik} başvuruya açık` + (gAcil ? ` (${gAcil} tanesi 14 gün içinde kapanıyor)` : ''));
       if (gCerceve) parcalar.push(`${gCerceve} çerçeve program (dönemsel açılır)`);
       const detay = parcalar.length ? ': ' + parcalar.join(', ') : '';
-      summary.textContent = `${calls.length} çağrı gösteriliyor${detay}. ${archivedCount} kapalı çağrı arşivde — Durum filtresinden "Arşiv"i seçin.`;
+      const cerceveIpucu = (state.statusFilter === 'acik' && cerceveCount) ? ` ${cerceveCount} çerçeve program "Çerçeve programlar" filtresinde.` : '';
+      summary.textContent = `${calls.length} çağrı gösteriliyor${detay}.${cerceveIpucu} ${archivedCount} kapalı çağrı arşivde — Durum filtresinden "Arşiv"i seçin.`;
     }
   }
 
@@ -159,11 +162,13 @@ function renderCards(){
         ${(call.tema||[]).map(t => `<span class="tema-chip">${escapeHtml(t)}</span>`).join('')}
       </div>
       ${pct !== null ? `<div class="deadline-bar"><div class="deadline-bar-fill" style="width:${pct}%"></div></div>` : ''}
+      ${araTarihSatiri(call)}
       <div class="card-meta">
         <span><strong>${escapeHtml((call.olcek||[]).join(', '))}</strong></span>
         <span>Bitiş: <strong>${call.surekli_acik ? 'Sürekli' : fmtDate(call.basvuru_bitis)}</strong></span>
         <span>${escapeHtml(call.destek_turu || '')}</span>
       </div>
+      ${teyitSatiri(call, status)}
     `;
     card.addEventListener('click', () => openDetail(call));
     grid.appendChild(card);
@@ -184,6 +189,7 @@ function openDetail(call){
     <dl class="detail-grid">
       <div class="detail-field"><dt>Başvuru Başlangıç</dt><dd>${fmtDate(call.basvuru_baslangic)}</dd></div>
       <div class="detail-field"><dt>Başvuru Bitiş</dt><dd>${call.surekli_acik ? 'Sürekli açık' : fmtDate(call.basvuru_bitis)}</dd></div>
+      ${(call.ara_tarihler||[]).map(a => `<div class="detail-field"><dt>${escapeHtml(a.ad)}</dt><dd>${fmtDate(a.tarih)}</dd></div>`).join('')}
       <div class="detail-field"><dt>Destek Türü</dt><dd>${escapeHtml(call.destek_turu || '—')}</dd></div>
       <div class="detail-field"><dt>Destek Miktarı</dt><dd>${escapeHtml(call.destek_miktari || '—')}</dd></div>
       <div class="detail-field"><dt>Destek Oranı</dt><dd>${escapeHtml(call.destek_orani || '—')}</dd></div>
@@ -194,10 +200,63 @@ function openDetail(call){
     <p class="detail-field"><dt>Kimler Başvurabilir</dt></p>
     <p class="detail-desc" style="margin-top:-8px">${escapeHtml(call.kimler_basvurabilir || '—')}</p>
     ${call.notlar ? `<p class="detail-note">${escapeHtml(call.notlar)}</p>` : ''}
+    ${teyitDetayi(call, status)}
     <a class="detail-link" href="${call.kaynak_url}" target="_blank" rel="noopener">Resmi kaynağa git ↗</a>
   `;
   overlay.hidden = false;
   document.body.style.overflow = 'hidden';
+}
+
+/* ---------- Doğrulama bilgisi ---------- */
+const TEYIT_GECERLILIK_GUN = 30; // scripts/dogrulama_kurallari.py ile ayni
+state.izleme = {};
+
+function teyitDurumu(call, status){
+  const dg = call.dogrulama || {};
+  const aktif = ['acik','yakinda-kapaniyor','cerceve'].includes(status);
+  const iz = state.izleme[call.id];
+  const gunOnce = dg.tarih ? Math.round((Date.parse(trBugun()+'T00:00:00Z') - Date.parse(dg.tarih.slice(0,10)+'T00:00:00Z'))/86400000) : null;
+  if (!dg.tarih) return { cls:'teyit-yok', metin:'Resmî kaynaktan teyit bilgisi yok' };
+  if (aktif && iz && iz.durum === 'yeniden_teyit') return { cls:'teyit-uyari', metin:`Resmî kaynak sayfası ${fmtDate(dg.tarih)} teyidinden sonra değişti — yeniden teyit bekleniyor` };
+  if (aktif && gunOnce > TEYIT_GECERLILIK_GUN) return { cls:'teyit-uyari', metin:`Son teyit ${fmtDate(dg.tarih)} (${gunOnce} gün önce) — teyit tarihi eski` };
+  if (dg.durum === 'kismi') return { cls:'teyit-kismi', metin:`Kısmi teyit · ${fmtDate(dg.tarih)}` };
+  if (dg.durum === 'onceki') return { cls:'teyit-onceki', metin:`Son teyit ${fmtDate(dg.tarih)} (arşiv kaydı)` };
+  return { cls:'teyit-tam', metin:`Resmî kaynaktan teyit · ${fmtDate(dg.tarih)}` };
+}
+
+function teyitSatiri(call, status){
+  const t = teyitDurumu(call, status);
+  return `<div class="teyit ${t.cls}">${escapeHtml(t.metin)}</div>`;
+}
+
+function teyitDetayi(call, status){
+  const dg = call.dogrulama;
+  if (!dg) return `<div class="teyit-detay"><strong>Doğrulama:</strong> Bu kayıt için resmî kaynak teyidi bulunmuyor.</div>`;
+  const t = teyitDurumu(call, status);
+  const iz = state.izleme[call.id];
+  const durumAd = { tam:'Tam (tarih, destek ve uygunluk resmî kaynaktan okundu)', kismi:'Kısmi', onceki:'Önceki teyit (arşiv kaydı)' }[dg.durum || 'tam'];
+  return `<div class="teyit-detay ${t.cls}">
+    <strong>Doğrulama</strong>
+    <div>Son teyit: ${fmtDate(dg.tarih)} · ${escapeHtml(durumAd)}${dg.kaynak_turu === 'ikincil' ? ' · <em>ikincil (resmî olmayan) kaynak</em>' : ''}</div>
+    ${dg.eksik ? `<div><strong>Teyit edilemeyen:</strong> ${escapeHtml(dg.eksik)}</div>` : ''}
+    ${dg.kanit ? `<div class="teyit-kanit">Kanıt: ${escapeHtml(dg.kanit)}</div>` : ''}
+    ${iz && iz.durum === 'yeniden_teyit' ? `<div><strong>Otomatik kaynak kontrolü (${fmtDate(iz.son_kontrol)}):</strong> ${escapeHtml((iz.bulgular||[]).join(' · '))}</div>` : ''}
+    ${dg.kaynak ? `<div><a href="${guvenliUrl(dg.kaynak)}" target="_blank" rel="noopener">Teyit kaynağı ↗</a></div>` : ''}
+  </div>`;
+}
+
+// Bugünden sonraki en yakın ara tarih (ör. ön kayıt son günü)
+function siradakiAraTarih(call){
+  return (call.ara_tarihler || [])
+    .map(a => ({ ...a, gun: daysUntil(a.tarih) }))
+    .filter(a => a.gun !== null && a.gun >= 0)
+    .sort((x, y) => x.gun - y.gun)[0] || null;
+}
+
+function araTarihSatiri(call){
+  const a = siradakiAraTarih(call);
+  if (!a) return '';
+  return `<div class="ara-tarih">⚑ ${escapeHtml(a.ad)}: <strong>${fmtDate(a.tarih)}</strong> (${kalanMetni(a.gun)})</div>`;
 }
 
 function closeDetail(){
@@ -289,7 +348,9 @@ function renderAlertBanner(){
   if (!yaklasan.length){ banner.hidden = true; return; }
 
   const items = yaklasan.map(({c, gun}) => {
-    const sure = gun <= 0 ? 'bugün son gün' : `${gun} gün kaldı`;
+    const ara = siradakiAraTarih(c);
+    const araTxt = (ara && ara.gun < gun) ? ` · <span style="font-weight:400">${escapeHtml(ara.ad)}: ${kalanMetni(ara.gun)}</span>` : '';
+    const sure = (gun <= 0 ? 'bugün son gün' : `${gun} gün kaldı`) + araTxt;
     return `<li><a href="${c.kaynak_url}" target="_blank" rel="noopener">${escapeHtml(c.baslik)}</a> — <strong style="display:inline;font-size:0.8rem;text-transform:none;letter-spacing:0">${sure}</strong></li>`;
   }).join('');
 
@@ -388,6 +449,10 @@ fetch('data/calls.json?_=' + Date.now())
     const label = document.getElementById('last-checked-label');
     label.textContent = `veri kontrolü: ${relativeTime(data.last_checked)}`;
     loadKesif(data.calls);
+    fetch('data/kaynak_izleme.json?_=' + Date.now())
+      .then(r => r.ok ? r.json() : null)
+      .then(iz => { if (iz && iz.kayitlar){ state.izleme = iz.kayitlar; renderCards(); } })
+      .catch(() => {});
   })
   .catch(err => {
     grid.innerHTML = '<p class="empty-state">Veri yüklenemedi. Lütfen sayfayı yenileyin.</p>';

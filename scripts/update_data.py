@@ -11,14 +11,11 @@ GitHub Actions tarafindan gunluk olarak calistirilir ve:
   5. Bir sorun varsa (bozuk tarih, eksik alan) hata koduyla cikar; boylece
      GitHub Actions kirmizi gorunur ve fark edilir.
 
-ONEMLI SINIRLAMA (seffaflik icin):
-Bu betik kurum sitelerini TARAMAZ (scraping yapmaz). TUBITAK, KOSGEB,
-Ticaret Bakanligi, SSB, Kalkinma Ajanslari ve AB portallarinin her biri
-farkli yapida oldugundan, guvenilir otomatik kesif icin her kaynaga ayri
-bir tarayici yazilmali ve bakimi surdurulmelidir. Dolayisiyla:
-  - Mevcut cagrilarin DURUMU (acik/kapali/kac gun kaldi) otomatik guncellenir.
-  - YENI cagrilarin kesfi ve eklenmesi hala elle/AI destekli yapilir.
-Bu dosya, ileride kaynak bazli tarayicilar eklenmek uzere tasarlanmistir.
+Kayit dogrulama kurallari scripts/dogrulama_kurallari.py icindedir (insan
+icin aciklamasi: DOGRULAMA.md). Kural ihlali olan bir kayit varsa betik
+hata koduyla cikar. Uyarilar (eski teyit, kismi teyit) data/dogrulama_raporu.json
+dosyasina yazilir; site ve gunluk rapor issue'su bu dosyayi kullanir.
+Yeni cagri kesfi: scripts/discover_calls.py. Kaynak sayfa izleme: scripts/check_sources.py.
 """
 import json
 import sys
@@ -27,9 +24,13 @@ from datetime import datetime, timedelta, timezone
 TSI = timezone(timedelta(hours=3))  # Turkiye saati (yaz saati uygulamasi yok)
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dogrulama_kurallari import hepsini_denetle  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "calls.json"
 ALERTS_PATH = ROOT / "data" / "alerts.json"
+RAPOR_PATH = ROOT / "data" / "dogrulama_raporu.json"
 
 UYARI_ESIGI_GUN = 14
 ZORUNLU_ALANLAR = ["id", "kategori", "baslik", "kurum", "ozet", "kaynak_url"]
@@ -68,28 +69,10 @@ def main():
     calls = payload.get("calls", [])
     now = datetime.now(timezone.utc)
 
-    hatalar = []
-    gorulen_idler = set()
-    for i, call in enumerate(calls):
-        for alan in ZORUNLU_ALANLAR:
-            if not call.get(alan):
-                hatalar.append("[%d] '%s' alani eksik veya bos" % (i, alan))
-        cid = call.get("id")
-        if cid in gorulen_idler:
-            hatalar.append("[%d] tekrar eden id: %s" % (i, cid))
-        gorulen_idler.add(cid)
-        if call.get("kategori") not in ("ulusal", "uluslararasi"):
-            hatalar.append("[%d] gecersiz kategori: %s" % (i, call.get("kategori")))
-        for tarih_alani in ("basvuru_baslangic", "basvuru_bitis"):
-            deger = call.get(tarih_alani)
-            if deger:
-                try:
-                    datetime.fromisoformat(deger)
-                except ValueError:
-                    hatalar.append("[%d] bozuk tarih %s: %s" % (i, tarih_alani, deger))
+    denetim, hatalar = hepsini_denetle(calls, now)
 
     if hatalar:
-        print("HATA: data/calls.json dogrulamadan gecemedi:")
+        print("HATA: data/calls.json dogrulama kurallarindan gecemedi (bkz. DOGRULAMA.md):")
         for h in hatalar:
             print("  -", h)
         return 1
@@ -134,6 +117,20 @@ def main():
             "yaklasan_son_tarihler": yaklasanlar,
         }, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+    uyarilar = {cid: v["uyarilar"] for cid, v in denetim.items() if v["uyarilar"]}
+    basliklar = {c["id"]: c["baslik"] for c in calls}
+    with open(RAPOR_PATH, "w", encoding="utf-8") as f:
+        json.dump({
+            "generated_at": payload["last_checked"],
+            "uyarilar": [{"id": k, "baslik": basliklar.get(k, k), "uyarilar": v} for k, v in uyarilar.items()],
+        }, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    if uyarilar:
+        print("[dogrulama] Insan dikkati gereken %d kayit:" % len(uyarilar))
+        for k, v in uyarilar.items():
+            for x in v:
+                print("  - %s: %s" % (k, x))
 
     print("[bilgi] last_checked guncellendi: %s" % payload["last_checked"])
     return 0

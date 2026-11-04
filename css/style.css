@@ -257,3 +257,17 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
 .kesif-iliski{ font-size:.78rem; color:var(--signal-dim); }
 .kesif-oge-iliskili{ opacity:.7; }
 @media (max-width:600px){ .kesif-sayi{ margin-left:0; width:100%; } }
+
+/* ---------- Doğrulama bilgisi ---------- */
+.teyit{ margin-top:.6rem; font-family:var(--mono); font-size:.7rem; letter-spacing:.02em; color:var(--text-dim); display:flex; align-items:center; gap:.4rem; }
+.teyit::before{ content:''; width:7px; height:7px; border-radius:50%; background:currentColor; flex:none; }
+.teyit-tam{ color:var(--signal-dim); }
+.teyit-kismi, .teyit-uyari{ color:var(--amber); }
+.teyit-yok{ color:var(--red); }
+.teyit-onceki{ color:var(--text-dim); }
+.ara-tarih{ margin-top:.6rem; font-size:.8rem; color:var(--amber); }
+.teyit-detay{ margin-top:1rem; padding:.8rem 1rem; border:1px solid var(--line); border-left:3px solid currentColor; border-radius:8px; background:var(--panel-2); font-size:.85rem; line-height:1.55; display:grid; gap:.3rem; }
+.teyit-detay > *{ color:var(--text); }
+.teyit-detay strong:first-child{ font-family:var(--mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; }
+.teyit-detay .teyit-kanit{ color:var(--text-dim); font-size:.8rem; overflow-wrap:anywhere; }
+.teyit-detay a{ color:var(--signal); }

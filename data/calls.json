@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-04T19:50:05Z",
+  "last_checked": "2026-11-04T20:20:24Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -12,19 +12,25 @@
       "kurum": "TÜBİTAK (Dünya Bankası destekli Türkiye Yeşil Sanayi Projesi)",
       "ozet": "KOBİ'lerin yeşil dönüşüm mevzuatına uyumu için çözüm ortaklarından (mentör kuruluşlardan) alacakları danışmanlık/mentörlük hizmetinin desteklenmesi.",
       "basvuru_baslangic": "2024-05-16",
-      "basvuru_bitis": null,
-      "surekli_acik": true,
+      "basvuru_bitis": "2030-01-01",
+      "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "KDV hariç 310.000 TL'ye kadar (TÜBİTAK'ın resmi çağrı sayfasından 26.07.2026 tarihinde doğrudan teyit edildi - rakam dönem dönem güncellenmektedir)",
-      "destek_orani": "%90 hibe destek",
-      "proje_suresi": "En az 3, en fazla 6 ay",
+      "destek_miktari": "Proje bütçesi üst limiti 280.000 TL (TÜBİTAK çağrı sayfası, 04.11.2026)",
+      "destek_orani": "Uzman kuruluştan alınan hizmetin %90'ı hibe",
+      "proje_suresi": "6 ay",
       "kimler_basvurabilir": "KOBİ ölçeğinde sermaye şirketleri; çözüm ortağı (mentör kuruluş) aracılığıyla",
       "olcek": [
         "KOBİ"
       ],
       "sektor_odagi": "Tüm imalat sektörleri - yeşil dönüşüm farkındalık ve yol haritası",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
-      "notlar": "Program bütçesi tükenene kadar açık kalacak şekilde tasarlanmıştır; yürürlükteki çağrı '1831 2024-1' olup çağrı duyurusu 15.05.2025 tarihinde güncellenmiştir. TÜBİTAK'ın resmi sayfasından 09.09.2026 tarihinde teyit edildi: destek üst limiti 310.000 TL, destek oranı %90, süre 3-6 ay. Başvuru, TÜBİTAK'ın onayladığı Çözüm Ortağı kuruluşlar aracılığıyla yapılır (Gebze Teknik Üniversitesi TTO ve 3PMETRICS dahil)."
+      "notlar": "TÜBİTAK çağrı sayfasındaki başvuru aralığı: 16.05.2024 00:00 - 01.01.2030 23:59. Yürürlükteki çağrı duyurusu '1831 2024-1' (15.05.2025 tarihli güncelleme). Başvuru, TÜBİTAK'ın onayladığı Çözüm Ortağı kuruluşlar aracılığıyla yapılır. DİKKAT: Bu kayıtta daha önce 310.000 TL yazıyordu; 04.11.2026'da resmî sayfada 280.000 TL yazdığı görüldü ve düzeltildi. Çağrı duyurusu PDF'i bu kontrolde açılamadı; başvuru öncesi PDF'teki limit ayrıca kontrol edilmeli.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
+        "kanit": "Başvuru aralığı 16 May 2024 - 00:00 / 01 Oca 2030 - 23:59; 'Destek süresi 6 ay olup, proje bütçesi üstü limiti 280.000 TL'dir'; 'hizmetin %90'ı hibe'",
+        "durum": "tam"
+      }
     },
     {
       "id": "tubitak-1832-2026-1",
@@ -50,7 +56,13 @@
       "proje_suresi": "En fazla 24 ay",
       "sektor_odagi": "İklim değişikliği, çevre ve biyoçeşitlilik başta olmak üzere yeşil dönüşüm Ar-Ge konuları",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-1-cagrisi-basvuruya-acildi",
-      "notlar": "Bu çağrı 9 Haziran 2026'da kapanmıştır; yerine 2026-2 çağrısı (3 Ağustos - 28 Eylül 2026) açılmıştır. Arşiv/referans kaydı."
+      "notlar": "Bu çağrı 9 Haziran 2026'da kapanmıştır; yerine 2026-2 çağrısı (3 Ağustos - 28 Eylül 2026) açılmıştır. Arşiv/referans kaydı.",
+      "dogrulama": {
+        "tarih": "2026-07-26",
+        "durum": "onceki",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-1-cagrisi-basvuruya-acildi",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "tubitak-1832-2025-3",
@@ -76,7 +88,14 @@
       "proje_suresi": "En fazla 24 ay",
       "sektor_odagi": "Yeşil dönüşüm Ar-Ge ve yenilik",
       "kaynak_url": "https://sd.com.tr/tubitak-1832-sanayide-yesil-donusum-cagrisi-2025-3-basvurulari-acildi/",
-      "notlar": "Referans/karşılaştırma amaçlı arşiv kaydıdır; yerine 2026-1 çağrısı açılmıştır."
+      "notlar": "Referans/karşılaştırma amaçlı arşiv kaydıdır; yerine 2026-1 çağrısı açılmıştır.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://sd.com.tr/tubitak-1832-sanayide-yesil-donusum-cagrisi-2025-3-basvurulari-acildi/",
+        "kanit": "Önceki teyit ikincil (resmî olmayan) kaynağa dayanıyor; başvuru süresi geçtiği için yeniden teyit edilmedi.",
+        "kaynak_turu": "ikincil"
+      }
     },
     {
       "id": "kosgeb-yesil-sanayi",
@@ -102,7 +121,13 @@
       "proje_suresi": "En az 8, en fazla 12 ay (4'er aylık izleme dönemleri)",
       "sektor_odagi": "Yenilenebilir enerji, kaynak verimliliği, atık yönetimi, döngüsel ekonomi",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi",
-      "notlar": "Program sürekli açık DEĞİLDİR; proje teklif çağrıları ile uygulanır (Yönerge md. 5 ve 25: çağrılar KOSGEB sitesinde ilan edilir, ilan ile son başvuru arasında en az 30 gün süre bırakılır; toplam bütçeye ulaşılınca başvuru alınmaz). 2023-01 ve 2023-02 çağrılarının başvuru dönemi 08.12.2023 - 30.11.2024 (23:59) idi ve kapanmıştır. KOSGEB program sayfası bu iki çağrıyı hâlâ 'Yürürlükte Olan Çağrılar' altında listeliyor; çağrı metinlerine göre başvuru süreleri sona ermiştir (desteklenen projelerin uygulaması sürüyor olabilir). Program yönergesinin Rev.04 sürümü (23.08.2026 tarihli) yayında olduğundan program yürürlüktedir; ancak 04.11.2026 itibarıyla açık yeni bir çağrı bulunamamıştır. Yeni çağrıda üst limitler değişebilir: güncel yönerge alt bileşen 1.1 (enerji) için işletme başına 500.000 USD, 1.2 için 150.000 USD karşılığı TL üst sınır öngörüyor. MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama desteğidir - 1831'den farklıdır. Teyit: 04.11.2026, KOSGEB resmî çağrı metinleri ve yönerge."
+      "notlar": "Program sürekli açık DEĞİLDİR; proje teklif çağrıları ile uygulanır (Yönerge md. 5 ve 25: çağrılar KOSGEB sitesinde ilan edilir, ilan ile son başvuru arasında en az 30 gün süre bırakılır; toplam bütçeye ulaşılınca başvuru alınmaz). 2023-01 ve 2023-02 çağrılarının başvuru dönemi 08.12.2023 - 30.11.2024 (23:59) idi ve kapanmıştır. KOSGEB program sayfası bu iki çağrıyı hâlâ 'Yürürlükte Olan Çağrılar' altında listeliyor; çağrı metinlerine göre başvuru süreleri sona ermiştir (desteklenen projelerin uygulaması sürüyor olabilir). Program yönergesinin Rev.04 sürümü (23.08.2026 tarihli) yayında olduğundan program yürürlüktedir; ancak 04.11.2026 itibarıyla açık yeni bir çağrı bulunamamıştır. Yeni çağrıda üst limitler değişebilir: güncel yönerge alt bileşen 1.1 (enerji) için işletme başına 500.000 USD, 1.2 için 150.000 USD karşılığı TL üst sınır öngörüyor. MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama desteğidir - 1831'den farklıdır. Teyit: 04.11.2026, KOSGEB resmî çağrı metinleri ve yönerge.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/YE%C5%9E%C4%B0L%20SANAY%C4%B0%20DP/2024/2024.06.16/Proje_Teklif_%C3%87a%C4%9Fr%C4%B1s%C4%B1_1.pdf",
+        "kanit": "2023-01 ve 2023-02 çağrıları: başvuru tarihleri 08 Aralık 2023 - 30 Kasım 2024; 'Başvuru sistemi 30 Kasım 2024 günü saat 23:59'da başvuruya kapatılacaktır'",
+        "durum": "tam"
+      }
     },
     {
       "id": "tubitak-1501-2026-2",
@@ -128,7 +153,13 @@
       "proje_suresi": "Genellikle 12-36 ay (proje kapsamına göre)",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1501-sanayi-ar-ge-destek-programi-2026-yili-2-cagrisi-acildi",
-      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 22 Ekim 2026, çağrı kapanış tarihi 26 Ekim 2026. Kaynak: TÜBİTAK resmi duyurusu."
+      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 22 Ekim 2026, çağrı kapanış tarihi 26 Ekim 2026. Kaynak: TÜBİTAK resmi duyurusu.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1501-sanayi-ar-ge-destek-programi-2026-yili-2-cagrisi-acildi",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "tubitak-1507-2026-2",
@@ -154,7 +185,20 @@
       "proje_suresi": "Genellikle 12-18 ay",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi",
-      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 9 Kasım 2026, çağrı kapanış tarihi 11 Kasım 2026. Kaynak: TÜBİTAK resmi duyurusu."
+      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 9 Kasım 2026, çağrı kapanış tarihi 11 Kasım 2026. Program her yıl ocak ve temmuz aylarında iki çağrı açar. 2026-2 çağrısında geçmiş projelerin ticarileşme performansına göre -5/+5 aralığında ek puan uygulanır. Bütçe/oran ayrıntısı için çağrı dokümanına bakılmalıdır.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi",
+        "kanit": "Çağrı Açılış Tarihi 20 Temmuz 2026; Kuruluş Bazlı Ön Kayıt Başvurusu Son Tarihi 9 Kasım 2026; Çağrı Kapanış Tarihi 11 Kasım 2026",
+        "durum": "kismi",
+        "eksik": "Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli."
+      },
+      "ara_tarihler": [
+        {
+          "ad": "Kuruluş bazlı ön kayıt son tarihi",
+          "tarih": "2026-11-09"
+        }
+      ]
     },
     {
       "id": "tubitak-1507-2026-1",
@@ -180,7 +224,14 @@
       "proje_suresi": "Genellikle 12-18 ay",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://arvensisdanismanlik.com.tr/tubitak-teydeb-1501-sanayi-ar-ge-destek-programi-ve-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-1-cagrilari-acildi/",
-      "notlar": "Bu 2026 1. çağrı kapanmıştır; yerine 2026-2 çağrısı (20 Temmuz - 11 Kasım 2026) açılmıştır. Arşiv/referans kaydı olarak tutulmaktadır."
+      "notlar": "Bu 2026 1. çağrı kapanmıştır; yerine 2026-2 çağrısı (20 Temmuz - 11 Kasım 2026) açılmıştır. Arşiv/referans kaydı olarak tutulmaktadır.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://arvensisdanismanlik.com.tr/tubitak-teydeb-1501-sanayi-ar-ge-destek-programi-ve-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-1-cagrilari-acildi/",
+        "kanit": "Önceki teyit ikincil (resmî olmayan) kaynağa dayanıyor; başvuru süresi geçtiği için yeniden teyit edilmedi.",
+        "kaynak_turu": "ikincil"
+      }
     },
     {
       "id": "hamle-ileri-malzeme",
@@ -207,7 +258,13 @@
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "İleri malzeme, kritik hammadde, yüksek katma değerli üretim",
       "kaynak_url": "https://www.hamle.gov.tr/Home/CagriPlani",
-      "notlar": "DÜZELTME: Bu çağrı daha önce hatalı olarak 'çerçeve program' işaretlenmişti. Çağrı 20 Mayıs 2026'da açılmış, ÖN BAŞVURU süreci 31 Temmuz 2026'da (23:59) sona ermiştir. Ön başvurusu olumlu tamamlanan projeler için detaylı fizibilite istenen KESİN BAŞVURU aşaması devam etmektedir; yeni ön başvuru alınmamaktadır. Çağrı kapsamında 73 ürün, 86 yenilikçi teknoloji alanı ve 34 kritik hammadde tanımlanmıştır. Yeni dönem çağrıları için hamle.gov.tr/Home/CagriPlani takip edilmelidir. 09.09.2026 tarihinde teyit edildi."
+      "notlar": "DÜZELTME: Bu çağrı daha önce hatalı olarak 'çerçeve program' işaretlenmişti. Çağrı 20 Mayıs 2026'da açılmış, ÖN BAŞVURU süreci 31 Temmuz 2026'da (23:59) sona ermiştir. Ön başvurusu olumlu tamamlanan projeler için detaylı fizibilite istenen KESİN BAŞVURU aşaması devam etmektedir; yeni ön başvuru alınmamaktadır. Çağrı kapsamında 73 ürün, 86 yenilikçi teknoloji alanı ve 34 kritik hammadde tanımlanmıştır. Yeni dönem çağrıları için hamle.gov.tr/Home/CagriPlani takip edilmelidir. 09.09.2026 tarihinde teyit edildi.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://www.hamle.gov.tr/Home/CagriPlani",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "hamle-biyoteknoloji",
@@ -235,7 +292,13 @@
       "proje_suresi": "Proje bazlı, çok yıllı yatırım süreçleri",
       "sektor_odagi": "Biyoteknoloji, sağlık, sürdürülebilir tarım, gıda teknolojileri, döngüsel ekonomi, iklim teknolojileri",
       "kaynak_url": "https://www.hamle.gov.tr/Home/CagriPlani",
-      "notlar": "DÜZELTME: Bu çağrı daha önce hatalı olarak 'çerçeve program' işaretlenmişti. Çağrı 20 Mayıs 2026'da açılmış, ÖN BAŞVURU süreci 31 Temmuz 2026'da (23:59) sona ermiştir. Ön başvurusu olumlu tamamlanan projeler için detaylı fizibilite istenen KESİN BAŞVURU aşaması devam etmektedir; yeni ön başvuru alınmamaktadır. Çağrı kapsamında 73 ürün, 86 yenilikçi teknoloji alanı ve 34 kritik hammadde tanımlanmıştır. Yeni dönem çağrıları için hamle.gov.tr/Home/CagriPlani takip edilmelidir. 09.09.2026 tarihinde teyit edildi."
+      "notlar": "DÜZELTME: Bu çağrı daha önce hatalı olarak 'çerçeve program' işaretlenmişti. Çağrı 20 Mayıs 2026'da açılmış, ÖN BAŞVURU süreci 31 Temmuz 2026'da (23:59) sona ermiştir. Ön başvurusu olumlu tamamlanan projeler için detaylı fizibilite istenen KESİN BAŞVURU aşaması devam etmektedir; yeni ön başvuru alınmamaktadır. Çağrı kapsamında 73 ürün, 86 yenilikçi teknoloji alanı ve 34 kritik hammadde tanımlanmıştır. Yeni dönem çağrıları için hamle.gov.tr/Home/CagriPlani takip edilmelidir. 09.09.2026 tarihinde teyit edildi.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://www.hamle.gov.tr/Home/CagriPlani",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "horizon-cl5-2026",
@@ -264,7 +327,14 @@
       "sektor_odagi": "Enerji dönüşümü, endüstriyel dekarbonizasyon, sürdürülebilir binalar, temiz mobilite",
       "kaynak_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
       "notlar": "DÜZELTME: Bu kayıt daha önce tek bir çağrı gibi 31.12.2027 kapanış tarihiyle gösteriliyordu; bu yanıltıcıydı. İlgilendiğiniz spesifik alt çağrının güncel açılış/kapanış tarihini AB Funding & Tenders Portal üzerinden ('Horizon Europe Cluster 5' filtresiyle) kontrol etmeniz gerekir. 09.09.2026 tarihinde teyit edildi.",
-      "cerceve_program": true
+      "cerceve_program": true,
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
+        "kanit": "Yönlendirme kaydı: 2026-2027 Cluster 5 çalışma programı. Tek bir başvuru tarihi iddia edilmez; alt çağrı tarihleri Funding & Tenders Portal'dan kontrol edilmelidir.",
+        "cerceve_kaniti": "Çalışma programı onlarca alt çağrıdan oluşur; her alt çağrının ayrı tarihi vardır",
+        "durum": "tam"
+      }
     },
     {
       "id": "life-2026",
@@ -292,7 +362,13 @@
       "proje_suresi": "Çağrıya göre değişken",
       "sektor_odagi": "Döngüsel ekonomi, sıfır kirlilik, doğa ve biyoçeşitlilik, iklim değişikliğine uyum/azaltım, temiz enerji geçişi",
       "kaynak_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
-      "notlar": "09.09.2026 tarihinde CINEA resmi sayfasından teyit edildi. Standart Aksiyon Projeleri (SAP) için son tarih 22 Eylül 2026. Diğer tipler: Temiz Enerji Geçişi Diğer Aksiyon Hibeleri (OAG) 16 Eylül 2026; Stratejik Doğa/Entegre Projeler (SNaP/SIP) konsept notu 3 Eylül 2026 (geçti), tam başvuru 4 Mart 2027; Çerçeve Ortaklık Anlaşmaları (FPA OG) 8 Eylül 2026."
+      "notlar": "09.09.2026 tarihinde CINEA resmi sayfasından teyit edildi. Standart Aksiyon Projeleri (SAP) için son tarih 22 Eylül 2026. Diğer tipler: Temiz Enerji Geçişi Diğer Aksiyon Hibeleri (OAG) 16 Eylül 2026; Stratejik Doğa/Entegre Projeler (SNaP/SIP) konsept notu 3 Eylül 2026 (geçti), tam başvuru 4 Mart 2027; Çerçeve Ortaklık Anlaşmaları (FPA OG) 8 Eylül 2026.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "erasmus-cove-2026",
@@ -319,7 +395,14 @@
       "proje_suresi": "Genellikle 36-48 ay",
       "sektor_odagi": "Mesleki eğitim, beceri geliştirme, sektörel iş birlikleri (yeşil ve dijital beceriler dahil)",
       "kaynak_url": "https://argep.erdogan.edu.tr/tr/page/erasmus-merkezi-projeler/6843",
-      "notlar": "Bu çağrı dönemi kapanmıştır; sonraki yıl çağrıları için Avrupa Eğitim ve Kültür Yürütme Ajansı (EACEA) duyurularını takip edin. Arşiv/referans kaydı olarak tutulmaktadır."
+      "notlar": "Bu çağrı dönemi kapanmıştır; sonraki yıl çağrıları için Avrupa Eğitim ve Kültür Yürütme Ajansı (EACEA) duyurularını takip edin. Arşiv/referans kaydı olarak tutulmaktadır.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://argep.erdogan.edu.tr/tr/page/erasmus-merkezi-projeler/6843",
+        "kanit": "Önceki teyit ikincil (resmî olmayan) kaynağa dayanıyor; başvuru süresi geçtiği için yeniden teyit edilmedi.",
+        "kaynak_turu": "ikincil"
+      }
     },
     {
       "id": "kosgeb-kapasite-gelistirme",
@@ -346,7 +429,14 @@
       "proje_suresi": "24 ay, azami kredi vadesi 36 ay",
       "sektor_odagi": "İmalat, telekomünikasyon, yazılım/bilişim, bilimsel Ar-Ge sektörleri; ayrıca SSB, Türkiye Uzay Ajansı, THY Teknik gibi paydaşlarla protokollü savunma/uzay/havacılık tedarik zinciri",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9200/kapasite-gelistirme-destek-programi",
-      "notlar": "2026 yılı 3. dönem başvuruları 22 Ağustos 2026'da başladı, son başvuru 15 Eylül 2026. Program yılda birkaç dönem açılır (2026'da 1. dönem Şubat, 2. dönem 6-30 Haziran, 3. dönem 22 Ağustos-15 Eylül). Ziraat Bankası, Halkbank, VakıfBank, Ziraat Katılım üzerinden kredi kullandırılır. Kaynak: KOSGEB resmi duyurusu, 09.09.2026 tarihinde teyit edildi."
+      "notlar": "2026 yılı 3. dönem başvuruları 22 Ağustos 2026'da başladı, son başvuru 15 Eylül 2026. Program yılda birkaç dönem açılır (2026'da 1. dönem Şubat, 2. dönem 6-30 Haziran, 3. dönem 22 Ağustos-15 Eylül). Ziraat Bankası, Halkbank, VakıfBank, Ziraat Katılım üzerinden kredi kullandırılır. Kaynak: KOSGEB resmi duyurusu, 09.09.2026 tarihinde teyit edildi.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "durum": "kismi",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9200/kapasite-gelistirme-destek-programi",
+        "kanit": "KOSGEB sayfası: üst limit 20.000.000 TL (bazı durumlarda 30.000.000 TL), alt limit 1.000.000 TL, EYDEP-C/B/A 25/27,5/30 milyon TL, vade 36 ay. 3. dönem 22.08-15.09.2026 basın kaynaklarından (Alomaliye 24.08.2026, CNBC-e 07.09.2026). 04.11.2026 itibarıyla açık 4. dönem bulunamadı.",
+        "eksik": "Dönem tarihleri KOSGEB duyurusundan doğrudan okunamadı."
+      }
     },
     {
       "id": "kosgeb-girisimci-2026-2",
@@ -371,7 +461,13 @@
       "proje_suresi": "Program kılavuzuna göre değişir",
       "sektor_odagi": "Öncelik imalat ve bilişim olmak üzere tüm sektörler",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9374/girisimci-destek-programi-is-gelistirme-cagrisi-2026-yili-2-donem-basvurulari-basladi",
-      "notlar": "Bu dönem kapanmıştır. Program yılda birkaç kez (2026'da 1. dönem Ocak, 2. dönem Nisan-Mayıs) yeniden açılmaktadır; sonraki dönem için KOSGEB duyurularını takip edin. Arşiv/referans kaydı olarak tutulmaktadır."
+      "notlar": "Bu dönem kapanmıştır. Program yılda birkaç kez (2026'da 1. dönem Ocak, 2. dönem Nisan-Mayıs) yeniden açılmaktadır; sonraki dönem için KOSGEB duyurularını takip edin. Arşiv/referans kaydı olarak tutulmaktadır.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9374/girisimci-destek-programi-is-gelistirme-cagrisi-2026-yili-2-donem-basvurulari-basladi",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "kosgeb-kobigel",
@@ -398,7 +494,13 @@
       "sektor_odagi": "Dönemsel temalara göre değişir (dijitalleşme, rekabet gücü, ihracat kapasitesi vb.)",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/3288/kobigel-kobi-gelisim-destek-programi",
       "notlar": "09.09.2026 tarihinde KOSGEB'in resmi sayfasından teyit edildi: program 'Yürürlükten Kaldırılan Destekler' kategorisindedir. KOBİGEL'in yerini alan güncel KOSGEB programları için Kapasite Geliştirme, Küresel Rekabetçilik ve KOBİ Dijital Dönüşüm Destek Programlarına bakınız.",
-      "yururlukten_kaldirildi": true
+      "yururlukten_kaldirildi": true,
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/3288/kobigel-kobi-gelisim-destek-programi",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "ticaret-turquality",
@@ -414,17 +516,24 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Hibe (yıllık toplam limit dahilinde)",
-      "destek_miktari": "2026 yılı için TURQUALITY® Destek Programı yıllık üst limiti 493.271.347 TL; Marka Destek Programı 246.634.310 TL",
-      "destek_orani": "Kalem bazlı değil, yıllık toplam limit esaslı",
-      "kimler_basvurabilir": "İhracat performansı yüksek, kurumsallaşma vizyonu olan firmalar (üretici olmayan gastronomi, yazılım, lojistik, sağlık turizmi, e-ticaret sektörleri de dahil - E-Turquality)",
+      "destek_miktari": "Bir takvim yılında: en az bir markası TURQUALITY® programında olan şirkete en fazla 493.271.347 TL; tüm markaları Marka programında olan şirkete en fazla 246.634.310 TL. Limitler her yıl başında (TÜFE+Yİ-ÜFE)/2 oranında güncellenir.",
+      "destek_orani": "Oranlar 5973 sayılı Karar'a göre belirlenir; hedef ülkelerde +20 puan, hedef sektörlerde +5 puan ek oran. Toplam destek, şirketin aynı yıldaki toplam ihracatının yarısını aşamaz.",
+      "kimler_basvurabilir": "Son üç yılın ihracat ortalaması en az 5.000.000 ABD Doları olan; markası en az 1 yıl önce yurt içinde ve en az bir Madrid Protokolü ülkesinde tescilli; üretim ve yönetim süreçlerini yurt içinde yürüten şirketler (son bir yılda en az 15.000.000 ABD Doları ihracat yapanlarda ihracat ortalaması ve tescil süresi şartları aranmaz)",
       "olcek": [
         "Büyük Ölçekli",
         "KOBİ"
       ],
       "proje_suresi": "Çok yıllı (stratejik iş planına dayalı, yıllık izleme)",
       "sektor_odagi": "İhracat odaklı markalaşma - sektör sınırlaması yok",
-      "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/turquality-tanitim-projesi-destegi",
-      "notlar": "Başvuru yıl boyu kabul edilir ancak kabul süreci son 3 yıllık ihracat performansı, kurumsal denetim ve Big-4 tipi bağımsız denetçi incelemesi içeren zorlu bir süreçtir. Program kapsam ve limitleri her yıl güncellenir."
+      "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/marka-ve-turquality-destegi",
+      "notlar": "Marka ve TURQUALITY® Desteğine İlişkin Genelge 30.10.2026 tarihinde yürürlüğe girmiştir. Genelgede başvuru dönemi veya son başvuru tarihi tanımlanmamıştır; reddedilen şirket yeniden ön inceleme başvurusu için en az 6 ay beklemelidir. Kurumsal altyapı danışmanlığı ve istihdam desteği Marka programında en fazla 4, TURQUALITY® programında en fazla 5 yıl.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://ticaret.gov.tr/data/63403c7213b87692b0e3b9d6/Marka%20ve%20TURQUALITY%C2%AE%20Deste%C4%9Fine%20%C4%B0li%C5%9Fkin%20Genelge.pdf",
+        "kanit": "Genelge md. 13(1): 246.634.310 TL / 493.271.347 TL; md. 14(1)(a) 5.000.000 ABD Doları; kapak: '30/10/2026 tarihinde yürürlüğe girmiştir'; başvuru dönemi tanımlanmamış",
+        "surekli_kaniti": "Genelgede başvuru dönemi veya son başvuru tarihi yok; ön inceleme başvuruları yıl boyu yapılabilir (md. 15(1)(ğ): yeniden başvuru için 6 ay)",
+        "durum": "tam"
+      }
     },
     {
       "id": "ticaret-urge",
@@ -440,17 +549,25 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "İşbirliği kuruluşunun ihtiyaç analizi/eğitim/danışmanlık/tanıtım giderleri proje bazında 6.000.000 TL'ye, faaliyet bazlı yıllık giderler 4.000.000 TL'ye kadar; ayrıca istihdam edilecek en fazla 2 uzman personelin giderleri ayrıca desteklenir (yatirimadestek.gov.tr - Sanayi ve Teknoloji Bakanlığı resmi platformundan 26.07.2026 tarihinde teyit edildi)",
-      "destek_orani": "Faaliyete göre değişken oranlarda (çağrı dokümanından teyit edilmeli)",
-      "kimler_basvurabilir": "Bir işbirliği kuruluşu (ihracatçı birliği, dernek, oda, sektörel dış ticaret şirketi vb.) çatısı altında bir araya gelen; destek kapsamındaki ilçelerde en az 5, diğer illerde en az 10 firmalık gruplar",
+      "destek_miktari": "20.04.2026 tarihli UR-GE Proje Desteğine İlişkin Genelge'de belirlenen limitler dahilinde (bu kontrolde genelge rakamları teyit edilemedi)",
+      "destek_orani": "20.04.2026 tarihli genelgede belirlenen oranlarla (bu kontrolde teyit edilemedi)",
+      "kimler_basvurabilir": "İşbirliği kuruluşları: TİM, TOBB, DEİK, ihracatçı birlikleri, ticaret/sanayi odaları, OSB'ler, teknoloji geliştirme bölgeleri, TEKMER'ler, sektör dernekleri, sektörel dış ticaret şirketleri, ticaret borsaları, işveren sendikaları, federasyonlar, kooperatifler ve ihracat konsorsiyumları. Proje en az 10 üye şirketle; 4., 5. ve 6. bölge illerinde, bölgesel desteğe konu ilçelerde veya SDŞ/ihracat konsorsiyumlarında en az 5 şirketle (06.10.2025 tarihli metne göre).",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
       "proje_suresi": "Genellikle 3 yıl (uzatılabilir)",
       "sektor_odagi": "İhracata yönelik tüm sektörler - sektörel kümelenme esaslı",
-      "kaynak_url": "https://www.yatirimadestek.gov.tr/gelismis-arama",
-      "notlar": "Bireysel firma başvurusu kabul edilmez; bir işbirliği kuruluşu aracılığıyla grup halinde başvurulur. Resmi 'Sürekli Aktif' statüsü Sanayi ve Teknoloji Bakanlığı'nın yatirimadestek.gov.tr platformunda 19.01.2026 tarihli güncelleme ile teyit edildi. Bir şirket aynı anda yalnızca bir UR-GE projesinde katılımcı olabilir."
+      "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
+      "notlar": "Bireysel firma başvurusu kabul edilmez; bir işbirliği kuruluşu aracılığıyla grup hâlinde başvurulur. Ticaret Bakanlığı sayfasında yürürlükteki genelge 'UR-GE Proje Desteğine İlişkin Genelge (20/04/2026)'. DÜZELTME (04.11.2026): Bu kayıtta daha önce yer alan 6.000.000 TL / 4.000.000 TL limitleri eski bir kaynaktan alınmıştı ve 20.04.2026 genelgesine göre teyit edilemediği için kaldırıldı. Başvuru öncesi genelge metnine bakılmalıdır.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "durum": "kismi",
+        "kaynak": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
+        "kanit": "Bakanlık sayfası (21.04.2026): yürürlükteki genelge 20/04/2026. Başvuru sahipleri ve asgari şirket sayısı 06.10.2025 tarihli genelge metninden.",
+        "eksik": "20.04.2026 genelgesindeki limit ve oranlar okunamadı.",
+        "surekli_kaniti": "Genelgeye dayalı, başvuru dönemi tanımlanmamış proje desteği (20.04.2026 genelgesinde teyit edilemedi)"
+      }
     },
     {
       "id": "ticaret-yesil-mutabakat-responsible",
@@ -467,17 +584,24 @@
       "basvuru_bitis": null,
       "surekli_acik": true,
       "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "Çağrı dokümanından teyit edilmeli (Bakan açıklamasına göre bugüne kadar program genelinde 39,5 milyon TL destek dağıtılmış)",
-      "destek_orani": "Çağrı dokümanından teyit edilmeli",
-      "kimler_basvurabilir": "İhracatçı firmalar (Faz-1'i tamamlayan firmalar Faz-2/Faz-3'e geçerek 'Responsible' marka kullanım hakkı kazanabilir)",
+      "destek_miktari": "Faz 1 (mevcut durum analizi + sürdürülebilirlik yol haritası) üst limiti: mikro ve küçük işletme 500.000 TL, orta 1.000.000 TL, büyük 1.500.000 TL. Faz 2-3 limitleri genelge eklerindedir. Limitler her yıl (TÜFE+Yİ-ÜFE)/2 oranında güncellenir (2025-2027'de kapsama alınanlarda Faz 1 tavanı güncellenmez).",
+      "destek_orani": "%50",
+      "kimler_basvurabilir": "Cari yıldan önceki son üç takvim yılında 300.000 ABD Doları ve üzeri ihracat yapan imalatçı ve ihracatçı şirketler (bağlı/grup şirketleri ve SDŞ/DTSŞ üzerinden ihracat dahil). Başvurular DYS üzerinden, şirketin üyesi olduğu İhracatçı Birlikleri Genel Sekreterliğine yapılır.",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
-      "proje_suresi": "3 aşamalı (Faz-1/2/3), süre çağrı dokümanına göre değişir",
+      "proje_suresi": "5 yıllık destek süresi; Faz 1, Faz 2 (uygulama danışmanlığı) ve Faz 3 (izleme ve doğrulama)",
       "sektor_odagi": "İhracata yönelik tüm sektörler - sürdürülebilirlik ve yeşil dönüşüm uyumu",
-      "kaynak_url": "https://www.yatirimadestek.gov.tr/gelismis-arama",
-      "notlar": "Sanayi ve Teknoloji Bakanlığı'nın yatirimadestek.gov.tr platformunda 'Sürekli Aktif' statüsüyle listelenmektedir (güncelleme: 19.01.2026). Ticaret Bakanı'nın Mayıs 2026 açıklamasına göre program çapında 166 firma kapsama alınmış, 97'si Faz-1'i tamamlamış, 44 firma 'Responsible' marka kullanım hakkı kazanmıştır. Bu kayıt GTÜ-TTO'nun yeşil dönüşüm danışmanlığı hizmetleriyle doğrudan örtüşen, TÜBİTAK dışı önemli bir fırsat olarak eklenmiştir - detaylı başvuru şartları için ticaret.gov.tr'den 'Responsible® Programı' aratılmalıdır."
+      "kaynak_url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/yesil-mutabakata-uyum-projesi-destegi-responsible-programi",
+      "notlar": "Yeşil Mutabakata Uyum Projesi Desteğine İlişkin Genelge, son değişiklik 10.08.2026 (Bakanlık sayfası 12.10.2026). Genelgede başvuru dönemi tanımlanmamıştır. Destek danışmanlık hizmetlerine yöneliktir; Bakanlığın yetkilendirdiği danışman firmalar listesi sayfada yer alır. Bu kayıt GTÜ-TTO'nun yeşil dönüşüm danışmanlığı hizmetleriyle doğrudan örtüşür.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://ticaret.gov.tr/data/66a2407413b87634b8ce2b30/Yeşil Mutabakata Uyum Projesi Desteğine İlişkin Genelge 10082026.pdf",
+        "kanit": "Md. 4(1) 300.000 ABD Doları; md. 7(2) '%50 oranında desteklenir'; md. 9(1) 500.000 / 1.000.000 / 1.500.000 TL; md. 20(2) 5 yıl",
+        "surekli_kaniti": "Genelgede çağrı dönemi veya başvuru penceresi tanımlanmamış; başvurular DYS üzerinden yapılır",
+        "durum": "tam"
+      }
     },
     {
       "id": "ssb-sayp",
@@ -504,7 +628,13 @@
       "proje_suresi": "Kredi vadesi azami 10 yıl",
       "sektor_odagi": "İleri malzeme teknolojileri (eklemeli imalat, alaşım geliştirme, görünmezlik teknolojileri, zırh malzemeleri vb.), yatırım ve nitelikli personel istihdamı",
       "kaynak_url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-kredi-talebi-cagrisi-PmRCAy",
-      "notlar": "Bu çağrı 14 Ağustos 2026 saat 17:00'da kapanmıştır. Program yıllık olarak tekrar açılmaktadır; yeni dönem için SSB YETEN platformu (yeten.ssb.gov.tr) ve ssb.gov.tr duyurularını takip edin. Arşiv/referans kaydı."
+      "notlar": "Bu çağrı 14 Ağustos 2026 saat 17:00'da kapanmıştır. Program yıllık olarak tekrar açılmaktadır; yeni dönem için SSB YETEN platformu (yeten.ssb.gov.tr) ve ssb.gov.tr duyurularını takip edin. Arşiv/referans kaydı.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-kredi-talebi-cagrisi-PmRCAy",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "tubitak-1707",
@@ -520,17 +650,29 @@
       "basvuru_baslangic": "2026-09-01",
       "basvuru_bitis": "2026-11-13",
       "surekli_acik": false,
-      "destek_turu": "Hibe (geri ödemesiz)",
-      "destek_miktari": "Program üst limitleri dahilinde (güncel çağrı dokümanından teyit edilmeli)",
-      "destek_orani": "KOBİ tedarikçi için yüksek oranlı destek",
+      "destek_turu": "Hibe (TÜBİTAK payı) + Müşteri Kuruluş eş finansmanı",
+      "destek_miktari": "Proje bütçesi en fazla 10.000.000 TL",
+      "destek_orani": "TÜBİTAK, kabul edilen harcama tutarının %40'ını Tedarikçi Kuruluşa hibe olarak verir; Müşteri Kuruluş dönemsel proje giderlerinin en az %40'ını Tedarikçi Kuruluşa öder",
       "kimler_basvurabilir": "Büyük ölçekli bir alıcı kuruluşun siparişiyle Ar-Ge yapan KOBİ tedarikçiler (ortaklı başvuru - alıcı + tedarikçi)",
       "olcek": [
         "KOBİ"
       ],
-      "proje_suresi": "Sipariş kapsamına göre değişir",
+      "proje_suresi": "En fazla 24 ay (uzatmayla da 24 ayı aşamaz)",
       "sektor_odagi": "Tedarik zinciri Ar-Ge'si - savunma sanayii, otomotiv, beyaz eşya gibi ana sanayi-tedarikçi ilişkisi olan sektörlerde yaygın",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-      "notlar": "2026 yılı 3. çağrı dönemi: başvurular PRODİS üzerinden 1 Eylül - 13 Kasım 2026 (23:59 TSİ) arasında alınmaktadır; kuruluş bazlı ön kayıt son tarihi 11 Kasım 2026. Bu çağrı döneminde TÜBİTAK 2026-2028 Öncelikli Ar-Ge ve Yenilik Konu Başlıklarından 'Endüstride Teknolojik Sıçrama' ve 'Dijital Liderlik' konularındaki projelere değerlendirmede öncelik verilecektir. Program sürekli açık DEĞİLDİR, yılda 3 dönem açılır. Kaynak: TÜBİTAK resmi duyurusu, 09.09.2026 tarihinde teyit edildi."
+      "notlar": "2026 taslak takvimi: 1. dönem 2 Ocak - 13 Mart, 2. dönem 4 Mayıs - 17 Temmuz, 3. dönem 1 Eylül - 13 Kasım 2026. Başvurular eteydeb.tubitak.gov.tr üzerinden. 'Endüstride Teknolojik Sıçrama' veya 'Dijital Liderlik' konularındaki projelere (Yeşil Dönüşüm başlıkları hariç) +5 puan. Program sürekli açık değildir, yılda 3 dönem açılır. Kuruluş bazlı ön kayıt son tarihi 11 Kasım 2026 (TÜBİTAK çağrı duyurusu, 09.09.2026 teyidi; 04.11.2026'da okunan program sayfasında ön kayıt tarihi yer almıyor).",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
+        "kanit": "3. Çağrı Dönemi 1 Eylül 2026 - 13 Kasım 2026; 'Proje bütçesi en fazla 10.000.000 TL'; 'kabul edilen harcama tutarının %40'ını Tedarikçi Kuruluşa hibe'",
+        "durum": "tam"
+      },
+      "ara_tarihler": [
+        {
+          "ad": "Kuruluş bazlı ön kayıt son tarihi",
+          "tarih": "2026-11-11"
+        }
+      ]
     },
     {
       "id": "tubitak-1833-sayem",
@@ -558,7 +700,13 @@
       "proje_suresi": "Çok yıllı (platform + ürünleştirme programları şeklinde ilerler)",
       "sektor_odagi": "İklim Değişikliği/Çevre/Biyoçeşitlilik, Temiz ve Döngüsel Ekonomi, Temiz Enerji Arzı, Yeşil ve Sürdürülebilir Tarım, Sürdürülebilir Akıllı Ulaşım",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1833-sayem-yesil-donusum-cagrisi",
-      "notlar": "2026 çağrısının 2. aşama (asıl) başvuruları 8 Nisan - 4 Haziran 2026 arasında alınmış ve kapanmıştır. Bu program sanayici için özellikle değerlidir ama az bilinir - platform kurmak isteyen büyük/orta ölçekli firmalar ve üniversite/TTO'lar için TÜBİTAK'ın en yüksek bütçeli yeşil dönüşüm çağrılarından biridir. Yeni dönem için TÜBİTAK duyurularını takip edin."
+      "notlar": "2026 çağrısının 2. aşama (asıl) başvuruları 8 Nisan - 4 Haziran 2026 arasında alınmış ve kapanmıştır. Bu program sanayici için özellikle değerlidir ama az bilinir - platform kurmak isteyen büyük/orta ölçekli firmalar ve üniversite/TTO'lar için TÜBİTAK'ın en yüksek bütçeli yeşil dönüşüm çağrılarından biridir. Yeni dönem için TÜBİTAK duyurularını takip edin.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1833-sayem-yesil-donusum-cagrisi",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "eurostars-2026-2",
@@ -584,7 +732,13 @@
       "proje_suresi": "Genellikle 36 aya kadar",
       "sektor_odagi": "Konu sınırlaması yok - tüm teknoloji alanları (aşağıdan yukarıya / bottom-up çağrı)",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/1709-eureka-eurostars-20262-call-open-application",
-      "notlar": "Kesin takvim (TÜBİTAK resmi sayfasından 26.07.2026 tarihinde teyit edildi): uluslararası çağrı son tarihi 10 Eylül 2026 (14:00 CEST); kuruluş bazlı ön kayıt son tarihi 21 Eylül 2026; ulusal ön proje başvurusu son tarihi 24 Eylül 2026. İki aşamalı başvuru: önce uluslararası Eurostars platformu üzerinden ortak başvuru, ardından TÜBİTAK PRODİS üzerinden ulusal ön kayıt/başvuru. Ayrıca proje fikri geliştirme ve konsorsiyum kurma sürecini desteklemek için ayrı bir 'Eurostars Koordinatörlük Desteği Programı' da mevcuttur (KOBİ'lere proje yazım eğitimi/danışmanlığı sağlar)."
+      "notlar": "Kesin takvim (TÜBİTAK resmi sayfasından 26.07.2026 tarihinde teyit edildi): uluslararası çağrı son tarihi 10 Eylül 2026 (14:00 CEST); kuruluş bazlı ön kayıt son tarihi 21 Eylül 2026; ulusal ön proje başvurusu son tarihi 24 Eylül 2026. İki aşamalı başvuru: önce uluslararası Eurostars platformu üzerinden ortak başvuru, ardından TÜBİTAK PRODİS üzerinden ulusal ön kayıt/başvuru. Ayrıca proje fikri geliştirme ve konsorsiyum kurma sürecini desteklemek için ayrı bir 'Eurostars Koordinatörlük Desteği Programı' da mevcuttur (KOBİ'lere proje yazım eğitimi/danışmanlığı sağlar).",
+      "dogrulama": {
+        "tarih": "2026-07-26",
+        "durum": "onceki",
+        "kaynak": "https://tubitak.gov.tr/en/announcement/1709-eureka-eurostars-20262-call-open-application",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "eureka-biyoteknoloji-2026",
@@ -595,11 +749,11 @@
         "Uluslararası İşbirliği",
         "Ar-Ge & İnovasyon"
       ],
-      "baslik": "1719 - Eureka Network Biyoteknoloji 2026 Çağrısı",
+      "baslik": "1719 - Eureka Network Biyoteknoloji 2026 Çağrısı (uluslararası başvuru kapandı)",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK (16 ülke katılımıyla)",
       "ozet": "İleri biyo-üretim, yeni nesil tedavi yöntemleri, tarım ve veterinerlikte biyoteknolojik yaklaşımlar ile ileri tanı ve veri teknolojileri alanlarında uluslararası, pazara yönelik Ar-Ge ve inovasyon projelerinin desteklenmesi.",
       "basvuru_baslangic": "2026-03-31",
-      "basvuru_bitis": "2026-11-18",
+      "basvuru_bitis": "2026-09-25",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz, TÜBİTAK tarafında)",
       "destek_miktari": "Proje bazlı, Eureka Network kurallarına göre",
@@ -613,7 +767,23 @@
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "Biyoteknoloji, sağlık, tarım ve veterinerlik, ileri tanı teknolojileri",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/1719-eureka-network-biotechnology-2026-call-open-application",
-      "notlar": "İki aşamalı: önce uluslararası Eureka başvuru formu, ardından TÜBİTAK 1719 ulusal çağrısına 18 Kasım 2026'ya kadar ulusal başvuru yapılmalıdır. 09.09.2026 tarihinde tekrar teyit edildi: ulusal başvuru son tarihi 18 Kasım 2026."
+      "notlar": "Başvuru iki aşamalıdır: (1) uluslararası başvuru formu, (2) TÜBİTAK ulusal başvurusu. Uluslararası aşamaya katılmamış yeni bir kuruluş ulusal aşamaya başvuramaz. Uluslararası çağrı 31.03.2026'da açıldı, 25.09.2026 14:00 GMT'de kapandı. Uluslararası başvurusu olanlar için ulusal aşama: kurum bazlı ön kayıt 17.11.2026, ulusal proje başvurusu 18.11.2026 (23:59 TSİ).",
+      "ara_tarihler": [
+        {
+          "ad": "Ulusal aşama ön kayıt (yalnızca uluslararası başvurusu olanlar)",
+          "tarih": "2026-11-17"
+        },
+        {
+          "ad": "Ulusal proje başvurusu (yalnızca uluslararası başvurusu olanlar)",
+          "tarih": "2026-11-18"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/en/announcement/1719-eureka-network-biotechnology-2026-call-open-application",
+        "kanit": "International call closing date: 25 September 2026 (14:00, GMT); pre-registration 17 November 2026; national deadline 18 November 2026",
+        "durum": "tam"
+      }
     },
     {
       "id": "eureka-hafifletme-2026",
@@ -623,11 +793,11 @@
         "Uluslararası İşbirliği",
         "Ar-Ge & İnovasyon"
       ],
-      "baslik": "1719 - Eureka Network Hafifletme Teknolojileri 2026 Çağrısı",
+      "baslik": "1719 - Eureka Network Hafifletme Teknolojileri 2026 Çağrısı (uluslararası başvuru kapandı)",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK (12 ülke katılımıyla)",
       "ozet": "Performansı artırırken çevresel etkiyi azaltan; malzeme, tasarım ve dijitalleşmenin kesişiminde yer alan 'hafifletme teknolojileri' alanında ticarileşme potansiyeli yüksek uluslararası Ar-Ge projelerinin desteklenmesi.",
       "basvuru_baslangic": "2026-05-06",
-      "basvuru_bitis": "2026-12-02",
+      "basvuru_bitis": "2026-10-08",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz, TÜBİTAK tarafında)",
       "destek_miktari": "Proje bazlı, Eureka Network kurallarına göre",
@@ -641,7 +811,23 @@
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "İleri malzeme, hafif yapılar, otomotiv/havacılık gibi ağırlık-kritik sektörler, dijitalleşme",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-network-lightweighting-technologies-2026-call-open-applications",
-      "notlar": "İki aşamalı: önce uluslararası Eureka başvuru formu, ardından TÜBİTAK 1719 ulusal çağrısına 2 Aralık 2026'ya kadar ulusal başvuru yapılmalıdır. 09.09.2026 tarihinde tekrar teyit edildi: ulusal başvuru son tarihi 2 Aralık 2026."
+      "notlar": "Başvuru iki aşamalıdır: (1) uluslararası başvuru formu, (2) TÜBİTAK ulusal başvurusu. Uluslararası aşamaya katılmamış yeni bir kuruluş ulusal aşamaya başvuramaz. Uluslararası çağrı 06.05.2026'da açıldı, 08.10.2026 14:00 UTC'de kapandı. Ulusal aşama: ön kayıt 01.12.2026, ulusal proje başvurusu 02.12.2026 (23:59 TSİ).",
+      "ara_tarihler": [
+        {
+          "ad": "Ulusal aşama ön kayıt (yalnızca uluslararası başvurusu olanlar)",
+          "tarih": "2026-12-01"
+        },
+        {
+          "ad": "Ulusal proje başvurusu (yalnızca uluslararası başvurusu olanlar)",
+          "tarih": "2026-12-02"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/en/announcement/eureka-network-lightweighting-technologies-2026-call-open-applications",
+        "kanit": "International Call Closing Date: 8 October 2026 (14:00, UTC); pre-registration 1 December 2026; national 2 December 2026",
+        "durum": "tam"
+      }
     },
     {
       "id": "eureka-afet-direnc-2026",
@@ -651,11 +837,11 @@
         "Ar-Ge & İnovasyon",
         "Çevre & İklim"
       ],
-      "baslik": "1719 - Eureka Network Afetlerde Dirençlilik, Müdahale ve İyileştirme 2026 Çağrısı",
+      "baslik": "1719 - Eureka Network Afetlerde Dirençlilik, Müdahale ve İyileştirme 2026 Çağrısı (uluslararası başvuru kapandı)",
       "kurum": "EUREKA Sekretaryası + TÜBİTAK",
       "ozet": "Afet öncesi dirençlilik, afet anında müdahale ve afet sonrası iyileştirme süreçlerine yönelik yenilikçi teknoloji ve çözümler geliştiren uluslararası Ar-Ge projelerinin desteklenmesi.",
       "basvuru_baslangic": "2026-06-08",
-      "basvuru_bitis": "2026-12-16",
+      "basvuru_bitis": "2026-10-26",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz, TÜBİTAK tarafında)",
       "destek_miktari": "Proje bazlı, Eureka Network kurallarına göre",
@@ -669,7 +855,23 @@
       "proje_suresi": "Proje bazlı, çok uluslu konsorsiyum",
       "sektor_odagi": "Afet yönetimi, dirençlilik teknolojileri, erken uyarı ve müdahale sistemleri",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-network-disaster-resilience-2026-call-open-applications",
-      "notlar": "Uluslararası çağrı 26 Ekim 2026'da kapanıyor; TÜBİTAK 1719 ulusal başvurusu için son tarih 16 Aralık 2026."
+      "notlar": "Başvuru iki aşamalıdır: (1) uluslararası başvuru formu, (2) TÜBİTAK ulusal başvurusu. Uluslararası aşamaya katılmamış yeni bir kuruluş ulusal aşamaya başvuramaz. Uluslararası çağrı 08.06.2026'da açıldı, 26.10.2026 14:00 CEST'te kapandı. Ulusal aşama: ön kayıt 15.12.2026, ulusal proje başvurusu 16.12.2026 (23:59 TSİ).",
+      "ara_tarihler": [
+        {
+          "ad": "Ulusal aşama ön kayıt (yalnızca uluslararası başvurusu olanlar)",
+          "tarih": "2026-12-15"
+        },
+        {
+          "ad": "Ulusal proje başvurusu (yalnızca uluslararası başvurusu olanlar)",
+          "tarih": "2026-12-16"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/en/announcement/eureka-network-disaster-resilience-2026-call-open-applications",
+        "kanit": "International Call Closing Date: 26 October 2026 (14:00, CEST); pre-registration 15 December 2026; national 16 December 2026",
+        "durum": "tam"
+      }
     },
     {
       "id": "eureka-xecs-kuantum-2026",
@@ -682,8 +884,8 @@
       "baslik": "Eureka Xecs 2026 - Uygulamalı Kuantum Teknolojileri Çağrısı",
       "kurum": "EUREKA Xecs Kümesi + TÜBİTAK",
       "ozet": "Kuantum teknolojileri alanında uluslararası iş birliklerini güçlendirmek, bilgi ve teknoloji transferini artırmak, özgün teknolojilerin geliştirilmesini desteklemek ve Türk kuruluşlarının uluslararası pazarlardaki rekabet gücünü artırmak amacıyla açılan çağrı.",
-      "basvuru_baslangic": null,
-      "basvuru_bitis": "2026-12-16",
+      "basvuru_baslangic": "2026-06-23",
+      "basvuru_bitis": "2026-11-26",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz, TÜBİTAK tarafında)",
       "destek_miktari": "Türk ortaklar için toplam proje bütçesi 600.000 Euro ile sınırlı",
@@ -697,7 +899,23 @@
       "proje_suresi": "En fazla 36 ay",
       "sektor_odagi": "Kuantum teknolojileri, elektronik bileşenler ve sistemler",
       "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
-      "notlar": "Ulusal başvuru için PRODİS üzerinden 16 Aralık 2026'ya kadar başvuru yapılmalıdır. Proje bütçesindeki 600.000 Euro sınırı yalnızca Türk ortaklar içindir."
+      "notlar": "Eureka Xecs kümesi uluslararası Uygulamalı Kuantum Teknolojileri çağrısı. Yeni başvuru için ilk adım uluslararası Proje Taslağı (PO): açılış 23.06.2026, son tarih 26.11.2026. Sonraki adımlar: ulusal çağrı açılışı 08.01.2027, uluslararası tam proje (FPP) 05.03.2027, ulusal proje başvurusu 31.03.2027. DİKKAT: TÜBİTAK duyurusunun metninde ulusal başvuru için '16 December 2026' de geçiyor; zaman çizelgesiyle çelişen bu tarih başvuru öncesi TÜBİTAK'tan (eureka@tubitak.gov.tr) teyit edilmeli.",
+      "ara_tarihler": [
+        {
+          "ad": "Uluslararası tam proje (FPP)",
+          "tarih": "2027-03-05"
+        },
+        {
+          "ad": "Ulusal proje başvurusu (duyuruda çelişkili: 16.12.2026 / 31.03.2027)",
+          "tarih": "2027-03-31"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
+        "kanit": "International Call PO opening 23 June 2026; PO submission deadline 26 November 2026; FPP 5 March 2027; national deadline 31 March 2027",
+        "durum": "tam"
+      }
     },
     {
       "id": "tubitak-1832-2026-2",
@@ -723,7 +941,13 @@
       "proje_suresi": "En fazla 24 ay",
       "sektor_odagi": "İklim değişikliği/çevre/biyoçeşitlilik, temiz ve döngüsel ekonomi, temiz ve güvenli enerji arzı, yeşil ve sürdürülebilir tarım, sürdürülebilir akıllı ulaşım",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-2-cagrisi-acildi",
-      "notlar": "Kuruluş bazlı ön kayıt son tarihi 24 Eylül 2026; proje başvurusu son tarihi 28 Eylül 2026 (23:59). Hedeflenen ürünün başvuruda THS'si en az 3, proje sonunda en az 7 olmalıdır; THS 8-9'dan başlayan projeler kapsam dışıdır. Dünya Bankası kısıtlı faaliyet alanları ve savunma sanayine yönelik faaliyetler kapsam dışıdır. Kaynak: TÜBİTAK ve PwC/Prozon bültenleri, 09.09.2026 tarihinde teyit edildi."
+      "notlar": "Kuruluş bazlı ön kayıt son tarihi 24 Eylül 2026; proje başvurusu son tarihi 28 Eylül 2026 (23:59). Hedeflenen ürünün başvuruda THS'si en az 3, proje sonunda en az 7 olmalıdır; THS 8-9'dan başlayan projeler kapsam dışıdır. Dünya Bankası kısıtlı faaliyet alanları ve savunma sanayine yönelik faaliyetler kapsam dışıdır. Kaynak: TÜBİTAK ve PwC/Prozon bültenleri, 09.09.2026 tarihinde teyit edildi.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1832-sanayide-yesil-donusum-2026-2-cagrisi-acildi",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "kosgeb-kuresel-rekabetcilik-2026-1",
@@ -750,7 +974,14 @@
       "proje_suresi": "24 ay (azami kredi vadesi 36 ay)",
       "sektor_odagi": "Üretim, ihracat, Ar-Ge ve yüksek teknoloji alanlarında faaliyet gösteren KOBİ'ler",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9206/kuresel-rekabetcilik-destek-programi",
-      "notlar": "Program 7 Eylül 2026'da Sanayi ve Teknoloji Bakanı tarafından duyurulmuştur; son başvuru 30 Eylül 2026. Kapasite Geliştirme Destek Programı'ndan daha yüksek limitli, ihracat/küresel rekabet odaklı ayrı bir programdır. Kaynak: KOSGEB duyurusu ve basın, 09.09.2026 tarihinde teyit edildi."
+      "notlar": "Program 7 Eylül 2026'da Sanayi ve Teknoloji Bakanı tarafından duyurulmuştur; son başvuru 30 Eylül 2026. Kapasite Geliştirme Destek Programı'ndan daha yüksek limitli, ihracat/küresel rekabet odaklı ayrı bir programdır. Kaynak: KOSGEB duyurusu ve basın, 09.09.2026 tarihinde teyit edildi.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "durum": "kismi",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9206/kuresel-rekabetcilik-destek-programi",
+        "kanit": "KOSGEB sayfasında '2026 Yılı 1. Başvuru Dönemi Proje Teklif Çağrısı' (yayım 07.09.2026), üst limit 75.000.000 TL, 20 destek puanı, vade 36 ay. Başvuru tarihleri 7-30 Eylül 2026 iki ayrı basın kaynağından (CNN Türk 07.09.2026, Alomaliye 15.09.2026).",
+        "eksik": "Son başvuru tarihi KOSGEB çağrı metninden doğrudan okunamadı."
+      }
     },
     {
       "id": "kosgeb-istihdami-koruma-2026",
@@ -760,24 +991,30 @@
         "Sanayi Yatırımı",
         "İstihdam"
       ],
-      "baslik": "KOSGEB İstihdamı Koruma Destek Programı (Genişletilmiş Finansman Dönemi)",
+      "baslik": "KOSGEB İstihdamı Koruma Destek Programı (2026-2 Dönemi Finansman Desteği)",
       "kurum": "KOSGEB",
       "ozet": "İmalat sanayiinde üretim ve istihdamın sürekliliğini desteklemek, işletmelerin finansmana erişimini kolaylaştırmak amacıyla kullanılan banka kredilerine destek puanı sağlayan program. 2026'da kapsamı ve finansman koşulları genişletilmiştir.",
       "basvuru_baslangic": "2026-09-01",
-      "basvuru_bitis": "2026-10-31",
+      "basvuru_bitis": "2026-11-30",
       "surekli_acik": false,
       "destek_turu": "Kredi faiz/kar payı desteği (destek puanı esaslı), KOBİ'ler için KGF kefaleti imkanı",
-      "destek_miktari": "Başvuru tarihinden sonra kullanılan kredi için 12 destek puanına karşılık gelen tutar (işletme başına kredi tutarı üst limiti için güncel kılavuza bakınız)",
-      "destek_orani": "12 destek puanı",
-      "kimler_basvurabilir": "İmalat sanayiinde faaliyet gösteren işletmeler; KGF kefaleti KOBİ'ler için belirtilmiştir (büyük işletmeler için ayrı bir kefalet açıklaması yapılmamıştır)",
+      "destek_miktari": "Kredi üst limiti KOBİ'ler için 50 milyon TL, büyük işletmeler için 150 milyon TL; limit, işletmenin 2026 Ocak-Haziran prime esas kazanç toplamının aylık ortalaması kadardır (finansal veya Ar-Ge yetkinliği olanlarda bir kat artırılır)",
+      "destek_orani": "12 destek puanı, geri ödemesiz (yalnızca vergi dairesi ve SGK prim borçlarının ödenmesinde kullanılabilir; 2026 Temmuz-Aralık ortalama aylık prim gün sayısının korunması şartı)",
+      "kimler_basvurabilir": "NACE Kısım C - İmalat'ta faaliyet gösteren KOBİ'ler ve büyük işletmeler; güncel işletme beyanı; GİB 31.12.2025 kayıtlarında imalat NACE kodu; KOSGEB'e vadesi geçmiş borcu olmamak",
       "olcek": [
         "KOBİ",
         "Büyük Ölçekli"
       ],
-      "proje_suresi": "Kredi vadesine göre değişir",
+      "proje_suresi": "Kredi vadesi azami 36 ay, azami 6 ay anapara ödemesiz",
       "sektor_odagi": "İmalat sanayii - üretim ve istihdam sürekliliği",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
-      "notlar": "Genişletilmiş finansman desteği için başvurular 1 Eylül - 31 Ekim 2026 arasında alınmaktadır. KOSGEB verilerine göre Ağustos 2026 itibarıyla 17.843 işletmeye 11,2 milyar TL destek sağlanmış, 685.953 istihdamın korunmasına katkıda bulunulmuştur. Kaynak: KOSGEB duyurusu, 09.09.2026 tarihinde teyit edildi."
+      "notlar": "KOSGEB program sayfasına göre 2026-2 dönemi finansman desteği başvuruları 1 Eylül - 30 Kasım 2026 arasında alınır. DÜZELTME (04.11.2026): Bu kayıtta daha önce son tarih 31 Ekim 2026 yazıyordu ve program kapalı görünüyordu. 3 Mart - 30 Nisan 2026 arasında kredi kullananlar, kalan limit için yeniden kredi kullanabilir. Azami faiz: sabit %37, değişken TLREF+1; komisyon en fazla %1.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
+        "kanit": "'Program başvuru tarihleri: 1 Eylül-30 Kasım 2026'; KOBİ 50 milyon TL / büyük işletme 150 milyon TL; 12 destek puanı geri ödemesiz",
+        "durum": "tam"
+      }
     },
     {
       "id": "sogreen-kalkinma-ajanslari",
@@ -787,13 +1024,13 @@
         "Bölgesel Kalkınma",
         "Yatırım Desteği"
       ],
-      "baslik": "SoGreen - Sosyal Kapsayıcı Yeşil Geçiş Geri Ödemeli Finansman Desteği (Kalkınma Ajansları)",
+      "baslik": "SoGreen - Sosyal Kapsayıcı Yeşil Geçiş Geri Ödemeli Finansman Desteği (Kalkınma Ajansları, 2026 dönemi kapandı)",
       "kurum": "Sanayi ve Teknoloji Bakanlığı Kalkınma Ajansları Genel Müdürlüğü + Dünya Bankası",
       "ozet": "KOBİ'lerin üretim süreçleri ve iş modellerinin yeşil geçişe yönelik yatırımlarına FAİZSİZ geri ödemeli finansman desteği. Dünya Bankası ile 22.10.2024'te imzalanan 400 milyon ABD Doları'lık ikraz anlaşmasıyla, 81 ilde Kalkınma Ajansları aracılığıyla 7 yıl süreyle uygulanacaktır. Ayrıca hızlandırma/kuluçka desteği (hibe) ve yeşil altyapı yatırımları bileşenleri de bulunmaktadır.",
       "basvuru_baslangic": null,
-      "basvuru_bitis": null,
+      "basvuru_bitis": "2026-05-08",
       "surekli_acik": false,
-      "cerceve_program": true,
+      "cerceve_program": false,
       "destek_turu": "Faizsiz geri ödemeli finansman (30 ay: ilk 6 ay geri ödemesiz, kalan azami 24 ay eşit taksit)",
       "destek_miktari": "Ajansa göre değişir; örneğin ÇKA (TR62) programında proje başına azami 6.000.000 TL, program bütçesi 400.000.000 TL",
       "destek_orani": "Faiz veya kâr payı alınmaz",
@@ -804,7 +1041,13 @@
       "proje_suresi": "Toplam 30 ay (destek geri ödeme takvimi dahil)",
       "sektor_odagi": "Yeşil geçiş yatırımları; desteklenen sektörler bölgeye göre değişir (ör. TR41/BEBKA: otomotiv, makine, tekstil, seramik, gıda)",
       "kaynak_url": "https://www.sanayi.gov.tr/assets/pdf/kalkinma-faaliyetleri/SoGreenORANGOFRehber.pdf",
-      "notlar": "ÖNEMLİ: Bu 7 yıllık bir çerçeve programdır; her Kalkınma Ajansı kendi bölgesi için ayrı dönemlerde çağrı açar, dolayısıyla tek bir ulusal başvuru tarihi yoktur. 2026 dönemi çağrılarında KAYS son başvuru tarihi 08.05.2026 idi ve bu dönem kapanmıştır. 2026 döneminde çağrı açan bölgeler: TR33 (Zafer), TR41 (BEBKA), TR52 (MEVKA), TR61 (BAKA), TR62 (ÇKA), TR63 (DOĞAKA), TR72 (ORAN), TR81 (BAKKA), TR83 (OKA), TRB1 (FKA). DİKKAT: TR42 (Doğu Marmara/MARKA - Kocaeli, Sakarya, Düzce, Bolu, Yalova) bu listede YER ALMAMAKTADIR. Kendi bölgeniz için yeni dönem açılıp açılmadığını ilgili ajansın sitesinden takip edin. 09.09.2026 tarihinde teyit edildi."
+      "notlar": "ÖNEMLİ: SoGreen 7 yıllık bir çerçeve programdır; her Kalkınma Ajansı kendi bölgesi için ayrı dönemlerde çağrı açar, dolayısıyla tek bir ulusal başvuru tarihi yoktur. 2026 dönemi çağrılarında KAYS son başvuru tarihi 08.05.2026 idi ve bu dönem kapanmıştır. 2026 döneminde çağrı açan bölgeler: TR33 (Zafer), TR41 (BEBKA), TR52 (MEVKA), TR61 (BAKA), TR62 (ÇKA), TR63 (DOĞAKA), TR72 (ORAN), TR81 (BAKKA), TR83 (OKA), TRB1 (FKA). DİKKAT: TR42 (Doğu Marmara/MARKA - Kocaeli, Sakarya, Düzce, Bolu, Yalova) bu listede YER ALMAMAKTADIR. Kendi bölgeniz için yeni dönem açılıp açılmadığını ilgili ajansın sitesinden takip edin. 09.09.2026 tarihinde teyit edildi. (04.11.2026: 2026 dönemi kapandığı için kayıt arşive alındı; yeni dönem açıldığında ilgili ajans duyurusundan yeni kayıt oluşturulmalıdır.)",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "durum": "onceki",
+        "kaynak": "https://www.sanayi.gov.tr/assets/pdf/kalkinma-faaliyetleri/SoGreenORANGOFRehber.pdf",
+        "kanit": "Önceki teyit (09.09.2026): 2026 dönemi KAYS son başvuru tarihi 08.05.2026."
+      }
     },
     {
       "id": "marka-anadoludakiler-2026",
@@ -833,7 +1076,13 @@
       "proje_suresi": "Başvuru rehberine göre değişir",
       "sektor_odagi": "Kırsal kalkınma, tarımsal katma değer, 81 İl 81 Ürün kapsamındaki ürünler (Kandıra Hindisi/Kocaeli, Yabanmersini/Sakarya, Konuralp Pirinci/Düzce, Mengen Peyniri/Bolu, Aronya/Yalova), kırsal turizm",
       "kaynak_url": "https://marka.org.tr/2026-yili-anadoludakiler-kirsal-kalkinma-mali-destek-programi/",
-      "notlar": "İlan tarihi 31 Ağustos 2026; KAYS üzerinden son başvuru 19 Ekim 2026 saat 23:59. Başvurular kaysuygulama.sanayi.gov.tr üzerinden yapılır. Bir başvuru sahibi en fazla 2 projeyle başvurabilir, 1 proje için destek alabilir. Ana yatırım konusu güneş enerjisi sistemi kurulumu veya bungalov yapımı olan projeler desteklenmemektedir. Gebze İrtibat Bürosu: Gebze Ticaret Odası 6. kat. 09.09.2026 tarihinde teyit edildi."
+      "notlar": "İlan tarihi 31 Ağustos 2026; KAYS üzerinden son başvuru 19 Ekim 2026 saat 23:59. Başvurular kaysuygulama.sanayi.gov.tr üzerinden yapılır. Bir başvuru sahibi en fazla 2 projeyle başvurabilir, 1 proje için destek alabilir. Ana yatırım konusu güneş enerjisi sistemi kurulumu veya bungalov yapımı olan projeler desteklenmemektedir. Gebze İrtibat Bürosu: Gebze Ticaret Odası 6. kat. 09.09.2026 tarihinde teyit edildi.",
+      "dogrulama": {
+        "tarih": "2026-09-09",
+        "durum": "onceki",
+        "kaynak": "https://marka.org.tr/2026-yili-anadoludakiler-kirsal-kalkinma-mali-destek-programi/",
+        "kanit": "Önceki teyit; ayrıntı notlarda. Başvuru süresi geçtiği için 04.11.2026 kontrolünde yeniden açılmadı."
+      }
     },
     {
       "id": "marka-teknik-destek-2026",
@@ -850,7 +1099,7 @@
       "basvuru_bitis": "2026-12-31",
       "surekli_acik": false,
       "destek_turu": "Ayni destek (hizmet alımı yoluyla eğitim/danışmanlık); doğrudan nakit ödeme yapılmaz",
-      "destek_miktari": "Program toplam kaynağı 20.000.000 TL; proje başına üst limit önceliğe göre değişir",
+      "destek_miktari": "Program toplam kaynağı 20.000.000 TL; öncelik başına bütçe (KDV dahil): 1-4. öncelikler 500.000 TL, 5. öncelik 175.000 TL, 6. öncelik 600.000 TL, 7. öncelik 300.000 TL",
       "destek_orani": "Uygulanmaz (ayni destek)",
       "kimler_basvurabilir": "TR42 Bölgesi'ndeki kamu kurum ve kuruluşları, yerel yönetimler, üniversiteler, kamu kurumu niteliğindeki meslek kuruluşları, STK'lar, birlikler ve kooperatifler (öncelik bazında uygunluk değişir)",
       "olcek": [
@@ -860,7 +1109,19 @@
       "proje_suresi": "Azami 6 ay (sözleşme imzasından itibaren)",
       "sektor_odagi": "Kurumsal kapasite geliştirme, eğitim ve danışmanlık",
       "kaynak_url": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
-      "notlar": "Başvurular yıl boyunca ikişer aylık dönemler halinde değerlendirilir (Ocak-Şubat, Mart-Nisan, Mayıs-Haziran, Temmuz-Ağustos, Eylül-Ekim, Kasım-Aralık). Şu an Eylül-Ekim dönemi başvurularına açıktır. Başvurular KAYS üzerinden yapılır. NOT: Bu program ağırlıklı olarak kamu/STK/üniversite odaklıdır, doğrudan firma yatırımı finanse etmez. 09.09.2026 tarihinde teyit edildi."
+      "notlar": "Başvurular iki aylık dönemler hâlinde KAYS üzerinden alınır; dönem son tarihleri 2026: 27 Şubat, 30 Nisan, 30 Haziran, 31 Ağustos, 30 Ekim, 31 Aralık. Şu an Kasım-Aralık dönemi (son tarih 31 Aralık 2026). Bütçe limitine ulaşılırsa program erken sonlandırılabilir. FİRMALAR DOĞRUDAN BAŞVURAMAZ: uygun başvuru sahipleri önceliğe göre sanayi/ticaret odaları, OSB'ler, teknoloji geliştirme bölgeleri, TTO'lar, birlikler, belediyeler, üniversiteler, kamu kurumları ve STK'lardır. Doğrudan mali destek verilmez; destek Ajans uzmanları veya hizmet alımı yoluyla teknik destektir.",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
+        "kanit": "Dönem son tarihleri listesi (son: 31 Aralık 2026); 'Başvurular iki aylık dönemler hâlinde değerlendirilecektir'; sayfa son değişiklik 02.11.2026",
+        "durum": "tam"
+      },
+      "ara_tarihler": [
+        {
+          "ad": "Kasım-Aralık dönemi son başvuru",
+          "tarih": "2026-12-31"
+        }
+      ]
     },
     {
       "id": "kalkinma-ajanslari-genel",
@@ -889,7 +1150,14 @@
       "proje_suresi": "Programa göre değişir",
       "sektor_odagi": "Her ajansın bölge planı ve Sonuç Odaklı Programlarına göre değişir",
       "kaynak_url": "https://kaysuygulama.sanayi.gov.tr",
-      "notlar": "BU KAYIT BİR ÇAĞRI DEĞİL, YÖNLENDİRME AMAÇLIDIR. 26 ajansın tüm çağrılarını bu radarda eksiksiz takip etmek mümkün değildir; kendi bölgenizin ajansının sitesini düzenli takip etmeniz önerilir. Kocaeli/Gebze için ilgili ajans: Doğu Marmara Kalkınma Ajansı (MARKA), marka.org.tr, TR42 Bölgesi. Eylül 2026 itibarıyla diğer ajanslarda da açık çağrılar bulunmaktadır (ör. İSTKA Yaratıcı Ekonomi, KUZKA Sosyal Girişimcilik son başvuru 2 Ekim 2026, AHİKA Sanayide Verimlilik 31 Aralık 2026, Ankara KA Kırsal Kalkınma 19 Ekim 2026)."
+      "notlar": "BU KAYIT BİR ÇAĞRI DEĞİL, YÖNLENDİRME AMAÇLIDIR. 26 ajansın tüm çağrılarını bu radarda eksiksiz takip etmek mümkün değildir; kendi bölgenizin ajansının sitesini düzenli takip etmeniz önerilir. Kocaeli/Gebze için ilgili ajans: Doğu Marmara Kalkınma Ajansı (MARKA), marka.org.tr, TR42 Bölgesi. Eylül 2026 itibarıyla diğer ajanslarda da açık çağrılar bulunmaktadır (ör. İSTKA Yaratıcı Ekonomi, KUZKA Sosyal Girişimcilik son başvuru 2 Ekim 2026, AHİKA Sanayide Verimlilik 31 Aralık 2026, Ankara KA Kırsal Kalkınma 19 Ekim 2026).",
+      "dogrulama": {
+        "tarih": "2026-11-04",
+        "kaynak": "https://kaysuygulama.sanayi.gov.tr",
+        "kanit": "Yönlendirme kaydı, çağrı değildir; tek başvuru tarihi iddia edilmez.",
+        "cerceve_kaniti": "26 ajansın her biri ayrı program ve dönemlerle çağrı açar",
+        "durum": "tam"
+      }
     }
   ]
 }

@@ -8,8 +8,8 @@ on:
   push:
     paths:
       - "data/calls.json"
-      - "scripts/update_data.py"
-      - "scripts/discover_calls.py"
+      - "scripts/**"
+      - ".github/workflows/update-data.yml"
 
 permissions:
   contents: write
@@ -31,60 +31,71 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Mevcut veriyi dogrula ve durumu tazele
+      # Kural ihlali varsa raporlama yine yapilsin, is akisi en sonda kirmizi olsun.
+      - name: Kayitlari dogrulama kurallarindan gecir (DOGRULAMA.md)
+        id: dogrulama
+        continue-on-error: true
         run: python scripts/update_data.py
 
-      # Kaynak siteler gecici olarak erisilemezse is akisi kirilmasin;
-      # dogrulama adimi zaten yukarida calisti.
       - name: Yeni cagrilari tara
-        id: kesif
         continue-on-error: true
         run: python scripts/discover_calls.py
+
+      - name: Acik kayitlarin resmi kaynak sayfalarini izle
+        continue-on-error: true
+        run: python scripts/check_sources.py
+
+      - name: Dogrulama raporunu hazirla
+        run: |
+          [ -f data/rapor_anahtarlar.txt ] && cp data/rapor_anahtarlar.txt /tmp/onceki.txt || : > /tmp/onceki.txt
+          python scripts/rapor.py /tmp/rapor.md data/rapor_anahtarlar.txt
+          # Onceki raporda olmayan maddeler -> bildirim gerekir
+          grep -vxF -f /tmp/onceki.txt data/rapor_anahtarlar.txt | sed '/^$/d' > /tmp/yeni.txt || true
+          echo "Yeni madde sayisi: $(wc -l < /tmp/yeni.txt)"
 
       - name: Degisiklik varsa commit ve push yap
         run: |
           git config user.name "fon-radari-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- data/; then
-            git add data/calls.json data/alerts.json data/discovered.json
-            git commit -m "chore: gunluk veri kontrolu ve cagri taramasi [otomatik]"
+          git add data/*.json data/rapor_anahtarlar.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: gunluk veri kontrolu, cagri taramasi ve kaynak izleme [otomatik]"
+            git pull --rebase --autostash -q origin main
             git push
           else
             echo "Degisiklik yok."
           fi
 
-      - name: Yeni aday varsa bildirim issue'su ac
+      # Her gun YENI bir issue acmak yerine tek bir rapor issue'su guncellenir;
+      # yalnizca yeni madde ciktiginda yorum eklenir (bildirim o zaman gelir).
+      - name: Dogrulama raporu issue'sunu guncelle
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
         run: |
-          python - <<'PY' > /tmp/yeni.md
-          import json, pathlib
-          p = pathlib.Path("data/discovered.json")
-          yeni = []
-          if p.exists():
-              d = json.loads(p.read_text(encoding="utf-8"))
-              yeni = [a for a in d.get("adaylar", []) if a.get("durum") == "yeni"]
-          if yeni:
-              print("Otomatik tarama, **doğrulanmamış** %d çağrı adayı buldu." % len(yeni))
-              print()
-              print("Bunlar henüz `calls.json`'a eklenmedi: bütçe, destek oranı ve")
-              print("uygunluk bilgileri kurumun resmi sayfasından teyit edilmeli.")
-              print()
-              for a in yeni:
-                  print("- [ ] [%s](%s)" % (a["baslik"], a["url"]))
-                  print("      <sub>%s · ilk görülme: %s</sub>" % (a["kaynak"], a["ilk_gorulme"][:10]))
-          PY
-          if [ -s /tmp/yeni.md ]; then
-            gh issue create \
-              --repo "${{ github.repository }}" \
-              --title "Yeni çağrı adayları — inceleme bekliyor ($(date -u +%Y-%m-%d))" \
-              --body-file /tmp/yeni.md \
-              --label "cagri-adayi" 2>/dev/null \
-            || gh issue create \
-              --repo "${{ github.repository }}" \
-              --title "Yeni çağrı adayları — inceleme bekliyor ($(date -u +%Y-%m-%d))" \
-              --body-file /tmp/yeni.md
+          gh label create dogrulama-raporu --repo "$REPO" --color FBCA04 \
+            --description "Fon Radari gunluk dogrulama raporu" --force >/dev/null 2>&1 || true
+          NO=$(gh issue list --repo "$REPO" --label dogrulama-raporu --state open --json number --jq '.[0].number // empty')
+          if [ -z "$NO" ]; then
+            gh issue create --repo "$REPO" --label dogrulama-raporu \
+              --title "Fon Radarı — doğrulama raporu" --body-file /tmp/rapor.md
           else
-            echo "Yeni aday yok, issue acilmadi."
+            gh issue edit "$NO" --repo "$REPO" --body-file /tmp/rapor.md
+            if [ -s /tmp/yeni.txt ]; then
+              {
+                echo "Rapora **$(wc -l < /tmp/yeni.txt)** yeni madde eklendi ($(date -u +%Y-%m-%d)):"
+                echo
+                sed -e 's/^izleme:\([^:]*\):.*/- Kaynak sayfası değişti: `\1`/' \
+                    -e 's/^dogrulama:\([^:]*\):.*/- Teyit uyarısı: `\1`/' \
+                    -e 's/^kesif:\(.*\)/- Yeni sayfa: \1/' /tmp/yeni.txt | head -40
+              } > /tmp/yorum.md
+              gh issue comment "$NO" --repo "$REPO" --body-file /tmp/yorum.md
+            fi
           fi
+
+      - name: Kural ihlali varsa is akisini basarisiz say
+        if: steps.dogrulama.outcome == 'failure'
+        run: |
+          echo "::error::data/calls.json dogrulama kurallarindan gecemedi. Ayrinti 'Kayitlari dogrulama kurallarindan gecir' adiminda. Bkz. DOGRULAMA.md"
+          exit 1
