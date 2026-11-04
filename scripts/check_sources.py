@@ -47,7 +47,8 @@ AYLAR_TR_KISA = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl"
 AYLAR_EN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 DURUM_IFADELERI = re.compile(
-    r"süre(si)? uzatıl|uzatılmıştır|uzatıldı|başvurular(ı)? kapan|başvuruya kapat|iptal edil|"
+    # Yalnizca gerceklesmis durum degisiklikleri: "uzatilsa dahi" gibi kosul cumleleri yakalanmamali
+    r"uzatılmıştır|uzatıldı\b|başvurular(ı)? kapan(dı|mıştır)|başvuruya kapatıl(dı|mıştır)|iptal edil(di|miştir)|"
     r"yürürlükten kaldır|askıya alın|deadline (has been )?extended|call (is )?closed|cancelled",
     re.I,
 )
