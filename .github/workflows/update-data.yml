@@ -9,9 +9,11 @@ on:
     paths:
       - "data/calls.json"
       - "scripts/update_data.py"
+      - "scripts/discover_calls.py"
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: fon-radari-veri
@@ -29,17 +31,60 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Veri kontrol betigini calistir
+      - name: Mevcut veriyi dogrula ve durumu tazele
         run: python scripts/update_data.py
+
+      # Kaynak siteler gecici olarak erisilemezse is akisi kirilmasin;
+      # dogrulama adimi zaten yukarida calisti.
+      - name: Yeni cagrilari tara
+        id: kesif
+        continue-on-error: true
+        run: python scripts/discover_calls.py
 
       - name: Degisiklik varsa commit ve push yap
         run: |
           git config user.name "fon-radari-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet -- data/; then
-            git add data/calls.json data/alerts.json
-            git commit -m "chore: gunluk veri kontrolu [otomatik]"
+            git add data/calls.json data/alerts.json data/discovered.json
+            git commit -m "chore: gunluk veri kontrolu ve cagri taramasi [otomatik]"
             git push
           else
             echo "Degisiklik yok."
+          fi
+
+      - name: Yeni aday varsa bildirim issue'su ac
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY' > /tmp/yeni.md
+          import json, pathlib
+          p = pathlib.Path("data/discovered.json")
+          yeni = []
+          if p.exists():
+              d = json.loads(p.read_text(encoding="utf-8"))
+              yeni = [a for a in d.get("adaylar", []) if a.get("durum") == "yeni"]
+          if yeni:
+              print("Otomatik tarama, **doğrulanmamış** %d çağrı adayı buldu." % len(yeni))
+              print()
+              print("Bunlar henüz `calls.json`'a eklenmedi: bütçe, destek oranı ve")
+              print("uygunluk bilgileri kurumun resmi sayfasından teyit edilmeli.")
+              print()
+              for a in yeni:
+                  print("- [ ] [%s](%s)" % (a["baslik"], a["url"]))
+                  print("      <sub>%s · ilk görülme: %s</sub>" % (a["kaynak"], a["ilk_gorulme"][:10]))
+          PY
+          if [ -s /tmp/yeni.md ]; then
+            gh issue create \
+              --repo "${{ github.repository }}" \
+              --title "Yeni çağrı adayları — inceleme bekliyor ($(date -u +%Y-%m-%d))" \
+              --body-file /tmp/yeni.md \
+              --label "cagri-adayi" 2>/dev/null \
+            || gh issue create \
+              --repo "${{ github.repository }}" \
+              --title "Yeni çağrı adayları — inceleme bekliyor ($(date -u +%Y-%m-%d))" \
+              --body-file /tmp/yeni.md
+          else
+            echo "Yeni aday yok, issue acilmadi."
           fi
