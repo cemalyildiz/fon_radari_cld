@@ -1,0 +1,447 @@
+{
+  "generated_at": "2026-11-04T13:43:43Z",
+  "adaylar": [
+    {
+      "baslik": "1501 - TÜBİTAK Sanayi Ar-Ge Projeleri Destekleme Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1501-tubitak-sanayi-ar-ge-projeleri-destekleme-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1503 - Proje Pazarları Destekleme Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1503-proje-pazarlari-destekleme-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1505 - Üniversite-Sanayi İşbirliği Destek Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1505-universite-sanayi-isbirligi-destek-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1507 - TÜBİTAK KOBİ Ar-Ge Başlangıç Destek Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1507-tubitak-kobi-ar-ge-baslangic-destek-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1511 - TÜBİTAK Öncelikli Alanlar Araştırma Teknoloji Geliştirme ve Yenilik P. D. P.(Teknoloji Odaklı Sanayi Hamlesi Programı)",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1511-tubitak-oncelikli-alanlar-arastirma-teknoloji-gelistirme-ve-yenilik-p-d-pteknoloji-odakli-sanayi-hamlesi-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1513 - Teknoloji Transfer Ofisleri Destekleme Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1513-teknoloji-transfer-ofisleri-destekleme-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1514 - Girişim Sermayesi Destekleme Programı (Tech-InvesTR)",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1514-girisim-sermayesi-destekleme-programi-tech-investr",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1515 - Öncül Ar-Ge Laboratuvarları Destekleme Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1515-oncul-ar-ge-laboratuvarlari-destekleme-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1601 - Yenilik Girişimcilik Alanlarında Kapasite Artırılmasına Yönelik D.P.",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1601-yenilik-girisimcilik-alanlarinda-kapasite-artirilmasina-yonelik-dp",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1602 - TÜBİTAK Patent Destek Programı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1602-tubitak-patent-destek-programi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1612 - BiGG - 1.Aşama Uygulayıcı Kuruluş Çağrısı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1612-bigg-1asama-uygulayici-kurulus-cagrisi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1613 - Teknoloji Transferi Profesyoneli Çağrısı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1613-teknoloji-transferi-profesyoneli-cagrisi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1701 - Ar-Ge Proje Değerlendirme ve İzleme Çağrısı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1701-ar-ge-proje-degerlendirme-ve-izleme-cagrisi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1702 - Patent Tabanlı Teknoloji Transferi Destekleme Çağrısı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1702-patent-tabanli-teknoloji-transferi-destekleme-cagrisi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1711 - Yapay Zekâ Ekosistem Çağrısı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1711-yapay-zeka-ekosistem-cagrisi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1812 - Yatırım Tabanlı Girişimcilik Destek Programı (BiGG Yatırım)",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1812-yatirim-tabanli-girisimcilik-destek-programi-bigg-yatirim",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1832 - Sanayide Yeşil Dönüşüm Çağrısı",
+      "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1832-sanayide-yesil-donusum-cagrisi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1707 Sipariş Ar-Ge 2026 Yılı 3. Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1707-siparis-ar-ge-2026-yili-3-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Ulusal Destek Programları",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Ulusal Programlar",
+      "url": "https://tubitak.gov.tr/tr/destekler/akademik/ulusal-destek-programlari",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Uluslararası Programlar",
+      "url": "https://tubitak.gov.tr/tr/destekler/akademik/uluslararasi-destek-programlari",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Bilim & Toplum",
+      "url": "https://tubitak.gov.tr/tr/destekler/bilim-toplum",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Bilimsel Etkinlik",
+      "url": "https://tubitak.gov.tr/tr/destekler/bilimsel-etkinlik",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Etkinlik Düzenleme",
+      "url": "https://tubitak.gov.tr/tr/destekler/bilimsel-etkinlik/etkinlik-duzenleme",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Etkinliklere Katılım",
+      "url": "https://tubitak.gov.tr/tr/destekler/bilimsel-etkinlik/etkinliklere-katilim-destekleri",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Uluslararası Destekler",
+      "url": "https://tubitak.gov.tr/tr/destekler/bilimsel-etkinlik/uluslararasi-destekler",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Uluslararası İş Birlikleri",
+      "url": "https://tubitak.gov.tr/tr/destekler/uluslararasi-is-birlikleri",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "İkili İş Birliği Programları",
+      "url": "https://tubitak.gov.tr/tr/destekler/uluslararasi-is-birlikleri/ikili-is-birligi-programlari",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Çok Taraflı Programlar",
+      "url": "https://tubitak.gov.tr/tr/destekler/uluslararasi-is-birlikleri/coklu-is-birligi-programlari",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2549–Polonya Ulusal Araştırma ve Geliştirme Merkezi (NCBR) ile İkili İşbirliği Programı Başvuru Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2549-polonya-ulusal-arastirma-ve-gelistirme-merkezi-ncbr-ile-ikili-isbirligi-programi-basvuru-sonuclari-aciklandi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2247-C Stajyer Araştırmacı Burs Programı (STAR) 2026 Yılı 2. Dönem STAR Lisans ve STAR Öğretmen Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2508 TÜBİTAK – Slovenya Araştırma ve Yenilik Ajansı (ARIS) İkili İş Birliği Programı 2026 Yılı Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2508-tubitak-slovenya-arastirma-ve-yenilik-ajansi-aris-ikili-birligi-programi-2026-yili-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Bütünleşik Algılama ve Haberleşme Kış Okulu 2026 Yılı Başvuruları Başladı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Eureka Network Türkiye-İspanya 2026 Yılı Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2573–Endonezya Ulusal Araştırma ve Yenilik Ajansı (BRIN) ile İkili İşbirliği Programı Başvuru Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2573-endonezya-ulusal-arastirma-ve-yenilik-ajansi-brin-ile-ikili-isbirligi-programi-basvuru-sonuclari-aciklandi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1007 Programı Balistik Kıyafet Geliştirilmesi Projesi Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1007 Programı Balistik Amaçlı Aromatik Poliamid Geliştirilmesi Projesi Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2531 – TÜBİTAK & DAAD (Almanya) İkili İş Birliği Seyahat Destek Programı 7. Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2531-tubitak-daad-almanya-ikili-birligi-seyahat-destek-programi-7-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "BiGG Yatırım 2026 Yılı 1. Çağrısı’nın Sonuçları Belli Oldu",
+      "url": "https://tubitak.gov.tr/tr/duyuru/bigg-yatirim-2026-yili-1-cagrisinin-sonuclari-belli-oldu",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "BiodivERsA+ 2026 Yılı “Yeni Ekosistemler: Biyoçeşitlilik, Sosyo-Ekolojik Sonuçlar ve Gelecekteki Seyirler – BiodivFuture” Başlıklı Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/biodiversa-2026-yili-yeni-ekosistemler-biyocesitlilik-sosyo-ekolojik-sonuclar-ve-gelecekteki-seyirler-biodivfuture-baslikli-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2531 Alman Akademik Değişim Servisi (DAAD) ile İkili İş Birliği Programı Başvuru Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2531-alman-akademik-degisim-servisi-daad-ile-ikili-birligi-programi-basvuru-sonuclari-aciklandi-2",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2209-A Üniversite Öğrencileri Araştırma Projeleri Destekleme Programı ve 2209-B Üniversite Öğrencileri Sanayiye Yönelik Araştırma Projeleri Desteği Programı 2026 Yılı Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2209-universite-ogrencileri-arastirma-projeleri-destekleme-programi-ve-2209-b-universite-ogrencileri-sanayiye-yonelik-arastirma-projeleri-destegi-programi-2026-yili-cagrilari-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2224-Bilimsel Etkinliklere Katılımı Destekleme Programları 2026 Yılı 3. Dönem Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2224-bilimsel-etkinliklere-katilimi-destekleme-programlari-2026-yili-3-donem-cagrilari-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2247–A Ulusal Lider Araştırmacılar Programı ve 2247–D Ulusal Genç Liderler Programı 2026 Yılı Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2247-ulusal-lider-arastirmacilar-programi-ve-2247-d-ulusal-genc-liderler-programi-2026-yili-cagrilari-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Eureka Globalstars Japonya 2026 Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2572 TÜBİTAK–Ürdün Ulusal Araştırma Geliştirme Merkezi (NCRD) İkili İşbirliği Çağrısı Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2572-tubitak-urdun-ulusal-arastirma-gelistirme-merkezi-ncrd-ikili-isbirligi-cagrisi-basvuruya-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "2211-Yurt İçi Doktora Burs Programları 2026 Yılı 2. Dönem Çağrıları Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2211-yurt-ici-doktora-burs-programlari-2026-yili-2-donem-cagrilari-basvuruya-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Transfer Takip Sistemi (TTS)",
+      "url": "https://tubitak.gov.tr/tr/destekler/akademik/uygulamalar-ve-yonergeler/tts-transfer-takip-sistemi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Girişimci Destek Programı",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "KOBİ Dijital Dönüşüm Destek Programı",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9144/kobi-dijital-donusum-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "YÖNDE - Yönderlik ve Değerlendirme Destek Programı",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9165/yonde-yonderlik-ve-degerlendirme-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Teknoloji Merkezi Destek Programı",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9297/teknoloji-merkezi-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Sektörel Gelişim Merkezi (SEGEM) Destek Programı",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9327/sektorel-gelisim-merkezi-segem-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Yapay Zekâ Kredisi",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9414/yapay-zek-kredisi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Girişim Sermayesi Yatırım Fonları Yatırımları devamı için",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9378/girisim-sermayesi-yatirim-fonlari-yatirimlari",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Stratejik Ürün Destek Programı devamı için",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/6492/stratejik-urun-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1501 - TÜBİTAK Sanayi Ar-Ge Projeleri Destekleme Programı devamı için",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9145/1501-tubitak-sanayi-arge-projeleri-destekleme-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "1507 - TÜBİTAK KOBİ Ar-Ge Başlangıç Destek Programı devamı için",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9146/1507-tubitak-kobi-arge-baslangic-destek-programi",
+      "kaynak": "KOSGEB - Destekler",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Nereden Başlamalıyım?",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/180/nereden-baslamaliyim",
+      "kaynak": "KOSGEB - Duyurular",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "TEMSİLCİLİKLER",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/8535/kosgeb-temsilcilik-ofisi-bilgileri",
+      "kaynak": "KOSGEB - Duyurular",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Helal Expo ve 12. Dünya Helal Zirvesi",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9448/helal-expo-ve-12-dunya-helal-zirvesi",
+      "kaynak": "KOSGEB - Duyurular",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "BM Turizm Çevrim İçi Akademi Sürdürülebilirlik Kursları",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9423/bm-turizm-cevrim-ici-akademi-surdurulebilirlik-kurslari",
+      "kaynak": "KOSGEB - Duyurular",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "TechnoXian World Cup 2026 Yarışması",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9422/technoxian-world-cup-2026-yarismasi",
+      "kaynak": "KOSGEB - Duyurular",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "Güncellenen İşletme Niteliği ve Sınıfını Belirlemek İçin İşletme Beyanı Oluşturma Rehberi Yayınlandı",
+      "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9254/guncellenen-isletme-niteligi-ve-sinifini-belirlemek-icin-isletme-beyani-olusturma-rehberi-yayinlandi",
+      "kaynak": "KOSGEB - Duyurular",
+      "ilk_gorulme": "2026-11-04T13:43:43Z",
+      "durum": "yeni"
+    }
+  ],
+  "aciklama": "Otomatik tarama ile bulunan, HENUZ DOGRULANMAMIS cagri adaylari. Butce/oran/uygunluk bilgileri icermez; calls.json'a eklenmeden once kurumun resmi sayfasindan teyit edilmelidir."
+}
