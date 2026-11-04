@@ -44,10 +44,24 @@ ILGI_DESENI = re.compile(
     r"teklif|program[ıi]\s+aç|açıldı|acildi|duyuru",
     re.I,
 )
-# Acikca alakasiz olanlari ele (fuar, sergi, ihale, personel alimi vb.)
+# Acikca alakasiz olanlari ele.
+# Bu radar SANAYI/FIRMA odaklidir: burs, ogrenci, akademik aras-tirmaci ve
+# etkinlik programlari ile sonuc/duyuru metinleri kapsam disidir.
 ELEME_DESENI = re.compile(
+    # kurumsal gurultu
     r"sergi|fuar|ihale|personel alım|personel alim|sınav|sinav sonuc|"
-    r"ziyaret|protokol imza|iş birliği protokol|basın|basin bulten",
+    r"ziyaret|protokol imza|iş birliği protokol|basın bülten|basin bulten|"
+    # sonuc/degerlendirme duyurulari (yeni cagri degil)
+    r"sonuçları|sonuclari|sonuçlar belli|sonuclar belli|belli oldu|"
+    r"değerlendirme sonuc|degerlendirme sonuc|kabul edilen projeler|"
+    r"desteklenmeye hak|askıya alın|askiya alin|iptal edil|süre uzat|sure uzat|"
+    # burs ve ogrenci programlari (sanayi radari kapsami disi)
+    r"burs|bursiyer|stajyer|öğrenci|ogrenci|lisansüstü|lisansustu|"
+    r"doktora|yüksek lisans|yuksek lisans|lise öğren|lise ogren|"
+    r"araştırmacı burs|arastirmaci burs|bilimsel etkinlik|"
+    r"yurt dışı araştırma burs|yurt disi arastirma burs|seyahat destek|"
+    # akademik program kodlari: 2xxx ve 3xxx serisi TUBITAK burs/akademik
+    r"\b2[0-5]\d{2}\b|\bSTAR\b",
     re.I,
 )
 
