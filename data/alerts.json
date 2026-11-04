@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-09-29T12:08:25Z",
+  "generated_at": "2026-11-04T13:38:15Z",
   "esik_gun": 14,
   "yaklasan_son_tarihler": [
     {
-      "id": "kosgeb-kuresel-rekabetcilik-2026-1",
-      "baslik": "KOSGEB Küresel Rekabetçilik Destek Programı (2026 Yılı 1. Dönem)",
-      "kurum": "KOSGEB",
-      "basvuru_bitis": "2026-09-30",
-      "kalan_gun": 0,
-      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9206/kuresel-rekabetcilik-destek-programi"
+      "id": "tubitak-1507-2026-2",
+      "baslik": "1507 - KOBİ Ar-Ge Başlangıç Destek Programı (2026 Yılı 2. Çağrı)",
+      "kurum": "TÜBİTAK TEYDEB",
+      "basvuru_bitis": "2026-11-11",
+      "kalan_gun": 6,
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi"
+    },
+    {
+      "id": "tubitak-1707",
+      "baslik": "1707 - Siparişe Dayalı Ar-Ge Projeleri için KOBİ Destekleme Çağrısı (2026 Yılı 3. Dönem)",
+      "kurum": "TÜBİTAK TEYDEB",
+      "basvuru_bitis": "2026-11-13",
+      "kalan_gun": 8,
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi"
+    },
+    {
+      "id": "eureka-biyoteknoloji-2026",
+      "baslik": "1719 - Eureka Network Biyoteknoloji 2026 Çağrısı",
+      "kurum": "EUREKA Sekretaryası + TÜBİTAK (16 ülke katılımıyla)",
+      "basvuru_bitis": "2026-11-18",
+      "kalan_gun": 13,
+      "kaynak_url": "https://tubitak.gov.tr/en/announcement/1719-eureka-network-biotechnology-2026-call-open-application"
     }
   ]
 }
