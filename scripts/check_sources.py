@@ -132,7 +132,14 @@ def kontrol_et(call, onceki):
     sonuc = {"url": url, "son_kontrol": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "bulgular": []}
     teyit = (call.get("dogrulama") or {}).get("tarih")
     try:
-        status, tur, govde = getir(url)
+        try:
+            status, tur, govde = getir(url)
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            # Gecici ag kesintisi olabilir: bir kez daha dene (HTTP 4xx ise tekrar denemenin anlami yok)
+            if isinstance(e, urllib.error.HTTPError) and 400 <= e.code < 500:
+                raise
+            time.sleep(10)
+            status, tur, govde = getir(url)
     except (urllib.error.URLError, TimeoutError, OSError) as e:
         sonuc["durum"] = "erisilemedi"
         sonuc["bulgular"].append("sayfa açılamadı: %s" % (getattr(e, "code", None) or e.__class__.__name__))
