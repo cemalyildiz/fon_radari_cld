@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-04T18:24:03Z",
+  "last_checked": "2026-11-04T19:49:51Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -86,14 +86,14 @@
         "Enerji",
         "Yatırım Desteği"
       ],
-      "baslik": "KOSGEB Yeşil Sanayi Destek Programı",
+      "baslik": "KOSGEB Yeşil Sanayi Destek Programı (2023-01 GES ve 2023-02 Temiz/Döngüsel Ekonomi çağrıları, kapandı)",
       "kurum": "KOSGEB (Türkiye Yeşil Sanayi Projesi - Bileşen 1)",
       "ozet": "Güneş enerjisi santrali (GES) kurulumu, verimli motorlara geçiş, su tasarrufu gibi hazır/olgun yeşil teknolojilerin satın alınıp uygulanmasının desteklenmesi.",
       "basvuru_baslangic": "2023-12-08",
-      "basvuru_bitis": null,
-      "surekli_acik": true,
+      "basvuru_bitis": "2024-11-30",
+      "surekli_acik": false,
       "destek_turu": "Geri ödemeli, proje bitiminden 12 ay sonra 6 eşit taksitte",
-      "destek_miktari": "GES yatırımları için 14.000.000 TL'ye, Temiz ve Döngüsel Ekonomi projeleri için 4.000.000 TL'ye kadar (KOSGEB'in resmi sayfasından 26.07.2026 tarihinde doğrudan teyit edildi)",
+      "destek_miktari": "2023-01 GES çağrısı: 14.000.000 TL'ye kadar; 2023-02 Temiz ve Döngüsel Ekonomi çağrısı: 4.000.000 TL'ye kadar (çağrı metinlerinden)",
       "destek_orani": "GES: normal illerde %60, bazı deprem illerinde %80, ağır hasarlı deprem illerinde %90. Döngüsel Ekonomi: normal illerde %70, aynı deprem bölgesi kademeleriyle artırılır.",
       "kimler_basvurabilir": "En az 2 yıl önce kurulmuş KOBİ'ler",
       "olcek": [
@@ -102,7 +102,7 @@
       "proje_suresi": "En az 8, en fazla 12 ay (4'er aylık izleme dönemleri)",
       "sektor_odagi": "Yenilenebilir enerji, kaynak verimliliği, atık yönetimi, döngüsel ekonomi",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi",
-      "notlar": "MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama destekli bir programdır - 1831'den farklıdır. Yürürlükteki çağrı kodları: 2023-01 (GES) ve 2023-02 (Temiz/Döngüsel Ekonomi) - 2023'te açılmış ve hâlâ sürekli başvuruya açık durumdadır."
+      "notlar": "Program sürekli açık DEĞİLDİR; proje teklif çağrıları ile uygulanır (Yönerge md. 5 ve 25: çağrılar KOSGEB sitesinde ilan edilir, ilan ile son başvuru arasında en az 30 gün süre bırakılır; toplam bütçeye ulaşılınca başvuru alınmaz). 2023-01 ve 2023-02 çağrılarının başvuru dönemi 08.12.2023 - 30.11.2024 (23:59) idi ve kapanmıştır. KOSGEB program sayfası bu iki çağrıyı hâlâ 'Yürürlükte Olan Çağrılar' altında listeliyor; çağrı metinlerine göre başvuru süreleri sona ermiştir (desteklenen projelerin uygulaması sürüyor olabilir). Program yönergesinin Rev.04 sürümü (23.08.2026 tarihli) yayında olduğundan program yürürlüktedir; ancak 04.11.2026 itibarıyla açık yeni bir çağrı bulunamamıştır. Yeni çağrıda üst limitler değişebilir: güncel yönerge alt bileşen 1.1 (enerji) için işletme başına 500.000 USD, 1.2 için 150.000 USD karşılığı TL üst sınır öngörüyor. MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama desteğidir - 1831'den farklıdır. Teyit: 04.11.2026, KOSGEB resmî çağrı metinleri ve yönerge."
     },
     {
       "id": "tubitak-1501-2026-2",
