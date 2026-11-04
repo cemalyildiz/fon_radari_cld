@@ -1,0 +1,45 @@
+name: Fon Radari - Gunluk Veri Kontrolu
+
+on:
+  schedule:
+    # Her gun 05:10 UTC (Turkiye saatiyle 08:10)
+    - cron: "10 5 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "data/calls.json"
+      - "scripts/update_data.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fon-radari-veri
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu cek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Veri kontrol betigini calistir
+        run: python scripts/update_data.py
+
+      - name: Degisiklik varsa commit ve push yap
+        run: |
+          git config user.name "fon-radari-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/; then
+            git add data/calls.json data/alerts.json
+            git commit -m "chore: gunluk veri kontrolu [otomatik]"
+            git push
+          else
+            echo "Degisiklik yok."
+          fi
