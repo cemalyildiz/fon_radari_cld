@@ -65,30 +65,47 @@ ELEME_DESENI = re.compile(
     re.I,
 )
 
+# Menu / navigasyon baglantilari (sayfa iskeletinden gelen gurultu)
+MENU_DESENI = re.compile(
+    r"^(ulusal|uluslararası|uluslararasi)\s+(programlar|destekler)$|"
+    r"^bilim\s*&?\s*toplum$|^etkinlik\s+düzenleme$|^etkinliklere\s+katılım$|"
+    r"^uluslararası\s+iş\s+birlikleri$|^ikili\s+iş\s+birliği\s+programları$|"
+    r"^çok\s+taraflı\s+programlar$|^devamını\s+oku$|devamı\s+için$|"
+    r"^transfer\s+takip\s+sistemi|^duyuru\s+arşivi$|^destek\s+programları$|"
+    r"^tümünü\s+gör|^daha\s+fazla|^anasayfa$",
+    re.I,
+)
+
 KAYNAKLAR = [
     {
         "ad": "TÜBİTAK - Ulusal Destek Programları",
         "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari",
         "kok": "https://tubitak.gov.tr",
         "link_deseni": r"/tr/destekler/(?:destek/)?sanayi/ulusal-destek-programlari/[^\"#?]+",
+        # Program listesi: "1501 - ..." gibi kod onekli ya da Program/Cagri iceren basliklar
+        "baslik_deseni": r"^\d{4}\b|program|çağrı|cagri",
     },
     {
         "ad": "TÜBİTAK - Duyuru Arşivi",
         "url": "https://tubitak.gov.tr/tr/duyuru",
         "kok": "https://tubitak.gov.tr",
         "link_deseni": r"/tr/(?:duyuru|destekler)/[^\"#?]+",
+        # Duyuru akisi: yalnizca cagri/basvuru bildiren basliklar
+        "baslik_deseni": None,
     },
     {
         "ad": "KOSGEB - Destekler",
         "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/3/destekler",
         "kok": "https://www.kosgeb.gov.tr",
         "link_deseni": r"/site/tr/genel/destekdetay/\d+/[^\"#?]+",
+        "baslik_deseni": r"destek program|programı|programi",
     },
     {
         "ad": "KOSGEB - Duyurular",
         "url": "https://www.kosgeb.gov.tr/site/tr/genel/duyurular/1/duyurular",
         "kok": "https://www.kosgeb.gov.tr",
         "link_deseni": r"/site/tr/genel/(?:detay|destekdetay)/\d+/[^\"#?]+",
+        "baslik_deseni": None,
     },
 ]
 
@@ -138,9 +155,17 @@ def kaynak_tara(kaynak):
         baslik = metni_temizle(ic)
         if len(baslik) < 12 or len(baslik) > 220:
             continue
-        if ELEME_DESENI.search(baslik):
+        if ELEME_DESENI.search(baslik) or MENU_DESENI.search(baslik):
             continue
-        if not ILGI_DESENI.search(baslik) and not desen.search(yol):
+        # Kaynak kendi baslik kuralini veriyorsa onu, vermiyorsa genel
+        # ilgi desenini uygula. (Onceki surumde buradaki "or desen.search(yol)"
+        # kosulu filtreyi tumuyle devre disi birakiyordu - menu baglantilari
+        # aday olarak kuyruga giriyordu.)
+        baslik_kurali = kaynak.get("baslik_deseni")
+        if baslik_kurali:
+            if not re.search(baslik_kurali, baslik, re.I):
+                continue
+        elif not ILGI_DESENI.search(baslik):
             continue
         tam = url_normalize(href, kaynak["kok"])
         # Ayni URL birden fazla kez gecerse en uzun basligi tut
