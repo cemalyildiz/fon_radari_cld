@@ -60,8 +60,11 @@ ELEME_DESENI = re.compile(
     r"doktora|yüksek lisans|yuksek lisans|lise öğren|lise ogren|"
     r"araştırmacı burs|arastirmaci burs|bilimsel etkinlik|"
     r"yurt dışı araştırma burs|yurt disi arastirma burs|seyahat destek|"
-    # akademik program kodlari: 2xxx ve 3xxx serisi TUBITAK burs/akademik
-    r"\b2[0-5]\d{2}\b|\bSTAR\b",
+    # TUBITAK akademik/burs program kodlari (2209-A, 2211, 2247, 2508, 2531...).
+    # DIKKAT: 20xx araligi YIL rakamlariyla cakisir ("... 2026 Yili Cagrisi"),
+    # bu yuzden 21xx-25xx araligiyla sinirli tutuluyor; aksi halde icinde 2026
+    # gecen gercek cagrilar yanlislikla eleniyordu.
+    r"\b2[1-5]\d{2}\b|\bSTAR\b",
     re.I,
 )
 
