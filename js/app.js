@@ -122,14 +122,19 @@ function renderCards(){
   const summary = document.getElementById('result-summary');
   if (state.data){
     const allInTab = state.data.calls.filter(c => c.kategori === state.activeTab);
-    const openCount = allInTab.filter(c => ['acik','yakinda-kapaniyor'].includes(computeStatus(c))).length;
-    const urgentCount = allInTab.filter(c => computeStatus(c) === 'yakinda-kapaniyor').length;
     const archivedCount = allInTab.filter(c => ['kapali','kaldirildi'].includes(computeStatus(c))).length;
     if (state.statusFilter === 'kapali'){
       summary.textContent = `Arşivde ${archivedCount} kapalı çağrı gösteriliyor.`;
     } else {
-      const urgentTxt = urgentCount > 0 ? ` ${urgentCount} çağrı 14 gün içinde kapanıyor.` : '';
-      summary.textContent = `${calls.length} çağrı gösteriliyor (${openCount} açık).${urgentTxt} ${archivedCount} kapalı çağrı arşivde — Durum filtresinden "Arşiv"i seçin.`;
+      // Sayilar ekranda gosterilen kartlardan hesaplanir (filtrelerle tutarli kalsin)
+      const gAcik = calls.filter(c => ['acik','yakinda-kapaniyor'].includes(computeStatus(c))).length;
+      const gAcil = calls.filter(c => computeStatus(c) === 'yakinda-kapaniyor').length;
+      const gCerceve = calls.filter(c => computeStatus(c) === 'cerceve').length;
+      const parcalar = [];
+      if (gAcik) parcalar.push(`${gAcik} başvuruya açık` + (gAcil ? ` (${gAcil} tanesi 14 gün içinde kapanıyor)` : ''));
+      if (gCerceve) parcalar.push(`${gCerceve} çerçeve program (dönemsel açılır)`);
+      const detay = parcalar.length ? ': ' + parcalar.join(', ') : '';
+      summary.textContent = `${calls.length} çağrı gösteriliyor${detay}. ${archivedCount} kapalı çağrı arşivde — Durum filtresinden "Arşiv"i seçin.`;
     }
   }
 
