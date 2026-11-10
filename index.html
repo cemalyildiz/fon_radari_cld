@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<script>/* Tema tercihi boyamadan önce uygulanır (açık tema varsayılan) */
+try{ if (localStorage.getItem('fon-radari-tema') === 'dark') document.documentElement.dataset.theme = 'dark'; }catch(e){}</script>
 <title>Fon Radarı — Ulusal ve Uluslararası Proje Çağrıları</title>
 <meta name="description" content="TÜBİTAK, KOSGEB, Ticaret Bakanlığı, Savunma Sanayii Başkanlığı, Horizon Europe, LIFE ve Eureka/Eurostars gibi kaynaklardan derlenen güncel ulusal ve uluslararası proje çağrıları radarı.">
 <meta property="og:title" content="Fon Radarı — Ulusal ve Uluslararası Proje Çağrıları">
@@ -11,7 +14,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%230b0f0e'/%3E%3Ccircle cx='20' cy='20' r='15' fill='none' stroke='%235EF2A6' stroke-width='2' opacity='0.5'/%3E%3Ccircle cx='20' cy='20' r='8' fill='none' stroke='%235EF2A6' stroke-width='2' opacity='0.75'/%3E%3Ccircle cx='20' cy='20' r='2.5' fill='%235EF2A6'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=20261110b">
+<link rel="stylesheet" href="css/style.css?v=20261110c">
 </head>
 <body>
 
@@ -35,9 +38,18 @@
         <span class="brand-sub">ulusal ve uluslararası çağrı takip sistemi</span>
       </div>
     </div>
-    <div class="status-strip">
-      <span class="status-dot" id="live-dot"></span>
-      <span id="last-checked-label">yükleniyor…</span>
+    <div class="topbar-sag">
+      <div class="status-strip">
+        <span class="status-dot" id="live-dot"></span>
+        <span id="last-checked-label">yükleniyor…</span>
+      </div>
+      <button type="button" class="tema-anahtar" id="tema-anahtar" role="switch" aria-checked="false">
+        <span class="tema-ray" aria-hidden="true"><span class="tema-dugme">
+          <svg class="tema-gunes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4.5" fill="currentColor" stroke="none"/><path d="M12 1.5v2.5M12 20v2.5M1.5 12H4M20 12h2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+          <svg class="tema-ay" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
+        </span></span>
+        <span>Koyu tema</span>
+      </button>
     </div>
   </div>
 </header>
@@ -176,7 +188,13 @@
   <p>Bu radar; TÜBİTAK, KOSGEB, Sanayi ve Teknoloji Bakanlığı, Ticaret Bakanlığı, Savunma Sanayii Başkanlığı ve Avrupa Komisyonu (Horizon Europe, LIFE, Erasmus+) gibi kaynaklardan derlenen, yeşil dönüşümle sınırlı olmayan genel bir çağrı listesidir — tema filtresiyle daraltabilirsiniz. Başvuru öncesi kaynak kurumun güncel kılavuzunu mutlaka teyit edin. Çağrı durumları (açık/kapalı) tarayıcınızda bugünün tarihine göre hesaplanır. Veri her gün otomatik olarak kontrol edilir ve kurum siteleri yeni çağrılar için taranır; taramada bulunanlar doğrulanana kadar ayrı bir bölümde, "doğrulanmamış" etiketiyle gösterilir. Uluslararası sekmesindeki "AB Funding &amp; Tenders Portalı" listesi Avrupa Komisyonu'nun resmî portalından her gün otomatik alınır. Her kayıt resmî kaynaktan teyit edilir ve kartta son teyit tarihi yazar; resmî sayfası teyitten sonra değişen kayıtlar "yeniden teyit bekleniyor" olarak işaretlenir (<a href="https://github.com/cemalyildiz/fon_radari_cld/blob/main/DOGRULAMA.md" target="_blank" rel="noopener">doğrulama prosedürü</a>).</p>
 </footer>
 
-<script src="js/app.js?v=20261110b"></script>
-<script src="js/ab.js?v=20261110b"></script>
+<button type="button" class="yukari" id="yukari" aria-label="Sayfanın başına dön" title="Sayfanın başına dön">
+  <svg class="yukari-halka" viewBox="0 0 48 48" aria-hidden="true"><circle class="yukari-iz" cx="24" cy="24" r="22"/><circle class="yukari-ilerleme" id="yukari-ilerleme" cx="24" cy="24" r="22"/></svg>
+  <svg class="yukari-ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"/></svg>
+</button>
+
+<script src="js/arayuz.js?v=20261110c"></script>
+<script src="js/app.js?v=20261110c"></script>
+<script src="js/ab.js?v=20261110c"></script>
 </body>
 </html>
