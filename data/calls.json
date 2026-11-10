@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-09T13:48:51Z",
+  "last_checked": "2026-11-10T11:50:55Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -173,7 +173,7 @@
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "KOBİ'lerin proje esaslı araştırma, teknoloji geliştirme ve yenilikçilik faaliyetlerine ilk kez veya sınırlı sayıda başvuran firmalar için giriş seviyesi Ar-Ge destek programı.",
       "basvuru_baslangic": "2026-07-20",
-      "basvuru_bitis": "2026-11-11",
+      "basvuru_bitis": "2026-11-25",
       "surekli_acik": false,
       "destek_turu": "Hibe (geri ödemesiz)",
       "destek_miktari": "Program üst limitleri dahilinde (çağrı dokümanından teyit edilmeli)",
@@ -185,18 +185,18 @@
       "proje_suresi": "Genellikle 12-18 ay",
       "sektor_odagi": "Tüm sektörler ve teknoloji alanları",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi",
-      "notlar": "Çağrı takvimi: açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 9 Kasım 2026, çağrı kapanış tarihi 11 Kasım 2026. Program her yıl ocak ve temmuz aylarında iki çağrı açar. 2026-2 çağrısında geçmiş projelerin ticarileşme performansına göre -5/+5 aralığında ek puan uygulanır. Bütçe/oran ayrıntısı için çağrı dokümanına bakılmalıdır.",
+      "notlar": "Çağrı takvimi (09.11.2026 TÜBİTAK duyurusuyla uzatıldı): açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 23 Kasım 2026, çağrı kapanış tarihi 25 Kasım 2026 (PRODİS üzerinden gönderim son tarihi; gönderim için ön kayıt onayı gerekir). Önceki takvim: ön kayıt 9 Kasım, kapanış 11 Kasım. Sistem hatası nedeniyle başvuru yapılamazsa en geç 2 Aralık 2026 mesai bitimine kadar TEYDEB'e dilekçe verilmelidir. Proje önerileri e-imza ile gönderilir. Program her yıl ocak ve temmuz aylarında iki çağrı açar. 2026-2 çağrısında geçmiş projelerin ticarileşme performansına göre -5/+5 aralığında ek puan uygulanır. Bütçe/oran ayrıntısı için çağrı dokümanına bakılmalıdır.",
       "dogrulama": {
-        "tarih": "2026-11-04",
-        "kaynak": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi",
-        "kanit": "Çağrı Açılış Tarihi 20 Temmuz 2026; Kuruluş Bazlı Ön Kayıt Başvurusu Son Tarihi 9 Kasım 2026; Çağrı Kapanış Tarihi 11 Kasım 2026",
+        "tarih": "2026-11-10",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/1507-kobi-ar-ge-baslangic-destek-programi-ve-1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-programi-2026-yili-cagrilarinin-suresi-uzatildi",
+        "kanit": "09 Kas 2026 TÜBİTAK duyurusu: '1507 ... 2026 yılı 2. Çağrısı ... başvuru süresi uzatılmıştır' — 1507: Kuruluş Bazlı Ön Kayıt Başvurusu Son Tarihi 23 Kasım 2026; Çağrı Kapanış Tarihi 25 Kasım 2026",
         "durum": "kismi",
         "eksik": "Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli."
       },
       "ara_tarihler": [
         {
-          "ad": "Kuruluş bazlı ön kayıt son tarihi",
-          "tarih": "2026-11-09"
+          "ad": "Kuruluş bazlı ön kayıt son tarihi (uzatıldı)",
+          "tarih": "2026-11-23"
         }
       ]
     },
@@ -648,7 +648,7 @@
       "kurum": "TÜBİTAK TEYDEB",
       "ozet": "Büyük ölçekli kuruluşların (alıcı kuruluş) tedarikçisi KOBİ'lerden talep ettiği Ar-Ge içerikli, siparişe dayalı ürün/süreç geliştirme projelerinin desteklenmesi; savunma sanayii tedarik zincirinde sıkça kullanılan bir mekanizmadır.",
       "basvuru_baslangic": "2026-09-01",
-      "basvuru_bitis": "2026-11-13",
+      "basvuru_bitis": "2026-11-27",
       "surekli_acik": false,
       "destek_turu": "Hibe (TÜBİTAK payı) + Müşteri Kuruluş eş finansmanı",
       "destek_miktari": "Proje bütçesi en fazla 10.000.000 TL",
@@ -660,17 +660,17 @@
       "proje_suresi": "En fazla 24 ay (uzatmayla da 24 ayı aşamaz)",
       "sektor_odagi": "Tedarik zinciri Ar-Ge'si - savunma sanayii, otomotiv, beyaz eşya gibi ana sanayi-tedarikçi ilişkisi olan sektörlerde yaygın",
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-      "notlar": "2026 taslak takvimi: 1. dönem 2 Ocak - 13 Mart, 2. dönem 4 Mayıs - 17 Temmuz, 3. dönem 1 Eylül - 13 Kasım 2026. Başvurular eteydeb.tubitak.gov.tr üzerinden. 'Endüstride Teknolojik Sıçrama' veya 'Dijital Liderlik' konularındaki projelere (Yeşil Dönüşüm başlıkları hariç) +5 puan. Program sürekli açık değildir, yılda 3 dönem açılır. Kuruluş bazlı ön kayıt son tarihi 11 Kasım 2026 (TÜBİTAK çağrı duyurusu, 09.09.2026 teyidi; 04.11.2026'da okunan program sayfasında ön kayıt tarihi yer almıyor).",
+      "notlar": "2026 takvimi: 1. dönem 2 Ocak - 13 Mart, 2. dönem 4 Mayıs - 17 Temmuz, 3. dönem 1 Eylül - 27 Kasım 2026 (09.11.2026 TÜBİTAK duyurusuyla 13 Kasım'dan uzatıldı). Kuruluş bazlı ön kayıt son tarihi 25 Kasım 2026 (önceden 11 Kasım). Sistem hatası nedeniyle başvuru yapılamazsa en geç 4 Aralık 2026 mesai bitimine kadar TEYDEB'e dilekçe verilmelidir. Başvurular eteydeb.tubitak.gov.tr üzerinden, e-imza ile. 'Endüstride Teknolojik Sıçrama' veya 'Dijital Liderlik' konularındaki projelere (Yeşil Dönüşüm başlıkları hariç) +5 puan. Program sürekli açık değildir, yılda 3 dönem açılır.",
       "dogrulama": {
-        "tarih": "2026-11-04",
+        "tarih": "2026-11-10",
         "kaynak": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-        "kanit": "3. Çağrı Dönemi 1 Eylül 2026 - 13 Kasım 2026; 'Proje bütçesi en fazla 10.000.000 TL'; 'kabul edilen harcama tutarının %40'ını Tedarikçi Kuruluşa hibe'",
+        "kanit": "Program sayfası: '3. Çağrı Dönemi 1 Eylül 2026 - 27 Kasım 2026'; 'Proje bütçesi en fazla 10.000.000 TL'; 'kabul edilen harcama tutarının %40'ını Tedarikçi Kuruluşa hibe'. 09 Kas 2026 uzatma duyurusu: 1707 ön kayıt son tarihi 25 Kasım 2026, çağrı kapanış 27 Kasım 2026",
         "durum": "tam"
       },
       "ara_tarihler": [
         {
-          "ad": "Kuruluş bazlı ön kayıt son tarihi",
-          "tarih": "2026-11-11"
+          "ad": "Kuruluş bazlı ön kayıt son tarihi (uzatıldı)",
+          "tarih": "2026-11-25"
         }
       ]
     },
@@ -911,9 +911,9 @@
         }
       ],
       "dogrulama": {
-        "tarih": "2026-11-04",
+        "tarih": "2026-11-10",
         "kaynak": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
-        "kanit": "International Call PO opening 23 June 2026; PO submission deadline 26 November 2026; FPP 5 March 2027; national deadline 31 March 2027",
+        "kanit": "International Call PO opening 23 June 2026; PO submission deadline 26 November 2026; FPP 5 March 2027; national deadline 31 March 2027 (10.11.2026'da yeniden okundu; takvim değişmemiş)",
         "durum": "tam"
       }
     },
@@ -1111,9 +1111,9 @@
       "kaynak_url": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
       "notlar": "Başvurular iki aylık dönemler hâlinde KAYS üzerinden alınır; dönem son tarihleri 2026: 27 Şubat, 30 Nisan, 30 Haziran, 31 Ağustos, 30 Ekim, 31 Aralık. Şu an Kasım-Aralık dönemi (son tarih 31 Aralık 2026). Bütçe limitine ulaşılırsa program erken sonlandırılabilir. FİRMALAR DOĞRUDAN BAŞVURAMAZ: uygun başvuru sahipleri önceliğe göre sanayi/ticaret odaları, OSB'ler, teknoloji geliştirme bölgeleri, TTO'lar, birlikler, belediyeler, üniversiteler, kamu kurumları ve STK'lardır. Doğrudan mali destek verilmez; destek Ajans uzmanları veya hizmet alımı yoluyla teknik destektir.",
       "dogrulama": {
-        "tarih": "2026-11-04",
+        "tarih": "2026-11-10",
         "kaynak": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
-        "kanit": "Dönem son tarihleri listesi (son: 31 Aralık 2026); 'Başvurular iki aylık dönemler hâlinde değerlendirilecektir'; sayfa son değişiklik 02.11.2026",
+        "kanit": "Dönem son tarihleri listesi (KASIM-ARALIK: 31 ARALIK 2026); 'Başvurular iki aylık dönemler hâlinde değerlendirilecektir'; Zeyilname bölümü: 'Herhangi bir güncelleme bulunmamaktadır' (10.11.2026)",
         "durum": "tam"
       },
       "ara_tarihler": [

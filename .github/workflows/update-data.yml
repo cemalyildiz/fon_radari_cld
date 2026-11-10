@@ -4,6 +4,8 @@ on:
   schedule:
     # Her gun 05:10 UTC (Turkiye saatiyle 08:10)
     - cron: "10 5 * * *"
+    # GitHub zamanlanmis isleri saatlerce geciktirebiliyor; ikinci tarama 17:40 TSI
+    - cron: "40 14 * * *"
   workflow_dispatch: {}
   push:
     paths:

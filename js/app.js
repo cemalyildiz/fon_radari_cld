@@ -217,6 +217,10 @@ function teyitDurumu(call, status){
   const iz = state.izleme[call.id];
   const gunOnce = dg.tarih ? Math.round((Date.parse(trBugun()+'T00:00:00Z') - Date.parse(dg.tarih.slice(0,10)+'T00:00:00Z'))/86400000) : null;
   if (!dg.tarih) return { cls:'teyit-yok', metin:'Resmî kaynaktan teyit bilgisi yok' };
+  if (aktif && iz && (iz.duyurular || []).length) {
+    const d = iz.duyurular[0];
+    return { cls:'teyit-uyari teyit-duyuru', metin:`DİKKAT: Kurum ${fmtDate(d.ilk_gorulme)} tarihinde bu çağrıyla ilgili yeni bir duyuru yayımladı ("${d.baslik}"). Karttaki tarihler güncel olmayabilir; duyuruyu esas alın.`, link: d.url };
+  }
   if (aktif && iz && iz.durum === 'yeniden_teyit') return { cls:'teyit-uyari', metin:`Resmî kaynak sayfası ${fmtDate(dg.tarih)} teyidinden sonra değişti — yeniden teyit bekleniyor` };
   if (aktif && gunOnce > TEYIT_GECERLILIK_GUN) return { cls:'teyit-uyari', metin:`Son teyit ${fmtDate(dg.tarih)} (${gunOnce} gün önce) — teyit tarihi eski` };
   if (dg.durum === 'kismi') return { cls:'teyit-kismi', metin:`Kısmi teyit · ${fmtDate(dg.tarih)}` };
@@ -226,7 +230,7 @@ function teyitDurumu(call, status){
 
 function teyitSatiri(call, status){
   const t = teyitDurumu(call, status);
-  return `<div class="teyit ${t.cls}">${escapeHtml(t.metin)}</div>`;
+  return `<div class="teyit ${t.cls}">${escapeHtml(t.metin)}${t.link ? ` <a href="${guvenliUrl(t.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Duyuruyu aç ↗</a>` : ''}</div>`;
 }
 
 function teyitDetayi(call, status){

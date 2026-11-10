@@ -179,17 +179,71 @@ def kontrol_et(call, onceki):
     return sonuc
 
 
+KESIF_PATH = ROOT / "data" / "discovered.json"
+# Kurum duyurusunun BASLIGINDA gecen durum degisikligi ifadeleri
+DUYURU_DURUM = re.compile(
+    r"süresi uzatıl|uzatıldı|uzatılmıştır|erteleme|ertelendi|takvim(i)? güncellen|tarih(i|leri)? değiş|"
+    r"kapandı|kapatıldı|iptal|askıya|extended|postponed|closed|cancelled",
+    re.I,
+)
+GENEL_KELIMELER = {"destek", "programi", "program", "programı", "cagrisi", "çağrısı", "cagri", "çağrı",
+                   "yili", "yılı", "2026", "2027", "proje", "projeleri", "için", "icin", "tübitak", "tubitak",
+                   "kosgeb", "ve", "the", "call", "for", "kobi", "kobİ", "ar-ge", "dönem", "donem"}
+
+
+def kelime_kumesi(metin):
+    """Ayirt edici kelimeler (tam kelime; genel ve sayisal kelimeler haric)."""
+    genel = {tr_katla(g) for g in GENEL_KELIMELER}
+    return {w for w in re.findall(r"[a-z]{4,}", tr_katla(metin))
+            if w not in genel and not w.startswith("basvuru") and not w.startswith("teknoloji")}
+
+
+def program_kodlari(call):
+    """Basliktaki/id'deki 4 haneli program kodlari (1507, 1707, 1831...). Yillar haric."""
+    metin = "%s %s" % (call.get("baslik", ""), call.get("id", ""))
+    return {k for k in re.findall(r"(?<!\d)(\d{4})(?!\d)", metin) if not 2000 <= int(k) <= 2099}
+
+
+def ilgili_duyurular(call, adaylar):
+    """Kaydin son teyidinden SONRA gorulen ve basliginda durum degisikligi gecen kurum duyurulari.
+    Eslesme: program kodu (ör. 1507) ya da basliktaki ayirt edici kelimelerden en az ikisi."""
+    teyit = (call.get("dogrulama") or {}).get("tarih", "")
+    kodlar = program_kodlari(call)
+    kelimeler = kelime_kumesi(call.get("baslik", ""))
+    sonuc = []
+    for a in adaylar:
+        b = a.get("baslik", "")
+        if not DUYURU_DURUM.search(b) or (a.get("ilk_gorulme", "")[:10] <= teyit):
+            continue
+        b_kodlar = set(re.findall(r"(?<!\d)(\d{4})(?!\d)", b))
+        if kodlar:
+            eslesti = bool(kodlar & b_kodlar)
+        else:
+            eslesti = len(kelimeler & kelime_kumesi(b)) >= 2
+        if eslesti:
+            sonuc.append({"baslik": b, "url": a.get("url", ""), "ilk_gorulme": a.get("ilk_gorulme", "")[:10]})
+    return sonuc
+
+
 def main():
     calls = json.load(open(CALLS_PATH, encoding="utf-8")).get("calls", [])
     onceki = {}
     if IZLEME_PATH.exists():
         onceki = json.load(open(IZLEME_PATH, encoding="utf-8")).get("kayitlar", {})
+    adaylar = json.load(open(KESIF_PATH, encoding="utf-8")).get("adaylar", []) if KESIF_PATH.exists() else []
 
     kayitlar = {}
     for c in calls:
         if cagri_durumu(c) not in ("acik", "yakinda-kapaniyor", "cerceve"):
             continue
         s = kontrol_et(c, onceki.get(c["id"]))
+        # Kurumun yeni duyurusu (süre uzatımı, iptal vb.) kaynak sayfa erisilemese bile isaretlenir
+        duyurular = ilgili_duyurular(c, adaylar)
+        if duyurular:
+            s["duyurular"] = duyurular
+            for d in duyurular:
+                s["bulgular"].insert(0, "kurum, son teyitten sonra yeni duyuru yayımladı: “%s” (%s)" % (d["baslik"], d["url"]))
+            s["durum"] = "yeniden_teyit"
         kayitlar[c["id"]] = s
         print("  %-36s %-14s %s" % (c["id"][:36], s["durum"], " | ".join(s["bulgular"])[:150]))
         time.sleep(ISTEK_ARASI_SN)

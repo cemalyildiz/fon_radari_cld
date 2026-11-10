@@ -265,6 +265,9 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
 .teyit-kismi, .teyit-uyari{ color:var(--amber); }
 .teyit-yok{ color:var(--red); }
 .teyit-onceki{ color:var(--text-dim); }
+.teyit.teyit-duyuru{ color:var(--red); font-size:.75rem; line-height:1.45; align-items:flex-start; padding:.5rem .6rem; border:1px solid var(--red); border-radius:6px; background:rgba(242,107,94,.08); flex-wrap:wrap; }
+.teyit.teyit-duyuru::before{ margin-top:.35rem; }
+.teyit-duyuru a{ color:var(--red); text-decoration:underline; }
 .ara-tarih{ margin-top:.6rem; font-size:.8rem; color:var(--amber); }
 .teyit-detay{ margin-top:1rem; padding:.8rem 1rem; border:1px solid var(--line); border-left:3px solid currentColor; border-radius:8px; background:var(--panel-2); font-size:.85rem; line-height:1.55; display:grid; gap:.3rem; }
 .teyit-detay > *{ color:var(--text); }

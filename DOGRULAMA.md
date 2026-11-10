@@ -86,6 +86,7 @@ Her kayıtta bulunur:
 1. **Kural denetimi** (`update_data.py`): yukarıdaki kurallara uymayan kayıt varsa iş akışı başarısız olur.
 2. **Yeni çağrı taraması** (`discover_calls.py`): sitede karşılığı olmayan sayfalar "doğrulanmamış" olarak listelenir; siteye **kendiliğinden eklenmez**.
 3. **Kaynak sayfa izleme** (`check_sources.py`): açık görünen her kaydın resmî sayfası açılır. Sayfa son teyitten beri değiştiyse, kayıttaki son tarih sayfada artık geçmiyorsa ya da "uzatıldı / kapandı / iptal" gibi bir ifade belirdiyse kayıt **"yeniden teyit gerekli"** olarak işaretlenir. Kayıt otomatik değiştirilmez.
+   Ayrıca kurumun, kaydın son teyidinden **sonra** yayımladığı ve başlığında "süresi uzatıldı / ertelendi / kapandı / iptal" geçen bir duyurusu taramada görülürse (eşleşme program koduyla, ör. 1507), kartta kırmızı **"karttaki tarihler güncel olmayabilir"** uyarısı ve duyuru bağlantısı gösterilir. Uyarı, kayıt duyuruya göre yeniden teyit edilip `dogrulama.tarih` güncellenince kalkar.
 4. **Teyit geçerliliği:** açık bir kaydın teyidi 30 günden eskiyse uyarı üretilir.
 5. **Rapor:** bulgular GitHub'daki tek "Fon Radarı — doğrulama raporu" konusunda toplanır; yeni bir madde çıktığında o konuya yorum eklenir.
 
