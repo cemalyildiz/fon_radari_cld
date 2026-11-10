@@ -2,6 +2,9 @@ name: ab-probe
 on:
   push:
     branches: [ab-probe]
+    paths: ['.github/workflows/ab-probe.yml']
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -43,7 +46,8 @@ jobs:
           json.dump(tum, open("tum.json", "w"))
           Q
           python3 p.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: tum
-          path: tum.json
+      - uses: actions/checkout@v4
+        with: { path: repo }
+      - run: |
+          cd repo && cp ../tum.json probe_tum.json && gzip -9 probe_tum.json
+          git config user.name bot && git config user.email bot@x && git add probe_tum.json.gz && git commit -m data && git push
