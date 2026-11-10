@@ -43,9 +43,7 @@ jobs:
           json.dump(tum, open("tum.json", "w"))
           Q
           python3 p.py
-          curl -sS -m 60 -X POST "https://api.tech.ec.europa.eu/search-api/prod/rest/facet?apiKey=SEDIA&text=***" -F 'query={"bool":{"must":[{"terms":{"type":["1","2","8"]}}]}};type=application/json' -F 'facets=["frameworkProgramme","type","status"];type=application/json' -F 'languages=["en"];type=application/json' | python3 -c "
-          import json,sys;d=json.load(sys.stdin)
-          for f in d.get('facets',[]):
-            print('FACET',f.get('name'))
-            for v in f.get('values',[])[:80]: print('   ',v.get('rawValue'),'=',v.get('value'),v.get('count'))
-          "
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tum
+          path: tum.json
