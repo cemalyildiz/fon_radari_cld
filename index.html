@@ -11,7 +11,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%230b0f0e'/%3E%3Ccircle cx='20' cy='20' r='15' fill='none' stroke='%235EF2A6' stroke-width='2' opacity='0.5'/%3E%3Ccircle cx='20' cy='20' r='8' fill='none' stroke='%235EF2A6' stroke-width='2' opacity='0.75'/%3E%3Ccircle cx='20' cy='20' r='2.5' fill='%235EF2A6'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=20261110a">
+<link rel="stylesheet" href="css/style.css?v=20261110b">
 </head>
 <body>
 
@@ -103,6 +103,49 @@
     <button id="reset-filters-btn" class="reset-filters-btn" type="button">Filtreleri sıfırla</button>
   </p>
 
+  <section id="ab-portal" class="ab-portal" hidden>
+    <div class="ab-bas">
+      <h2>AB Funding &amp; Tenders Portalı — açık ve yakında açılacak tüm çağrılar</h2>
+      <p class="ab-aciklama">
+        Bu liste Avrupa Komisyonu'nun resmî Funding &amp; Tenders Portalı'ndan her gün otomatik alınır; başlıklar portaldaki
+        özgün (İngilizce) hâliyle gösterilir. Son başvuru tarihi geçmiş çağrılar listelenmez. İki aşamalı çağrılarda
+        gösterilen tarih yeni başvuru için geçerli olan <strong>1. aşama</strong> tarihidir.
+        <strong>Türkiye'den katılım uygunluğu, son başvuru saati ve başvuru koşulları çağrıya göre değişir ve burada
+        değerlendirilmemiştir</strong>; başvuru öncesi bağlantıdaki resmî çağrı sayfasını esas alın.
+      </p>
+    </div>
+    <div class="filters ab-filtreler">
+      <div class="filter-group">
+        <label for="ab-arama">Ara</label>
+        <input type="text" id="ab-arama" placeholder="anahtar kelime, çağrı kodu (ör. CL5, LIFE)…">
+      </div>
+      <div class="filter-group">
+        <label for="ab-program">Program</label>
+        <select id="ab-program"><option value="hepsi">Hepsi</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="ab-durum">Durum</label>
+        <select id="ab-durum">
+          <option value="hepsi">Açık + yakında açılacak</option>
+          <option value="acik">Şu an açık</option>
+          <option value="yakinda">Yakında açılacak (planlanan)</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="ab-tur">Çağrı türü</label>
+        <select id="ab-tur">
+          <option value="hepsi">Hepsi</option>
+          <option value="ab-cagri">AB çağrısı (doğrudan)</option>
+          <option value="kaskad">Alt çağrı (kaskad fonlama)</option>
+          <option value="dis-yardim">Dış yardım (EuropeAid)</option>
+        </select>
+      </div>
+    </div>
+    <p id="ab-ozet" class="result-summary"></p>
+    <ul id="ab-liste" class="ab-liste"></ul>
+    <button id="ab-daha" class="reset-filters-btn ab-daha" type="button" hidden></button>
+  </section>
+
   <section id="kesif" class="kesif" hidden>
     <details>
       <summary>
@@ -130,9 +173,10 @@
 </div>
 
 <footer class="site-footer">
-  <p>Bu radar; TÜBİTAK, KOSGEB, Sanayi ve Teknoloji Bakanlığı, Ticaret Bakanlığı, Savunma Sanayii Başkanlığı ve Avrupa Komisyonu (Horizon Europe, LIFE, Erasmus+) gibi kaynaklardan derlenen, yeşil dönüşümle sınırlı olmayan genel bir çağrı listesidir — tema filtresiyle daraltabilirsiniz. Başvuru öncesi kaynak kurumun güncel kılavuzunu mutlaka teyit edin. Çağrı durumları (açık/kapalı) tarayıcınızda bugünün tarihine göre hesaplanır. Veri her gün otomatik olarak kontrol edilir ve kurum siteleri yeni çağrılar için taranır; taramada bulunanlar doğrulanana kadar ayrı bir bölümde, "doğrulanmamış" etiketiyle gösterilir. Her kayıt resmî kaynaktan teyit edilir ve kartta son teyit tarihi yazar; resmî sayfası teyitten sonra değişen kayıtlar "yeniden teyit bekleniyor" olarak işaretlenir (<a href="https://github.com/cemalyildiz/fon_radari_cld/blob/main/DOGRULAMA.md" target="_blank" rel="noopener">doğrulama prosedürü</a>).</p>
+  <p>Bu radar; TÜBİTAK, KOSGEB, Sanayi ve Teknoloji Bakanlığı, Ticaret Bakanlığı, Savunma Sanayii Başkanlığı ve Avrupa Komisyonu (Horizon Europe, LIFE, Erasmus+) gibi kaynaklardan derlenen, yeşil dönüşümle sınırlı olmayan genel bir çağrı listesidir — tema filtresiyle daraltabilirsiniz. Başvuru öncesi kaynak kurumun güncel kılavuzunu mutlaka teyit edin. Çağrı durumları (açık/kapalı) tarayıcınızda bugünün tarihine göre hesaplanır. Veri her gün otomatik olarak kontrol edilir ve kurum siteleri yeni çağrılar için taranır; taramada bulunanlar doğrulanana kadar ayrı bir bölümde, "doğrulanmamış" etiketiyle gösterilir. Uluslararası sekmesindeki "AB Funding &amp; Tenders Portalı" listesi Avrupa Komisyonu'nun resmî portalından her gün otomatik alınır. Her kayıt resmî kaynaktan teyit edilir ve kartta son teyit tarihi yazar; resmî sayfası teyitten sonra değişen kayıtlar "yeniden teyit bekleniyor" olarak işaretlenir (<a href="https://github.com/cemalyildiz/fon_radari_cld/blob/main/DOGRULAMA.md" target="_blank" rel="noopener">doğrulama prosedürü</a>).</p>
 </footer>
 
-<script src="js/app.js?v=20261110a"></script>
+<script src="js/app.js?v=20261110b"></script>
+<script src="js/ab.js?v=20261110b"></script>
 </body>
 </html>

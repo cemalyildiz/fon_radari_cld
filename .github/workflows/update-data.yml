@@ -43,6 +43,10 @@ jobs:
         continue-on-error: true
         run: python scripts/discover_calls.py
 
+      - name: AB Funding & Tenders Portali cagrilarini cek
+        continue-on-error: true
+        run: python scripts/fetch_eu_calls.py
+
       - name: Acik kayitlarin resmi kaynak sayfalarini izle
         continue-on-error: true
         run: python scripts/check_sources.py

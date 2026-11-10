@@ -274,3 +274,25 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
 .teyit-detay strong:first-child{ font-family:var(--mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; }
 .teyit-detay .teyit-kanit{ color:var(--text-dim); font-size:.8rem; overflow-wrap:anywhere; }
 .teyit-detay a{ color:var(--signal); }
+
+/* ---------- AB Funding & Tenders Portalı listesi ---------- */
+.ab-portal{ margin:2.5rem 0 1rem; padding:1.4rem 1.2rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); }
+.ab-bas h2{ font-size:1.15rem; margin:0 0 .5rem; }
+.ab-aciklama{ font-size:.85rem; line-height:1.55; color:var(--text-dim); margin:0 0 1rem; }
+.ab-aciklama strong{ color:var(--text); }
+.ab-filtreler{ margin-bottom:.4rem; }
+.ab-liste{ list-style:none; margin:0; padding:0; display:grid; gap:.6rem; }
+.ab-oge{ padding:.8rem 1rem; border:1px solid var(--line); border-radius:8px; background:var(--panel-2); display:grid; gap:.3rem; min-width:0; }
+.ab-ust{ display:flex; flex-wrap:wrap; gap:.4rem; align-items:center; }
+.ab-program, .ab-tur{ font-family:var(--mono); font-size:.68rem; padding:.15rem .45rem; border-radius:4px; border:1px solid var(--line); color:var(--text-dim); }
+.ab-program{ color:var(--signal); border-color:var(--signal-dim); }
+.ab-tur-kaskad{ color:var(--amber); border-color:var(--amber); }
+.ab-tur-dis{ color:var(--text); }
+.badge-ab-yakinda{ color:var(--amber); border:1px solid var(--amber); background:transparent; }
+.ab-baslik{ color:var(--text); font-weight:600; text-decoration:none; overflow-wrap:anywhere; }
+.ab-baslik:hover{ color:var(--signal); text-decoration:underline; }
+.ab-kimlik{ font-family:var(--mono); font-size:.7rem; color:var(--text-dim); overflow-wrap:anywhere; }
+.ab-tarih, .ab-butce{ font-size:.82rem; color:var(--text); }
+.ab-not{ font-size:.78rem; color:var(--amber); }
+.ab-bos{ color:var(--text-dim); padding:1rem; }
+.ab-daha{ margin-top:1rem; }
