@@ -1,0 +1,20 @@
+name: ab-probe
+on:
+  push:
+    branches: [ab-probe]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          cat > q.json <<'Q'
+          {"bool":{"must":[{"terms":{"type":["1","2","8"]}},{"terms":{"status":["31094501","31094502"]}}]}}
+          Q
+          curl -sS -m 60 -X POST "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=***&pageSize=3&pageNumber=1" \
+            -F "query=@q.json;type=application/json" -F 'languages=["en"];type=application/json' -o r.json -w "HTTP %{http_code}\n"
+          python3 -c "
+          import json;d=json.load(open('r.json'));print('TOTAL',d.get('totalResults'));print(list(d.keys()))
+          for r in d['results'][:3]:
+            print('=====');print({k:v for k,v in r.items() if k!='metadata'})
+            for k,v in r['metadata'].items(): print('  ',k,':',str(v)[:400])
+          "
