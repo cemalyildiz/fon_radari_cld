@@ -170,7 +170,9 @@ def kontrol_et(call, onceki):
     if bitis and not call.get("surekli_acik") and not tarih_sayfada_mi(bitis, metin):
         sonuc["bulgular"].append("kayıttaki son başvuru tarihi (%s) sayfada bulunamadı" % bitis)
 
-    m = DURUM_IFADELERI.search(metin)
+    # Teyit gunu okunan sayfada zaten gecen ifade (ör. teyit kaynagi bir "süre uzatildi" duyurusuysa)
+    # degerlendirilmis sayilir; yalnizca sayfa teyitten sonra degistiyse bildirilir.
+    m = DURUM_IFADELERI.search(metin) if degisti else None
     if m:
         bas = max(0, m.start() - 80)
         sonuc["bulgular"].append("sayfada durum ifadesi: “…%s…”" % metin[bas:m.end() + 80].strip())
