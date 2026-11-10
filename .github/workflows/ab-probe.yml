@@ -7,14 +7,45 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          cat > q.json <<'Q'
-          {"bool":{"must":[{"terms":{"type":["1","2","8"]}},{"terms":{"status":["31094501","31094502"]}}]}}
+          cat > p.py <<'Q'
+          import json, urllib.request, collections, uuid
+          def ara(query, page, size=100, extra=""):
+              b = uuid.uuid4().hex
+              body = ("--%s\r\nContent-Disposition: form-data; name=\"query\"; filename=\"q.json\"\r\nContent-Type: application/json\r\n\r\n%s\r\n"
+                      "--%s\r\nContent-Disposition: form-data; name=\"languages\"; filename=\"l.json\"\r\nContent-Type: application/json\r\n\r\n[\"en\"]\r\n--%s--\r\n") % (b, json.dumps(query), b, b)
+              req = urllib.request.Request("https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=***&pageSize=%d&pageNumber=%d%s" % (size, page, extra),
+                    data=body.encode(), headers={"Content-Type": "multipart/form-data; boundary=" + b}, method="POST")
+              return json.load(urllib.request.urlopen(req, timeout=90))
+          q = {"bool":{"must":[{"terms":{"type":["1","2","8"]}},{"terms":{"status":["31094501","31094502"]}}]}}
+          tum = []
+          p = 1
+          while True:
+              d = ara(q, p)
+              tum += d["results"]
+              if len(d["results"]) < 100 or p > 20: break
+              p += 1
+          print("cekilen", len(tum), "toplam", d["totalResults"])
+          sayac = collections.Counter()
+          for r in tum:
+              m = r["metadata"]
+              t = m.get("type", ["?"])[0]; st = m.get("status", ["?"])[0]
+              dl = m.get("deadlineDate", [])
+              ileri = any(x[:10] >= "2026-11-10" for x in dl) or not dl
+              pre = (m.get("identifier", ["?"])[0].split("-")[0])
+              sayac[(t, st, ileri)] += 1
+          for k, v in sorted(sayac.items()): print(k, v)
+          pref = collections.Counter((r["metadata"].get("type",["?"])[0], r["metadata"].get("identifier",["?"])[0].split("-")[0], r["metadata"].get("frameworkProgramme",["?"])[0]) for r in tum)
+          for k, v in sorted(pref.items(), key=lambda x: -x[1]): print("PREF", k, v)
+          for t in ("1", "2"):
+              for r in [x for x in tum if x["metadata"].get("type", [""])[0] == t][:1]:
+                  print("===== TYPE", t, {k: v for k, v in r.items() if k not in ("metadata",)})
+                  for k, v in r["metadata"].items(): print("   ", k, ":", str(v)[:700])
+          json.dump(tum, open("tum.json", "w"))
           Q
-          curl -sS -m 60 -X POST "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=***&pageSize=3&pageNumber=1" \
-            -F "query=@q.json;type=application/json" -F 'languages=["en"];type=application/json' -o r.json -w "HTTP %{http_code}\n"
-          python3 -c "
-          import json;d=json.load(open('r.json'));print('TOTAL',d.get('totalResults'));print(list(d.keys()))
-          for r in d['results'][:3]:
-            print('=====');print({k:v for k,v in r.items() if k!='metadata'})
-            for k,v in r['metadata'].items(): print('  ',k,':',str(v)[:400])
+          python3 p.py
+          curl -sS -m 60 -X POST "https://api.tech.ec.europa.eu/search-api/prod/rest/facet?apiKey=SEDIA&text=***" -F 'query={"bool":{"must":[{"terms":{"type":["1","2","8"]}}]}};type=application/json' -F 'facets=["frameworkProgramme","type","status"];type=application/json' -F 'languages=["en"];type=application/json' | python3 -c "
+          import json,sys;d=json.load(sys.stdin)
+          for f in d.get('facets',[]):
+            print('FACET',f.get('name'))
+            for v in f.get('values',[])[:80]: print('   ',v.get('rawValue'),'=',v.get('value'),v.get('count'))
           "
