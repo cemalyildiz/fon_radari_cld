@@ -89,7 +89,7 @@ def hepsini_cek():
     hic gelmiyor (10.11.2026'da bir PPPA cagrisi bu yuzden kacti). Bu nedenle tum sayfalar
     birkac tur okunur ve sonuclar 'reference' alanina gore birlestirilir; toplam sayiya
     ulasilinca durulur."""
-    birlesik, toplam = {}, None
+    birlesik, toplam, onceki = {}, None, -1
     for tur in range(1, 7):
         sayfa = 1
         while True:
@@ -104,6 +104,9 @@ def hepsini_cek():
         print("[ab] tur %d: %d / %s benzersiz kayit" % (tur, len(birlesik), toplam))
         if toplam and len(birlesik) >= toplam:
             break
+        if tur > 1 and len(birlesik) == onceki:
+            break  # bu tur yeni kayit gelmedi; kalan fark servisin kendi sayim farki
+        onceki = len(birlesik)
     return list(birlesik.values()), toplam
 
 def ilk(m, alan, varsayilan=""):
