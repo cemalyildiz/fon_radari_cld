@@ -85,15 +85,26 @@ def ara(sayfa):
 
 
 def hepsini_cek():
-    sonuc, sayfa = [], 1
-    while True:
-        d = ara(sayfa)
-        sonuc += d.get("results", [])
-        if len(d.get("results", [])) < SAYFA or sayfa >= 60:
-            return sonuc, d.get("totalResults")
-        sayfa += 1
-        time.sleep(1)
-
+    """Servis sayfalamasi sabit siralamali degil: ayni kayit iki sayfada gelebiliyor, bazisi
+    hic gelmiyor (10.11.2026'da bir PPPA cagrisi bu yuzden kacti). Bu nedenle tum sayfalar
+    birkac tur okunur ve sonuclar 'reference' alanina gore birlestirilir; toplam sayiya
+    ulasilinca durulur."""
+    birlesik, toplam = {}, None
+    for tur in range(1, 7):
+        sayfa = 1
+        while True:
+            d = ara(sayfa)
+            toplam = d.get("totalResults") or toplam
+            for r in d.get("results", []):
+                birlesik.setdefault(r.get("reference") or json.dumps(r.get("metadata", {}).get("identifier")), r)
+            if len(d.get("results", [])) < SAYFA or sayfa >= 60:
+                break
+            sayfa += 1
+            time.sleep(0.5)
+        print("[ab] tur %d: %d / %s benzersiz kayit" % (tur, len(birlesik), toplam))
+        if toplam and len(birlesik) >= toplam:
+            break
+    return list(birlesik.values()), toplam
 
 def ilk(m, alan, varsayilan=""):
     v = m.get(alan) or []
@@ -123,9 +134,10 @@ def butce(m, kimlik):
                 toplam += float(v)
             except (TypeError, ValueError):
                 pass
-    mins = [x["minContribution"] for x in satirlar if isinstance(x.get("minContribution"), (int, float))]
-    maxs = [x["maxContribution"] for x in satirlar if isinstance(x.get("maxContribution"), (int, float))]
-    hibe = [x["expectedGrants"] for x in satirlar if isinstance(x.get("expectedGrants"), (int, float))]
+    # 0 degeri servisde "belirtilmemis" anlaminda geliyor; gosterilmez
+    mins = [x["minContribution"] for x in satirlar if isinstance(x.get("minContribution"), (int, float)) and x["minContribution"] > 0]
+    maxs = [x["maxContribution"] for x in satirlar if isinstance(x.get("maxContribution"), (int, float)) and x["maxContribution"] > 0]
+    hibe = [x["expectedGrants"] for x in satirlar if isinstance(x.get("expectedGrants"), (int, float)) and x["expectedGrants"] > 0]
     return {
         "toplam_eur": round(toplam) if toplam else None,
         "proje_min_eur": min(mins) if mins else None,
@@ -241,6 +253,7 @@ def main():
             "aciklama": "Son başvuru tarihi bugün veya sonrasında olan açık/planlanan çağrılar. Alanlar servisten olduğu gibi alınır; "
                         "saat ve Türkiye'nin katılım uygunluğu için resmî çağrı sayfası esastır.",
             "servis_toplam": toplam,
+            "okunan_kayit": len(ham),
             "elenen": elenen,
             "cagrilar": liste,
         }, f, ensure_ascii=False, separators=(",", ":"))
