@@ -1,4 +1,3 @@
-izleme:tubitak-1507-2026-2:sayfada durum ifadesi: 
 dogrulama:tubitak-1507-2026-2:kismi teyit: Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli.
 dogrulama:ticaret-urge:kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı.
 kesif:https://tubitak.gov.tr/tr/duyuru/1507-kobi-ar-ge-baslangic-destek-programi-ve-1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-programi-2026-yili-cagrilarinin-suresi-uzatildi
