@@ -1,5 +1,14 @@
 {
-  "generated_at": "2026-11-10T20:59:00Z",
+  "generated_at": "2026-11-11T12:39:11Z",
   "esik_gun": 14,
-  "yaklasan_son_tarihler": []
+  "yaklasan_son_tarihler": [
+    {
+      "id": "tubitak-1507-2026-2",
+      "baslik": "1507 - KOBİ Ar-Ge Başlangıç Destek Programı (2026 Yılı 2. Çağrı)",
+      "kurum": "TÜBİTAK TEYDEB",
+      "basvuru_bitis": "2026-11-25",
+      "kalan_gun": 14,
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi"
+    }
+  ]
 }
