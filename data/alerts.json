@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:39:11Z",
+  "generated_at": "2026-11-11T21:31:05Z",
   "esik_gun": 14,
   "yaklasan_son_tarihler": [
     {
@@ -7,8 +7,16 @@
       "baslik": "1507 - KOBİ Ar-Ge Başlangıç Destek Programı (2026 Yılı 2. Çağrı)",
       "kurum": "TÜBİTAK TEYDEB",
       "basvuru_bitis": "2026-11-25",
-      "kalan_gun": 14,
+      "kalan_gun": 13,
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi"
+    },
+    {
+      "id": "eureka-xecs-kuantum-2026",
+      "baslik": "Eureka Xecs 2026 - Uygulamalı Kuantum Teknolojileri Çağrısı",
+      "kurum": "EUREKA Xecs Kümesi + TÜBİTAK",
+      "basvuru_bitis": "2026-11-26",
+      "kalan_gun": 14,
+      "kaynak_url": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications"
     }
   ]
 }
