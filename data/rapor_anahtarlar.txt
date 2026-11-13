@@ -2,6 +2,8 @@ izleme:tubitak-1507-2026-2:sayfa, kaydın son teyidinden (2026-11-10) bu yana de
 izleme:eureka-xecs-kuantum-2026:sayfa, kaydın son teyidinden (2026-11-10) bu yana değişti
 dogrulama:tubitak-1507-2026-2:kismi teyit: Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli.
 dogrulama:ticaret-urge:kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı.
+kesif:https://tubitak.gov.tr/tr/duyuru/4004-doga-egitimi-ve-bilim-okullari-destekleme-programinin-20-donem-cagrisi-yayinlandi
+kesif:https://tubitak.gov.tr/tr/duyuru/4005-yenilikci-egitim-uygulamalari-destekleme-programinin-14-cagrisi-yayinlandi
 kesif:https://tubitak.gov.tr/tr/duyuru/kisisellestirilmis-tip-avrupa-ortakligi-2027-yili-cagrisi-acildi
 kesif:https://tubitak.gov.tr/tr/duyuru/1507-kobi-ar-ge-baslangic-destek-programi-ve-1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-programi-2026-yili-cagrilarinin-suresi-uzatildi
 kesif:https://tubitak.gov.tr/tr/duyuru/tubitak-bilim-soylesileri-2026-yili-basvurularinin-suresi-uzatildi
