@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T21:02:15Z",
+  "generated_at": "2026-11-14T12:10:22Z",
   "aciklama": "Resmi kaynak sayfa izleme sonuclari (scripts/check_sources.py). Kayitlari degistirmez; yalnizca yeniden teyit gereken kayitlari isaretler.",
   "kayitlar": {
     "tubitak-1831": {
       "url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
-      "son_kontrol": "2026-11-13T20:59:33Z",
+      "son_kontrol": "2026-11-14T12:07:44Z",
       "bulgular": [],
       "ozet": "337d3b1f5299a1da",
       "teyit_tarihi": "2026-11-04",
@@ -13,7 +13,7 @@
     },
     "tubitak-1507-2026-2": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1507-kobi-ar-ge-baslangic-destek-programi-ve-1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-programi-2026-yili-cagrilarinin-suresi-uzatildi",
-      "son_kontrol": "2026-11-13T20:59:37Z",
+      "son_kontrol": "2026-11-14T12:07:48Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-10) bu yana değişti",
         "sayfada durum ifadesi: “…alı Ar-Ge Projeleri için KOBİ Destekleme Programı 2026 Yılı Çağrılarının Süresi Uzatıldı | TÜBİTAK | Türkiye Bilimsel ve Teknolojik Araştırma Kurumu Ana içeriğe atla 15…”"
@@ -25,7 +25,7 @@
     },
     "horizon-cl5-2026": {
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
-      "son_kontrol": "2026-11-13T20:59:41Z",
+      "son_kontrol": "2026-11-14T12:07:53Z",
       "bulgular": [
         "kaynak PDF; sayfa izleme yapılamıyor"
       ],
@@ -33,16 +33,15 @@
     },
     "ticaret-turquality": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/marka-ve-turquality-destegi",
-      "son_kontrol": "2026-11-13T20:59:46Z",
-      "bulgular": [],
-      "ozet": "22b2b676a56b0df4",
-      "teyit_tarihi": "2026-11-04",
-      "referans_ozet": "22b2b676a56b0df4",
-      "durum": "ok"
+      "son_kontrol": "2026-11-14T12:07:58Z",
+      "bulgular": [
+        "sayfa açılamadı: URLError"
+      ],
+      "durum": "erisilemedi"
     },
     "ticaret-urge": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
-      "son_kontrol": "2026-11-13T21:00:17Z",
+      "son_kontrol": "2026-11-14T12:08:34Z",
       "bulgular": [],
       "ozet": "6a8a76b5066246b2",
       "teyit_tarihi": "2026-11-04",
@@ -51,7 +50,7 @@
     },
     "ticaret-yesil-mutabakat-responsible": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/yesil-mutabakata-uyum-projesi-destegi-responsible-programi",
-      "son_kontrol": "2026-11-13T21:00:24Z",
+      "son_kontrol": "2026-11-14T12:08:41Z",
       "bulgular": [],
       "ozet": "374d139a918a561d",
       "teyit_tarihi": "2026-11-04",
@@ -60,7 +59,7 @@
     },
     "tubitak-1707": {
       "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-      "son_kontrol": "2026-11-13T21:00:41Z",
+      "son_kontrol": "2026-11-14T12:08:49Z",
       "bulgular": [],
       "ozet": "48bc3381e7537236",
       "teyit_tarihi": "2026-11-10",
@@ -69,7 +68,7 @@
     },
     "eureka-xecs-kuantum-2026": {
       "url": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
-      "son_kontrol": "2026-11-13T21:00:46Z",
+      "son_kontrol": "2026-11-14T12:08:53Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-10) bu yana değişti"
       ],
@@ -80,7 +79,7 @@
     },
     "kosgeb-istihdami-koruma-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
-      "son_kontrol": "2026-11-13T21:00:50Z",
+      "son_kontrol": "2026-11-14T12:08:57Z",
       "bulgular": [],
       "ozet": "243bd285948907c4",
       "teyit_tarihi": "2026-11-04",
@@ -89,7 +88,7 @@
     },
     "marka-teknik-destek-2026": {
       "url": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
-      "son_kontrol": "2026-11-13T21:00:54Z",
+      "son_kontrol": "2026-11-14T12:09:02Z",
       "bulgular": [],
       "ozet": "07139bec6b5b7f0e",
       "teyit_tarihi": "2026-11-10",
@@ -98,7 +97,7 @@
     },
     "kalkinma-ajanslari-genel": {
       "url": "https://kaysuygulama.sanayi.gov.tr",
-      "son_kontrol": "2026-11-13T21:01:00Z",
+      "son_kontrol": "2026-11-14T12:09:08Z",
       "bulgular": [
         "sayfa açılamadı: URLError"
       ],
