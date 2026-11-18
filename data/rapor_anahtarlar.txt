@@ -1,5 +1,3 @@
-izleme:tubitak-1832-2026-3:kayıttaki son başvuru tarihi (2027-01-04) sayfada bulunamadı
-izleme:tubitak-1812-bigg-tohum-2026-1:kayıttaki son başvuru tarihi (2026-11-20) sayfada bulunamadı
 dogrulama:tubitak-1507-2026-2:kismi teyit: Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli.
 dogrulama:ticaret-urge:kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı.
 dogrulama:kosgeb-yapay-zeka-kredi-2026:kismi teyit: Kredinin faiz/maliyet koşulları duyuruda yok; program sayfası ayrıca okunmadı
