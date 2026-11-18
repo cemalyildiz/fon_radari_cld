@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-18T13:23:58Z",
+  "last_checked": "2026-11-18T13:30:36Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -1475,6 +1475,118 @@
         "kanit": "TÜBİTAK duyurusu (10.11.2026): 'Uluslararası Kısa Proje Önerilerinin ... Son Tarih: 20 Ocak 2027 (14.00, CET)'; '1. Aşama ... TÜBİTAK Ulusal Başvurusu için Son Tarih: 27 Ocak 2027 (23.59, TSİ)'; '2. Aşama ... 25 Mayıs 2027'; '1071 ... kapsamında desteklenecektir'",
         "durum": "kismi",
         "eksik": "Bütçe ve firma katılım koşulları ulusal çağrı dokümanından okunmadı"
+      }
+    },
+    {
+      "id": "innowwide-5-2026",
+      "kategori": "uluslararasi",
+      "tema": [
+        "Uluslararası İşbirliği",
+        "İhracat & Markalaşma",
+        "Ar-Ge & İnovasyon"
+      ],
+      "baslik": "Innowwide 5. Çağrısı - Yenilikçi KOBİ'ler için Avrupa Ortaklığı (Piyasa Fizibilite Projeleri)",
+      "kurum": "Innowwide (Yenilikçi KOBİ'ler için Avrupa Ortaklığı, AB finansmanı) + TÜBİTAK TEYDEB",
+      "ozet": "Yenilikçi KOBİ'lerin ürün, süreç veya hizmetlerinin Avrupa dışındaki (Afrika, Amerika, Asya, Pasifik) hedef pazarlarda teknik ve ticari uygulanabilirliğini değerlendiren, hedef ülkedeki yerel bir paydaşla yürütülen piyasa fizibilite projeleri.",
+      "basvuru_baslangic": "2026-10-01",
+      "basvuru_bitis": "2026-12-01",
+      "surekli_acik": false,
+      "destek_turu": "Hibe (AB finansmanı)",
+      "destek_miktari": "Proje başına en fazla 60.000 avro; toplam uygun proje maliyeti en az 86.000 avro olmalı; en yüksek puanlı 70 proje desteklenir",
+      "destek_orani": "%70",
+      "kimler_basvurabilir": "1 Aralık 2024 veya öncesinde kurulmuş, daha önce Innowwide desteği almamış KOBİ'ler; hedef ülkede yerel bir paydaşla (ana alt yüklenici) ortaklık zorunlu; firma başına tek başvuru",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "En fazla 6 ay",
+      "sektor_odagi": "Tüm alanlar; inovasyon en az THS 4 olmalı, hedef ülkede THS 8'i aşmamalı",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/yenilikci-kobiler-icin-avrupa-ortakligi-innowwide-5-cagrisi-acildi",
+      "notlar": "Son başvuru 1 Aralık 2026 saat 14:00 CET (TSİ 16:00). Başvuru, firmayı temsile yetkili kişi tarafından SmartSimple platformunda yapılır; göndermeden önce karşı ortağın platformda taahhüdü imzalaması gerekir. İletişim: eureka@tubitak.gov.tr",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/yenilikci-kobiler-icin-avrupa-ortakligi-innowwide-5-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (01.10.2026): '70 projeye, %70 destek oranı ile proje başına maksimum 60.000 avro hibe'; 'en az 86.000 avro'; 'En fazla altı ay'; '1 Aralık 2024 ve öncesinde kurulmuş'; 'Çağrı Açılışı: 1 Ekim 2026 Son Başvuru Tarihi: 1 Aralık 2026 (14:00, CET)'",
+        "durum": "tam"
+      }
+    },
+    {
+      "id": "tubitak-1007-savtag-alternatif-haberlesme",
+      "kategori": "ulusal",
+      "tema": [
+        "Savunma & Havacılık",
+        "Ar-Ge & İnovasyon",
+        "Dijitalleşme"
+      ],
+      "baslik": "1007 - SAVTAG Alternatif Haberleşme Sistemi Geliştirilmesi Projesi Çağrısı",
+      "kurum": "TÜBİTAK ARDEB - SAVTAG",
+      "ozet": "1007 Kamu Kurumları Araştırma ve Geliştirme Projelerini Destekleme Programı kapsamında SAVTAG çağrısı: alternatif haberleşme sistemi geliştirilmesi.",
+      "basvuru_baslangic": "2026-10-09",
+      "basvuru_bitis": "2026-12-14",
+      "surekli_acik": false,
+      "destek_turu": "1007 kamu Ar-Ge projesi desteği",
+      "destek_miktari": "Duyuruda belirtilmemiş",
+      "destek_orani": "Duyuruda belirtilmemiş",
+      "kimler_basvurabilir": "Çağrı duyurusundaki koşulları sağlayan kuruluşlar (savunma güvenlik koşulları için çağrı dokümanına bakılmalı)",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Savunma - haberleşme sistemleri",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi",
+      "notlar": "Son başvuru 14 Aralık 2026 saat 17:00 TSİ.",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (02.10.2026): 'proje başvuruları 9 Ekim 2026 tarihinde alınmaya başlanacak olup proje önerileri için son başvuru tarihi 14 Aralık 2026 saat 17:00 (TSİ)'",
+        "durum": "kismi",
+        "eksik": "Başvuru koşulları, bütçe ve süre bu kayıtta okunmadı"
+      }
+    },
+    {
+      "id": "forest-pathways-2026",
+      "kategori": "uluslararasi",
+      "tema": [
+        "Çevre & İklim",
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon"
+      ],
+      "baslik": "Ufuk Avrupa FOREST Ortaklığı 2026 Ortak Çağrısı - FORESTPathways (1071)",
+      "kurum": "FOREST Ortaklığı (Horizon Europe) + TÜBİTAK",
+      "ozet": "Orman ekosistemleri temelli sürdürülebilir biyoekonomiye geçiş için uluslararası araştırma ve yenilik projeleri. Konu başlıkları: iklime dayanıklı orman sistemleri; uyarlanabilir ve çok işlevli orman amenajmanı; kereste ve yenilikçi ahşap temelli ürünler; orman değer zincirleri, pazarlama ve yönetişim.",
+      "basvuru_baslangic": "2026-09-15",
+      "basvuru_bitis": "2026-12-02",
+      "surekli_acik": false,
+      "destek_turu": "TÜBİTAK 1071 kapsamında destek",
+      "destek_miktari": "Duyuruda belirtilmemiş",
+      "destek_orani": "Duyuruda belirtilmemiş",
+      "kimler_basvurabilir": "Uluslararası konsorsiyumlarda yer alan Türk kurum/kuruluşlar; hem çağrı sekretaryasına hem TÜBİTAK'a başvuru zorunlu",
+      "olcek": [
+        "Üniversite/Araştırma",
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Ormancılık, ahşap ürünler, orman temelli biyoekonomi",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi",
+      "notlar": "İki aşamalı. 1. aşama uluslararası başvuru son tarihi 2 Aralık 2026 13:00 CET; ulusal başvurunun PBS'de onayı 8 Aralık 2026, e-imza 11 Aralık 2026 (23:59 TSİ). İkinci aşama ulusal başvuru tarihi TÜBİTAK tarafından duyurulacak. Yalnızca uluslararası projeler finanse edilir. Firmaların ulusal katılım koşulları Ulusal Başvuru Kuralları dokümanından kontrol edilmeli.",
+      "ara_tarihler": [
+        {
+          "ad": "1. aşama ulusal başvurunun PBS'de onaylanması",
+          "tarih": "2026-12-08"
+        },
+        {
+          "ad": "1. aşama ulusal başvuru e-imza",
+          "tarih": "2026-12-11"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi",
+        "kanit": "TÜBİTAK duyurusu (25.09.2026): 'FORESTPathways başlıklı 2026 yılı ortak çağrısı 15 Eylül 2026 tarihinde açılmıştır'; '1. Aşama Uluslararası Başvuruları için Son Tarih: 2 Aralık 2026 (13:00, CET)'; 'PBS Üzerinden Onaylanması için Son Tarih: 8 Aralık 2026'; 'E-imzası için Son Tarih: 11 Aralık 2026'; '1071'",
+        "durum": "kismi",
+        "eksik": "Bütçe ve firma katılım koşulları ulusal başvuru kuralları dokümanından okunmadı"
       }
     }
   ]
