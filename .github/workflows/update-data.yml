@@ -33,6 +33,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: PDF okuyucu kur (cagri belgelerindeki tarihleri kontrol icin)
+        run: pip install --quiet pypdf
+
       # Kural ihlali varsa raporlama yine yapilsin, is akisi en sonda kirmizi olsun.
       - name: Kayitlari dogrulama kurallarindan gecir (DOGRULAMA.md)
         id: dogrulama

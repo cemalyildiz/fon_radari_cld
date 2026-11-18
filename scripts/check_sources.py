@@ -22,6 +22,7 @@ Yalnizca standart kutuphane kullanir.
 """
 import hashlib
 import json
+import io
 import re
 import sys
 import time
@@ -106,13 +107,37 @@ def tr_katla(s):
     return s.translate(str.maketrans("ıişğüöç", "iisguoc"))
 
 
-def tarih_sayfada_mi(iso, metin):
+def tarih_sayfada_mi(iso, metin, bosluksuz=False):
     m = tr_katla(metin)
+    if bosluksuz:
+        # PDF metninde kelimeler harf harf bolunebiliyor ("2 0 2 6"); bosluksuz karsilastir
+        m = re.sub(r"\s+", "", m)
+        return any(re.sub(r"\s+", "", tr_katla(b)) in m for b in tarih_bicimleri(iso))
     return any(tr_katla(b) in m for b in tarih_bicimleri(iso))
 
 
-def getir(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "tr,en;q=0.8"})
+def pdf_metni(url):
+    """Cagri belgesini (PDF) indirip metnini cikarir; pypdf yoksa/okunamazsa None."""
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None
+    try:
+        status, tur, govde = getir(url, accept="application/pdf,*/*")
+        if not govde.startswith(b"%PDF"):
+            return None
+        okuyucu = PdfReader(io.BytesIO(govde))
+        return " ".join((s.extract_text() or "") for s in okuyucu.pages)
+    except Exception:
+        return None
+
+
+def getir(url, accept=None):
+    basliklar = {"User-Agent": UA, "Accept-Language": "tr,en;q=0.8"}
+    if accept:
+        # TUBITAK guvenlik duvari Accept basligi olmayan PDF isteklerini engelliyor
+        basliklar["Accept"] = accept
+    req = urllib.request.Request(url, headers=basliklar)
     with urllib.request.urlopen(req, timeout=ZAMAN_ASIMI) as r:
         tur = r.headers.get("Content-Type", "")
         govde = r.read(3_000_000)
@@ -167,8 +192,19 @@ def kontrol_et(call, onceki):
         sonuc["bulgular"].append("sayfa, kaydın son teyidinden (%s) bu yana değişti" % teyit)
 
     bitis = call.get("basvuru_bitis")
+    dk = (call.get("dogrulama") or {}).get("kaynak", "")
     if bitis and not call.get("surekli_acik") and not tarih_sayfada_mi(bitis, metin):
-        sonuc["bulgular"].append("kayıttaki son başvuru tarihi (%s) sayfada bulunamadı" % bitis)
+        if re.search(r"\.pdf($|\?)", dk, re.I):
+            # Tarih cagri belgesinde (PDF) yaziyor: belgenin kendisini oku
+            pdf = pdf_metni(dk)
+            if pdf is None:
+                sonuc["notlar"] = ["son başvuru tarihi çağrı belgesinde (PDF); belge bu kontrolde okunamadı"]
+            elif not tarih_sayfada_mi(bitis, pdf, bosluksuz=True):
+                sonuc["bulgular"].append("kayıttaki son başvuru tarihi (%s) çağrı belgesinde (PDF) bulunamadı" % bitis)
+            else:
+                sonuc["notlar"] = ["son başvuru tarihi çağrı belgesinde (PDF) doğrulandı"]
+        else:
+            sonuc["bulgular"].append("kayıttaki son başvuru tarihi (%s) sayfada bulunamadı" % bitis)
 
     # Teyit gunu okunan sayfada zaten gecen ifade (ör. teyit kaynagi bir "süre uzatildi" duyurusuysa)
     # degerlendirilmis sayilir; yalnizca sayfa teyitten sonra degistiyse bildirilir.
