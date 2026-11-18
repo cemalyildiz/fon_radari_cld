@@ -7,31 +7,9 @@ dogrulama:tubitak-2244-2026:kismi teyit: Burs/destek tutarları ve proje süresi
 dogrulama:tubitak-1007-savtag-balistik-kiyafet:kismi teyit: Bütçe, süre ve müşteri kurum duyuruda yok; çağrı dokümanı gizli
 dogrulama:tubitak-1007-savtag-aromatik-poliamid:kismi teyit: Bütçe, süre ve müşteri kurum duyuruda yok; çağrı dokümanı gizli
 dogrulama:ep-permed-jtc2027:kismi teyit: Bütçe ve firma katılım koşulları ulusal çağrı dokümanından okunmadı
-kesif:https://tubitak.gov.tr/tr/duyuru/2244-sanayi-doktora-programi-2026-yili-cagrisi-acildi-0
+dogrulama:tubitak-1007-savtag-alternatif-haberlesme:kismi teyit: Başvuru koşulları, bütçe ve süre bu kayıtta okunmadı
+dogrulama:forest-pathways-2026:kismi teyit: Bütçe ve firma katılım koşulları ulusal başvuru kuralları dokümanından okunmadı
 kesif:https://tubitak.gov.tr/tr/duyuru/2209-universite-ogrencileri-arastirma-projeleri-destekleme-programi-ve-2209-b-universite-ogrencileri-sanayiye-yonelik-arastirma-projeleri-destegi-programi-2026-yili-cagrilari-acildi
-kesif:https://tubitak.gov.tr/tr/duyuru/tubitak-bilim-soylesileri-2026-yili-basvurulari-basladi
-kesif:https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi
-kesif:https://tubitak.gov.tr/tr/duyuru/yenilikci-kobiler-icin-avrupa-ortakligi-innowwide-5-cagrisi-acildi
-kesif:https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-surdurulebilir-mavi-ekonomi-ortakligi-sbep-2026-yili-cok-uluslu-ortak-cagrisi-basvuruya-acildi
-kesif:https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi
-kesif:https://tubitak.gov.tr/en/announcement/4004-education-nature-and-science-campsschools-support-program-20k-term-open-application
-kesif:https://tubitak.gov.tr/en/announcement/4005-innovative-educational-applications-support-program-14k-term-open-application
-kesif:https://tubitak.gov.tr/en/announcement/ep-permed-2027-call-open-applications
-kesif:https://tubitak.gov.tr/en/announcement/tubitak-science-talks-2026-applications-period-extended
-kesif:https://tubitak.gov.tr/en/announcement/integrated-sensing-and-communication-winter-school-2026-open-application
-kesif:https://tubitak.gov.tr/en/announcement/eureka-network-turkiye-spain-2026-call-open-application
-kesif:https://tubitak.gov.tr/en/announcement/bigg-investment-2026-1st-call-results-announced
-kesif:https://tubitak.gov.tr/en/announcement/biodiversa-2026-call-new-ecosystems-biodiversity-socio-ecological-consequences-and-future-trajectories-biodivfuture-open-application
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9471/istihdami-koruma-destek-programinin-kapsami-genisletildi
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9389/savunma-uzay-ve-havacilik-sanayii-kobilerine-kosgebden-30-milyon-liralik-destek
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9340/refinansman-kefalet-programi-hayata-gecirildi
-kesif:https://kosgeb.gov.tr/site/tr/genel/detay/9256/kobiler-icin-destek-ve-donusum-programlari-devam-ediyor
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9499/girisimci-destek-programi-yenilendi-girisimcilere-yeni-destek-modeli
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9476/kobilerin-kuresel-rekabet-gucunu-artiracak-destek-programina-basvurular-basladi
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9467/kobilerin-buyumesine-guclu-destek-yeni-basvuru-donemi-basladi
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9453/kosgebden-cop31-odakli-hizlandirma-destegi-cagrisi
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9391/ureten-kobilere-guclu-destek-yeni-basvuru-donemi-basladi
-kesif:https://www.kosgeb.gov.tr/site/tr/genel/detay/9363/imalat-sanayine-100-milyar-tllik-kapsamli-finansman-programi
 kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1501-tubitak-sanayi-ar-ge-projeleri-destekleme-programi
 kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1503-proje-pazarlari-destekleme-programi
 kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1505-universite-sanayi-isbirligi-destek-programi
