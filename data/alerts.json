@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-11-18T13:51:10Z",
+  "generated_at": "2026-11-18T13:58:57Z",
   "esik_gun": 14,
   "yaklasan_son_tarihler": [
+    {
+      "id": "tubitak-1812-bigg-tohum-2026-1",
+      "baslik": "1812 - BİGG+ Tohum Yatırım Çağrısı (2026-1)",
+      "kurum": "TÜBİTAK TEYDEB",
+      "basvuru_bitis": "2026-11-20",
+      "kalan_gun": 2,
+      "kaynak_url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1812-yatirim-tabanli-girisimcilik-destek-programi-bigg-yatirim"
+    },
     {
       "id": "tubitak-1507-2026-2",
       "baslik": "1507 - KOBİ Ar-Ge Başlangıç Destek Programı (2026 Yılı 2. Çağrı)",

@@ -219,6 +219,127 @@ def kaynak_tara(kaynak):
     return [{"url": u, "baslik": b} for u, b in adaylar.items()], True
 
 
+# ---------------------------------------------------------------------------
+# PROGRAM / CAGRI SAYFASI IZLEME
+# Kurumlar yeni cagriyi bazen duyuru akisinda ilan etmeden yalnizca programin
+# kendi sayfasina cagri belgesi ekleyerek acar (or. 1832 2026-3 cagrisi
+# 09.11.2026'da yalnizca program sayfasinda yayimlandi). Bu yuzden program
+# listelerindeki TUM program sayfalari okunur; sayfaya yeni bir cagri belgesi
+# (pdf/docx) ya da yeni bir cagri kodu ("2026-3" gibi) eklenmisse kuyruga
+# aday olarak yazilir. Ilk kez gorulen sayfa yalnizca kayda alinir.
+# ---------------------------------------------------------------------------
+PROGRAM_IZLEME_PATH = ROOT / "data" / "program_izleme.json"
+
+PROGRAM_LISTELERI = [
+    {
+        "ad": "TÜBİTAK sanayi ulusal programlar",
+        "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari",
+        "kok": "https://tubitak.gov.tr",
+        "link_deseni": r"^/tr/destekler/(?:destek/)?sanayi/ulusal-destek-programlari/[^\"#?]+$",
+    },
+    {
+        "ad": "TÜBİTAK sanayi uluslararası programlar",
+        "url": "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-programlar",
+        "kok": "https://tubitak.gov.tr",
+        "link_deseni": r"^/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/[^\"#?]+$",
+    },
+    {
+        "ad": "KOSGEB destek programları",
+        "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekler/3/destekler",
+        "kok": "https://www.kosgeb.gov.tr",
+        "link_deseni": r"/site/tr/genel/destekdetay/\d+/[^\"#?]+$",
+    },
+]
+
+BELGE_DESENI = re.compile(r'href="([^"]+\.(?:pdf|docx?|pptx?|xlsx?))"', re.I)
+BELGE_ILGI = re.compile(r"cagri|çağrı|duyuru|metni|dokuman|doküman|takvim|teklif", re.I)
+CAGRI_KODU = re.compile(r"\b(20\d{2})\s?[-–]\s?0?([1-4])\b")
+
+
+def program_sayfalarini_listele(liste):
+    html = sayfa_getir(liste["url"])
+    desen = re.compile(liste["link_deseni"])
+    sayfalar = {}
+    for href, ic in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S | re.I):
+        yol = href.split("#")[0].split("?")[0].rstrip("/")
+        yol_rel = re.sub(r"^https?://[^/]+", "", yol)
+        if not desen.search(yol_rel) or yol_rel == re.sub(r"^https?://[^/]+", "", liste["url"]):
+            continue
+        ad = metni_temizle(ic)
+        u = url_normalize(yol, liste["kok"])
+        if u not in sayfalar or len(ad) > len(sayfalar[u]):
+            sayfalar[u] = ad
+    return sayfalar
+
+
+def program_sayfasi_ozeti(url, kok):
+    html = sayfa_getir(url)
+    belgeler = set()
+    for href in BELGE_DESENI.findall(html):
+        dosya = href.split("?")[0].rstrip("/").split("/")[-1]
+        if BELGE_ILGI.search(dosya):
+            belgeler.add(url_normalize(href, kok))
+    metin = metni_temizle(html)
+    kodlar = set()
+    for m in CAGRI_KODU.finditer(metin):
+        bas = metin[max(0, m.start() - 60): m.end() + 60].lower()
+        if "çağrı" in bas or "cagri" in bas or "dönem" in bas:
+            kodlar.add("%s-%s" % (m.group(1), m.group(2)))
+    return sorted(belgeler), sorted(kodlar)
+
+
+def program_sayfalarini_izle(simdi):
+    """Yeni cagri belgesi/kodu eklenen program sayfalari icin aday listesi doner."""
+    durum = {}
+    if PROGRAM_IZLEME_PATH.exists():
+        with open(PROGRAM_IZLEME_PATH, encoding="utf-8") as f:
+            durum = json.load(f).get("sayfalar", {})
+    adaylar, okunan = [], 0
+    for liste in PROGRAM_LISTELERI:
+        try:
+            sayfalar = program_sayfalarini_listele(liste)
+        except Exception as e:
+            print("  ! %s listesi okunamadi: %s" % (liste["ad"], type(e).__name__))
+            continue
+        print("  %-42s %3d program sayfasi" % (liste["ad"], len(sayfalar)))
+        for u, ad in sayfalar.items():
+            try:
+                belgeler, kodlar = program_sayfasi_ozeti(u, liste["kok"])
+            except Exception as e:
+                print("    ! okunamadi: %s (%s)" % (u, type(e).__name__))
+                continue
+            okunan += 1
+            onceki = durum.get(u)
+            if onceki is not None:
+                for b in sorted(set(belgeler) - set(onceki.get("belgeler", []))):
+                    adaylar.append({
+                        "baslik": "%s: program sayfasına yeni çağrı belgesi eklendi (%s)"
+                                  % (ad or u.split("/")[-1], b.split("/")[-1]),
+                        "url": b, "program_sayfasi": u,
+                        "kaynak": "Program sayfası izleme - " + liste["ad"],
+                        "ilk_gorulme": simdi, "durum": "yeni",
+                    })
+                for k in sorted(set(kodlar) - set(onceki.get("kodlar", []))):
+                    adaylar.append({
+                        "baslik": "%s: program sayfasında yeni çağrı dönemi (%s)"
+                                  % (ad or u.split("/")[-1], k),
+                        "url": u + "#cagri-" + k, "program_sayfasi": u,
+                        "kaynak": "Program sayfası izleme - " + liste["ad"],
+                        "ilk_gorulme": simdi, "durum": "yeni",
+                    })
+            durum[u] = {"ad": ad, "belgeler": belgeler, "kodlar": kodlar,
+                        "son_kontrol": simdi,
+                        "ilk_kayit": (onceki or {}).get("ilk_kayit", simdi)}
+    if okunan:
+        with open(PROGRAM_IZLEME_PATH, "w", encoding="utf-8") as f:
+            json.dump({"generated_at": simdi,
+                       "aciklama": "Program sayfalarindaki cagri belgeleri ve cagri kodlari (discover_calls.py). Yeni belge/kod -> discovered.json adayi.",
+                       "sayfalar": durum}, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+    print("  program sayfasi izleme: %d sayfa okundu, %d yeni cagri isareti" % (okunan, len(adaylar)))
+    return adaylar
+
+
 def bilinen_urlleri_topla(calls):
     """calls.json'daki kaynak_url'lerden karsilastirma kumesi uretir."""
     bilinen = set()
@@ -287,6 +408,13 @@ def main():
                 "ilk_gorulme": simdi,
                 "durum": "yeni",
             })
+
+    for a in program_sayfalarini_izle(simdi):
+        u = a["url"].rstrip("/")
+        if u in bilinen_url:
+            continue
+        bilinen_url.add(u)
+        yeniler.append(a)
 
     # Hicbir kaynak okunamadiysa kuyrugu EZME - sessiz veri kaybini onle
     if basarili_kaynak == 0:

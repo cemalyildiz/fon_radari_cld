@@ -381,3 +381,11 @@ main{max-width:1180px; margin:0 auto; padding:0 24px 80px;}
   .yukari{ width:50px; height:50px; }
 }
 .brand:focus{ outline:none; }
+
+/* Kaynaklar arası tutarsızlık uyarısı */
+.teyit.teyit-tutarsiz{ color:var(--amber); font-size:.75rem; line-height:1.45; align-items:flex-start; padding:.45rem .6rem; margin-top:.35rem; border:1px solid var(--amber); border-radius:6px; background:color-mix(in srgb, var(--amber) 9%, transparent); }
+.teyit.teyit-tutarsiz::before{ margin-top:.35rem; }
+.tutarsizlik{ margin-top:.6rem; padding:.55rem .7rem; border-left:3px solid var(--amber); background:color-mix(in srgb, var(--amber) 7%, transparent); border-radius:0 6px 6px 0; }
+.tutarsizlik ul{ margin:.35rem 0 .35rem 1.1rem; padding:0; }
+.tutarsizlik li{ margin:.15rem 0; }
+.tutarsizlik a{ color:var(--signal); }

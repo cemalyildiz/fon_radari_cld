@@ -230,7 +230,25 @@ function teyitDurumu(call, status){
 
 function teyitSatiri(call, status){
   const t = teyitDurumu(call, status);
-  return `<div class="teyit ${t.cls}">${escapeHtml(t.metin)}${t.link ? ` <a href="${guvenliUrl(t.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Duyuruyu aç ↗</a>` : ''}</div>`;
+  return `<div class="teyit ${t.cls}">${escapeHtml(t.metin)}${t.link ? ` <a href="${guvenliUrl(t.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Duyuruyu aç ↗</a>` : ''}</div>${tutarsizlikSatiri(call)}`;
+}
+
+// Resmî kaynaklar (duyuru / çağrı sayfası / çağrı belgesi) birbirini tutmuyorsa
+function tutarsizlikSatiri(call){
+  const liste = (call.dogrulama && call.dogrulama.tutarsizliklar) || [];
+  if (!liste.length) return '';
+  const konular = liste.map(t => t.konu).join(', ');
+  return `<div class="teyit teyit-uyari teyit-tutarsiz">Kaynaklar arasında tutarsızlık: ${escapeHtml(konular)}. Kartta esas alınan bilgi ve gerekçesi için ayrıntıyı açın; başvurudan önce kurumdan teyit edin.</div>`;
+}
+
+function tutarsizlikDetayi(call){
+  const liste = (call.dogrulama && call.dogrulama.tutarsizliklar) || [];
+  if (!liste.length) return '';
+  return liste.map(t => `<div class="tutarsizlik">
+      <strong>Tutarsızlık: ${escapeHtml(t.konu)}</strong>
+      <ul>${(t.kaynaklar || []).map(k => `<li>${escapeHtml(k.ad)}: <em>${escapeHtml(k.deger)}</em> <a href="${guvenliUrl(k.url)}" target="_blank" rel="noopener">↗</a></li>`).join('')}</ul>
+      <div>Sitede esas alınan: <strong>${escapeHtml(t.secilen)}</strong> — ${escapeHtml(t.gerekce)}</div>
+    </div>`).join('');
 }
 
 function teyitDetayi(call, status){
@@ -244,6 +262,7 @@ function teyitDetayi(call, status){
     <div>Son teyit: ${fmtDate(dg.tarih)} · ${escapeHtml(durumAd)}${dg.kaynak_turu === 'ikincil' ? ' · <em>ikincil (resmî olmayan) kaynak</em>' : ''}</div>
     ${dg.eksik ? `<div><strong>Teyit edilemeyen:</strong> ${escapeHtml(dg.eksik)}</div>` : ''}
     ${dg.kanit ? `<div class="teyit-kanit">Kanıt: ${escapeHtml(dg.kanit)}</div>` : ''}
+    ${tutarsizlikDetayi(call)}
     ${iz && iz.durum === 'yeniden_teyit' ? `<div><strong>Otomatik kaynak kontrolü (${fmtDate(iz.son_kontrol)}):</strong> ${escapeHtml((iz.bulgular||[]).join(' · '))}</div>` : ''}
     ${dg.kaynak ? `<div><a href="${guvenliUrl(dg.kaynak)}" target="_blank" rel="noopener">Teyit kaynağı ↗</a></div>` : ''}
   </div>`;

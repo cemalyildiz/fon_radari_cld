@@ -26,6 +26,14 @@ Kayit uzerindeki "dogrulama" blogu:
   surekli_kaniti   : (surekli_acik ise zorunlu) neden suresiz acik oldugu
   cerceve_kaniti   : (cerceve_program ise zorunlu) neden tek tarihli cagri olmadigi
   kaynak_turu      : "ikincil" ise resmi olmayan kaynak (yalnizca arsivde kabul)
+  tutarsizliklar   : resmi kaynaklar (duyuru / cagri sayfasi / cagri belgesi)
+                     birbirini tutmuyorsa, her biri icin:
+                       {konu, kaynaklar: [{ad, url, deger}, ...] (en az 2),
+                        secilen, gerekce}
+                     Sitede kart uzerinde uyari olarak gosterilir.
+                     Karar kurali (DOGRULAMA.md): cagri sayfasi/cagri belgesi
+                     duyurudan onceliklidir; tarih celiskisinde daha guncel
+                     yayimlanan kaynak, o da belirsizse en gec tarih esas alinir.
 """
 import re
 from datetime import date, datetime, timedelta, timezone
@@ -157,6 +165,21 @@ def kayit_denetle(call, now=None):
         h.append("surekli_acik=true icin dogrulama.surekli_kaniti zorunlu (resmi kaynakta suresiz/donemsiz oldugunu gosteren ifade)")
     if call.get("cerceve_program") and not dg.get("cerceve_kaniti"):
         h.append("cerceve_program=true icin dogrulama.cerceve_kaniti zorunlu")
+
+    for i, tz in enumerate(dg.get("tutarsizliklar") or []):
+        eksik_alan = [a for a in ("konu", "secilen", "gerekce") if not tz.get(a)]
+        kaynaklar = tz.get("kaynaklar") or []
+        if eksik_alan:
+            h.append("tutarsizliklar[%d]: %s bos" % (i, ", ".join(eksik_alan)))
+        if len(kaynaklar) < 2:
+            h.append("tutarsizliklar[%d]: en az 2 kaynak gerekli" % i)
+        for k in kaynaklar:
+            if not (k.get("ad") and k.get("url") and k.get("deger")):
+                h.append("tutarsizliklar[%d]: her kaynakta ad, url, deger zorunlu" % i)
+            elif not resmi_mi(k["url"]):
+                h.append("tutarsizliklar[%d]: kaynak resmi alan adinda degil: %s" % (i, alan_adi(k["url"])))
+        if aktif and tz.get("konu"):
+            u.append("kaynaklar arasi tutarsizlik (%s): '%s' esas alindi" % (tz["konu"], tz.get("secilen", "")))
 
     belirsiz = [a for a in ("destek_miktari", "destek_orani", "kimler_basvurabilir") if BELIRSIZ_IFADELER.search(call.get(a) or "")]
     if belirsiz and dd == "tam":

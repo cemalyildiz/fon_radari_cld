@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:51:10Z",
+  "generated_at": "2026-11-18T13:58:57Z",
   "uyarilar": [
     {
       "id": "tubitak-1507-2026-2",
@@ -76,6 +76,13 @@
       "baslik": "Ufuk Avrupa FOREST Ortaklığı 2026 Ortak Çağrısı - FORESTPathways (1071)",
       "uyarilar": [
         "kismi teyit: Bütçe ve firma katılım koşulları ulusal başvuru kuralları dokümanından okunmadı"
+      ]
+    },
+    {
+      "id": "tubitak-1812-bigg-tohum-2026-1",
+      "baslik": "1812 - BİGG+ Tohum Yatırım Çağrısı (2026-1)",
+      "uyarilar": [
+        "kismi teyit: Yatırımla alınacak pay oranı ve proje süresi bu kayıtta özetlenmedi"
       ]
     }
   ]

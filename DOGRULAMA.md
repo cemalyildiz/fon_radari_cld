@@ -24,6 +24,16 @@ Bu prosedür, sitede daha önce yaşanan hatalardan çıkarılmıştır:
   metin açılamıyorsa en fazla tarih için yardımcı olarak kullanılabilir ve kayıt
   `durum: "kismi"` olarak işaretlenir.
 - Program tanıtım sayfası ile çağrı metni çelişirse **çağrı metni / genelge / yönerge** esas alınır.
+- **Duyuru tek başına yeterli değildir.** Kurumlar (özellikle TÜBİTAK) yeni çağrıyı bazen duyuru
+  akışında ilan etmeden yalnızca program sayfasına çağrı belgesi ekleyerek açar (ör. 1832 2026-3,
+  09.11.2026). Bu yüzden:
+  1. Duyuruda görülen her çağrı, programın kendi sayfasından ve oradaki çağrı belgesinden (PDF) de
+     kontrol edilir. Program sayfasında takvim yoksa bu durum `kanit` alanına yazılır.
+  2. Program sayfasında olup duyuruda olmayan çağrıda program sayfası / çağrı belgesi esas alınır.
+  3. Kaynaklar çelişirse kayda `dogrulama.tutarsizliklar` yazılır; sitede kart üzerinde uyarı çıkar.
+     Karar: önce çağrı belgesi/çağrı sayfası; tarih çelişkisinde daha güncel yayımlanan kaynak;
+     yayım sırası belirsizse **en geç tarih** esas alınır ve gerekçe yazılır. Uyarı, başvurudan önce
+     kurumdan teyit edilmesini söyler.
 
 ## 2. Okunması gereken alanlar
 
@@ -81,10 +91,25 @@ Her kayıtta bulunur:
 - `kanit`: resmî metinden kısa alıntı — tarihler ve rakamlar dahil. Kayıttaki rakam ile
   alıntıdaki rakam aynı olmalıdır.
 
-## 5. Otomatik denetim (her gün 08:10)
+### Örnek `tutarsizliklar`
+
+```json
+"tutarsizliklar": [{
+  "konu": "son başvuru tarihi",
+  "kaynaklar": [
+    {"ad": "TÜBİTAK duyurusu (12.11.2026)", "url": "https://tubitak.gov.tr/tr/duyuru/...", "deger": "2 Ocak 2027"},
+    {"ad": "Çağrı belgesi (PDF, 15.11.2026)", "url": "https://tubitak.gov.tr/sites/default/files/...pdf", "deger": "4 Ocak 2027"}
+  ],
+  "secilen": "4 Ocak 2027",
+  "gerekce": "çağrı belgesi duyurudan sonra yayımlandı ve daha geç tarihi veriyor"
+}]
+```
+
+## 5. Otomatik denetim (günde iki kez)
 
 1. **Kural denetimi** (`update_data.py`): yukarıdaki kurallara uymayan kayıt varsa iş akışı başarısız olur.
-2. **Yeni çağrı taraması** (`discover_calls.py`): sitede karşılığı olmayan sayfalar "doğrulanmamış" olarak listelenir; siteye **kendiliğinden eklenmez**.
+2. **Yeni çağrı taraması** (`discover_calls.py`): sitede karşılığı olmayan sayfalar "doğrulanmamış" olarak listelenir; siteye **kendiliğinden eklenmez**. Taranan yerler: TÜBİTAK duyuruları (ilk iki sayfa, TR ve EN), TÜBİTAK program listesi, KOSGEB destekler, duyurular ve ana sayfa haberleri, Ticaret Bakanlığı haberleri.
+   **Program sayfası izleme:** TÜBİTAK sanayi (ulusal ve uluslararası) ve KOSGEB destek listelerindeki **her program sayfası** açılır; sayfaya yeni bir çağrı belgesi (PDF/DOCX) ya da yeni bir çağrı dönemi kodu ("2026-3" gibi) eklenmişse duyuru yapılmamış olsa bile aday olarak listelenir (`data/program_izleme.json`). Bir sayfa ilk kez görüldüğünde yalnızca kayda alınır.
 3. **Kaynak sayfa izleme** (`check_sources.py`): açık görünen her kaydın resmî sayfası açılır. Sayfa son teyitten beri değiştiyse, kayıttaki son tarih sayfada artık geçmiyorsa ya da "uzatıldı / kapandı / iptal" gibi bir ifade belirdiyse kayıt **"yeniden teyit gerekli"** olarak işaretlenir. Kayıt otomatik değiştirilmez.
    Ayrıca kurumun, kaydın son teyidinden **sonra** yayımladığı ve başlığında "süresi uzatıldı / ertelendi / kapandı / iptal" geçen bir duyurusu taramada görülürse (eşleşme program koduyla, ör. 1507), kartta kırmızı **"karttaki tarihler güncel olmayabilir"** uyarısı ve duyuru bağlantısı gösterilir. Uyarı, kayıt duyuruya göre yeniden teyit edilip `dogrulama.tarih` güncellenince kalkar.
 4. **AB Funding & Tenders Portalı** (`fetch_eu_calls.py`): Avrupa Komisyonu'nun resmî arama servisinden açık ve planlanan bütün AB çağrıları çekilir ve Uluslararası sekmesinde ayrı listede gösterilir (`data/ab_cagrilari.json`). Bu kayıtlar elle teyit edilmez; alanlar servisten olduğu gibi alınır. Portalın durum etiketi güncel olmadığından son başvuru tarihi geçmiş kayıtlar elenir. İki aşamalı çağrılarda yalnızca 1. aşama tarihi yeni başvuru tarihi sayılır. AB projelerinin üçüncü taraflara açtığı alt çağrılar (kaskad) ayrıca etiketlenir. Türkiye'nin katılım uygunluğu ve başvuru saati değerlendirilmez, sitede bu açıkça yazar. Servis okunamazsa veya kayıt sayısı bir önceki günün yarısının altına düşerse dosya güncellenmez.
