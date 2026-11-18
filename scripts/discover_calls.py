@@ -68,6 +68,8 @@ ELEME_DESENI = re.compile(
     re.I,
 )
 
+SANAYI_ISTISNA = re.compile(r"sanayi|firma|şirket|sirket|KOBİ|KOBI", re.I)
+
 # Menu / navigasyon baglantilari (sayfa iskeletinden gelen gurultu)
 MENU_DESENI = re.compile(
     r"^(ulusal|uluslararası|uluslararasi)\s+(programlar|destekler)$|"
@@ -102,6 +104,39 @@ KAYNAKLAR = [
         "kok": "https://www.kosgeb.gov.tr",
         "link_deseni": r"/site/tr/genel/destekdetay/\d+/[^\"#?]+",
         "baslik_deseni": r"destek program|programı|programi",
+    },
+    {
+        "ad": "TÜBİTAK - Duyuru Arşivi (2. sayfa)",
+        "url": "https://tubitak.gov.tr/tr/duyuru?page=1",
+        "kok": "https://tubitak.gov.tr",
+        "link_deseni": r"/tr/(?:duyuru|destekler)/[^\"#?]+",
+        "baslik_deseni": None,
+    },
+    {
+        "ad": "TÜBİTAK - Announcements (EN)",
+        "url": "https://tubitak.gov.tr/en/announcement",
+        "kok": "https://tubitak.gov.tr",
+        "link_deseni": r"/en/announcement/[^\"#?]+",
+        "baslik_deseni": r"\bcall\b|open|applications",
+    },
+    {
+        # Yeni KOSGEB cagrilari genellikle "Duyurular"da degil, ana sayfadaki
+        # Haberler akisinda ilan ediliyor (or. 16.11.2026 Yesil Sanayi
+        # 2026-01 cagrisi). Baglanti metni "devamı" oldugu icin baslik
+        # URL'deki kisa addan uretilir.
+        "ad": "KOSGEB - Haberler (ana sayfa)",
+        "url": "https://www.kosgeb.gov.tr/",
+        "kok": "https://www.kosgeb.gov.tr",
+        "link_deseni": r"/site/tr/genel/detay/\d+/[^\"#?]+",
+        "baslik_deseni": r"destek|cagri|basvuru|kredi|program",
+        "slug_baslik": True,
+    },
+    {
+        "ad": "Ticaret Bakanlığı - Haberler",
+        "url": "https://ticaret.gov.tr/haberler",
+        "kok": "https://ticaret.gov.tr",
+        "link_deseni": r"^/haberler/[^\"#?]+",
+        "baslik_deseni": r"destek|çağrı|cagri|başvuru|basvuru|program",
     },
     {
         "ad": "KOSGEB - Duyurular",
@@ -156,9 +191,15 @@ def kaynak_tara(kaynak):
         if not desen.search(yol):
             continue
         baslik = metni_temizle(ic)
+        if kaynak.get("slug_baslik"):
+            baslik = yol.rstrip("/").split("/")[-1].replace("-", " ")
         if len(baslik) < 12 or len(baslik) > 220:
             continue
-        if ELEME_DESENI.search(baslik) or MENU_DESENI.search(baslik):
+        # 2244-Sanayi Doktora gibi firmalari ilgilendiren BIDEB programlari
+        # kod araligi yuzunden elenmesin.
+        if MENU_DESENI.search(baslik) or (
+            ELEME_DESENI.search(baslik) and not SANAYI_ISTISNA.search(baslik)
+        ):
             continue
         # Kaynak kendi baslik kuralini veriyorsa onu, vermiyorsa genel
         # ilgi desenini uygula. (Onceki surumde buradaki "or desen.search(yol)"

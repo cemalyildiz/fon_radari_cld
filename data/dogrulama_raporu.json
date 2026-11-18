@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:37:46Z",
+  "generated_at": "2026-11-18T13:23:41Z",
   "uyarilar": [
     {
       "id": "tubitak-1507-2026-2",
@@ -13,6 +13,55 @@
       "baslik": "UR-GE (Uluslararası Rekabetçiliğin Geliştirilmesi) Proje Desteği",
       "uyarilar": [
         "kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı."
+      ]
+    },
+    {
+      "id": "kosgeb-yapay-zeka-kredi-2026",
+      "baslik": "KOSGEB Yapay Zekâ Kredi Programı (GO Dijital Cüzdan)",
+      "uyarilar": [
+        "kismi teyit: Kredinin faiz/maliyet koşulları duyuruda yok; program sayfası ayrıca okunmadı"
+      ]
+    },
+    {
+      "id": "eureka-turkiye-ispanya-2026",
+      "baslik": "Eureka Network Türkiye-İspanya 2026 İkili Çağrısı (1509)",
+      "uyarilar": [
+        "kismi teyit: Ulusal (1509) ön başvuru ve başvuru tarihleri duyuruda yok, e-postayla bildirilecek"
+      ]
+    },
+    {
+      "id": "eureka-globalstars-japonya-2026",
+      "baslik": "Eureka Globalstars Japonya 2026 Çağrısı (1509)",
+      "uyarilar": [
+        "kismi teyit: Ulusal (1509) başvuru tarihleri duyuruda yok, e-postayla bildirilecek"
+      ]
+    },
+    {
+      "id": "tubitak-2244-2026",
+      "baslik": "2244 - Sanayi Doktora Programı (2026 Yılı Çağrısı)",
+      "uyarilar": [
+        "kismi teyit: Burs/destek tutarları ve proje süresi okunmadı"
+      ]
+    },
+    {
+      "id": "tubitak-1007-savtag-balistik-kiyafet",
+      "baslik": "1007 - SAVTAG Balistik Kıyafet Geliştirilmesi Projesi Çağrısı",
+      "uyarilar": [
+        "kismi teyit: Bütçe, süre ve müşteri kurum duyuruda yok; çağrı dokümanı gizli"
+      ]
+    },
+    {
+      "id": "tubitak-1007-savtag-aromatik-poliamid",
+      "baslik": "1007 - SAVTAG Balistik Amaçlı Aromatik Poliamid Geliştirilmesi Projesi Çağrısı",
+      "uyarilar": [
+        "kismi teyit: Bütçe, süre ve müşteri kurum duyuruda yok; çağrı dokümanı gizli"
+      ]
+    },
+    {
+      "id": "ep-permed-jtc2027",
+      "baslik": "EP PerMed JTC2027 - Kişiselleştirilmiş Tıp için Hücre ve Gen Tedavileri (CGT4PM2027) Çağrısı (1071)",
+      "uyarilar": [
+        "kismi teyit: Bütçe ve firma katılım koşulları ulusal çağrı dokümanından okunmadı"
       ]
     }
   ]

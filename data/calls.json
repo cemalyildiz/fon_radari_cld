@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-17T22:37:46Z",
+  "last_checked": "2026-11-18T13:23:41Z",
   "calls": [
     {
       "id": "tubitak-1831",
@@ -121,7 +121,7 @@
       "proje_suresi": "En az 8, en fazla 12 ay (4'er aylık izleme dönemleri)",
       "sektor_odagi": "Yenilenebilir enerji, kaynak verimliliği, atık yönetimi, döngüsel ekonomi",
       "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi",
-      "notlar": "Program sürekli açık DEĞİLDİR; proje teklif çağrıları ile uygulanır (Yönerge md. 5 ve 25: çağrılar KOSGEB sitesinde ilan edilir, ilan ile son başvuru arasında en az 30 gün süre bırakılır; toplam bütçeye ulaşılınca başvuru alınmaz). 2023-01 ve 2023-02 çağrılarının başvuru dönemi 08.12.2023 - 30.11.2024 (23:59) idi ve kapanmıştır. KOSGEB program sayfası bu iki çağrıyı hâlâ 'Yürürlükte Olan Çağrılar' altında listeliyor; çağrı metinlerine göre başvuru süreleri sona ermiştir (desteklenen projelerin uygulaması sürüyor olabilir). Program yönergesinin Rev.04 sürümü (23.08.2026 tarihli) yayında olduğundan program yürürlüktedir; ancak 04.11.2026 itibarıyla açık yeni bir çağrı bulunamamıştır. Yeni çağrıda üst limitler değişebilir: güncel yönerge alt bileşen 1.1 (enerji) için işletme başına 500.000 USD, 1.2 için 150.000 USD karşılığı TL üst sınır öngörüyor. MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama desteğidir - 1831'den farklıdır. Teyit: 04.11.2026, KOSGEB resmî çağrı metinleri ve yönerge.",
+      "notlar": "Program sürekli açık DEĞİLDİR; proje teklif çağrıları ile uygulanır (Yönerge md. 5 ve 25: çağrılar KOSGEB sitesinde ilan edilir, ilan ile son başvuru arasında en az 30 gün süre bırakılır; toplam bütçeye ulaşılınca başvuru alınmaz). 2023-01 ve 2023-02 çağrılarının başvuru dönemi 08.12.2023 - 30.11.2024 (23:59) idi ve kapanmıştır. KOSGEB program sayfası bu iki çağrıyı hâlâ 'Yürürlükte Olan Çağrılar' altında listeliyor; çağrı metinlerine göre başvuru süreleri sona ermiştir (desteklenen projelerin uygulaması sürüyor olabilir). Program yönergesinin Rev.04 sürümü (23.08.2026 tarihli) yayında olduğundan program yürürlüktedir; ancak 04.11.2026 itibarıyla açık yeni bir çağrı bulunamamıştır. Yeni çağrıda üst limitler değişebilir: güncel yönerge alt bileşen 1.1 (enerji) için işletme başına 500.000 USD, 1.2 için 150.000 USD karşılığı TL üst sınır öngörüyor. MENTÖRLÜK DEĞİL, doğrudan yatırım/uygulama desteğidir - 1831'den farklıdır. Teyit: 04.11.2026, KOSGEB resmî çağrı metinleri ve yönerge. YENİ ÇAĞRI: 16.11.2026 itibarıyla 2026-01 Sanayide Temiz ve Döngüsel Ekonomi Proje Teklif Çağrısı açıldı; ayrı kayıtta (kosgeb-yesil-sanayi-2026-01).",
       "dogrulama": {
         "tarih": "2026-11-04",
         "kaynak": "https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/YE%C5%9E%C4%B0L%20SANAY%C4%B0%20DP/2024/2024.06.16/Proje_Teklif_%C3%87a%C4%9Fr%C4%B1s%C4%B1_1.pdf",
@@ -187,9 +187,9 @@
       "kaynak_url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi",
       "notlar": "Çağrı takvimi (09.11.2026 TÜBİTAK duyurusuyla uzatıldı): açılış 20 Temmuz 2026, kuruluş bazlı ön kayıt son tarihi 23 Kasım 2026, çağrı kapanış tarihi 25 Kasım 2026 (PRODİS üzerinden gönderim son tarihi; gönderim için ön kayıt onayı gerekir). Önceki takvim: ön kayıt 9 Kasım, kapanış 11 Kasım. Sistem hatası nedeniyle başvuru yapılamazsa en geç 2 Aralık 2026 mesai bitimine kadar TEYDEB'e dilekçe verilmelidir. Proje önerileri e-imza ile gönderilir. Program her yıl ocak ve temmuz aylarında iki çağrı açar. 2026-2 çağrısında geçmiş projelerin ticarileşme performansına göre -5/+5 aralığında ek puan uygulanır. Bütçe/oran ayrıntısı için çağrı dokümanına bakılmalıdır.",
       "dogrulama": {
-        "tarih": "2026-11-10",
+        "tarih": "2026-11-18",
         "kaynak": "https://tubitak.gov.tr/tr/duyuru/1507-kobi-ar-ge-baslangic-destek-programi-ve-1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-programi-2026-yili-cagrilarinin-suresi-uzatildi",
-        "kanit": "09 Kas 2026 TÜBİTAK duyurusu: '1507 ... 2026 yılı 2. Çağrısı ... başvuru süresi uzatılmıştır' — 1507: Kuruluş Bazlı Ön Kayıt Başvurusu Son Tarihi 23 Kasım 2026; Çağrı Kapanış Tarihi 25 Kasım 2026",
+        "kanit": "09 Kas 2026 TÜBİTAK duyurusu: '1507 ... 2026 yılı 2. Çağrısı ... başvuru süresi uzatılmıştır' — 1507: Kuruluş Bazlı Ön Kayıt Başvurusu Son Tarihi 23 Kasım 2026; Çağrı Kapanış Tarihi 25 Kasım 2026 | 18.11.2026: sayfa yeniden okundu, tarihler değişmemiş",
         "durum": "kismi",
         "eksik": "Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli."
       },
@@ -911,9 +911,9 @@
         }
       ],
       "dogrulama": {
-        "tarih": "2026-11-10",
+        "tarih": "2026-11-18",
         "kaynak": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
-        "kanit": "International Call PO opening 23 June 2026; PO submission deadline 26 November 2026; FPP 5 March 2027; national deadline 31 March 2027 (10.11.2026'da yeniden okundu; takvim değişmemiş)",
+        "kanit": "International Call PO opening 23 June 2026; PO submission deadline 26 November 2026; FPP 5 March 2027; national deadline 31 March 2027 (10.11.2026'da yeniden okundu; takvim değişmemiş) | 18.11.2026: sayfa yeniden okundu, tarihler değişmemiş",
         "durum": "tam"
       }
     },
@@ -1157,6 +1157,324 @@
         "kanit": "Yönlendirme kaydı, çağrı değildir; tek başvuru tarihi iddia edilmez.",
         "cerceve_kaniti": "26 ajansın her biri ayrı program ve dönemlerle çağrı açar",
         "durum": "tam"
+      }
+    },
+    {
+      "id": "kosgeb-yesil-sanayi-2026-01",
+      "kategori": "ulusal",
+      "tema": [
+        "Yeşil Dönüşüm",
+        "Sanayi Yatırımı",
+        "Çevre & İklim"
+      ],
+      "baslik": "KOSGEB Yeşil Sanayi Destek Programı - 2026-01 Sanayide Temiz ve Döngüsel Ekonomi Proje Teklif Çağrısı",
+      "kurum": "KOSGEB (Türkiye Yeşil Sanayi Projesi, Dünya Bankası desteğiyle)",
+      "ozet": "İmalat sanayiindeki KOBİ'lerin enerji, su ve hammadde verimliliği, sürdürülebilir atık geri dönüşümü, endüstriyel simbiyoz ve döngüsel ekonomi projelerine 3 milyar TL bütçeli geri ödemeli destek çağrısı.",
+      "basvuru_baslangic": "2026-11-16",
+      "basvuru_bitis": "2026-12-09",
+      "surekli_acik": false,
+      "destek_turu": "Geri ödemeli destek (KOSGEB program sayfası: 'geri ödemeli destek kullandırılacaktır')",
+      "destek_miktari": "Proje başına destek üst limiti 7.000.000 TL; proje bütçesi en az 1.000.000 TL; çağrı toplam bütçesi 3 milyar TL",
+      "destek_orani": "%70",
+      "kimler_basvurabilir": "NACE Rev. 2.1 Kısım C - İmalat'ta faaliyet gösteren KOBİ'ler: en az 2 yıl önce kurulmuş, onaylı ve güncel işletme beyanı, ön başvuru tarihi itibarıyla geçerli Sanayi Sicil Belgesi, son mali yılda bilanço esasına göre defter, Findeks kredi notu orta riskli veya daha iyi; son mali yıl bilançosu veya net satış hasılatı proje toplam bütçesinden büyük olmalı",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "12 ay",
+      "sektor_odagi": "İmalat sanayii - enerji/su/hammadde verimliliği, atık geri dönüşümü, endüstriyel simbiyoz, döngüsel ekonomi",
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9508/kosgebden-kobilerin-yesil-donusumune-3-milyar-tllik-destek",
+      "notlar": "İki aşamalı başvuru. Yeni başvuru için ilk adım ön başvuru: 16 Kasım - 9 Aralık 2026. Birinci aşama değerlendirme 10-18 Aralık, sonuç ilanı 18 Aralık 2026. Proje başvurusu 21 Aralık 2026 - 31 Ocak 2027 (yalnızca ön başvurusu uygun bulunanlar). Desteklenecek işletmelerin ilanı 31 Mart 2027, program başlangıcı 1 Nisan 2027. Desteklenen giderler: personel, makine-teçhizat, yazılım, hizmet alımı. Geri ödeme koşulları: Sanayi ve Teknoloji Bakanlığı'nın 16.11.2026 haberine göre 'ilk 24 ayı geri ödemesiz, 36 ay vadeli faizsiz'; kesin koşullar için 2026-01 Teklif Çağrısı mevzuatı esas alınmalıdır. Başvuru: edevlet.kosgeb.gov.tr. Program sayfası: https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi",
+      "ara_tarihler": [
+        {
+          "ad": "Birinci aşama sonuçlarının ilanı",
+          "tarih": "2026-12-18"
+        },
+        {
+          "ad": "Proje başvurusu son tarihi (ön başvurusu uygun bulunanlar)",
+          "tarih": "2027-01-31"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9508/kosgebden-kobilerin-yesil-donusumune-3-milyar-tllik-destek",
+        "kanit": "KOSGEB haberi (16.11.2026): '3 milyar TL bütçeli Sanayide Temiz ve Döngüsel Ekonomi Teklif Çağrısı'; '7 milyon TL'ye kadar destek üst limiti, %70 destek oranı, 12 ay proje süresi'; 'Ön Başvuru: 16 Kasım - 9 Aralık 2026'; 'Proje Başvurusu: 21 Aralık 2026 - 31 Ocak 2027'. Program sayfası 9022: 'Yürürlükte Olan Çağrılar 2026-01'; 'geri ödemeli destek'",
+        "durum": "tam"
+      }
+    },
+    {
+      "id": "kosgeb-yapay-zeka-kredi-2026",
+      "kategori": "ulusal",
+      "tema": [
+        "Dijitalleşme",
+        "Girişimcilik"
+      ],
+      "baslik": "KOSGEB Yapay Zekâ Kredi Programı (GO Dijital Cüzdan)",
+      "kurum": "KOSGEB",
+      "ozet": "Teknogirişim Rozeti sahibi işletmelerin yüksek performanslı işlem kaynağı (GPU/CPU/RAM), güvenli veri depolama ve yapay zekâ altyapı hizmetleri ihtiyaçları için kredi programı.",
+      "basvuru_baslangic": "2026-07-09",
+      "basvuru_bitis": "2026-12-31",
+      "surekli_acik": false,
+      "destek_turu": "Kredi (GO Dijital Cüzdan üzerinden kullandırılır)",
+      "destek_miktari": "500.000 TL - 5.000.000 TL arası kredi",
+      "destek_orani": "Belirtilmemiş (faiz/maliyet koşulları duyuruda yer almıyor)",
+      "kimler_basvurabilir": "Geçerli Teknogirişim Rozetine sahip, KOSGEB Veri Tabanında kayıtlı, aktif ve güncel işletme beyanı olan işletmeler",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "12 ay geri ödemesiz dönem sonrasında 12 ay eşit taksitle geri ödeme",
+      "sektor_odagi": "Yapay zekâ geliştiren ve kullanan teknoloji girişimleri",
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9427/kosgebden-teknoloji-girisimlerine-yapay-zek-kredi-programi",
+      "notlar": "Başvurular 9 Temmuz - 31 Aralık 2026 arasında KOSGEB KOBİ Bilgi Sistemi üzerinden; uygun bulunanlar krediyi GO Dijital Cüzdan uygulamasıyla kullanır.",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9427/kosgebden-teknoloji-girisimlerine-yapay-zek-kredi-programi",
+        "kanit": "KOSGEB haberi (09.07.2026): 'başvuruları 9 Temmuz – 31 Aralık 2026 tarihleri arasında'; '500 bin TL ile 5 milyon TL arasında kredi'; '12 ay geri ödemesiz dönem sonrasında 12 ay eşit taksit'; 'Geçerli Teknogirişim Rozetine sahip olması'",
+        "durum": "kismi",
+        "eksik": "Kredinin faiz/maliyet koşulları duyuruda yok; program sayfası ayrıca okunmadı"
+      }
+    },
+    {
+      "id": "kosgeb-acil-durumlar-sel-2026",
+      "kategori": "ulusal",
+      "tema": [
+        "Genel Sektör"
+      ],
+      "baslik": "KOSGEB Acil Durumlar Desteği - 2026 Sel ve Taşkın Felaketlerinden Etkilenen İşletmeler",
+      "kurum": "KOSGEB",
+      "ozet": "2026'da sel ve taşkından etkilenen, valilikçe hasar tespiti yapılmış mikro ve küçük işletmelere işletme sermayesi kredisi; faiz/kâr payının tamamı KOSGEB tarafından karşılanır.",
+      "basvuru_baslangic": "2026-11-03",
+      "basvuru_bitis": "2026-12-31",
+      "surekli_acik": false,
+      "destek_turu": "Kredi faiz/kâr payı desteği",
+      "destek_miktari": "Küçük işletmelere 1.000.000 TL'ye, mikro işletmelere 500.000 TL'ye kadar kredi",
+      "destek_orani": "Faiz/kâr payının tamamı KOSGEB tarafından karşılanır",
+      "kimler_basvurabilir": "2026 yılında sel ve taşkın felaketlerinden etkilenen, valilikler tarafından hasar tespiti yapılmış mikro ve küçük ölçekli işletmeler (etkilenme resmî belgeyle tevsik edilmeli)",
+      "olcek": [
+        "KOBİ"
+      ],
+      "proje_suresi": "24 ay vade, 6 ay ödemesiz",
+      "sektor_odagi": "Afetten etkilenen işletmelerin işletme sermayesi",
+      "kaynak_url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9505/kosgebden-sel-ve-taskin-felaketlerinden-etkilenen-kobilere-faizkr-payi-destegi",
+      "notlar": "Orta ölçekli ve büyük işletmeler kapsam dışıdır. Son başvuru 31 Aralık 2026.",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9505/kosgebden-sel-ve-taskin-felaketlerinden-etkilenen-kobilere-faizkr-payi-destegi",
+        "kanit": "KOSGEB haberi (03.11.2026): 'küçük işletmelere 1 milyon TL'ye, mikro işletmelere ise 500 bin TL'ye kadar'; '24 ay vadeli ve 6 ay ödemesiz'; 'faiz/kâr payının tamamı KOSGEB tarafından'; 'Acil Durumlar Desteği için son başvuru tarihi 31 Aralık 2026'",
+        "durum": "tam"
+      }
+    },
+    {
+      "id": "eureka-turkiye-ispanya-2026",
+      "kategori": "uluslararasi",
+      "tema": [
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon"
+      ],
+      "baslik": "Eureka Network Türkiye-İspanya 2026 İkili Çağrısı (1509)",
+      "kurum": "EUREKA + TÜBİTAK TEYDEB",
+      "ozet": "Türkiye ve İspanya'daki firmaların ortak, pazara yönelik Ar-Ge projeleri; Türk tarafı 1509 - Uluslararası Sanayi Ar-Ge Projeleri Destekleme Programı kapsamında desteklenir. Tüm tematik alanlara açık; akıllı üretim, enerji ve akıllı altyapılar, akıllı mobilite/İHA/lojistik, tarım-gıda önerilen alanlar.",
+      "basvuru_baslangic": "2026-10-21",
+      "basvuru_bitis": "2027-03-03",
+      "surekli_acik": false,
+      "destek_turu": "Hibe (TÜBİTAK 1509 kuralları)",
+      "destek_miktari": "Duyuruda belirtilmemiş; 1509 program kuralları geçerli",
+      "destek_orani": "1509 program kuralları geçerli",
+      "kimler_basvurabilir": "Türkiye'de sermaye şirketi statüsündeki firmalar, İspanya'dan en az bir firma ile; üniversiteler ve araştırma enstitüleri doğrudan başvuramaz, hizmet sağlayıcı olabilir",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Tüm alanlar",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+      "notlar": "Uluslararası çağrı 21 Ekim 2026 - 3 Mart 2027. Ardından Türk katılımcılar 1509 ön başvurusu ve ulusal başvuru yapar; bu tarihler TÜBİTAK tarafından e-postayla bildirilecek. İletişim: eureka@tubitak.gov.tr, 1509@tubitak.gov.tr",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (26.10.2026): 'Uluslararası Çağrı Açılış Tarihi: 21 Ekim 2026 Uluslararası Çağrı Kapanış Tarihi: 3 Mart 2027'; 'sermaye şirketi statüsündeki bir firma, İspanya'dan en az bir firma ile'; '1509 ... kapsamında desteklenecek'",
+        "durum": "kismi",
+        "eksik": "Ulusal (1509) ön başvuru ve başvuru tarihleri duyuruda yok, e-postayla bildirilecek"
+      }
+    },
+    {
+      "id": "eureka-globalstars-japonya-2026",
+      "kategori": "uluslararasi",
+      "tema": [
+        "Uluslararası İşbirliği",
+        "Ar-Ge & İnovasyon"
+      ],
+      "baslik": "Eureka Globalstars Japonya 2026 Çağrısı (1509)",
+      "kurum": "EUREKA + TÜBİTAK TEYDEB",
+      "ozet": "Japonya ile ortak, ticarileşme hedefli Ar-Ge ve yenilik projeleri; 16 ülkenin katıldığı çağrı. Nükleer enerji, ilaç geliştirme ve rejeneratif tıp hariç tüm Ar-Ge alanlarına açık.",
+      "basvuru_baslangic": "2026-10-07",
+      "basvuru_bitis": "2027-01-20",
+      "surekli_acik": false,
+      "destek_turu": "Hibe (TÜBİTAK 1509 kuralları)",
+      "destek_miktari": "Duyuruda belirtilmemiş; 1509 program kuralları geçerli",
+      "destek_orani": "1509 program kuralları geçerli",
+      "kimler_basvurabilir": "Türkiye'de kurulmuş sermaye şirketleri; konsorsiyumda Türkiye ve Japonya'dan en az birer şirket olmalı; diğer katılımcı ülkelerden kuruluşlar eklenebilir",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Kuantum, yapay zekâ, robotik, yarı iletkenler, elektronik, enerji ve çevre, biyoteknoloji, yeni malzemeler, tıbbi cihazlar, havacılık-uzay, madencilik vb.",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi",
+      "notlar": "Katılımcı ülkeler: Japonya, Türkiye, Avusturya, Belçika (Flandre), Kanada, Estonya, Fransa, Almanya, İsrail, Litvanya, Lüksemburg, Singapur, Güney Kore, İspanya, İsviçre, Birleşik Krallık. Uluslararası başvuru 7 Ekim 2026 - 20 Ocak 2027, Eureka platformu üzerinden. 1509 ön başvuru ve ulusal başvuru tarihleri TÜBİTAK tarafından e-postayla bildirilecek. Ortak arama: J-GoodTech (SMRJ), JETRO. İletişim: eureka@tubitak.gov.tr",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (08.10.2026): 'Uluslararası Başvuruların Başlangıç Tarihi: 7 Ekim 2026 Uluslararası Başvuru Son Tarihi: 20 Ocak 2027'; 'Türkiye ve Japonya'dan en az birer şirketin yer aldığı bir konsorsiyum'",
+        "durum": "kismi",
+        "eksik": "Ulusal (1509) başvuru tarihleri duyuruda yok, e-postayla bildirilecek"
+      }
+    },
+    {
+      "id": "tubitak-2244-2026",
+      "kategori": "ulusal",
+      "tema": [
+        "Ar-Ge & İnovasyon",
+        "Eğitim & Beceri Geliştirme",
+        "Kümelenme & İşbirliği"
+      ],
+      "baslik": "2244 - Sanayi Doktora Programı (2026 Yılı Çağrısı)",
+      "kurum": "TÜBİTAK BİDEB",
+      "ozet": "Sanayide doktoralı araştırmacı istihdamını teşvik eden, üniversite/araştırma altyapısı ile özel sektör kuruluşunun protokolle birlikte yürüttüğü Üniversite-Sanayi İşbirliği Modeli programı.",
+      "basvuru_baslangic": "2026-11-04",
+      "basvuru_bitis": "2026-12-22",
+      "surekli_acik": false,
+      "destek_turu": "Burs ve proje desteği (TÜBİTAK BİDEB)",
+      "destek_miktari": "Program sayfasındaki bütçe formuna göre",
+      "destek_orani": "Program sayfasına göre",
+      "kimler_basvurabilir": "Üniversiteler ya da araştırma altyapıları; Ar-Ge veya Tasarım Merkezine sahip şirketler, teknopark şirketleri ya da TÜBİTAK projesi sonuçlandırmış şirketlerle protokol yaparak başvurur",
+      "olcek": [
+        "Üniversite/Araştırma",
+        "KOBİ",
+        "Büyük Ölçekli"
+      ],
+      "proje_suresi": "Program sayfasına göre",
+      "sektor_odagi": "Üniversite-sanayi işbirliğiyle doktora (TTO ve Ar-Ge merkezli firmalar için ilgili)",
+      "kaynak_url": "https://tubitak.gov.tr/tr/burslar/lisansustu/egitim-burs-programlari/2244-sanayi-doktora-programi",
+      "notlar": "Başvuruyu üniversite/araştırma altyapısı e-bideb.tubitak.gov.tr üzerinden yapar; firma protokol tarafıdır. Proje Öneri Formu ve Bütçe Öneri Formu yüklenir. Destek tutarları bu kayıtta doğrulanmadı.",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/burslar/lisansustu/egitim-burs-programlari/2244-sanayi-doktora-programi",
+        "kanit": "Program sayfası: '2026 Yılı Başvuru Tarihleri ... Açılış 04.11.2026 Kapanış 22.12.2026'; 'Programa üniversitelerimiz ya da araştırma altyapıları; Ar-Ge veya Tasarım Merkezine Sahip Şirketler, Teknopark Şirketleri veya TÜBİTAK Projesi Sonuçlandırmış Şirketler ile protokol yaparak başvuru yapabilir'",
+        "durum": "kismi",
+        "eksik": "Burs/destek tutarları ve proje süresi okunmadı"
+      }
+    },
+    {
+      "id": "tubitak-1007-savtag-balistik-kiyafet",
+      "kategori": "ulusal",
+      "tema": [
+        "Savunma & Havacılık",
+        "Ar-Ge & İnovasyon",
+        "İleri Malzeme"
+      ],
+      "baslik": "1007 - SAVTAG Balistik Kıyafet Geliştirilmesi Projesi Çağrısı",
+      "kurum": "TÜBİTAK ARDEB - SAVTAG",
+      "ozet": "1007 Kamu Kurumları Araştırma ve Geliştirme Projelerini Destekleme Programı kapsamında SAVTAG çağrısı: Personelin hareket kabiliyetini kısıtlamadan şarapnele karşı koruyan balistik koruyucu kıyafet geliştirilmesi. Proje 'HİZMETE ÖZEL' gizlilik derecesinde yürütülür.",
+      "basvuru_baslangic": "2026-10-16",
+      "basvuru_bitis": "2026-12-16",
+      "surekli_acik": false,
+      "destek_turu": "1007 kamu Ar-Ge projesi desteği",
+      "destek_miktari": "Duyuruda belirtilmemiş",
+      "destek_orani": "Duyuruda belirtilmemiş",
+      "kimler_basvurabilir": "Savunma Sanayii Güvenliği Yönetmeliği'ne uygun firmalar (çağrı dokümanı SAVTAG Çağrı Belgesi Teslim Tutanağı ile teslim alınır)",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Savunma - balistik koruma",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi",
+      "notlar": "Başvurular doğrudan II. Aşama Proje Önerisi olarak alınır. Son başvuru 16 Aralık 2026 saat 17:00. Proje faaliyetleri bağımsız kontrollü alanlarda yürütülür; personel için varsa Kişi Güvenlik Belgesi listesi istenir. İletişim: SAVTAG (0312 298 93 96 / 98).",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (16.10.2026): 'proje başvuruları 16 Ekim 2026 tarihinde alınmaya başlanacak olup proje önerileri için son başvuru tarihi 16 Aralık 2026 saat 17:00'; 'doğrudan II. Aşama Proje Önerisi'; 'Müracaat edecek firmalar Savunma Sanayii Güvenliği Yönetmeliği'ne uygun olarak'",
+        "durum": "kismi",
+        "eksik": "Bütçe, süre ve müşteri kurum duyuruda yok; çağrı dokümanı gizli"
+      }
+    },
+    {
+      "id": "tubitak-1007-savtag-aromatik-poliamid",
+      "kategori": "ulusal",
+      "tema": [
+        "Savunma & Havacılık",
+        "Ar-Ge & İnovasyon",
+        "İleri Malzeme"
+      ],
+      "baslik": "1007 - SAVTAG Balistik Amaçlı Aromatik Poliamid Geliştirilmesi Projesi Çağrısı",
+      "kurum": "TÜBİTAK ARDEB - SAVTAG",
+      "ozet": "1007 Kamu Kurumları Araştırma ve Geliştirme Projelerini Destekleme Programı kapsamında SAVTAG çağrısı: Balistik amaçlı aromatik poliamid malzeme geliştirilmesi. Proje 'HİZMETE ÖZEL' gizlilik derecesinde yürütülür.",
+      "basvuru_baslangic": "2026-10-16",
+      "basvuru_bitis": "2026-12-16",
+      "surekli_acik": false,
+      "destek_turu": "1007 kamu Ar-Ge projesi desteği",
+      "destek_miktari": "Duyuruda belirtilmemiş",
+      "destek_orani": "Duyuruda belirtilmemiş",
+      "kimler_basvurabilir": "Savunma Sanayii Güvenliği Yönetmeliği'ne uygun firmalar (çağrı dokümanı SAVTAG Çağrı Belgesi Teslim Tutanağı ile teslim alınır)",
+      "olcek": [
+        "KOBİ",
+        "Büyük Ölçekli",
+        "Üniversite/Araştırma"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Savunma - balistik koruma",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi",
+      "notlar": "Başvurular doğrudan II. Aşama Proje Önerisi olarak alınır. Son başvuru 16 Aralık 2026 saat 17:00. Proje faaliyetleri bağımsız kontrollü alanlarda yürütülür; personel için varsa Kişi Güvenlik Belgesi listesi istenir. İletişim: SAVTAG (0312 298 93 96 / 98).",
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (16.10.2026): 'proje başvuruları 16 Ekim 2026 tarihinde alınmaya başlanacak olup proje önerileri için son başvuru tarihi 16 Aralık 2026 saat 17:00'; 'doğrudan II. Aşama Proje Önerisi'; 'Müracaat edecek firmalar Savunma Sanayii Güvenliği Yönetmeliği'ne uygun olarak'",
+        "durum": "kismi",
+        "eksik": "Bütçe, süre ve müşteri kurum duyuruda yok; çağrı dokümanı gizli"
+      }
+    },
+    {
+      "id": "ep-permed-jtc2027",
+      "kategori": "uluslararasi",
+      "tema": [
+        "Sağlık",
+        "Biyoteknoloji",
+        "Uluslararası İşbirliği"
+      ],
+      "baslik": "EP PerMed JTC2027 - Kişiselleştirilmiş Tıp için Hücre ve Gen Tedavileri (CGT4PM2027) Çağrısı (1071)",
+      "kurum": "Kişiselleştirilmiş Tıp Avrupa Ortaklığı (EP PerMed) + TÜBİTAK",
+      "ozet": "Kişiselleştirilmiş tıp kapsamında somatik hücre tedavileri, gen tedavileri veya yeni biyolojik ürünler (mRNA, nükleik asit temelli yöntemler, hücre dışı veziküller) geliştirme ve doğrulama projeleri; çok ortaklı uluslararası konsorsiyumlar.",
+      "basvuru_baslangic": "2026-11-10",
+      "basvuru_bitis": "2027-01-20",
+      "surekli_acik": false,
+      "destek_turu": "TÜBİTAK 1071 kapsamında destek",
+      "destek_miktari": "Duyuruda belirtilmemiş",
+      "destek_orani": "Duyuruda belirtilmemiş",
+      "kimler_basvurabilir": "Uluslararası konsorsiyumlarda Türkiye'den yer alan araştırmacılar (ulusal başvuru TÜBİTAK Proje Başvuru Sistemi üzerinden zorunlu)",
+      "olcek": [
+        "Üniversite/Araştırma"
+      ],
+      "proje_suresi": "Duyuruda belirtilmemiş",
+      "sektor_odagi": "Sağlık - hücre ve gen tedavileri",
+      "kaynak_url": "https://tubitak.gov.tr/tr/duyuru/kisisellestirilmis-tip-avrupa-ortakligi-2027-yili-cagrisi-acildi",
+      "notlar": "İki aşamalı. Uluslararası kısa öneri son tarihi 20 Ocak 2027 14:00 CET; 1. aşama TÜBİTAK ulusal başvurusu 27 Ocak 2027 23:59 TSİ; 2. aşama önerileri 25 Mayıs 2027 14:00 CEST. Firmaların katılım koşulları ulusal çağrı dokümanından kontrol edilmeli.",
+      "ara_tarihler": [
+        {
+          "ad": "1. aşama TÜBİTAK ulusal başvurusu",
+          "tarih": "2027-01-27"
+        },
+        {
+          "ad": "2. aşama önerileri (çağrı sekretaryası)",
+          "tarih": "2027-05-25"
+        }
+      ],
+      "dogrulama": {
+        "tarih": "2026-11-18",
+        "kaynak": "https://tubitak.gov.tr/tr/duyuru/kisisellestirilmis-tip-avrupa-ortakligi-2027-yili-cagrisi-acildi",
+        "kanit": "TÜBİTAK duyurusu (10.11.2026): 'Uluslararası Kısa Proje Önerilerinin ... Son Tarih: 20 Ocak 2027 (14.00, CET)'; '1. Aşama ... TÜBİTAK Ulusal Başvurusu için Son Tarih: 27 Ocak 2027 (23.59, TSİ)'; '2. Aşama ... 25 Mayıs 2027'; '1071 ... kapsamında desteklenecektir'",
+        "durum": "kismi",
+        "eksik": "Bütçe ve firma katılım koşulları ulusal çağrı dokümanından okunmadı"
       }
     }
   ]
