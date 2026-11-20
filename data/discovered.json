@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:57:00Z",
+  "generated_at": "2026-11-20T21:56:45Z",
   "adaylar": [
     {
       "baslik": "1501 - TÜBİTAK Sanayi Ar-Ge Projeleri Destekleme Programı",
@@ -449,6 +449,13 @@
       "ilk_gorulme": "2026-11-18T13:23:58Z",
       "durum": "incelendi",
       "inceleme_tarihi": "2026-11-18"
+    },
+    {
+      "baslik": "1707 - Results of the 2026 2nd Term Call for Order-Based R&D Projects Announced",
+      "url": "https://tubitak.gov.tr/en/announcement/1707-results-2026-2nd-term-call-order-based-rd-projects-announced",
+      "kaynak": "TÜBİTAK - Announcements (EN)",
+      "ilk_gorulme": "2026-11-20T21:56:45Z",
+      "durum": "yeni"
     }
   ],
   "aciklama": "Otomatik tarama ile bulunan, HENUZ DOGRULANMAMIS cagri adaylari. Butce/oran/uygunluk bilgileri icermez; calls.json'a eklenmeden once kurumun resmi sayfasindan teyit edilmelidir."
