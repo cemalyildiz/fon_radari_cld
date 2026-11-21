@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:24:32Z",
+  "generated_at": "2026-11-21T20:39:11Z",
   "aciklama": "Program sayfalarindaki cagri belgeleri ve cagri kodlari (discover_calls.py). Yeni belge/kod -> discovered.json adayi.",
   "sayfalar": {
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1501-tubitak-sanayi-ar-ge-projeleri-destekleme-programi": {
@@ -9,7 +9,7 @@
         "https://tubitak.gov.tr/sites/default/files/2026-07/1501_Sanayi_Ar-Ge_Destek_Programi_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1503-proje-pazarlari-destekleme-programi": {
@@ -18,7 +18,7 @@
         "https://tubitak.gov.tr/sites/default/files/2024-03/teydeb_destek_programlari_ve_cagrilari_ust_limitleri.xlsx"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1505-universite-sanayi-isbirligi-destek-programi": {
@@ -28,7 +28,7 @@
         "https://tubitak.gov.tr/sites/default/files/2024-03/teydeb_destek_programlari_ve_cagrilari_ust_limitleri%20%282%29.xlsx"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1507-tubitak-kobi-ar-ge-baslangic-destek-programi": {
@@ -38,7 +38,7 @@
         "https://tubitak.gov.tr/sites/default/files/2026-11/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_06.11.2026_0.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1511-tubitak-oncelikli-alanlar-arastirma-teknoloji-gelistirme-ve-yenilik-p-d-pteknoloji-odakli-sanayi-hamlesi-programi": {
@@ -64,14 +64,14 @@
         "2016-1",
         "2017-2"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1513-teknoloji-transfer-ofisleri-destekleme-programi": {
       "ad": "1513 - Teknoloji Transfer Ofisleri Destekleme Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1514-girisim-sermayesi-destekleme-programi-tech-investr": {
@@ -80,7 +80,7 @@
         "https://tubitak.gov.tr/sites/default/files/2023-09/gisdep-2018_cagrisi_2022-03-15.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1515-oncul-ar-ge-laboratuvarlari-destekleme-programi": {
@@ -89,7 +89,7 @@
         "https://tubitak.gov.tr/sites/default/files/2024-03/teydeb_destek_programlari_ve_cagrilari_ust_limitleri.xlsx"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1601-yenilik-girisimcilik-alanlarinda-kapasite-artirilmasina-yonelik-dp": {
@@ -106,14 +106,14 @@
         "https://tubitak.gov.tr/sites/default/files/2026-04/1601-2026-1_GCIP_Cagri_Metni.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1602-tubitak-patent-destek-programi": {
       "ad": "1602 - TÜBİTAK Patent Destek Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1612-bigg-1asama-uygulayici-kurulus-cagrisi": {
@@ -126,7 +126,7 @@
       "kodlar": [
         "2025-1"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1613-teknoloji-transferi-profesyoneli-cagrisi": {
@@ -135,7 +135,7 @@
       "kodlar": [
         "2023-1"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1701-ar-ge-proje-degerlendirme-ve-izleme-cagrisi": {
@@ -144,14 +144,14 @@
         "https://tubitak.gov.tr/sites/default/files/2024-06/1701-Proje_Degerlendirme_ve_Izleme_CagrisiMetni_2024.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1702-patent-tabanli-teknoloji-transferi-destekleme-cagrisi": {
       "ad": "1702 - Patent Tabanlı Teknoloji Transferi Destekleme Çağrısı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi": {
@@ -162,7 +162,7 @@
       "kodlar": [
         "2026-3"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1711-yapay-zeka-ekosistem-cagrisi": {
@@ -173,7 +173,7 @@
         "https://tubitak.gov.tr/sites/default/files/2026-09/1711_YZE_2026_Cagri_Metni_Guncel.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1812-yatirim-tabanli-girisimcilik-destek-programi-bigg-yatirim": {
@@ -190,7 +190,7 @@
         "2026-1",
         "2026-2"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi": {
@@ -203,7 +203,7 @@
         "2024-1",
         "2024-2"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1832-sanayide-yesil-donusum-cagrisi": {
@@ -215,7 +215,7 @@
         "2026-2",
         "2026-3"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1833-sayem-yesil-donusum-cagrisi": {
@@ -226,7 +226,7 @@
         "https://tubitak.gov.tr/sites/default/files/2026-05/1833_SAYEM_2026_CAGRISI_BILGILENDIRME_WEB_13.04.26_1.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1507-kobi-ar-ge-baslangic-destek-programi-2026-yili-2-cagrisi-acildi": {
@@ -237,7 +237,7 @@
       "kodlar": [
         "2026-2"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1707-siparis-ar-ge-2026-yili-3-cagrisi-acildi": {
@@ -246,7 +246,7 @@
       "kodlar": [
         "2026-3"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi": {
@@ -257,21 +257,21 @@
       "kodlar": [
         "2024-1"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/1509-tubitak-uluslararasi-sanayi-ar-ge-projeleri-destekleme-programi": {
       "ad": "1509 - TÜBİTAK Uluslararası Sanayi Ar-Ge Projeleri Destekleme Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/ufuk-avrupa-programi": {
       "ad": "Ufuk Avrupa Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/1709-eureka-eurostars": {
@@ -280,7 +280,7 @@
         "https://tubitak.gov.tr/sites/default/files/2026-09/1709-EUREKA-EUROSTARS_CAGRI_DUYURUSU_20262.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/1719-eureka-network-cagrilari": {
@@ -289,7 +289,7 @@
         "https://tubitak.gov.tr/sites/default/files/2024-08/1719_Eureka_Uygulamali_KuantumTeknolojileri_Cagrisi_Ornek_bos_basvuru_ve_izleme_formu.docx"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/eureka-seyahat-destegi": {
@@ -298,7 +298,7 @@
         "https://tubitak.gov.tr/sites/default/files/2025-02/Eureka_Seyahat_Destegi_Cagri_Duyurusu.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://tubitak.gov.tr/tr/destekler/sanayi/uluslararasi-ortakli-destek-programlari/eurostars-koordinatorluk-destegi-programi": {
@@ -309,7 +309,7 @@
       "kodlar": [
         "2026-1"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi": {
@@ -318,7 +318,7 @@
         "https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/Giri%C5%9Fimcilik/2026/2026.05.04/Ek3-I%CC%87s%CC%A7_Gelis%CC%A7tirme_Desteg%CC%86i_Bas%CC%A7vuru_ve_Deg%CC%86erlendirme_Takvimi_Formu_(01)_(1).pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9200/kapasite-gelistirme-destek-programi": {
@@ -327,7 +327,7 @@
         "https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/KAPAS%C4%B0TE%20GEL%C4%B0ST%C4%B0RME/2026/2026.05.12/01-Kapasite_Geli%C5%9Ftirme_Destek_Program%C4%B1_Ba%C5%9Fvuru_ve_De%C4%9Ferlendirme_Takvimi_Formu.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9206/kuresel-rekabetcilik-destek-programi": {
@@ -337,28 +337,28 @@
         "https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/KURESEL%20REKABETC%C4%B0L%C4%B0K/2026/2026.09.16/Ku%CC%88resel_Rekabetc%CC%A7ilik_Destek_Program%C4%B1_Bas%CC%A7vuru_ve_Deg%CC%86erlendirme_Takvimi_Formu.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9144/kobi-dijital-donusum-destek-programi": {
       "ad": "KOBİ Dijital Dönüşüm Destek Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9165/yonde-yonderlik-ve-degerlendirme-destek-programi": {
       "ad": "YÖNDE - Yönderlik ve Değerlendirme Destek Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi": {
       "ad": "İstihdamı Koruma Destek Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9297/teknoloji-merkezi-destek-programi": {
@@ -367,21 +367,21 @@
       "kodlar": [
         "2026-1"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9327/sektorel-gelisim-merkezi-segem-destek-programi": {
       "ad": "Sektörel Gelişim Merkezi (SEGEM) Destek Programı",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9414/yapay-zek-kredisi": {
       "ad": "Yapay Zekâ Kredisi",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi": {
@@ -392,14 +392,14 @@
       "kodlar": [
         "2026-1"
       ],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9378/girisim-sermayesi-yatirim-fonlari-yatirimlari": {
       "ad": "Girişim Sermayesi Yatırım Fonları Yatırımları devamı için",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/6492/stratejik-urun-destek-programi": {
@@ -408,21 +408,21 @@
         "https://webdosya.kosgeb.gov.tr/Content/Upload/Dosya/strateji-urun/FRM.13.00.01_-_Donemsel_Duyuru_Formu.pdf"
       ],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9145/1501-tubitak-sanayi-arge-projeleri-destekleme-programi": {
       "ad": "1501 - TÜBİTAK Sanayi Ar-Ge Projeleri Destekleme Programı devamı için",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9146/1507-tubitak-kobi-arge-baslangic-destek-programi": {
       "ad": "1507 - TÜBİTAK KOBİ Ar-Ge Başlangıç Destek Programı devamı için",
       "belgeler": [],
       "kodlar": [],
-      "son_kontrol": "2026-11-21T13:24:32Z",
+      "son_kontrol": "2026-11-21T20:39:11Z",
       "ilk_kayit": "2026-11-18T13:59:05Z"
     }
   }
