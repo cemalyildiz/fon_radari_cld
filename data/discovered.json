@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:49:04Z",
+  "generated_at": "2026-11-23T15:53:02Z",
   "adaylar": [
     {
       "baslik": "1501 - TÜBİTAK Sanayi Ar-Ge Projeleri Destekleme Programı",
@@ -455,6 +455,20 @@
       "url": "https://tubitak.gov.tr/en/announcement/1707-results-2026-2nd-term-call-order-based-rd-projects-announced",
       "kaynak": "TÜBİTAK - Announcements (EN)",
       "ilk_gorulme": "2026-11-20T21:56:45Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "EUP OHAMR 2027 Yılı Ortak Uluslararası Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/eup-ohamr-2027-yili-ortak-uluslararasi-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-23T15:53:02Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "EUP OHAMR 2027 Joint Transnational Call is Open for Applications",
+      "url": "https://tubitak.gov.tr/en/announcement/eup-ohamr-2027-joint-transnational-call-open-applications",
+      "kaynak": "TÜBİTAK - Announcements (EN)",
+      "ilk_gorulme": "2026-11-23T15:53:02Z",
       "durum": "yeni"
     }
   ],

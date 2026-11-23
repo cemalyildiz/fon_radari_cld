@@ -1,13 +1,13 @@
 izleme:tubitak-1507-2026-2:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
 izleme:eureka-xecs-kuantum-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
-izleme:eureka-turkiye-ispanya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
-izleme:eureka-globalstars-japonya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
-izleme:tubitak-1007-savtag-balistik-kiyafet:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
-izleme:tubitak-1007-savtag-aromatik-poliamid:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
+izleme:eureka-turkiye-ispanya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
+izleme:eureka-globalstars-japonya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
+izleme:tubitak-1007-savtag-balistik-kiyafet:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
+izleme:tubitak-1007-savtag-aromatik-poliamid:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:ep-permed-jtc2027:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
-izleme:innowwide-5-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
-izleme:tubitak-1007-savtag-alternatif-haberlesme:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
-izleme:forest-pathways-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
+izleme:innowwide-5-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
+izleme:tubitak-1007-savtag-alternatif-haberlesme:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
+izleme:forest-pathways-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 dogrulama:tubitak-1507-2026-2:kismi teyit: Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli.
 dogrulama:ticaret-urge:kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı.
 dogrulama:kosgeb-yapay-zeka-kredi-2026:kismi teyit: Kredinin faiz/maliyet koşulları duyuruda yok; program sayfası ayrıca okunmadı
@@ -19,6 +19,8 @@ dogrulama:tubitak-1007-savtag-aromatik-poliamid:kismi teyit: Bütçe, süre ve m
 dogrulama:ep-permed-jtc2027:kismi teyit: Bütçe ve firma katılım koşulları ulusal çağrı dokümanından okunmadı
 dogrulama:tubitak-1007-savtag-alternatif-haberlesme:kismi teyit: Başvuru koşulları, bütçe ve süre bu kayıtta okunmadı
 dogrulama:forest-pathways-2026:kismi teyit: Bütçe ve firma katılım koşulları ulusal başvuru kuralları dokümanından okunmadı
+kesif:https://tubitak.gov.tr/tr/duyuru/eup-ohamr-2027-yili-ortak-uluslararasi-cagrisi-acildi
+kesif:https://tubitak.gov.tr/en/announcement/eup-ohamr-2027-joint-transnational-call-open-applications
 kesif:https://tubitak.gov.tr/en/announcement/1707-results-2026-2nd-term-call-order-based-rd-projects-announced
 kesif:https://tubitak.gov.tr/tr/duyuru/2209-universite-ogrencileri-arastirma-projeleri-destekleme-programi-ve-2209-b-universite-ogrencileri-sanayiye-yonelik-arastirma-projeleri-destegi-programi-2026-yili-cagrilari-acildi
 kesif:https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1501-tubitak-sanayi-ar-ge-projeleri-destekleme-programi

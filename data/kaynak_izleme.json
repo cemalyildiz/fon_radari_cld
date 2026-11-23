@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T20:55:49Z",
+  "generated_at": "2026-11-23T15:59:42Z",
   "aciklama": "Resmi kaynak sayfa izleme sonuclari (scripts/check_sources.py). Kayitlari degistirmez; yalnizca yeniden teyit gereken kayitlari isaretler.",
   "kayitlar": {
     "tubitak-1831": {
       "url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
-      "son_kontrol": "2026-11-22T20:52:35Z",
+      "son_kontrol": "2026-11-23T15:56:18Z",
       "bulgular": [],
       "ozet": "337d3b1f5299a1da",
       "teyit_tarihi": "2026-11-04",
@@ -13,19 +13,19 @@
     },
     "tubitak-1507-2026-2": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1507-kobi-ar-ge-baslangic-destek-programi-ve-1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-programi-2026-yili-cagrilarinin-suresi-uzatildi",
-      "son_kontrol": "2026-11-22T20:52:40Z",
+      "son_kontrol": "2026-11-23T15:56:22Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
         "sayfada durum ifadesi: “…alı Ar-Ge Projeleri için KOBİ Destekleme Programı 2026 Yılı Çağrılarının Süresi Uzatıldı | TÜBİTAK | Türkiye Bilimsel ve Teknolojik Araştırma Kurumu Ana içeriğe atla 15…”"
       ],
-      "ozet": "3658bae542565362",
+      "ozet": "ce1850f4d185c9b9",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "04826f0feda1225f",
       "durum": "yeniden_teyit"
     },
     "horizon-cl5-2026": {
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
-      "son_kontrol": "2026-11-22T20:52:44Z",
+      "son_kontrol": "2026-11-23T15:56:27Z",
       "bulgular": [
         "kaynak PDF; sayfa izleme yapılamıyor"
       ],
@@ -33,7 +33,7 @@
     },
     "ticaret-turquality": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/marka-ve-turquality-destegi",
-      "son_kontrol": "2026-11-22T20:52:50Z",
+      "son_kontrol": "2026-11-23T15:56:33Z",
       "bulgular": [],
       "ozet": "22b2b676a56b0df4",
       "teyit_tarihi": "2026-11-04",
@@ -42,7 +42,7 @@
     },
     "ticaret-urge": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
-      "son_kontrol": "2026-11-22T20:52:55Z",
+      "son_kontrol": "2026-11-23T15:56:51Z",
       "bulgular": [],
       "ozet": "6a8a76b5066246b2",
       "teyit_tarihi": "2026-11-04",
@@ -51,7 +51,7 @@
     },
     "ticaret-yesil-mutabakat-responsible": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/yesil-mutabakata-uyum-projesi-destegi-responsible-programi",
-      "son_kontrol": "2026-11-22T20:53:00Z",
+      "son_kontrol": "2026-11-23T15:57:01Z",
       "bulgular": [],
       "ozet": "374d139a918a561d",
       "teyit_tarihi": "2026-11-04",
@@ -60,7 +60,7 @@
     },
     "tubitak-1707": {
       "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1707-siparise-dayali-ar-ge-projeleri-icin-kobi-destekleme-cagrisi",
-      "son_kontrol": "2026-11-22T20:53:11Z",
+      "son_kontrol": "2026-11-23T15:57:08Z",
       "bulgular": [],
       "ozet": "48bc3381e7537236",
       "teyit_tarihi": "2026-11-18",
@@ -69,18 +69,18 @@
     },
     "eureka-xecs-kuantum-2026": {
       "url": "https://tubitak.gov.tr/en/announcement/eureka-xecs-2026-applied-quantum-technologies-call-open-applications",
-      "son_kontrol": "2026-11-22T20:53:16Z",
+      "son_kontrol": "2026-11-23T15:57:13Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "c6df07705f18d5f2",
+      "ozet": "7a9883c738eebd5b",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "74df7b2193c35d1a",
       "durum": "yeniden_teyit"
     },
     "kosgeb-istihdami-koruma-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
-      "son_kontrol": "2026-11-22T20:53:21Z",
+      "son_kontrol": "2026-11-23T15:57:17Z",
       "bulgular": [],
       "ozet": "243bd285948907c4",
       "teyit_tarihi": "2026-11-04",
@@ -89,7 +89,7 @@
     },
     "marka-teknik-destek-2026": {
       "url": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
-      "son_kontrol": "2026-11-22T20:53:26Z",
+      "son_kontrol": "2026-11-23T15:57:21Z",
       "bulgular": [],
       "ozet": "07139bec6b5b7f0e",
       "teyit_tarihi": "2026-11-10",
@@ -98,7 +98,7 @@
     },
     "kalkinma-ajanslari-genel": {
       "url": "https://kaysuygulama.sanayi.gov.tr",
-      "son_kontrol": "2026-11-22T20:53:31Z",
+      "son_kontrol": "2026-11-23T15:57:27Z",
       "bulgular": [
         "sayfa açılamadı: URLError"
       ],
@@ -106,7 +106,7 @@
     },
     "kosgeb-yesil-sanayi-2026-01": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9508/kosgebden-kobilerin-yesil-donusumune-3-milyar-tllik-destek",
-      "son_kontrol": "2026-11-22T20:54:46Z",
+      "son_kontrol": "2026-11-23T15:58:41Z",
       "bulgular": [],
       "ozet": "be2d77d2e7650e14",
       "teyit_tarihi": "2026-11-18",
@@ -115,7 +115,7 @@
     },
     "kosgeb-yapay-zeka-kredi-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9427/kosgebden-teknoloji-girisimlerine-yapay-zek-kredi-programi",
-      "son_kontrol": "2026-11-22T20:54:50Z",
+      "son_kontrol": "2026-11-23T15:58:45Z",
       "bulgular": [],
       "ozet": "cc94a36cb8d3e801",
       "teyit_tarihi": "2026-11-18",
@@ -124,7 +124,7 @@
     },
     "kosgeb-acil-durumlar-sel-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9505/kosgebden-sel-ve-taskin-felaketlerinden-etkilenen-kobilere-faizkr-payi-destegi",
-      "son_kontrol": "2026-11-22T20:54:55Z",
+      "son_kontrol": "2026-11-23T15:58:49Z",
       "bulgular": [],
       "ozet": "92178a2530254dc9",
       "teyit_tarihi": "2026-11-18",
@@ -133,31 +133,29 @@
     },
     "eureka-turkiye-ispanya-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:54:59Z",
+      "son_kontrol": "2026-11-23T15:58:53Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "d8576584fe8d3fa7",
+      "ozet": "ec04f950ceb2ae4e",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "218cb5f3f6664063",
       "durum": "yeniden_teyit"
     },
     "eureka-globalstars-japonya-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:55:04Z",
+      "son_kontrol": "2026-11-23T15:58:57Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "f2132d78f7d3f32a",
+      "ozet": "0a0035b64b9e776e",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "ede42f5467a8af2e",
       "durum": "yeniden_teyit"
     },
     "tubitak-2244-2026": {
       "url": "https://tubitak.gov.tr/tr/burslar/lisansustu/egitim-burs-programlari/2244-sanayi-doktora-programi",
-      "son_kontrol": "2026-11-22T20:55:08Z",
+      "son_kontrol": "2026-11-23T15:59:02Z",
       "bulgular": [],
       "ozet": "2beaa75a9f85c8a4",
       "teyit_tarihi": "2026-11-18",
@@ -166,79 +164,74 @@
     },
     "tubitak-1007-savtag-balistik-kiyafet": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:55:13Z",
+      "son_kontrol": "2026-11-23T15:59:06Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "86dcbf8da36e955b",
+      "ozet": "3471cd99a2a4b6bc",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "552037ef388c5c36",
       "durum": "yeniden_teyit"
     },
     "tubitak-1007-savtag-aromatik-poliamid": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:55:17Z",
+      "son_kontrol": "2026-11-23T15:59:11Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "e0333eda3e46e8a0",
+      "ozet": "7438f6970a69bfe9",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "04339c7a5c9b1ff4",
       "durum": "yeniden_teyit"
     },
     "ep-permed-jtc2027": {
       "url": "https://tubitak.gov.tr/tr/duyuru/kisisellestirilmis-tip-avrupa-ortakligi-2027-yili-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:55:22Z",
+      "son_kontrol": "2026-11-23T15:59:15Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı 09 Kas 2026 1507-KOBİ Ar-Ge Başlangıç Destek Programı ve 1707-Siparişe Dayalı A…”"
+        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
       ],
-      "ozet": "92b20ee506375613",
+      "ozet": "cedb3e40f169d78a",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "39bdc83f20bfb970",
       "durum": "yeniden_teyit"
     },
     "innowwide-5-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/yenilikci-kobiler-icin-avrupa-ortakligi-innowwide-5-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:55:26Z",
+      "son_kontrol": "2026-11-23T15:59:19Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "e3ae6bb1ace5cb56",
+      "ozet": "511c7a2b57611fe3",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "432c2e1e765435f1",
       "durum": "yeniden_teyit"
     },
     "tubitak-1007-savtag-alternatif-haberlesme": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi",
-      "son_kontrol": "2026-11-22T20:55:31Z",
+      "son_kontrol": "2026-11-23T15:59:24Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "683c25796fde3d52",
+      "ozet": "f5e92a6cf938b704",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "e0c338b625912bc0",
       "durum": "yeniden_teyit"
     },
     "forest-pathways-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi",
-      "son_kontrol": "2026-11-22T20:55:35Z",
+      "son_kontrol": "2026-11-23T15:59:28Z",
       "bulgular": [
-        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti",
-        "sayfada durum ifadesi: “…ÜBİTAK Bilim Fuarları Destekleme Programı 13. Dönem Çağrılarının Başvuru Süresi Uzatıldı…”"
+        "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
-      "ozet": "e5af9114fbfc6aaa",
+      "ozet": "33ac07882bd10287",
       "teyit_tarihi": "2026-11-18",
       "referans_ozet": "c17a8057fa937a00",
       "durum": "yeniden_teyit"
     },
     "tubitak-1832-2026-3": {
       "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1832-sanayide-yesil-donusum-cagrisi",
-      "son_kontrol": "2026-11-22T20:55:39Z",
+      "son_kontrol": "2026-11-23T15:59:32Z",
       "bulgular": [],
       "ozet": "33debcdc30ac1d6a",
       "teyit_tarihi": "2026-11-18",
