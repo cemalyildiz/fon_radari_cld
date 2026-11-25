@@ -1,6 +1,6 @@
-izleme:tubitak-1507-2026-2:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
 izleme:ticaret-turquality:sayfa, kaydın son teyidinden (2026-11-04) bu yana değişti
 izleme:eureka-xecs-kuantum-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
+izleme:kosgeb-istihdami-koruma-2026:sayfa, kaydın son teyidinden (2026-11-04) bu yana değişti
 izleme:eureka-turkiye-ispanya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:eureka-globalstars-japonya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:tubitak-1007-savtag-balistik-kiyafet:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
@@ -9,7 +9,6 @@ izleme:ep-permed-jtc2027:sayfa, kaydın son teyidinden (2026-11-18) bu yana değ
 izleme:innowwide-5-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:tubitak-1007-savtag-alternatif-haberlesme:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:forest-pathways-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
-dogrulama:tubitak-1507-2026-2:kismi teyit: Destek üst limiti ve oranları çağrı dokümanından (PDF) okunmadı; tarihler resmî sayfadan teyitli.
 dogrulama:ticaret-urge:kismi teyit: 20.04.2026 genelgesindeki limit ve oranlar okunamadı.
 dogrulama:kosgeb-yapay-zeka-kredi-2026:kismi teyit: Kredinin faiz/maliyet koşulları duyuruda yok; program sayfası ayrıca okunmadı
 dogrulama:eureka-turkiye-ispanya-2026:kismi teyit: Ulusal (1509) ön başvuru ve başvuru tarihleri duyuruda yok, e-postayla bildirilecek
