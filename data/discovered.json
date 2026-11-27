@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T23:16:37Z",
+  "generated_at": "2026-11-27T14:56:25Z",
   "adaylar": [
     {
       "baslik": "1501 - TÜBİTAK Sanayi Ar-Ge Projeleri Destekleme Programı",
@@ -469,6 +469,20 @@
       "url": "https://tubitak.gov.tr/en/announcement/eup-ohamr-2027-joint-transnational-call-open-applications",
       "kaynak": "TÜBİTAK - Announcements (EN)",
       "ilk_gorulme": "2026-11-23T15:53:02Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": "FutureFoodS 2026 Uluslararası Ortak Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/futurefoods-2026-uluslararasi-ortak-cagrisi-acildi",
+      "kaynak": "TÜBİTAK - Duyuru Arşivi",
+      "ilk_gorulme": "2026-11-27T14:56:25Z",
+      "durum": "yeni"
+    },
+    {
+      "baslik": ": FutureFoodS 2026 Joint Transnational Co-funded Call is Open for Applications",
+      "url": "https://tubitak.gov.tr/en/announcement/futurefoods-2026-joint-transnational-co-funded-call-open-applications",
+      "kaynak": "TÜBİTAK - Announcements (EN)",
+      "ilk_gorulme": "2026-11-27T14:56:25Z",
       "durum": "yeni"
     }
   ],

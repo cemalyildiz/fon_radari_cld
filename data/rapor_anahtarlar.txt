@@ -2,7 +2,7 @@ izleme:eureka-turkiye-ispanya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu
 izleme:eureka-globalstars-japonya-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:tubitak-1007-savtag-balistik-kiyafet:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:tubitak-1007-savtag-aromatik-poliamid:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
-izleme:ep-permed-jtc2027:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti|sayfada durum ifadesi: 
+izleme:ep-permed-jtc2027:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:innowwide-5-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:tubitak-1007-savtag-alternatif-haberlesme:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
 izleme:forest-pathways-2026:sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti
@@ -16,6 +16,8 @@ dogrulama:tubitak-1007-savtag-aromatik-poliamid:kismi teyit: Bütçe, süre ve m
 dogrulama:ep-permed-jtc2027:kismi teyit: Bütçe ve firma katılım koşulları ulusal çağrı dokümanından okunmadı
 dogrulama:tubitak-1007-savtag-alternatif-haberlesme:kismi teyit: Başvuru koşulları, bütçe ve süre bu kayıtta okunmadı
 dogrulama:forest-pathways-2026:kismi teyit: Bütçe ve firma katılım koşulları ulusal başvuru kuralları dokümanından okunmadı
+kesif:https://tubitak.gov.tr/tr/duyuru/futurefoods-2026-uluslararasi-ortak-cagrisi-acildi
+kesif:https://tubitak.gov.tr/en/announcement/futurefoods-2026-joint-transnational-co-funded-call-open-applications
 kesif:https://tubitak.gov.tr/tr/duyuru/eup-ohamr-2027-yili-ortak-uluslararasi-cagrisi-acildi
 kesif:https://tubitak.gov.tr/en/announcement/eup-ohamr-2027-joint-transnational-call-open-applications
 kesif:https://tubitak.gov.tr/en/announcement/1707-results-2026-2nd-term-call-order-based-rd-projects-announced
