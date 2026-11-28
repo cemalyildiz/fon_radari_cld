@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T23:00:47Z",
+  "generated_at": "2026-11-28T14:12:13Z",
   "aciklama": "Resmi kaynak sayfa izleme sonuclari (scripts/check_sources.py). Kayitlari degistirmez; yalnizca yeniden teyit gereken kayitlari isaretler.",
   "kayitlar": {
     "tubitak-1831": {
       "url": "https://tubitak.gov.tr/tr/destekler/destek/sanayi/ulusal-destek-programlari/cagri-1831-yesil-inovasyon-teknoloji-mentorluk-cagrisi",
-      "son_kontrol": "2026-11-27T22:57:58Z",
+      "son_kontrol": "2026-11-28T14:09:21Z",
       "bulgular": [],
       "ozet": "337d3b1f5299a1da",
       "teyit_tarihi": "2026-11-04",
@@ -13,7 +13,7 @@
     },
     "horizon-cl5-2026": {
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
-      "son_kontrol": "2026-11-27T22:58:02Z",
+      "son_kontrol": "2026-11-28T14:09:25Z",
       "bulgular": [
         "kaynak PDF; sayfa izleme yapılamıyor"
       ],
@@ -21,7 +21,7 @@
     },
     "ticaret-turquality": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/marka-ve-turquality-destegi",
-      "son_kontrol": "2026-11-27T22:58:08Z",
+      "son_kontrol": "2026-11-28T14:09:31Z",
       "bulgular": [],
       "ozet": "3d769ddba6837a28",
       "teyit_tarihi": "2026-11-04",
@@ -30,7 +30,7 @@
     },
     "ticaret-urge": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/ur-ge-proje-destegi",
-      "son_kontrol": "2026-11-27T22:58:14Z",
+      "son_kontrol": "2026-11-28T14:09:38Z",
       "bulgular": [],
       "ozet": "6a8a76b5066246b2",
       "teyit_tarihi": "2026-11-04",
@@ -39,7 +39,7 @@
     },
     "ticaret-yesil-mutabakat-responsible": {
       "url": "https://ticaret.gov.tr/destekler/ihracat-destekleri/5973-sayili-ihracat-destekleri-hakkinda-karara-iliskin-genelgeler/yesil-mutabakata-uyum-projesi-destegi-responsible-programi",
-      "son_kontrol": "2026-11-27T22:58:21Z",
+      "son_kontrol": "2026-11-28T14:09:45Z",
       "bulgular": [],
       "ozet": "374d139a918a561d",
       "teyit_tarihi": "2026-11-04",
@@ -48,7 +48,7 @@
     },
     "kosgeb-istihdami-koruma-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9224/istihdami-koruma-destek-programi",
-      "son_kontrol": "2026-11-27T22:58:28Z",
+      "son_kontrol": "2026-11-28T14:09:50Z",
       "bulgular": [],
       "ozet": "243bd285948907c4",
       "teyit_tarihi": "2026-11-04",
@@ -57,7 +57,7 @@
     },
     "marka-teknik-destek-2026": {
       "url": "https://marka.org.tr/2026-yili-teknik-destek-programi/",
-      "son_kontrol": "2026-11-27T22:58:32Z",
+      "son_kontrol": "2026-11-28T14:09:54Z",
       "bulgular": [
         "site otomatik isteği engelledi veya boş sayfa döndü"
       ],
@@ -65,7 +65,7 @@
     },
     "kalkinma-ajanslari-genel": {
       "url": "https://kaysuygulama.sanayi.gov.tr",
-      "son_kontrol": "2026-11-27T22:58:35Z",
+      "son_kontrol": "2026-11-28T14:09:58Z",
       "bulgular": [
         "sayfa açılamadı: URLError"
       ],
@@ -73,7 +73,7 @@
     },
     "kosgeb-yesil-sanayi-2026-01": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9508/kosgebden-kobilerin-yesil-donusumune-3-milyar-tllik-destek",
-      "son_kontrol": "2026-11-27T22:59:49Z",
+      "son_kontrol": "2026-11-28T14:11:12Z",
       "bulgular": [],
       "ozet": "be2d77d2e7650e14",
       "teyit_tarihi": "2026-11-18",
@@ -82,7 +82,7 @@
     },
     "kosgeb-yapay-zeka-kredi-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9427/kosgebden-teknoloji-girisimlerine-yapay-zek-kredi-programi",
-      "son_kontrol": "2026-11-27T22:59:53Z",
+      "son_kontrol": "2026-11-28T14:11:16Z",
       "bulgular": [],
       "ozet": "cc94a36cb8d3e801",
       "teyit_tarihi": "2026-11-18",
@@ -91,7 +91,7 @@
     },
     "kosgeb-acil-durumlar-sel-2026": {
       "url": "https://www.kosgeb.gov.tr/site/tr/genel/detay/9505/kosgebden-sel-ve-taskin-felaketlerinden-etkilenen-kobilere-faizkr-payi-destegi",
-      "son_kontrol": "2026-11-27T22:59:57Z",
+      "son_kontrol": "2026-11-28T14:11:20Z",
       "bulgular": [],
       "ozet": "92178a2530254dc9",
       "teyit_tarihi": "2026-11-18",
@@ -100,7 +100,7 @@
     },
     "eureka-turkiye-ispanya-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:01Z",
+      "son_kontrol": "2026-11-28T14:11:24Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -111,7 +111,7 @@
     },
     "eureka-globalstars-japonya-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:05Z",
+      "son_kontrol": "2026-11-28T14:11:28Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -122,7 +122,7 @@
     },
     "tubitak-2244-2026": {
       "url": "https://tubitak.gov.tr/tr/burslar/lisansustu/egitim-burs-programlari/2244-sanayi-doktora-programi",
-      "son_kontrol": "2026-11-27T23:00:09Z",
+      "son_kontrol": "2026-11-28T14:11:33Z",
       "bulgular": [],
       "ozet": "2beaa75a9f85c8a4",
       "teyit_tarihi": "2026-11-18",
@@ -131,7 +131,7 @@
     },
     "tubitak-1007-savtag-balistik-kiyafet": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-kiyafet-gelistirilmesi-projesi-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:14Z",
+      "son_kontrol": "2026-11-28T14:11:38Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -142,7 +142,7 @@
     },
     "tubitak-1007-savtag-aromatik-poliamid": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-balistik-amacli-aromatik-poliamid-gelistirilmesi-projesi-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:18Z",
+      "son_kontrol": "2026-11-28T14:11:42Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -153,7 +153,7 @@
     },
     "ep-permed-jtc2027": {
       "url": "https://tubitak.gov.tr/tr/duyuru/kisisellestirilmis-tip-avrupa-ortakligi-2027-yili-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:22Z",
+      "son_kontrol": "2026-11-28T14:11:46Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -164,7 +164,7 @@
     },
     "innowwide-5-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/yenilikci-kobiler-icin-avrupa-ortakligi-innowwide-5-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:27Z",
+      "son_kontrol": "2026-11-28T14:11:50Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -175,7 +175,7 @@
     },
     "tubitak-1007-savtag-alternatif-haberlesme": {
       "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi",
-      "son_kontrol": "2026-11-27T23:00:31Z",
+      "son_kontrol": "2026-11-28T14:11:55Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -186,7 +186,7 @@
     },
     "forest-pathways-2026": {
       "url": "https://tubitak.gov.tr/tr/duyuru/ufuk-avrupa-programi-forest-ortakligi-2026-ortak-cagrisi-basvurulara-acildi",
-      "son_kontrol": "2026-11-27T23:00:34Z",
+      "son_kontrol": "2026-11-28T14:11:59Z",
       "bulgular": [
         "sayfa, kaydın son teyidinden (2026-11-18) bu yana değişti"
       ],
@@ -197,7 +197,7 @@
     },
     "tubitak-1832-2026-3": {
       "url": "https://tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1832-sanayide-yesil-donusum-cagrisi",
-      "son_kontrol": "2026-11-27T23:00:39Z",
+      "son_kontrol": "2026-11-28T14:12:04Z",
       "bulgular": [],
       "ozet": "33debcdc30ac1d6a",
       "teyit_tarihi": "2026-11-18",
